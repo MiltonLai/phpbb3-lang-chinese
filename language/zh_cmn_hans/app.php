@@ -33,18 +33,14 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+//
+// Some characters you may want to copy&paste:
+// ’ » “ ” …
+//
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'zh-CN',
-	'RECAPTCHA_NOT_AVAILABLE'		=> '要使用 reCaptcha, 您需要先在<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>上注册一个账号.',
-	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> '您提供的结果不正确',
-    'RECAPTCHA_NOSCRIPT'			=> '请启用i浏览器的Javascript支持后再载入验证问题.',
-
-	'RECAPTCHA_PUBLIC'				=> 'reCaptcha 公键',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> '您的 reCaptcha 公钥. 键值可以从 <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> 上获得.',
-	'RECAPTCHA_PRIVATE'				=> 'reCaptcha 私键',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> '您的 reCaptcha 私钥. 键值可以从 <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> 上获得.',
-
-	'RECAPTCHA_EXPLAIN'				=> '为了证明您不是Spam机器人, 请完成下面的问题.',
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> '类<strong>%2$s</strong> 缺少参数值 #%1$s: <strong>%3$s</strong>.',
+	'CONTROLLER_NOT_SPECIFIED'			=> '未指定控制器.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> '未指定控制器方法.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> '控制器“<strong>%s</strong>”的服务未在 ./config/services.yml 中定义.',
 ));

@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* captcha_qa [Chinese Simplified]
-*
-* @package language
-* @version $Id: captcha_qa.php 9966 2009-08-12 15:12:03Z mikovchain $
-* @copyright (c) 2009 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -39,6 +38,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Q&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> '请回答此问题以证明您不是Spam机器人.',
 	'CONFIRM_QUESTION_WRONG'	=> '您的回答不正确.',
+    'CONFIRM_QUESTION_MISSING'	=> '无法读取验证码相关的问题, 请联系论坛管理员.',
 
 	'QUESTION_ANSWERS'			=> '回答',
 	'ANSWERS_EXPLAIN'			=> '请输入正确答案, 多个请分行.',
@@ -60,5 +60,3 @@ $lang = array_merge($lang, array(
 	'QA_ERROR_MSG'				=> '请填写所有空格并输入至少一个答案.',
 	'QA_LAST_QUESTION'			=> '在插件还处于激活状态时不能删除所有问题.',
 ));
-
-?>

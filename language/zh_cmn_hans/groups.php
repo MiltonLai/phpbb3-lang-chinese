@@ -1,14 +1,13 @@
 <?php
-/** 
-*
-* groups [Simplified Chinese]
-*
-* @package language
-* @version $Id: groups.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-*
-*/
+/**
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -82,7 +81,7 @@ $lang = array_merge($lang, array(
 	'NOT_LEADER_OF_GROUP'			=> '您不是此用户组的领导人，无法执行此操作。',
 	'NOT_MEMBER_OF_GROUP'			=> '您不是此用户组的成员，无法执行此操作。',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> '您不能退出您的默认用户组。',
-	
+
 	'PRIMARY_GROUP'		=> '主要用户组',
 
 	'REMOVE_SELECTED'		=> '删除选中',
@@ -92,5 +91,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEMOTE_CONFIRM'	=> '您确定要辞去此用户组的领导职务吗？',
 	'USER_GROUP_DEMOTED'		=> '您已成功辞去领导职务。',
 ));
-
-?>
