@@ -209,9 +209,8 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_POST'			=> '警告此贴',
 	'MCP_WARN_USER'			=> '警告用户',
 
-	'MERGE_POSTS'			=> '合并帖子',
-	'MERGE_POSTS_CONFIRM'	=> '您确定要合并选中的这些帖子吗？',
-	'MERGE_TOPIC_EXPLAIN'	=> '使用下面的表格您可以将选中的帖子合并到另一个主题中. 这些帖子将不会被记录下原有信息, 就像用户将其发表在一个新主题中一样.<br />请输入目标主题ID或者点击 "选择" 按钮来查找一个主题',
+	'MERGE_POSTS_CONFIRM'	=> '您确认要移动选中的帖子吗?',
+	'MERGE_TOPIC_EXPLAIN'	=> '使用下面的表单可以将选中的帖子移动至另一个主题. 这些帖子不会被重新排序, 就像这些帖子当初就是发在那个主题下的. <br />请输入目标的主题ID或点击“选择主题” .',
 	'MERGE_TOPIC_ID'		=> '目标主题ID号',
 	'MERGE_TOPICS'			=> '合并主题',
 	'MERGE_TOPICS_CONFIRM'	=> '您确认要合并选中的主题吗?',

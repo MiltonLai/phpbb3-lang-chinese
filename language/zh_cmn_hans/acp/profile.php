@@ -131,6 +131,8 @@ $lang = array_merge($lang, array(
 
 	'SAVE'							=> '保存',
 	'SECOND_OPTION'					=> '第二选项',
+	'SHOW_NOVALUE_FIELD'			=> '显示未选择的资料栏目',
+	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> '如果可选项未设置或必须的栏目未填写, 是否显示.',
 	'STEP_1_EXPLAIN_CREATE'			=> '这里您可以输入新资料栏的第一个基本参数, 以便于下一步填写和设定更详细的栏目资料.',
 	'STEP_1_EXPLAIN_EDIT'			=> '这里您可以更改资料栏的基本参数. 相关的选项将在第二步重新计算.',
 	'STEP_1_TITLE_CREATE'			=> '添加资料栏',

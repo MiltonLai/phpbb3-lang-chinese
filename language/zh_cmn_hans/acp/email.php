@@ -53,13 +53,15 @@ $lang = array_merge($lang, array(
 	'SEND_TO_USERS'			=> '发送到用户',
 	'SEND_TO_USERS_EXPLAIN'	=> '这里输入用户名将覆盖上面选择的组. 用多行输入多个用户名.',
 	
+	'MAIL_BANNED'			=> '发送至被封禁的用户',
+	'MAIL_BANNED_EXPLAIN'	=> '当群发邮件给用户组时, 您可以在这里设定是否发送给被封禁的用户.',
 	'MAIL_HIGH_PRIORITY'	=> '高',
 	'MAIL_LOW_PRIORITY'		=> '低',
 	'MAIL_NORMAL_PRIORITY'	=> '中',
 	'MAIL_PRIORITY'			=> '邮件优先级',
 	'MASS_MESSAGE'			=> '信件内容',
 	'MASS_MESSAGE_EXPLAIN'	=> '请注意您只能输入普通文本. 所有超文本标记将在发送时被清除.',
-	
+
 	'NO_EMAIL_MESSAGE'		=> '您还没有输入内容?',
 	'NO_EMAIL_SUBJECT'		=> '您还没有输入标题.',
 ));

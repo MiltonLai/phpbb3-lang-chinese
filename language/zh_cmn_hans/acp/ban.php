@@ -68,6 +68,9 @@ $lang = array_merge($lang, array(
 
 	'LENGTH_BAN_INVALID'		=> '日期格式必须为 <kbd>YYYY-MM-DD</kbd>.',
 
+	'OPTIONS_BANNED'			=> '封禁',
+	'OPTIONS_EXCLUDED'			=> '排除', 
+
 	'PERMANENT'		=> '永久',
 	
 	'UNTIL'						=> '直到',

@@ -327,6 +327,16 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'	=> '数据库服务器',
 	'DATABASE_SIZE'			=> '数据库大小',
 
+	// Enviroment configuration checks, mbstring related
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> '重载函数的配置不正确',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> 必须设置为 0 或 4. 您可以通过 <samp>PHP information</samp> 页面查看当前值.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> '空白字符配置不正确',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> 必须设置为 0. 您可以通过 <samp>PHP information</samp> 页面查看当前值.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP 输入字符转换配置不正确',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> 必须设置为 <samp>pass</samp>. 您可以通过 <samp>PHP information</samp> 页面查看当前值.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP 输出字符转换配置不正确',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> 必须设置为 <samp>pass</samp>. 您可以通过 <samp>PHP information</samp> 页面查看当前值.',
+
 	'FILES_PER_DAY'		=> '每天的附件量',
 	'FORUM_STATS'		=> '论坛统计',
 

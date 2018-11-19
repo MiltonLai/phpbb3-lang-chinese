@@ -59,6 +59,8 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_PCRE'					=> '支持非拉丁 UTF-8 字符使用 PCRE:',
 	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> '如果PCRE没有unicode字符属性, 搜索后端会尝试使用mbstring的正则表达式机制.',
 	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> '这个搜索后端需要使用PCRE unicode字符属性, 这只在PHP 版本 4.4, 5.1 或更高中可用, 如果您需要搜索非拉丁字符.',
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'   => '至少需要达到这个长度的词才会被检索. 您必须更改mysql的设定才能修改此值.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => '不超过这个长度的词才会被检索. 您必须更改mysql的设定才能修改此值.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> '综合搜索设定',
 	'GO_TO_SEARCH_INDEX'					=> '前往索引页面',

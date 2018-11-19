@@ -52,6 +52,7 @@ $lang = array_merge($lang, array(
 	'BLANK_PREFIX_FOUND'			=> '对数据库的扫描显示存在可用的无前缀表单。',
 	'BOARD_NOT_INSTALLED'			=> '没有发现已安装的phpBB',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> '为了进行转换您必须预先安装一个全新的 phpBB3。请注意新的安装数据要和旧的数据存在同一个数据库里，您是否要进行【<a href="%s">全新安装</a>】？',
+	'BACKUP_NOTICE'					=> '请在升级前备份您的论坛, 以防在升级过程中丢失数据.',
 
 	'CATEGORY'					=> '分区',
 	'CACHE_STORE'				=> '缓存类型',
@@ -128,7 +129,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> '执行 <var>query_first</var> 时发生错误：%s (“%s”)。',
 	'DB_ERR_SELECT'				=> '执行 <code>SELECT</code> 语句时发生错误。',
 	'DB_HOST'					=> '数据库服务器地址，或 DSN',
-	'DB_HOST_EXPLAIN'			=> 'DSN 代表 数据源名称，它只与 ODBC 有关。',
+	'DB_HOST_EXPLAIN'			=> 'DSN 代表 数据源名称，它只与 ODBC 有关。对于PostgreSQL, 需要通过UNIX domain socket使用localhost或通过TCP使用127.0.0.1连接本地服务器. 对于SQLite, 请输入数据文件的完整路径',
 	'DB_NAME'					=> '数据库名称',
 	'DB_PASSWORD'				=> '数据库密码',
 	'DB_PORT'					=> '数据库服务器端口',
@@ -147,10 +148,11 @@ $lang = array_merge($lang, array(
 	'DLL_MBSTRING'				=> '多字节字符支持',
 	'DLL_MSSQL'					=> 'MSSQL Server 2000+',
 	'DLL_MSSQL_ODBC'			=> 'MSSQL Server 2000+ via ODBC',
+	'DLL_MSSQLNATIVE'         => 'MSSQL Server 2005+ [ Native ]',
 	'DLL_MYSQL'					=> 'MySQL',
 	'DLL_MYSQLI'				=> 'MySQL (使用 MySQLi 扩展)',
 	'DLL_ORACLE'				=> 'Oracle',
-	'DLL_POSTGRES'				=> 'PostgreSQL 7.x/8.x',
+	'DLL_POSTGRES'				=> 'PostgreSQL',
 	'DLL_SQLITE'				=> 'SQLite',
 	'DLL_XML'					=> 'XML 支持【 Jabber 】',
 	'DLL_ZLIB'					=> 'zlib 压缩支持【 压缩文件：.gz .tar.gz .zip 】',
@@ -214,6 +216,7 @@ $lang = array_merge($lang, array(
 		<li>SQLite 2.8.2+</li>
 		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 或更高 (直接访问或通过 ODBC)</li>
+		<li>MS SQL Server 2005 或更高 (native)</li>
 		<li>Oracle</li>
 	</ul>
 	
@@ -230,6 +233,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'					=> '安装进程出错',
 	'INST_ERR_DB_CONNECT'		=> '连接数据库失败，错误信息如下',
 	'INST_ERR_DB_FORUM_PATH'	=> '指定的数据库文件位于论坛目录内，您应该把它放在一个无法通过网络访问的位置。',
+	'INST_ERR_DB_INVALID_PREFIX'=> '您输入的数据表前缀不正确, 前缀只能以英文字符开头, 并且只能包含英文字符, 数字及下划线.',
 	'INST_ERR_DB_NO_ERROR'		=> '没有得到相应的错误信息',
 	'INST_ERR_DB_NO_MYSQLI'		=> '服务器内安装的 MySQL 版本与您选择的 “MySQL (使用 MySQLi 扩展)” 选项不兼容，请尝试 “MySQL” 选项。',
 	'INST_ERR_DB_NO_SQLITE'		=> '您安装的 SQLite 版本太古老，请升级至最低 2.8.2 版。',
@@ -350,6 +354,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> '无法找到这些表格<br />» <strong>%s</strong>',
 	'TABLE_PREFIX'				=> '为数据库中的表格名称添加前缀',
+	'TABLE_PREFIX_EXPLAIN'		=> '数据库表前缀必须以英文字符开头, 并且只能包含英文字符, 数字及下划线.',
 	'TABLE_PREFIX_SAME'			=> '表格前缀需要与转换之前所使用的相同。<br />»  之前所使用的表格前缀是 %s',
 	'TESTS_PASSED'				=> '检测通过',
 	'TESTS_FAILED'				=> '检测未通过',
@@ -368,7 +373,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> '所有的文件都已经升级到最新版本。现在您应该 <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">登陆到论坛</a> 并检查系统是否正常工作。不要忘记删除或者重命名（移动）install安装目录！',
+	'ALL_FILES_UP_TO_DATE'		=> '所有的文件都已经升级到最新版本。现在您应该 <a href="../ucp.php?mode=login">登陆到论坛</a> 并检查系统是否正常工作。不要忘记删除或者重命名（移动）install安装目录！',
 	'ARCHIVE_FILE'				=> '文档中的源文件',
 
 	'BACK'				=> '后退',
@@ -557,6 +562,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> '更新数据',
 	'UPDATING_TO_LATEST_STABLE'		=> '更新数据库至最新的稳定版本',
 	'UPDATED_VERSION'				=> '已更新的版本',
+	'UPGRADE_INSTRUCTIONS'         => '新的版本 <strong>%1$s</strong> 已经发布. 请阅读 <a href="%2$s" title="%2$s"><strong>发布公告</strong></a> 获取更多信息以及升级途径.',
 	'UPLOAD_METHOD'					=> '上载方式',
 
 	'UPDATE_DB_SUCCESS'				=> '数据库更新完成',
@@ -583,16 +589,6 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITENAME'				=> 'phpBB论坛',
 
 	'DEFAULT_INSTALL_POST'			=> '这是新安装好的phpBB3论坛中的一个样本帖子。您可以删除这个帖子、这个主题甚至这个版面， 因为一切看起来都运转正常！',
-
-	'EXT_GROUP_ARCHIVES'			=> '存档',
-	'EXT_GROUP_DOCUMENTS'			=> '文档',
-	'EXT_GROUP_DOWNLOADABLE_FILES'	=> '可下载的文件',
-	'EXT_GROUP_FLASH_FILES'			=> 'Flash文件',
-	'EXT_GROUP_IMAGES'				=> '图片',
-	'EXT_GROUP_PLAIN_TEXT'			=> '纯文本文件',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime多媒体文件',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real Media多媒体文件',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media多媒体文件',
 
 	'FORUMS_FIRST_CATEGORY'			=> '我的第一个分区',
 	'FORUMS_TEST_FORUM_DESC'		=> '这只是一个测试版面.',

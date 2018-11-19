@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_DELETED'				=> '语言包 <strong>%s</strong> 已经被删除. 所有使用这个语言的用户将被重置到论坛默认语言.',
 	'LANGUAGE_PACK_DETAILS'				=> '语言包细节',
 	'LANGUAGE_PACK_INSTALLED'			=> '语言包 <strong>%s</strong> 安装完成.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> '自定义资料段文字来自于默认的语言包, 必要的话请进行修改.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> '本地名称',
 	'LANGUAGE_PACK_NAME'				=> '名称',

@@ -267,11 +267,12 @@ $lang = array_merge($lang, array(
 	'IMG_USER_ICON9'		=> '用户自定义图片 9',
 	'IMG_USER_ICON10'		=> '用户自定义图片 10',
 
+	'INACTIVE_STYLES'			=> '闲置的风格',
 	'INCLUDE_DIMENSIONS'		=> '包含尺寸',
 	'INCLUDE_IMAGESET'			=> '包含图片组',
 	'INCLUDE_TEMPLATE'			=> '包含模板',
 	'INCLUDE_THEME'				=> '包含风格主题',
-	'INHERITING_FROM'         => '继承自',
+	'INHERITING_FROM'           => '继承自',
 	'INSTALL_IMAGESET'			=> '安装图片组',
 	'INSTALL_IMAGESET_EXPLAIN'	=> '这里您可以安装选中的图片组. 您可以编辑需要修改的细节.',
 	'INSTALL_STYLE'				=> '安装风格',
@@ -285,10 +286,13 @@ $lang = array_merge($lang, array(
 	'INSTALLED_TEMPLATE'		=> '已安装的模板',
 	'INSTALLED_THEME'			=> '已安装的风格主题',
 
+	'KEEP_IMAGESET'				=> '保留%s图片组',
+	'KEEP_TEMPLATE'				=> '保留%s模板',
+	'KEEP_THEME'				=> '保留%s主题式样', 
+
 	'LINE_SPACING'				=> '行间距',
 	'LOCALISED_IMAGES'			=> '本地化',
 	'LOCATION_DISABLED_EXPLAIN'   => '此设置被更高优先级的设置限制, 不能修改.', 
-
 
 	'NO_CLASS'					=> '风格表单中无法找到类型.',
 	'NO_IMAGESET'				=> '在文件系统中无法找到图片组.',
@@ -322,6 +326,7 @@ $lang = array_merge($lang, array(
 	'REPLACE_TEMPLATE_EXPLAIN'	=> '这个模板将在任何风格使用这个模板而模板已经被删除的情况下替代被删除的模板.',
 	'REPLACE_THEME'				=> '替代风格主题使用',
 	'REPLACE_THEME_EXPLAIN'		=> '这个风格主题将在任何风格使用这个主题而主题已经被删除的情况下替代被删除的主题.',
+	'REPLACE_WITH_OPTION'		=> '使用 %s 替换',
 	'REQUIRES_IMAGESET'			=> '这个风格需要先安装 %s 图片组.',
 	'REQUIRES_TEMPLATE'			=> '这个风格需要先安装 %s 模板组.',
 	'REQUIRES_THEME'			=> '这个风格需要先安装 %s 风格主题.',

@@ -50,9 +50,10 @@ $lang = array_merge($lang, array(
 	'SITE_DESC'						=> '站点描述',
 	'SITE_NAME'						=> '站点名称',
 	'SYSTEM_DST'					=> '启用夏令时',
-	'SYSTEM_TIMEZONE'				=> '系统时区',
+	'SYSTEM_TIMEZONE'               => '访客时区',
+	'SYSTEM_TIMEZONE_EXPLAIN'       => '为未登录的用户(搜索爬虫, 游客)设置的时区. 用户会在注册过程中选择时区, 并且可以在用户控制面板中修改.',
 	'WARNINGS_EXPIRE'				=> '警告失效时间',
-	'WARNINGS_EXPIRE_EXPLAIN'		=> '用户警告自动消失所需要的天数',
+	'WARNINGS_EXPIRE_EXPLAIN'		=> '用户警告自动消失所需要的天数, 0为一直警告',
 ));
 
 // Board Features
@@ -85,7 +86,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SMILIES'				=> '允许表情图标',
 	'ALLOW_TOPIC_NOTIFY'		=> '允许订阅主题',
 	'BOARD_PM'					=> '私人短信',
-	'BOARD_PM_EXPLAIN'			=> '启用或禁用所有用户的私人短信.',
+	'BOARD_PM_EXPLAIN'			=> '启用所有用户的私人短信.',
 ));
 
 // Avatar Settings
@@ -107,7 +108,7 @@ $lang = array_merge($lang, array(
 	'MAX_AVATAR_SIZE'				=> '最大头像尺寸',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(用像素表示的宽 x 高)',
 	'MAX_FILESIZE'					=> '最大的头像文件大小',
-	'MAX_FILESIZE_EXPLAIN'			=> '针对上载的头像文件',
+	'MAX_FILESIZE_EXPLAIN'			=> '针对上载的头像文件, 为0则仅受PHP设置的最大文件尺寸限制',
 	'MIN_AVATAR_SIZE'				=> '最小的头像文件大小',
 	'MIN_AVATAR_SIZE_EXPLAIN'		=> '(用像素表示的宽 x 高)',
 ));
@@ -173,10 +174,10 @@ $lang = array_merge($lang, array(
 	'MAX_POST_URLS'					=> '帖子中允许的最大链接数量',
 	'MAX_POST_URLS_EXPLAIN'			=> '设置为0则不作限制.',
 	'MIN_CHAR_LIMIT'				=> '文章和私人短信的最小字符数限制',
-	'MIN_CHAR_LIMIT_EXPLAIN'		=> '用户在提交一篇文章或一封私人短信时的最小内容长度.',
+	'MIN_CHAR_LIMIT_EXPLAIN'		=> '用户在提交一篇文章或一封私人短信时的最小内容长度, 最小值为1.',
 	'POSTING'						=> '发帖',
 	'POSTS_PER_PAGE'				=> '每页帖子数',
-	'QUOTE_DEPTH_LIMIT'				=> '每个帖子中的最大引用深度',
+	'QUOTE_DEPTH_LIMIT'				=> '引用的最大深度',
 	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> '设置为0则不作限制.',
 	'SMILIES_LIMIT'					=> '每个帖子中的最大表情数量',
 	'SMILIES_LIMIT_EXPLAIN'			=> '设置为0则不作限制.',
@@ -212,10 +213,11 @@ $lang = array_merge($lang, array(
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> '新会员会被归入 <em>新注册用户</em> 组直到其发表足够多的文章. 您可以使用此用户组的组权限来限制其使用站内短信以及方便发文审核. <strong>设置为0则不启用此项功能.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> '设置新注册用户组为默认组',
 	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> '如果设置为是, 并且设定了新会员发帖数目限制, 新会员不仅会加入到 <em>新注册用户</em> 组, 这个用户组也会成为他的默认组. 这将方便管理员为该组指定一个默认等级和组头像.',
+
 	'ACC_ADMIN'					=> '由管理员',
-	'ACC_DISABLE'				=> '禁止',
-	'ACC_NONE'					=> '无',
-	'ACC_USER'					=> '由用户',
+	'ACC_DISABLE'				=> '禁止注册',
+	'ACC_NONE'					=> '无需激活',
+	'ACC_USER'					=> '由用户email激活',
 //	'ACC_USER_ADMIN'			=> '用户 + 管理员',
 	'ALLOW_EMAIL_REUSE'			=> '允许重复使用email地址',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> '不同的用户可以使用相同的email注册.',
@@ -307,7 +309,6 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_FONT_DEFAULT'               => '默认',
 	'CAPTCHA_FONT_NEW'                  => '新字体',
 	'CAPTCHA_FONT_LOWER'               => '同时使用小写',
-
 	'CAPTCHA_NO_GD'							=> '验证图片(无GD)',
 	'CAPTCHA_PREVIEW_MSG'					=> '您的可视化验证设定尚未保存, 这只是预览.',
 	'CAPTCHA_PREVIEW_EXPLAIN'				=> '您当前设定下的验证图片预览.',
@@ -374,6 +375,7 @@ $lang = array_merge($lang, array(
 	'YES_POST_MARKING_EXPLAIN'		=> '带点的主题表示用户参与过这个主题.',
 	'YES_READ_MARKING'				=> '允许服务器端标记',
 	'YES_READ_MARKING_EXPLAIN'		=> '在数据库中保存已读/未读信息而不是存在cookie上.',
+	'YES_UNREAD_SEARCH'            => '允许搜索未读文章',
 ));
 
 // Auth settings
@@ -460,8 +462,14 @@ $lang = array_merge($lang, array(
 	'FORWARDED_FOR_VALID_EXPLAIN'	=> '只有在发送的<var>X_FORWARDED_FOR</var> 字段头等于前一次请求中的字段头才继续会话. 封禁也将检查 <var>X_FORWARDED_FOR</var> 中的IP.',
 	'IP_VALID'						=> '对话IP验证',
 	'IP_VALID_EXPLAIN'				=> '决定用户的IP如何用于会话验证; <samp>所有</samp> 表示完整地址, <samp>A.B.C</samp> 表示开头的 x.x.x, <samp>A.B</samp> 表示开头的 x.x, <samp>None</samp> 取消验证.',
-	'MAX_LOGIN_ATTEMPTS'			=> '最大登录尝试次数',
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> '在超过尝试次数后用户必须进行可视化登录验证',
+	'IP_LOGIN_LIMIT_MAX'			=> '每个IP地址的最大登录尝试次数',
+	'IP_LOGIN_LIMIT_MAX_EXPLAIN'	=> '对单个IP的登录尝试次数的限制. 超过这个次数后, 会激活反机器人的验证. 输入0则表示不启用这项功能.',
+	'IP_LOGIN_LIMIT_TIME'			=> '登录尝试超时时间',
+	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> '在这个时间后, 将重置登录尝试次数.',
+	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> '通过<var>X_FORWARDED_FOR</var>头信息限制登录尝试次数',
+	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> '通过<var>X_FORWARDED_FOR</var>而不是IP来限制登录尝试次数. <br /><em><strong>注意:</strong> 如果您使用了代理服务器, 仅当<var>X_FORWARDED_FOR</var>这个值被设置为可信的参数时, 才启用这个功能.</em>',
+	'MAX_LOGIN_ATTEMPTS'			=> '对每个用户名的最大登录尝试次数',
+	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> '对单个用户名的登录尝试次数的限制. 超过这个次数后, 会激活反机器人的验证. 输入0则表示不启用这项功能.',
 	'NO_IP_VALIDATION'				=> '无',
 	'NO_REF_VALIDATION'				=> '无',
 	'PASSWORD_TYPE'					=> '密码复杂度',

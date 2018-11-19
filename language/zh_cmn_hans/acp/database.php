@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> '备份文件已损坏.',
 	'RESTORE_OPTIONS'		=> '恢复选项',
+	'RESTORE_SELECTED_BACKUP'	=> '您确认要使用选中的备份进行恢复吗?',
 	'RESTORE_SUCCESS'		=> '数据库已经成功恢复.<br /><br />您的论坛回到了备份前的状态.',
 
 	'SELECT_ALL'			=> '选择全部',

@@ -110,13 +110,11 @@ $lang = array_merge($lang, array(
 
 	'POST_IP'				=> '发文 IP/域名',
 
-	'RANK'					=> '等级',
 	'REAL_NAME'				=> '收信人名',
 	'RECIPIENT'				=> '收信人',
 	'REMOVE_FOE'			=> '删除坏蛋',
 	'REMOVE_FRIEND'			=> '删除好友',
 
-	'SEARCH_USER_POSTS'		=> '列出用户文章',
 	'SELECT_MARKED'			=> '选择已标记',
 	'SELECT_SORT_METHOD'	=> '用户排列方式 ',
 	'SEND_AIM_MESSAGE'		=> '发送 AIM 消息',

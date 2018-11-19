@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> '您需要登录后才能查看您的文章.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> '您需要登录后才能查看未读文章.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> '您需要登录后才能查看上次登录后产生的新文章.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'   => '您输入了过多的搜索关键词. 允许的最多搜索词为 %1$d 个.',
 
@@ -62,6 +63,7 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH'				=> '对不起您不能使用搜索系统。',
 	'NO_SEARCH_RESULTS'		=> '没有搜索到符合的结果。',
 	'NO_SEARCH_TIME'		=> '对不起您暂时不能使用搜索功能，请过几分钟后再试。',
+	'NO_SEARCH_UNREADS'     => '对不起论坛禁止了对未读文章的搜索.',
 	'WORD_IN_NO_POST'		=> '没有搜索到任何结果，因为 <strong>%s</strong> 不在任何文章内。',
 	'WORDS_IN_NO_POST'		=> '没有搜索到任何结果，因为 <strong>%s</strong> 不在任何文章内。',
 

@@ -37,14 +37,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> '简体中文',
-	'RECAPTCHA_NOT_AVAILABLE'		=> '要使用 reCaptcha, 您需要先在<a href="http://recaptcha.net">reCaptcha.net</a>上注册一个账号.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> '要使用 reCaptcha, 您需要先在<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>上注册一个账号.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> '您输入的验证码不正确',
 
 	'RECAPTCHA_PUBLIC'				=> 'reCaptcha 公键',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> '您的 reCaptcha 公键. 键值可以从 <a href="http://recaptcha.net">reCaptcha.net</a> 上获得.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> '您的 reCaptcha 公键. 键值可以从 <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> 上获得.',
 	'RECAPTCHA_PRIVATE'				=> 'reCaptcha 私键',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> '您的 reCaptcha 私键. 键值可以从 <a href="http://recaptcha.net">reCaptcha.net</a> 上获得.',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> '您的 reCaptcha 私键. 键值可以从 <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> 上获得.',
 
 	'RECAPTCHA_EXPLAIN'				=> '为了证明您不是Spam机器人, 请输入下面显示的两个词.',
 ));

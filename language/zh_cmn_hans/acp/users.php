@@ -42,6 +42,7 @@ $lang = array_merge($lang, array(
 	'BAN_ALREADY_ENTERED'	=> '封禁在更早的时候已经输入完成, 封禁列表没有更新.',
 	'BAN_SUCCESSFUL'		=> '封禁输入完成.',
 
+	'CANNOT_BAN_ANONYMOUS'          => '能不能封禁游客帐号. 游客权限可以在权限控制界面修改.',
 	'CANNOT_BAN_FOUNDER'			=> '您不能封禁创始人帐号.',
 	'CANNOT_BAN_YOURSELF'			=> '您不能封禁自己的帐号.',
 	'CANNOT_DEACTIVATE_BOT'			=> '您不能冻结机器人帐号, 如果需要停用, 请到搜索爬虫管理页面.',
@@ -58,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'			=> '删除帖子',
 	'DELETE_USER'			=> '删除用户',
-	'DELETE_USER_EXPLAIN'	=> '请注意删除的用户将不可恢复',
+	'DELETE_USER_EXPLAIN'	=> '请注意删除的用户将不可恢复, 他发出的站内私信尚未未被收件人阅读的, 也将被删除',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> '强制激活完成.',
 	'FOUNDER'						=> '创始人',
@@ -123,6 +124,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_SPECIAL'			=> '特殊组员为成员自', 
 	'USER_LIFTED_NR'				=> '成功关闭此用户的新用户状态.',
 	'USER_NO_ATTACHMENTS'			=> '没有可显示的附件.',
+	'USER_NO_POSTS_TO_DELETE'		=> '用户没有可保留或删除的帖子.',
 	'USER_OUTBOX_EMPTIED'			=> '用户的私人短信发件箱已清空.',
 	'USER_OUTBOX_EMPTY'				=> '用户的私人短信发件箱是空的.',
 	'USER_OVERVIEW_UPDATED'			=> '用户资料更新完成.',

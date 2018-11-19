@@ -170,6 +170,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_EDIT'				=> '编辑表情',
 	'SMILIE_NO_CODE'			=> '忽略表情 “%s” , 因为没有输入代码.',
 	'SMILIE_NO_EMOTION'			=> '忽略表情 “%s”, 因为没有输入表情注释.',
+	'SMILIE_NO_FILE'			=> '忽略表情 “%s”, 因为没有找到对应文件.',
 	'SMILIES_NONE_EDITED'		=> '没有更新任何表情',
 	'SMILIES_ONE_EDITED'		=> '表情更新完成.',
 	'SMILIES_EDITED'			=> '表情更新完成.',
