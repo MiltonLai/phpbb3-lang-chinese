@@ -1,2 +1,2 @@
-**The Chinese Simplified language package for phpBB3**
+**Chinese Language Package For phpBB3**
 
