@@ -299,7 +299,7 @@ $lang = array_merge($lang, array(
     // Install data
     'TASK_ADD_BOTS'				=> '注册机器爬虫',
     'TASK_ADD_LANGUAGES'		=> '安装可用的语言包',
-    'TASK_ADD_MODULES'			=> '安装模块',
+    'TASK_ADD_MODULES'			=> '安装组件',
     'TASK_CREATE_SEARCH_INDEX'	=> '创建搜索索引',
 
     // Install finish tasks
@@ -313,13 +313,13 @@ $lang = array_merge($lang, array(
 
 // Installer's general messages
 $lang = array_merge($lang, array(
-    'MODULE_NOT_FOUND'				=> '无法找到模块',
-    'MODULE_NOT_FOUND_DESCRIPTION'	=> '模块无法找到, 因为服务 %s 未定义.',
+    'MODULE_NOT_FOUND'				=> '无法找到组件',
+    'MODULE_NOT_FOUND_DESCRIPTION'	=> '组件无法找到, 因为服务 %s 未定义.',
 
     'TASK_NOT_FOUND'				=> '无法找到任务',
     'TASK_NOT_FOUND_DESCRIPTION'	=> '任务无法找到, 因为服务 %s 未定义.',
 
-    'SKIP_MODULE'	=> '跳过 “%s” 模块',
+    'SKIP_MODULE'	=> '跳过 “%s” 组件',
     'SKIP_TASK'		=> '跳过 “%s” 任务',
 
     'TASK_SERVICE_INSTALLER_MISSING'	=> '所有的安装任务服务都应当以“installer”开始',
