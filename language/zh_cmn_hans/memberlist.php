@@ -1,14 +1,13 @@
 <?php
-/** 
-*
-* memberlist [Chinese Simplified]
-*
-* @package language
-* @version $Id: memberlist.php 8574 2008-05-29 13:59:47Z Kellanved $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+/**
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -47,11 +46,13 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> '早于',
 
-	'CC_EMAIL'				=> '给您自己发送一份这个 Email 的拷贝',
-	'CONTACT_USER'			=> '联系方式',
+	'CC_EMAIL'				=> '把Email内容也抄送给自己',
+    'CONTACT_ADMIN'			=> '联系论坛管理员',
 
 	'DEST_LANG'				=> '语言',
 	'DEST_LANG_EXPLAIN'		=> '选择一个合适的语言（如果可用）。',
+
+    'EDIT_PROFILE'			=> '编辑资料',
 
 	'EMAIL_BODY_EXPLAIN'	=> '邮件将以纯文本的形式发送，请不要添加任何 HTML 或 BBCode。这个邮件的返回地址将设置为您的 Email 地址。',
 	'EMAIL_DISABLED'		=> '对不起 Email 相关的功能都已经被关闭。',
@@ -61,27 +62,23 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> '您必须填入邮件内容。', 
 	'EMPTY_MESSAGE_IM'		=> '您必须输入发送的消息.',
 	'EMPTY_NAME_EMAIL'		=> '您必须填入真实的收信人名。',
+    'EMPTY_SENDER_EMAIL'	=> '您必须输入有效的Email地址.',
+    'EMPTY_SENDER_NAME'		=> '您必须输入名字.',
 	'EMPTY_SUBJECT_EMAIL'	=> '您必须给邮件定个题目。',
 	'EQUAL_TO'				=> '等于',
 
 	'FIND_USERNAME_EXPLAIN'	=> '用这个表单查找特定的成员。您不必填写所有的表格。匹配部分字符可以使用 * 作为通配符。当输入日期时请使用格式 <kbd>YYYY-MM-DD</kbd>，e.g. <samp>2004-02-29</samp>。使用多选框选择一个或多个用户名（是否接受多个用户名取决于表单本身）并点击选择选中的按钮回到原先的表单。',
 	'FLOOD_EMAIL_LIMIT'		=> '您现在不能再次发送 Email。请稍后再试。',
 
-	'GROUP_LEADER'			=> '组领导者',
+	'GROUP_LEADER'			=> '组领导',
 
 	'HIDE_MEMBER_SEARCH'	=> '隐藏用户搜索',
 
 	'IM_ADD_CONTACT'		=> '添加联系方式',
-	'IM_AIM'				=> '请注意您需要安装 AOL Instant Messenger 后才能使用这个功能。',
-	'IM_AIM_EXPRESS'		=> 'AIM Express',
 	'IM_DOWNLOAD_APP'		=> '下载程序',
-	'IM_ICQ'				=> '请注意用户可能不会接收到未被请求的即时消息。',
 	'IM_JABBER'				=> '请注意用户可能不会接收到未被请求的即时消息。',
 	'IM_JABBER_SUBJECT'		=> '这是一个自动消息，请不要回复！消息由用户 %1$s 于 %2$s 发出。',
 	'IM_MESSAGE'			=> '您的消息',
-	'IM_MSNM'				=> '请注意您需要安装 MSN Messenger 后才能使用这个功能。',
-	'IM_MSNM_BROWSER'		=> '您的浏览器不支持这个功能。',
-	'IM_MSNM_CONNECT'		=> 'MSNM 未连接。\n您需要连上 MSNM 后才能继续。',		
 	'IM_NAME'				=> '您的名字',
 	'IM_NO_DATA'			=> '没有关于这个用户的联系方式信息。',
 	'IM_NO_JABBER'			=> '对不起，这个论坛不支持对 Jabber 用户的直接消息发送。您需要安装一个 Jabber 客户端来联系上面的联系人。',
@@ -93,15 +90,20 @@ $lang = array_merge($lang, array(
 	
 	'LAST_ACTIVE'				=> '最后活动',
 	'LESS_THAN'					=> '少于',
-	'LIST_USER'					=> '1 位用户',
-	'LIST_USERS'				=> '%d 位用户',
-	'LOGIN_EXPLAIN_LEADERS'		=> '您需要注册并登录后才能浏览用户组列表。',
+    'LIST_USERS'				=> array(
+        1	=> '%d 位用户',
+        2	=> '%d 位用户',
+    ),
+    'LOGIN_EXPLAIN_TEAM'		=> '您需要注册并登录后才能浏览用户组列表.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> '您需要注册并登录后才能浏览用户列表。',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> '您需要注册并登录后才能搜索用户。',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> '您需要注册并登录后才能查看用户资料。',
 
+    'MANAGE_GROUP'			=> '管理组',
 	'MORE_THAN'				=> '多于',
 
+    'NO_CONTACT_FORM'		=> '联系论坛管理员的表单已经停用.',
+    'NO_CONTACT_PAGE'		=> '联系论坛管理员的页面已经停用.',
 	'NO_EMAIL'				=> '您不允许给这个用户发 Email。',
 	'NO_VIEW_USERS'			=> '您未被授权查看用户列表或用户资料。',
 
@@ -117,12 +119,12 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> '选择已标记',
 	'SELECT_SORT_METHOD'	=> '用户排列方式 ',
-	'SEND_AIM_MESSAGE'		=> '发送 AIM 消息',
+    'SENDER_EMAIL_ADDRESS'	=> '您的Email地址',
+    'SENDER_NAME'			=> '您的名字',
 	'SEND_ICQ_MESSAGE'		=> '发送 ICQ 消息',
 	'SEND_IM'				=> '即时消息',
 	'SEND_JABBER_MESSAGE'	=> '发送 Jabber 消息',
 	'SEND_MESSAGE'			=> '消息',
-	'SEND_MSNM_MESSAGE'		=> '发送 MSNM/WLM 消息',
 	'SEND_YIM_MESSAGE'		=> '发送 YIM 消息',
 	'SORT_EMAIL'			=> 'Email',
 	'SORT_LAST_ACTIVE'		=> '最后活动',
@@ -135,14 +137,16 @@ $lang = array_merge($lang, array(
 	'USER_LAST_REMINDED'	=> array(
 		0		=> '尚未发送提醒',
 		1		=> '发送过 %1$d 次提醒<br />» %2$s',
+        2		=> '发送过 %1$d 次提醒<br />» %2$s',
 	),
 	'USER_ONLINE'			=> '在线',
 	'USER_PRESENCE'			=> '论坛形象',
+    'USERS_PER_PAGE'		=> '每页用户',
 
-	'VIEWING_PROFILE'		=> '查看资料 - %s',
-	'VISITED'				=> '最后浏览',
-
-	'WWW'					=> '主页',
+    'VIEWING_PROFILE'		=> '查看资料 - %s',
+    'VIEW_FACEBOOK_PROFILE'	=> '查看 Facebook 资料',
+    'VIEW_SKYPE_PROFILE'	=> '查看 Skype 资料',
+    'VIEW_TWITTER_PROFILE'	=> '查看 Twitter 资料',
+    'VIEW_YOUTUBE_CHANNEL'	=> '查看 YouTube 频道',
+    'VIEW_GOOGLEPLUS_PROFILE' => '查看 Google+ 资料',
 ));
-
-?>
