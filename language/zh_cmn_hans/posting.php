@@ -1,14 +1,13 @@
 <?php
-/** 
-*
-* posting [Chinese Simplified]
-*
-* @package language
-* @version $Id: posting.php 8555 2008-05-15 14:10:11Z Kellanved $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+/**
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -47,23 +46,23 @@ $lang = array_merge($lang, array(
 	'ATTACH_SIG'				=> '添加签名（签名可以在用户控制面板修改）',
 
 	'BBCODE_A_HELP'				=> '行内显示附件: [attachment=]filename.ext[/attachment]',
-	'BBCODE_B_HELP'				=> '粗体：[b]text[/b]  (alt+b)',
-	'BBCODE_C_HELP'				=> '显示代码：[code]code[/code]  (alt+c)',
-	'BBCODE_D_HELP'				=> 'Flash动画：[flash=width,height]http://url[/flash]  (alt+d)',
+	'BBCODE_B_HELP'				=> '粗体：[b]文字[/b]',
+	'BBCODE_C_HELP'				=> '显示代码：[code]code[/code]',
+	'BBCODE_D_HELP'				=> 'Flash动画：[flash=width,height]http://url[/flash]',
 	'BBCODE_F_HELP'				=> '文字大小：[size=85]small text[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>禁止</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>允许</em>',
-	'BBCODE_I_HELP'				=> '斜体：[i]text[/i]  (alt+i)',
-	'BBCODE_L_HELP'				=> '列表：[list]text[/list]  (alt+l)',
-	'BBCODE_LISTITEM_HELP'		=> '列表条目: [*]text[/*]',
-	'BBCODE_O_HELP'				=> '顺序列表：[list=]text[/list]  (alt+o)',
-	'BBCODE_P_HELP'				=> '插入图像：[img]http://image_url[/img]  (alt+p)',
-	'BBCODE_Q_HELP'				=> '引用文字：[quote]text[/quote]  (alt+q)',
-	'BBCODE_S_HELP'				=> '字体颜色：[color=red]text[/color]  提示：您也可以使用 color=#FF0000',
-	'BBCODE_U_HELP'				=> '下划线：[u]text[/u]  (alt+u)',
-	'BBCODE_W_HELP'				=> '插入链接：[url]http://url[/url] or [url=http://url]URL text[/url]  (alt+w)',
-	'BBCODE_Y_HELP'				=> '列表：添加条目',
-	'BUMP_ERROR'				=> '您不能在发表后这么快就推举文章。',
+	'BBCODE_I_HELP'				=> '斜体：[i]text[/i]',
+    'BBCODE_L_HELP'				=> 'List: [list][*]text[/list]',
+    'BBCODE_LISTITEM_HELP'		=> '列表条目: [*]text',
+    'BBCODE_O_HELP'				=> '顺序列表：例如[list=1][*]First point[/list] or [list=a][*]Point a[/list]',
+    'BBCODE_P_HELP'				=> '插入图像：[img]http://image_url[/img]',
+    'BBCODE_Q_HELP'				=> '引用文字：[quote]text[/quote]',
+    'BBCODE_S_HELP'				=> '字体颜色：[color=red]text[/color] 或 [color=#FF0000]text[/color]',
+    'BBCODE_U_HELP'				=> '下划线：[u]text[/u]',
+    'BBCODE_W_HELP'				=> '插入链接：[url]http://url[/url] 或 [url=http://url]URL text[/url]',
+    'BBCODE_Y_HELP'				=> '列表：添加条目',
+    'BUMP_ERROR'				=> '您不能在发表后这么快就推举文章。',
 
 	'CANNOT_DELETE_REPLIED'		=> '对不起，您只能删除尚无回复的话题。',
 	'CANNOT_EDIT_POST_LOCKED'	=> '这篇帖子已经被锁定，您不能编辑它。',
@@ -71,6 +70,14 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> '对不起，您不能发布公告。',
 	'CANNOT_POST_STICKY'		=> '对不起，您不能发布置顶帖。',
 	'CHANGE_TOPIC_TO'			=> '将主题类型转换成',
+    'CHARS_POST_CONTAINS'		=> array(
+        1	=> '您的消息包含 %1$d 个字符.',
+        2	=> '您的消息包含 %1$d 个字符.',
+    ),
+    'CHARS_SIG_CONTAINS'		=> array(
+        1	=> '您的签名包含 %1$d 个字符.',
+        2	=> '您的签名包含 %1$d 个字符.',
+    ),
 	'CLOSE_TAGS'				=> '关闭标签',
 	'CURRENT_TOPIC'				=> '当前主题',
 
@@ -78,8 +85,26 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGE'			=> '删除帖子',
 	'DELETE_MESSAGE_CONFIRM'	=> '您确认要删除这篇帖子吗？',
 	'DELETE_OWN_POSTS'			=> '对不起，您只能删除自己的帖子。',
+    'DELETE_PERMANENTLY'		=> '永久删除',
 	'DELETE_POST_CONFIRM'		=> '您确认要删除这篇帖子吗？',
-	'DELETE_POST_WARN'			=> '删除的帖子将不能恢复',
+    'DELETE_POST_PERMANENTLY_CONFIRM'	=> '您确认要<strong>永久</strong>删除这篇帖子吗?',
+    'DELETE_POST_PERMANENTLY'	=> array(
+        1	=> '永久删除这篇帖子, 帖子将无法恢复',
+        2	=> '永久删除 %1$d 篇帖子, 帖子将无法恢复',
+    ),
+    'DELETE_POSTS_CONFIRM'		=> '您确认要删除这些帖子吗?',
+    'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> '您确认要<strong>永久</strong>删除这些帖子吗?',
+    'DELETE_REASON'				=> '删除原因',
+    'DELETE_REASON_EXPLAIN'		=> '设置的删除理由将对版务可见.',
+    'DELETE_POST_WARN'			=> '删除这篇帖子',
+    'DELETE_TOPIC_CONFIRM'		=> '您确认要删除这个主题?',
+    'DELETE_TOPIC_PERMANENTLY'	=> array(
+        1	=> '永久删除这个主题, 主题将无法恢复',
+        2	=> '永久删除 %1$d 个主题, 主题将无法恢复',
+    ),
+    'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> '您确认要<strong>永久</strong>删除这个主题吗?',
+    'DELETE_TOPICS_CONFIRM'		=> '您确认要删除这些主题吗?',
+    'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> '您确认要<strong>永久</strong>删除这些主题吗?',
 	'DISABLE_BBCODE'			=> '禁止解析BBCode',
 	'DISABLE_MAGIC_URL'			=> '禁止自动生成超链接',
 	'DISABLE_SMILIES'			=> '禁止生成表情',
@@ -122,13 +147,29 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> '您需要登录后才能在这个版面引用帖子。',
 	'LOGIN_EXPLAIN_REPLY'		=> '您需要登录后才能在这个版面回复帖子。',
 
-	'MAX_FONT_SIZE_EXCEEDED'	=> '您可以使用的最大字体是 %1$d。',
-	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Flash文件的高度不允许超过 %1$d 象素。',
-	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Flash文件的宽度不允许超过 %1$d 象素。',
-	'MAX_IMG_HEIGHT_EXCEEDED'	=> '图片的高度不允许超过 %1$d 象素。',
-	'MAX_IMG_WIDTH_EXCEEDED'	=> '图片的宽度不允许超过 %1$d 象素。',
+    'MAX_FONT_SIZE_EXCEEDED'	=> '您可以使用的最大字体是 %1$d.',
+    'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
+        1	=> 'Flash文件的高度不允许超过 %d 像素.',
+        2	=> 'Flash文件的高度不允许超过 %d 像素.',
+    ),
+    'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
+        1	=> 'Flash文件的宽度不允许超过 %d 像素.',
+        2	=> 'Flash文件的宽度不允许超过 %d 像素.',
+    ),
+    'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
+        1	=> '图片的高度不允许超过 %1$d 像素.',
+        2	=> '图片的高度不允许超过 %1$d 像素.',
+    ),
+    'MAX_IMG_WIDTH_EXCEEDED'	=> array(
+        1	=> '图片的宽度不允许超过 %d 像素.',
+        2	=> '图片的宽度不允许超过 %d 像素.',
+    ),
 
-	'MESSAGE_BODY_EXPLAIN'		=> '请在这里输入正文，注意不允许超过 <strong>%d</strong> 个字符。',
+    'MESSAGE_BODY_EXPLAIN'		=> array(
+        0	=> '', // zero means no limit, so we don't view a message here.
+        1	=> '请在这里输入正文，注意不允许超过 <strong>%d</strong> 个字符.',
+        2	=> '请在这里输入正文，注意不允许超过 <strong>%d</strong> 个字符.',
+    ),
 	'MESSAGE_DELETED'			=> '文章已被成功删除',
 	'MORE_SMILIES'				=> '查看更多表情',
 
@@ -139,19 +180,27 @@ $lang = array_merge($lang, array(
 	'NO_POLL_TITLE'				=> '您必须设置投票标题',
 	'NO_POST'					=> '指定的文章不存在',
 	'NO_POST_MODE'				=> '没有指定文章类型',
+    'NO_TEMP_DIR'				=> '临时目录无法找到或不可写.',
 
 	'PARTIAL_UPLOAD'			=> '要上传的文件只上传了一部分',
+    'PHP_UPLOAD_STOPPED'		=> '某个PHP扩展阻挡了文件上传.',
 	'PHP_SIZE_NA'				=> '要上传的附件太大了。<br />无法获知 php.ini 中设定的最大允许上传文件大小。',
 	'PHP_SIZE_OVERRUN'			=> '要上传的附件太大了，php.ini 中设定的最大允许上传文件大小为 %1$d %2$s。<br />请注意这个数值是在 php.ini 内设定的，无法被覆盖。',
 	'PLACE_INLINE'				=> '置入文中',
 	'POLL_DELETE'				=> '删除投票',
 	'POLL_FOR'					=> '投票持续时间',
-	'POLL_FOR_EXPLAIN'			=> '需要永久投票请输入 0 或者留空',
+	'POLL_FOR_EXPLAIN'			=> '需要永久投票请输入 0',
 	'POLL_MAX_OPTIONS'			=> '每个用户的可选数',
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> '这是每个用户在投票时可以选择的选项数目。',
 	'POLL_OPTIONS'				=> '投票选项',
-	'POLL_OPTIONS_EXPLAIN'		=> '请分别在每行输入一个选项，您最多可以设置 <strong>%d</strong> 个选项',
-	'POLL_OPTIONS_EDIT_EXPLAIN'	=> '请分别在每行输入一个选项. 您最多可以设置 <strong>%d</strong> 个选项. 如果您移除或添加选项, 所有前面的投票都将被重置.',
+    'POLL_OPTIONS_EXPLAIN'		=> array(
+        1	=> '请分别在每行输入一个选项，您最多可以设置 <strong>%d</strong> 个选项.',
+        2	=> '请分别在每行输入一个选项，您最多可以设置 <strong>%d</strong> 个选项.',
+    ),
+    'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
+        1	=> '请分别在每行输入一个选项. 您最多可以设置 <strong>%d</strong> 个选项.  如果您移除或添加选项, 所有前面的投票都将被重置.',
+        2	=> '请分别在每行输入一个选项. 您最多可以设置 <strong>%d</strong> 个选项.  如果您移除或添加选项, 所有前面的投票都将被重置.',
+    ),
 	'POLL_QUESTION'				=> '投票问题',
 	'POLL_TITLE_TOO_LONG'		=> '投票的标题不能大于100字符.',
 	'POLL_TITLE_COMP_TOO_LONG'	=> '解析后的投票标题过长, 请删除一些BBCode或表情图标.',
@@ -161,9 +210,9 @@ $lang = array_merge($lang, array(
 	'POST_APPROVAL_NOTIFY'		=> '当您的文章通过审核时会通知您.',
 	'POST_CONFIRMATION'			=> '文章确认',
 	'POST_CONFIRM_EXPLAIN'		=> '为防止恶意灌水，本论坛要求您输入一组确认码。确认码显示在下面的图片中，如果您无法正常浏览这个图片请联络 %s论坛管理员%s。',
-	'POST_DELETED'				=> '这篇文章已被成功删除',
-	'POST_EDITED'				=> '这篇文章已被成功修改',
-	'POST_EDITED_MOD'			=> '这篇文章已经被修改但是需要等待批准',
+	'POST_DELETED'				=> '这篇帖子已被成功删除',
+	'POST_EDITED'				=> '这篇帖子已被成功修改',
+	'POST_EDITED_MOD'			=> '这篇帖子已经被修改但是需要等待批准',
 	'POST_GLOBAL'				=> '全局公告',
 	'POST_ICON'					=> '帖子图标',
 	'POST_NORMAL'				=> '普通',
@@ -176,8 +225,13 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC_AS'				=> '发表新主题为',
 	'PROGRESS_BAR'				=> '进度条',
 
-	'QUOTE_DEPTH_EXCEEDED'		=> '最多允许嵌套使用 %1$d 层引用',
+    'QUOTE_DEPTH_EXCEEDED'		=> array(
+        1	=> '最多允许嵌套使用 %d 层引用.',
+        2	=> '最多允许嵌套使用 %d 层引用.',
+    ),
+    'QUOTE_NO_NESTING'			=> '不允许嵌套引用.',
 
+    'REMOTE_UPLOAD_TIMEOUT'		=> '请求超时, 指定的文件无法上载.',
 	'SAVE'						=> '保存',
 	'SAVE_DATE'					=> '另存为',
 	'SAVE_DRAFT'				=> '保存草稿',
@@ -185,18 +239,22 @@ $lang = array_merge($lang, array(
 	'SMILIES'					=> '表情',
 	'SMILIES_ARE_OFF'			=> '表情 <em>禁止</em>',
 	'SMILIES_ARE_ON'			=> '表情 <em>允许</em>',
-	'STICKY_ANNOUNCE_TIME_LIMIT'=> '置顶/公告时间限制',
+	'STICKY_ANNOUNCE_TIME_LIMIT'=> '置顶/公告/全站时间限制',
 	'STICK_TOPIC_FOR'			=> '主题置顶时间',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> '输入 0 或留空将使主题成为永久公告或置顶',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> '输入 0 或留空将使主题成为永久公告/置顶/全站',
 	'STYLES_TIP'				=> '提示：点击格式选项可以将格式直接应用到选中的文字上',
 
 	'TOO_FEW_CHARS'				=> '您输入的正文过短',
-	'TOO_FEW_CHARS_LIMIT'		=> '您的正文长度为 %1$d 字符. 您的输入不能少于 %2$d 个字符.',
+    'TOO_FEW_CHARS_LIMIT'		=> array(
+        1	=> '您的输入不能少于 %1$d 个字符.',
+        2	=> '您的输入不能少于 %1$d 个字符.',
+    ),
 	'TOO_FEW_POLL_OPTIONS'		=> '您必须输入至少两个投票选项',
 	'TOO_MANY_ATTACHMENTS'		=> '不能再添加更多的附件了，允许的数量是 %d 个。',
 	'TOO_MANY_CHARS'			=> '您输入的正文过长',
-	'TOO_MANY_CHARS_POST'		=> '您的内容包含 %1$d 字节, 而允许的最大字节数为 %2$d.',
-	'TOO_MANY_CHARS_SIG'		=> '您的签名档包含 %1$d 字节, 而允许的最大字节数为 %2$d.',
+    'TOO_MANY_CHARS_LIMIT'		=> array(
+        2	=> '允许的最大字符长度为 %1$d.',
+    ),
 	'TOO_MANY_POLL_OPTIONS'		=> '您输入了过多的投票选项',
 	'TOO_MANY_SMILIES'			=> '您的内容包含了过多的表情，允许的最大表情数量是 %d。',
 	'TOO_MANY_URLS'				=> '您的内容包含了过多的链接，允许的最大链接数量是 %d。',
@@ -205,6 +263,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> '您不能使用特定的 BBCodes：%s',
 	'UNGLOBALISE_EXPLAIN'		=> '要将这个主题从全局公告转换为普通主题，您需要选择一个版面放置它。',
+    'UNSUPPORTED_CHARACTERS_MESSAGE'	=> '您的消息包含这些不支持的字符:<br />%s',
+    'UNSUPPORTED_CHARACTERS_SUBJECT'	=> '您的标题包含这些不支持的字符:<br />%s',
 	'UPDATE_COMMENT'			=> '更新评论',
 	'URL_INVALID'				=> '您指定的链接无效。',
 	'URL_NOT_FOUND'				=> '指定的文件无法找到。',
@@ -219,8 +279,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%s查看您提交的内容%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%s查看您发送的私人短信%s',
 
-	'WRONG_FILESIZE'			=> '文件太大了, 最大允许文件尺寸为 %1d %2s',
-	'WRONG_SIZE'				=> '图片必须最小宽 %1$d 象素，高 %2$d 象素；最大宽 %3$d 象素，高 %4$d 象素。您提交的图片为：宽 %5$d 象素，高 %6$d 象素。',
+	'WRONG_FILESIZE'			=> '文件太大了, 最大允许文件尺寸为 %1$d %2$s',
+	'WRONG_SIZE'				=> '图片必须最小 %1$s 象素宽 %2$s 象素高；最大 %3$s 象素宽 %4$s 象素高. 您提交的图片宽 %5$s 象素, 高 %6$s 象素.',
 ));
-
-?>
