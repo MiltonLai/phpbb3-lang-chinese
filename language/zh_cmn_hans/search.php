@@ -1,14 +1,15 @@
 <?php
-/** 
-*
-* search [Chinese Simplified]
-*
-* @package language
-* @version $Id: search.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-*
-*/
+/**
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -37,13 +38,18 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ALL_AVAILABLE'			=> '所有可用',
-	'ALL_RESULTS'			=> '全部时间',
+	'ALL_RESULTS'			=> '全部结果',
 
 	'DISPLAY_RESULTS'		=> '显示结果为',
 
-	'FOUND_SEARCH_MATCH'		=> '搜索得到 %d 个符合结果',
-	'FOUND_SEARCH_MATCHES'		=> '搜索得到 %d 个符合结果',
-	'FOUND_MORE_SEARCH_MATCHES'	=> '搜索得到超过 %d 个符合结果',
+    'FOUND_SEARCH_MATCHES'		=> array(
+        1	=> '搜索得到 %d 个结果',
+        2	=> '搜索得到 %d 个结果',
+    ),
+    'FOUND_MORE_SEARCH_MATCHES'		=> array(
+        1	=> '搜索得到超过 %d 个结果',
+        2	=> '搜索得到超过 %d 个结果',
+    ),
 
 	'GLOBAL'				=> '全局公告',
 
@@ -56,27 +62,36 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> '您需要登录后才能查看未读文章.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> '您需要登录后才能查看上次登录后产生的新文章.',
 
-	'MAX_NUM_SEARCH_KEYWORDS_REFINE'   => '您输入了过多的搜索关键词. 允许的最多搜索词为 %1$d 个.',
+    'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
+        1	=> '您输入了过多的搜索词. 允许的最多搜索词为 %1$d 个.',
+        2	=> '您输入了过多的搜索词. 允许的最多搜索词为 %1$d 个.',
+    ),
 
-	'NO_KEYWORDS'			=> '您必须指定至少一个关键词，且每个关键词必须为 %d 到 %d 个字符（包含通配符）。',
+	'NO_KEYWORDS'			=> '您必须指定至少一个关键词，且每个关键词必须为 %s 到 %s（不包含通配符）。',
 	'NO_RECENT_SEARCHES'	=> '没有找到最近的搜索操作',
 	'NO_SEARCH'				=> '对不起您不能使用搜索系统。',
 	'NO_SEARCH_RESULTS'		=> '没有搜索到符合的结果。',
-	'NO_SEARCH_TIME'		=> '对不起您暂时不能使用搜索功能，请过几分钟后再试。',
+    'NO_SEARCH_LOAD'		=> '抱歉不能使用搜索功能. 当前服务器负载较高, 请稍后再试.',
+    'NO_SEARCH_TIME'		=> array(
+        1	=> '对不起您暂时不能使用搜索功能. 请过 %d 秒后再试.',
+        2	=> '对不起您暂时不能使用搜索功能. 请过 %d 秒后再试.',
+    ),
 	'NO_SEARCH_UNREADS'     => '对不起论坛禁止了对未读文章的搜索.',
 	'WORD_IN_NO_POST'		=> '没有搜索到任何结果，因为 <strong>%s</strong> 不在任何文章内。',
 	'WORDS_IN_NO_POST'		=> '没有搜索到任何结果，因为 <strong>%s</strong> 不在任何文章内。',
 
 	'POST_CHARACTERS'		=> '个字符',
+    'PHRASE_SEARCH_DISABLED'	=> '这个版面不支持精确搜索.',
 
 	'RECENT_SEARCHES'		=> '最近的搜索',
 	'RESULT_DAYS'			=> '将搜索结果限制到最近的',
 	'RESULT_SORT'			=> '将搜索结果按此排序',
 	'RETURN_FIRST'			=> '将搜索结果限制为每贴',
-	'RETURN_TO_SEARCH_ADV'	=> '返回高级搜索',
+	'GO_TO_SEARCH_ADV'	    => '前往高级搜索',
 
 	'SEARCHED_FOR'				=> '使用的搜索条件',
 	'SEARCHED_TOPIC'			=> '查找的主题',
+    'SEARCHED_QUERY'			=> '搜索的条件',
 	'SEARCH_ALL_TERMS'			=> '满足全部条件或使用输入的搜索串',
 	'SEARCH_ANY_TERMS'			=> '满足任意条件',
 	'SEARCH_AUTHOR'				=> '按作者搜索',
@@ -99,8 +114,11 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'				=> '版面',
 	'SORT_POST_SUBJECT'			=> '文章标题',
 	'SORT_TIME'					=> '发表时间',
+    'SPHINX_SEARCH_FAILED'		=> '搜索失败: %s',
+    'SPHINX_SEARCH_FAILED_LOG'	=> '抱歉无法搜索. 请登入后查看关于此失败的更多日志信息.',
 
-	'TOO_FEW_AUTHOR_CHARS'	=> '您必须提供至少 %d 个字符来匹配作者名字。',
+    'TOO_FEW_AUTHOR_CHARS'	=> array(
+        1	=> '您必须提供至少 %d 个字符来匹配作者名字.',
+        2	=> '您必须提供至少 %d 个字符来匹配作者名字.',
+    ),
 ));
-
-?>
