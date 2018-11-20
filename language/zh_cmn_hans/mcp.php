@@ -1,14 +1,13 @@
 <?php
-/** 
-*
-* mcp [Simplified Chinese]
-*
-* @package language
-* @version $Id: mcp.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+/**
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -53,6 +52,10 @@ $lang = array_merge($lang, array(
 	'APPROVE_POST_CONFIRM'	=> '您确定要批准此贴发布吗？',
 	'APPROVE_POSTS'			=> '批准这些帖子',
 	'APPROVE_POSTS_CONFIRM'	=> '您确定要批准这些帖子发布吗？',
+    'APPROVE_TOPIC'			=> '审批主题',
+    'APPROVE_TOPIC_CONFIRM'	=> '您确定要批准这个主题发布吗?',
+    'APPROVE_TOPICS'		=> '审批主题',
+    'APPROVE_TOPICS_CONFIRM'=> '您确定要批准选中的主题发布吗?',
 
 	'CANNOT_MOVE_SAME_FORUM'=> '您不能将主题移动到它所在的版面内',
 	'CANNOT_WARN_ANONYMOUS'	=> '您不能警告尚未注册的访客',
@@ -73,16 +76,12 @@ $lang = array_merge($lang, array(
 	'DELETE_PM_REPORTS'			=> '删除举报',
 	'DELETE_PM_REPORTS_CONFIRM'	=> '您确定要删除这些举报吗？',
 	'DELETE_POSTS'				=> '删除帖子',
-	'DELETE_POSTS_CONFIRM'		=> '您确定要删除这些帖子吗？',
-	'DELETE_POST_CONFIRM'		=> '您确定要删除这个贴子吗？',
 	'DELETE_REPORT'				=> '删除举报',
 	'DELETE_REPORT_CONFIRM'		=> '你确定要删除这个举报吗？',
 	'DELETE_REPORTS'			=> '删除举报',
 	'DELETE_REPORTS_CONFIRM'	=> '您确定要删除这些举报吗？',
 	'DELETE_SHADOW_TOPIC'		=> '删除影子主题',
 	'DELETE_TOPICS'				=> '删除选定主题',
-	'DELETE_TOPICS_CONFIRM'		=> '您确定要删除这些主题吗？',
-	'DELETE_TOPIC_CONFIRM'		=> '您确定要删除这个主题吗？',
 	'DISAPPROVE'				=> '禁止发布',
 	'DISAPPROVE_REASON'			=> '禁止发布的理由',
 	'DISAPPROVE_POST'			=> '禁发此贴',
@@ -120,8 +119,10 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNING_TIME'		=> '最近发出的警告',
 	'LATEST_WARNINGS'			=> '最近的5个警告记录',
 	'LEAVE_SHADOW'				=> '保留影子主题',
-	'LIST_REPORT'				=> '1 个举报',
-	'LIST_REPORTS'				=> '%d 个举报',
+    'LIST_REPORTS'				=> array(
+        1	=> '%d 个举报',
+        2	=> '%d 个举报',
+    ),
 	'LOCK'						=> '锁定',
 	'LOCK_POST_POST'			=> '锁定此贴',
 	'LOCK_POST_POST_CONFIRM'	=> '您确定要禁止对此贴的编辑操作吗？',
@@ -132,6 +133,7 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> '您确定要锁定这些主题吗？',
 	'LOGS_CURRENT_TOPIC'		=> '正在查看日志:',
 	'LOGIN_EXPLAIN_MCP'			=> '您必须登录后才能管理这个版面.',
+    'LOGVIEW_VIEWPOST'			=> '查看帖子',
 	'LOGVIEW_VIEWTOPIC'			=> '查看主题',
 	'LOGVIEW_VIEWLOGS'			=> '查看主题日志',
 	'LOGVIEW_VIEWFORUM'			=> '查看版面',
@@ -200,6 +202,10 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> '这是需要批准后才对用户可见的帖子列表',
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> '等待批准发布的主题',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> '这是需要批准后才对用户可见的主题列表',
+    'MCP_QUEUE_DELETED_POSTS'				=> '删除帖子',
+    'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> '这是软删除的帖子列表. 您可以恢复或永久删除它们.',
+    'MCP_QUEUE_DELETED_TOPICS'				=> '删除主题',
+    'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> '这是软删除的主题列表. 您可以恢复或永久删除它们.',
 
 	'MCP_VIEW_USER'			=> '查看特定用户的警告',
 
@@ -237,25 +243,32 @@ $lang = array_merge($lang, array(
 	'NO_POST'						=> '您必须选中一个帖子作为警告用户的根据',
 	'NO_POST_REPORT'				=> '这个帖子没有被举报.',
 	'NO_POST_SELECTED'				=> '您必须选中一个或更多的帖子来完成这项操作',
+    'NO_POSTS_DELETED'				=> '没有被删除的帖子.',
+    'NO_POSTS_QUEUE'				=> '没有等待审批的帖子.',
 	'NO_REASON_DISAPPROVAL'			=> '请输入一个合理的陈述作为不予批准的理由',
 	'NO_REPORT'						=> '没有找到举报',
 	'NO_REPORTS'					=> '没有找到举报',	
 	'NO_REPORT_SELECTED'			=> '您必须选择至少一个举报来完成这个操作.',
 	'NO_TOPIC_ICON'					=> '空',
 	'NO_TOPIC_SELECTED'				=> '您必须选择至少一个主题来完成这个操作',
+    'NO_TOPICS_DELETED'				=> '没有被删除的主题.',
 	'NO_TOPICS_QUEUE'				=> '没有需要批准的主题',
 
 	'ONLY_TOPIC'			=> '只有主题  “%s”',
 	'OTHER_USERS'			=> '用户从这个IP地址发表帖子',
 
+    'QUICKMOD_ACTION_NOT_ALLOWED' => "%s 不允许作为快速修改",
+
 	'PM_REPORT_CLOSED_SUCCESS'	=> '举报被成功关闭.',
 	'PM_REPORT_DELETED_SUCCESS'	=> '举报被成功删除.',
-	'PM_REPORTED_SUCCESS'		=> '站内短信举报发送成功.',
-	'PM_REPORT_TOTAL'			=> '有<strong>1</strong>个短信举报待处理.',
-	'PM_REPORTS_CLOSED_SUCCESS'	=> '选中的短信已经关闭.',
-	'PM_REPORTS_DELETED_SUCCESS'=> '选中的短信已经删除.',
-	'PM_REPORTS_TOTAL'			=> '总共有 <strong>%d</strong> 个短信举报待处理.',
-	'PM_REPORTS_ZERO_TOTAL'		=> '没有待处理的短信举报.',
+	'PM_REPORTED_SUCCESS'		=> '站内消息举报发送成功.',
+	'PM_REPORTS_CLOSED_SUCCESS'	=> '选中的消息已经关闭.',
+	'PM_REPORTS_DELETED_SUCCESS'=> '选中的消息已经删除.',
+    'PM_REPORTS_TOTAL'			=> array(
+        0	=> '没有待处理的消息举报.',
+        1	=> '总共有 <strong>1</strong> 个消息举报待处理.',
+        2	=> '总共有 <strong>%d</strong> 个消息举报待处理.',
+    ),
 	'PM_REPORT_DETAILS'			=> '短信举报明细',
 	'POSTER'					=> '作者',
 	'POSTS_APPROVED_SUCCESS'	=> '成功地批准了这些帖子发布',
@@ -263,15 +276,17 @@ $lang = array_merge($lang, array(
 	'POSTS_DISAPPROVED_SUCCESS'	=> '成功地禁止了这些帖子发布',
 	'POSTS_LOCKED_SUCCESS'		=> '成功地锁定了这些帖子',
 	'POSTS_MERGED_SUCCESS'		=> '成功地合并了这些帖子',
-	'POSTS_UNLOCKED_SUCCESS'	=> '成功地解除了这些帖子的锁定',
 	'POSTS_PER_PAGE'			=> '每页文章数',
 	'POSTS_PER_PAGE_EXPLAIN'	=> '(设成 0 查看所有帖子)',
+    'POSTS_RESTORED_SUCCESS'	=> '选中的帖子已经恢复.',
+    'POSTS_UNLOCKED_SUCCESS'	=> '选中的帖子已经解除锁定.',
 	'POST_APPROVED_SUCCESS'		=> '成功批准此贴发布',
 	'POST_DELETED_SUCCESS'		=> '成功删除此贴',
 	'POST_DISAPPROVED_SUCCESS'	=> '成功禁止此贴发布',
 	'POST_LOCKED_SUCCESS'		=> '成功锁定此贴',
 	'POST_NOT_EXIST'			=> '您请求的帖子不存在',
 	'POST_REPORTED_SUCCESS'		=> '成功举报此贴',
+    'POST_RESTORED_SUCCESS'		=> '这个帖子已经被恢复.',
 	'POST_UNLOCKED_SUCCESS'		=> '成功解除此贴锁定',
 
 	'READ_USERNOTES'			=> '用户消息',
@@ -282,8 +297,11 @@ $lang = array_merge($lang, array(
 	'REPORTED_ON_DATE'			=> '于',
 	'REPORTS_CLOSED_SUCCESS'	=> '选中的这些举报已被成功关闭。',
 	'REPORTS_DELETED_SUCCESS'	=> '选中的这些举报已被成功删除。',
-	'REPORTS_TOTAL'				=> '目前共有 <strong>%d</strong> 条举报等待审查',
-	'REPORTS_ZERO_TOTAL'		=> '目前没有等待审查的举报',
+    'REPORTS_TOTAL'				=> array(
+        0	=> '目前没有等待审查的举报.',
+        1	=> '目前共有 <strong>1</strong> 条举报等待审查.',
+        2	=> '目前共有 <strong>%d</strong> 条举报等待审查.',
+    ),
 	'REPORT_CLOSED'				=> '这个举报已经关闭.',
 	'REPORT_CLOSED_SUCCESS'		=> '选中的这条举报已被成功关闭。',
 	'REPORT_DELETED_SUCCESS'	=> '选中的这条举报已被成功删除。',
@@ -295,6 +313,15 @@ $lang = array_merge($lang, array(
 	'REPORT_POST_EXPLAIN'		=> '使用这个表单来向版主和论坛管理员举报选中的帖子. 举报一般用于违反版面规则的情况.',
 	'REPORT_REASON'				=> '举报理由',
 	'REPORT_TIME'				=> '举报时间',
+    'RESTORE'					=> '恢复',
+    'RESTORE_POST'				=> '恢复帖子',
+    'RESTORE_POST_CONFIRM'		=> '您确定要恢复这篇帖子吗?',
+    'RESTORE_POSTS'				=> '恢复帖子',
+    'RESTORE_POSTS_CONFIRM'		=> '您确定要恢复选中的帖子吗?',
+    'RESTORE_TOPIC'				=> '恢复主题',
+    'RESTORE_TOPIC_CONFIRM'		=> '您确定要恢复这个主题吗?',
+    'RESTORE_TOPICS'			=> '恢复主题',
+    'RESTORE_TOPICS_CONFIRM'	=> '您确定要恢复选中的主题吗?',
 	'REPORT_TOTAL'				=> '一共有 <strong>1</strong> 个举报需要查复',
 	'RESYNC'					=> '重新同步',
 	'RETURN_MESSAGE'			=> '%s返回至短消息%s',
@@ -336,6 +363,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_FORKED_SUCCESS'		=> '成功地复制了这些主题',
 	'TOPICS_LOCKED_SUCCESS'		=> '成功地锁定了这些主题',
 	'TOPICS_MOVED_SUCCESS'		=> '成功地转移了这些主题',
+    'TOPICS_RESTORED_SUCCESS'	=> '成功地恢复了这些主题.',
 	'TOPICS_RESYNC_SUCCESS'		=> '成功地重新同步了这些主题',
 	'TOPICS_TYPE_CHANGED'		=> '成功地改变了主题类型',
 	'TOPICS_UNLOCKED_SUCCESS'	=> '成功地解除了这些主题的锁定',
@@ -346,6 +374,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_LOCKED_SUCCESS'		=> '成功锁定此主题',
 	'TOPIC_MOVED_SUCCESS'		=> '成功转移此主题',
 	'TOPIC_NOT_EXIST'			=> '您选择的主题不存在',
+    'TOPIC_RESTORED_SUCCESS'	=> '成功恢复了选中的主题.',
 	'TOPIC_RESYNC_SUCCESS'		=> '成功重新同步此主题',
 	'TOPIC_SPLIT_SUCCESS'		=> '成功分割此主题',
 	'TOPIC_TIME'				=> '发表时间',
@@ -353,9 +382,11 @@ $lang = array_merge($lang, array(
 	'TOPIC_UNLOCKED_SUCCESS'	=> '成功解除此主题锁定',
 	'TOTAL_WARNINGS'			=> '警告次数',
 
-	'UNAPPROVED_POSTS_TOTAL'		=> '目前共有 <strong>%d</strong> 篇帖子等待批准发布',
-	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> '目前没有等待批准发布的帖子',
-	'UNAPPROVED_POST_TOTAL'			=> '目前共有 <strong>1</strong> 篇帖子等待批准发布',
+    'UNAPPROVED_POSTS_TOTAL'		=> array(
+        0	=> '目前没有等待审批发布的帖子.',
+        1	=> '目前共有 <strong>1</strong> 篇帖子等待审批.',
+        2	=> '目前共有 <strong>%d</strong> 篇帖子等待审批.',
+    ),
 	'UNLOCK'						=> '解锁',
 	'UNLOCK_POST'					=> '解锁帖子',
 	'UNLOCK_POST_EXPLAIN'			=> '允许编辑',
@@ -381,7 +412,7 @@ $lang = array_merge($lang, array(
 	'WARNING_PM_BODY'		=> '以下是这个论坛的管理员或版主对您的警告[quote]%s[/quote]',
 	'WARNING_PM_SUBJECT'	=> '论坛警告标题',
 	'WARNING_POST_DEFAULT'	=> '这个警告是由于以下您发表的帖子: %s .',
-	'WARNINGS_ZERO_TOTAL'	=> '没有警告',
+	'NO_WARNINGS'	        => '没有警告',
 
 	'YOU_SELECTED_TOPIC'	=> '您选择了主题编号 %d: %s',
 
@@ -393,12 +424,10 @@ $lang = array_merge($lang, array(
 			'OTHER'		=> '其他'
 		),
 		'DESCRIPTION' => array(
-			'WAREZ'		=> '此贴包含了非法或流氓软件的链接',
-			'SPAM'		=> '此贴的唯一目的是为其它网站或软件做广告',
+			'WAREZ'		=> '此贴包含了非法或恶意软件的链接',
+			'SPAM'		=> '此贴的目的是为其它网站或软件做广告',
 			'OFF_TOPIC'	=> '此帖跑题了',
 			'OTHER'		=> '举报原因不符合其他的条目，请填入进一步信息'
-		)
+		),
 	),
 ));
-
-?>

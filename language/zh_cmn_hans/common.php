@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-    'TRANSLATION_INFO'	=> '简体中文语系由 <a href="http://www.phpbbchina.com/creditinfo">PHPBB中文翻译小组</a> 维护制作',
+    'TRANSLATION_INFO'	=> '简体中文语系由 <a href="http://www.phpbbchina.com">PHPBB中文</a> 维护制作',
     'DIRECTION'			=> 'ltr',
     'DATE_FORMAT'		=> '|Y-m-d|', // 2007-01-01 (with Relative days enabled)
     'DATETIME_FORMAT'	=> '|Y-m-d H:i|',	// 2007-01-01 13:37 (with Relative days enabled)
