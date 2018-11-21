@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> '早于',
 
-	'CC_EMAIL'				=> '把Email内容也抄送给自己',
+	'CC_SENDER'				=> '把Email内容也抄送给自己',
     'CONTACT_ADMIN'			=> '联系论坛管理员',
 
 	'DEST_LANG'				=> '语言',

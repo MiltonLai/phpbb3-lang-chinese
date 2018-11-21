@@ -60,7 +60,6 @@ $lang = array_merge($lang, array(
 
     'ACCOUNT_ALREADY_ACTIVATED'		=> '您的帐号已经被激活',
     'ACCOUNT_DEACTIVATED'			=> '您的帐号已经被冻结, 并且只有管理员才能重新激活.',
-    'ACCOUNT_NOT_ACTIVATED'			=> '您的帐号尚未被激活',
     'ACP'							=> '管理员控制面板',
     'ACP_SHORT'						=> 'ACP',
     'ACTIVE'						=> '激活',

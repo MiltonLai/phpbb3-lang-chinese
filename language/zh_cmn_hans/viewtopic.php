@@ -86,6 +86,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> '这个主题没有未读的新帖子。',
 	'NO_VOTE_OPTION'		=> '您必须选择一个选项才能投票。',
 	'NO_VOTES'				=> '没有投票',
+    'NO_AUTH_PRINT_TOPIC'	=> '您没有权限打印主题。',
 
 	'POLL_ENDED_AT'			=> '投票结束于 %s',
 	'POLL_RUN_TILL'			=> '投票将结束于 %s',
