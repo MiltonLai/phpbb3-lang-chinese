@@ -51,7 +51,8 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> '有新帖[锁定]',	// Not used anymore
 	'NO_NEW_POSTS_HOT'		=> '无新帖[活跃]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> '无新帖[锁定]',	// Not used anymore
-	'NO_READ_ACCESS'		=> '您没有阅读本版面文章的权限。',
+	'NO_READ_ACCESS'		=> '您没有翻阅和查看本版面文章的权限。',
+    'NO_FORUMS_IN_CATEGORY'	=> '这个分区没有版面。',
 	'NO_UNREAD_POSTS_HOT'      => '无新帖 [ 活跃 ]',
 	'NO_UNREAD_POSTS_LOCKED'   => '无新帖 [ 锁定 ]',
 
@@ -63,8 +64,8 @@ $lang = array_merge($lang, array(
 	'UNREAD_POSTS_LOCKED'   => '有新帖 [ 锁定 ]',
 
 	'VIEW_FORUM'			=> '查看版面',
-	'VIEW_FORUM_TOPIC'		=> '1 个主题',
-	'VIEW_FORUM_TOPICS'		=> '%d 个主题',
+    'VIEW_FORUM_TOPICS'		=> array(
+        1	=> '%d 个主题',
+        2	=> '%d 个主题',
+    ),
 ));
-
-?>

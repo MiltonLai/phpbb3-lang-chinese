@@ -35,6 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+    'APPROVE'								=> '审批',
 	'ATTACHMENT'						=> '附件',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> '附件功能已经停用',
 
@@ -47,19 +48,22 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> '顶起主题',
 
 	'CODE'					=> '代码',
-	'COLLAPSE_QR'			=> '隐藏快速回复',
 
 	'DELETE_TOPIC'			=> '删除主题',
+    'DELETED_INFORMATION'	=> '于 %2$s 被 %1$s 删除',
+    'DISAPPROVE'			=> '驳回',
 	'DOWNLOAD_NOTICE'		=> '您没有权限查看这个主题的附件。',
 
-	'EDITED_TIMES_TOTAL'	=> '最后由 %1$s 编辑于 %2$s，总共编辑了 %3$d 次',
-	'EDITED_TIME_TOTAL'		=> '最后由 %1$s 编辑于 %2$s，总共编辑了 %3$d 次',
-	'EMAIL_TOPIC'			=> 'Email 给朋友',
+    'EDITED_TIMES_TOTAL'	=> array(
+        1	=> '最后由 %2$s 编辑于 %3$s, 总共编辑了 %1$d 次.',
+        2	=> '最后由 %2$s 编辑于 %3$s, 总共编辑了 %1$d 次.',
+    ),
+	'EMAIL_TOPIC'			=> 'Email发送主题',
 	'ERROR_NO_ATTACHMENT'	=> '选择的附件已经不存在',
 
 	'FILE_NOT_FOUND_404'	=> '文件 <strong>%s</strong> 不存在。',
 	'FORK_TOPIC'			=> '复制主题',
-	'FULL_EDITOR'			=> '完整编辑器',
+	'FULL_EDITOR'			=> '完整编辑和预览',
 
 	'LINKAGE_FORBIDDEN'		=> '您未被授权查看、下载或链接这个网站。',
 	'LOGIN_NOTIFY_TOPIC'	=> '您有关于这个主题的通知，请登录查看。',
@@ -69,8 +73,10 @@ $lang = array_merge($lang, array(
 	'MAKE_GLOBAL'				=> '变更为 “全局公告”',
 	'MAKE_NORMAL'				=> '变更为 “普通主题”',
 	'MAKE_STICKY'				=> '变更为 “置顶”',
-	'MAX_OPTIONS_SELECT'		=> '您最多可以选择 <strong>%d</strong> 个选项',
-	'MAX_OPTION_SELECT'			=> '您只可以选择 <strong>1</strong> 个选项',
+    'MAX_OPTIONS_SELECT'		=> array(
+        1	=> '您可以选择 <strong>%d</strong> 个选项',
+        2	=> '您最多可以选择 <strong>%d</strong> 个选项',
+    ),
 	'MISSING_INLINE_ATTACHMENT'	=> '附件 <strong>%s</strong> 已经无效',
 	'MOVE_TOPIC'				=> '移动主题',
 
@@ -84,6 +90,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'			=> '投票结束于 %s',
 	'POLL_RUN_TILL'			=> '投票将结束于 %s',
 	'POLL_VOTED_OPTION'		=> '您投了这个选项',
+    'POST_DELETED_RESTORE'	=> '这个帖子已删除，可以恢复。',
 	'PRINT_TOPIC'			=> '打印预览',
 
 	'QUICK_MOD'				=> '快速管理工具',
@@ -91,11 +98,13 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> '引用',
 
 	'REPLY_TO_TOPIC'		=> '回复这个主题',
+    'RESTORE'				=> '恢复',
+    'RESTORE_TOPIC'			=> '恢复主题',
 	'RETURN_POST'			=> '%s回到帖子%s',
 
-	'SHOW_QR'				=> '快速回复',
 	'SUBMIT_VOTE'			=> '提交投票',
 
+    'TOPIC_TOOLS'			=> '主题工具',
 	'TOTAL_VOTES'			=> '总计票数',
 
 	'UNLOCK_TOPIC'			=> '主题解锁',
@@ -104,11 +113,12 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_TOPIC'		=> '下一个主题',
 	'VIEW_PREVIOUS_TOPIC'	=> '上一个主题',
 	'VIEW_RESULTS'			=> '查看结果',
-	'VIEW_TOPIC_POST'		=> '1 篇帖子',
-	'VIEW_TOPIC_POSTS'		=> '%d 篇帖子',
+    'VIEW_TOPIC_POSTS'		=> array(
+        1	=> '%d 篇帖子',
+        2	=> '%d 篇帖子',
+    ),
 	'VIEW_UNREAD_POST'		=> '第一个未读帖子',
-	'VISIT_WEBSITE'			=> 'WWW',
-	'VOTE_SUBMITTED'		=> '您的票已经投出',
+	'VOTE_SUBMITTED'		=> '您已投票',
 	'VOTE_CONVERTED'		=> '转换的投票不能被修改.',
 
 ));
