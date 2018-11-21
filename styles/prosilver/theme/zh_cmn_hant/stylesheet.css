@@ -1,0 +1,20 @@
+/* Font sizes */
+body {
+    font-size: 11px;
+}
+
+li.header dt, li.header dd {
+    font-size: 1.1em;
+}
+h3 {
+    font-size: 1.1em;
+}
+.footer-row {
+    font-size: 12px;
+}
+.postbody .content {
+    font-size: 1.2em;
+}
+
+/* Online image */
+.online { background-image: url("./icon_user_online.gif"); }
