@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_ban [Chinese Simplified]
-*
-* @package language
-* @version $Id: ban.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -51,10 +50,10 @@ $lang = array_merge($lang, array(
 	'BANNED_UNTIL_DATE'		=> '直至 %s', // Example: "until Mon 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'	=> '%1$s (直至 %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
-	'EMAIL_BAN'					=> '封禁信箱地址',
+	'EMAIL_BAN'					=> '封禁Email地址',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> '被排除的Email地址将不受任何封禁影响。',
 	'EMAIL_BAN_EXPLAIN'			=> '要指定多个Email地址，请在每行输入一个。可以使用 * 作为通配符，例如：<samp>*@hotmail.com</samp>，<samp>*@*.domain.tld</samp>，等。',
-	'EMAIL_NO_BANNED'			=> '没有被封禁的信箱地址',
+	'EMAIL_NO_BANNED'			=> '没有被封禁的Email地址',
 	'EMAIL_UNBAN'				=> '解除封禁或解除排除Email地址',
 	'EMAIL_UNBAN_EXPLAIN'		=> '您可以选择多个Email地址并对其执行解除封禁或解除排除的操作。被指定为排除的Email地址有特别背景标记。',
 
@@ -75,13 +74,9 @@ $lang = array_merge($lang, array(
 	
 	'UNTIL'						=> '直到',
 	'USER_BAN'					=> '封禁用户名',
-	'USER_BAN_EXCLUDE_EXPLAIN'	=> '被排除的用户名将不受任何封禁影响。',
-	'USER_BAN_EXPLAIN'			=> '要指定多个用户名，请在每行输入一个。您可以使用【查找用户】来查找和添加用户名。',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> '开启这个，被排除的用户名将不受任何封禁影响。',
+	'USER_BAN_EXPLAIN'			=> '要指定多个用户名，请在每行输入一个。您可以使用 <span style="text-decoration: underline;">查找用户</span> 来查找和添加用户名。',
 	'USER_NO_BANNED'			=> '没有被封禁的用户名',
 	'USER_UNBAN'				=> '解除封禁或解除排除用户名',
 	'USER_UNBAN_EXPLAIN'		=> '您可以选择多个用户名并对其执行解除封禁或解除排除的操作。被指定为排除的用户名有特别背景标记。',
-	
-
 ));
-
-?>

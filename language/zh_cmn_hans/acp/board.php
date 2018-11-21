@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_board [Chinese Simplified]
-*
-* @package language
-* @version $Id: board.php 8554 2008-05-15 13:29:14Z Kellanved $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -37,19 +36,30 @@ if (empty($lang) || !is_array($lang))
 
 // Board Settings
 $lang = array_merge($lang, array(
-	'ACP_BOARD_SETTINGS_EXPLAIN'	=> '这里您可以进行论坛的基本操作.',
+	'ACP_BOARD_SETTINGS_EXPLAIN'	=> '这里您可以进行论坛的基本操作。',
+    'BOARD_INDEX_TEXT'				=> '论坛首页文字',
+    'BOARD_INDEX_TEXT_EXPLAIN'		=> '这个文字将显示在面包屑导航中作为论坛首页。如果未指定，将默认显示为“Board index”。',
+    'BOARD_STYLE'					=> '论坛风格',
 	'CUSTOM_DATEFORMAT'				=> '自定义…',
 	'DEFAULT_DATE_FORMAT'			=> '日期格式',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> '日期格式和PHP定义相同 <code>date</code> 函数.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> '日期格式和PHP定义相同 <code>date</code> 函数。',
 	'DEFAULT_LANGUAGE'				=> '默认语言',
 	'DEFAULT_STYLE'					=> '默认风格',
+    'DEFAULT_STYLE_EXPLAIN'			=> '新注册用户的默认风格。',
 	'DISABLE_BOARD'					=> '关闭论坛',
-	'DISABLE_BOARD_EXPLAIN'			=> '这将让用户无法使用论坛. 您可以输入一段简单的文字描述原因(255个字符以内).',
+	'DISABLE_BOARD_EXPLAIN'			=> '这将让除了管理员和版主以外的用户无法使用论坛. 您可以输入一段简单的文字描述原因(255个字符以内).',
+    'DISPLAY_LAST_SUBJECT'			=> '在版面列表中显示最新发布的帖子标题',
+    'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> '最新发布的帖子标题将显示在版面列表中。而密码保护的版面以及用户无权限访问的版面则不会显示。',
+    'GUEST_STYLE'					=> '访客风格',
+    'GUEST_STYLE_EXPLAIN'			=> '访客使用的论坛风格。',
 	'OVERRIDE_STYLE'				=> '覆盖用户界面',
-	'OVERRIDE_STYLE_EXPLAIN'		=> '使用默认的风格覆盖用户所选风格.',
+	'OVERRIDE_STYLE_EXPLAIN'		=> '使用默认的风格覆盖用户以及游客的风格。',
 	'SITE_DESC'						=> '站点描述',
+    'SITE_HOME_TEXT'				=> '主网站文字',
+    'SITE_HOME_TEXT_EXPLAIN'		=> '这段文字将作为链接显示在面包屑导航中作为网站首页。如果未指定，默认显示“Home”。',
+    'SITE_HOME_URL'					=> '主网站URL',
+    'SITE_HOME_URL_EXPLAIN'			=> '设置后，这个链接将被添加到论坛的面包屑导航中，并且论坛logo也会链接到这个URL上。URL必须是符合链接格式要求的，例如 <samp>http://www.phpbb.com</samp>.',
 	'SITE_NAME'						=> '站点名称',
-	'SYSTEM_DST'					=> '启用夏令时',
 	'SYSTEM_TIMEZONE'               => '访客时区',
 	'SYSTEM_TIMEZONE_EXPLAIN'       => '为未登录的用户(搜索爬虫, 游客)设置的时区. 用户会在注册过程中选择时区, 并且可以在用户控制面板中修改.',
 	'WARNINGS_EXPIRE'				=> '警告失效时间',
@@ -71,8 +81,8 @@ $lang = array_merge($lang, array(
 	'ALLOW_NO_CENSORS'			=> '允许禁用敏感词过滤',
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> '用户可以选择是否禁用帖子和短信中的敏感词自动过滤.',
 	'ALLOW_PM_ATTACHMENTS'		=> '在短信中允许附件',
-	'ALLOW_PM_REPORT'			=> '允许用户举报不良站内短信',
-	'ALLOW_PM_REPORT_EXPLAIN'	=> '启用后, 用户会增加举报站内短信的选项, 随后被举报的短信会出现在版主控制面板上.',
+	'ALLOW_PM_REPORT'			=> '允许用户举报不良站内消息',
+	'ALLOW_PM_REPORT_EXPLAIN'	=> '启用后, 用户会增加举报站内消息的选项, 随后被举报的短信会出现在版主控制面板上.',
 	'ALLOW_QUICK_REPLY'			=> '允许快速回复',
 	'ALLOW_QUICK_REPLY_EXPLAIN'	=> '关闭此选项将关闭整个论坛的快速回复, 当启用后由各个版面的设定决定其快速回复功能是否打开.',
 	'ALLOW_QUICK_REPLY_BUTTON'	=> '提交后将开启所有版面的快速回复功能',
@@ -86,16 +96,17 @@ $lang = array_merge($lang, array(
 	'ALLOW_SMILIES'				=> '允许表情图标',
 	'ALLOW_TOPIC_NOTIFY'		=> '允许订阅主题',
 	'BOARD_PM'					=> '私人短信',
-	'BOARD_PM_EXPLAIN'			=> '启用所有用户的私人短信.',
+	'BOARD_PM_EXPLAIN'			=> '启用所有用户的站内消息.',
+    'ALLOW_BOARD_NOTIFICATIONS' => '允许论坛通知',
 ));
 
 // Avatar Settings
 $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> '头像是用户用于展示自己的一幅小图片. 根据界面有所不同, 不过它们通常显示在用户发布的帖子旁边. 这里您可以决定用户是否能和如何定义他们的头像. 请注意如果允许用户上载头像, 您必须建立下面的目录并保证这个目录对于web服务器是可写的. 同时也要注意这个文件大小只对头像上载有效, 对于链接的头像是没有限制的.',
 	'ALLOW_AVATARS'					=> '启用头像',
-	'ALLOW_AVATARS_EXPLAIN'			=> '允许使用头像;<br />如果您禁用了头像功能, 论坛将不再显示用户头像, 但是会员在会员控制面板中仍可以查看和下载自己的头像.',
-
-	'ALLOW_LOCAL'					=> '运行使用头像册',
+	'ALLOW_AVATARS_EXPLAIN'			=> '允许使用头像;<br>如果您禁用了头像功能, 论坛将不再显示用户头像, 但是会员在会员控制面板中仍可以查看和下载自己的头像.',
+    'ALLOW_GRAVATAR'				=> '允许使用 gravatar 头像',
+	'ALLOW_LOCAL'					=> '允许使用头像册',
 	'ALLOW_REMOTE'					=> '允许使用外部头像',
 	'ALLOW_REMOTE_EXPLAIN'			=> '从其他网站链接的头像',
 	'ALLOW_REMOTE_UPLOAD'			=> '允许远程上载头像',
@@ -210,7 +221,7 @@ $lang = array_merge($lang, array(
 	'ACC_ACTIVATION'			=> '帐号激活',
 	'ACC_ACTIVATION_EXPLAIN'	=> '这决定了用户是否可以在注册后立刻浏览论坛, 还是必须进行确认. 您也可以禁止新用户注册.',
 	'NEW_MEMBER_POST_LIMIT'			=> '新会员发文限制',
-	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> '新会员会被归入 <em>新注册用户</em> 组直到其发表足够多的文章. 您可以使用此用户组的组权限来限制其使用站内短信以及方便发文审核. <strong>设置为0则不启用此项功能.</strong>',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> '新会员会被归入 <em>新注册用户</em> 组直到其发表足够多的文章. 您可以使用此用户组的组权限来限制其使用站内消息以及方便发文审核. <strong>设置为0则不启用此项功能.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> '设置新注册用户组为默认组',
 	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> '如果设置为是, 并且设定了新会员发帖数目限制, 新会员不仅会加入到 <em>新注册用户</em> 组, 这个用户组也会成为他的默认组. 这将方便管理员为该组指定一个默认等级和组头像.',
 

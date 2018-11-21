@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_attachments [Chinese Simplified]
-*
-* @package language
-* @version $Id: attachments.php 8555 2008-05-15 14:10:11Z Kellanved $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -62,15 +61,13 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> '每个用户短信附件的文件大小上限, 0表示无限制.',
 	'ATTACH_ORPHAN_URL'					=> '幽灵文件',
 	'ATTACH_POST_ID'					=> '帖子ID',
+    'ATTACH_POST_TYPE'					=> '帖子类型',
 	'ATTACH_QUOTA'						=> '合计附件空间',
 	'ATTACH_QUOTA_EXPLAIN'				=> '整个论坛可用的最大附件空间, 0表示无限制.',
 	'ATTACH_TO_POST'					=> '添加附件到帖子',
 
 	'CAT_FLASH_FILES'			=> 'Flash文件',
 	'CAT_IMAGES'				=> '图片',
-	'CAT_QUICKTIME_FILES'		=> 'Quicktime多媒体文件',
-	'CAT_RM_FILES'				=> 'RealMedia多媒体文件',
-	'CAT_WM_FILES'				=> 'Windows Media多媒体文件',
 	'CHECK_CONTENT'				=> '检查附件',
 	'CHECK_CONTENT_EXPLAIN'		=> '一些浏览器可以被欺骗而得到错误的附件文件类型. 这个选项可以确保这样的文件不会被上传.',
 	'CREATE_GROUP'				=> '创建新类别',
@@ -102,24 +99,24 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES'         => 'Flash文件',
 	'EXT_GROUP_IMAGES'            => '图片',
 	'EXT_GROUP_PLAIN_TEXT'         => '纯文本文件',
-	'EXT_GROUP_QUICKTIME_MEDIA'      => 'Quicktime多媒体',
-	'EXT_GROUP_REAL_MEDIA'         => 'Real Media多媒体',
-	'EXT_GROUP_WINDOWS_MEDIA'      => 'Windows Media多媒体',
+
+    'FILES_GONE'			=> '您选中删除的一些附件不存在。也许它们已经被删除了。存在的附件都已经被删除。',
+    'FILES_STATS_WRONG'		=> '您的文件统计可能不准确，需要同步。实际值是：附件数量 = %1$d, 附件合计大小 = %2$s.<br />点击 %3$s 这里 %4$s 进行同步。',
 
 	'GO_TO_EXTENSIONS'		=> '前往扩展名管理界面',
 	'GROUP_NAME'			=> '类别名称',
 
 	'IMAGE_LINK_SIZE'			=> '图片链接尺寸',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> '当图片大于这个时在文本中插入的图片会显示为一个链接. 要禁用这个功能请将值设为长 0px 宽 0px.',
-	'IMAGICK_PATH'				=> 'Imagemagick路径',
-	'IMAGICK_PATH_EXPLAIN'		=> 'Imagemagick程序的完整路径, 例如 <samp>/usr/bin/</samp>',
+	'IMAGICK_PATH'				=> 'ImageMagick路径',
+	'IMAGICK_PATH_EXPLAIN'		=> 'ImageMagick程序的完整路径, 例如 <samp>/usr/bin/</samp>',
 
 	'MAX_ATTACHMENTS'				=> '每个帖子的最大附件数量',
 	'MAX_ATTACHMENTS_PM'			=> '每个短信的最大附件数量',
 	'MAX_EXTGROUP_FILESIZE'			=> '最大文件大小',
 	'MAX_IMAGE_SIZE'				=> '最大图片尺寸',
 	'MAX_IMAGE_SIZE_EXPLAIN'		=> '图片附件的最大尺寸. 值都设为0px将禁用这个功能.',
-	'MAX_THUMB_WIDTH'				=> '缩略图的最大宽度(象素值)',
+	'MAX_THUMB_WIDTH'				=> '缩略图的最大宽度/高度(象素值)',
 	'MAX_THUMB_WIDTH_EXPLAIN'		=> '生成的缩略图将不会超过这里设置的宽度',
 	'MIN_THUMB_FILESIZE'			=> '缩略图文件下限',
 	'MIN_THUMB_FILESIZE_EXPLAIN'	=> '当图片文件大小低于此值时不创建缩略图.',
@@ -129,6 +126,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> '只在帖子中允许',
 	'NOT_ALLOWED_IN_PM_POST'	=> '不允许',
 	'NOT_ASSIGNED'				=> '没有指定',
+    'NO_ATTACHMENTS'			=> '这段时间没有附件。',
 	'NO_EXT_GROUP'				=> '无',
 	'NO_EXT_GROUP_NAME'			=> '没有输入类别名称',
 	'NO_EXT_GROUP_SPECIFIED'	=> '没有指定扩展名类别.',
@@ -142,10 +140,11 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'		=> '允许',
 	'ORDER_DENY_ALLOW'		=> '禁止',
 
-	'REMOVE_ALLOWED_IPS'		=> '删除或排除 <em>允许</em> 的IP地址/主机名',
-	'REMOVE_DISALLOWED_IPS'		=> '删除或排除 <em>禁止</em> 的IP地址/主机名',
+    'REMOVE_ALLOWED_IPS'			=> '删除或排除 <em>允许</em> 的IP/主机名',
+    'REMOVE_DISALLOWED_IPS'			=> '删除或排除 <em>禁止</em> 的IP/主机名',
+    'RESYNC_FILES_STATS_CONFIRM'	=> '您确认要同步文件统计吗？',
 
-	'SEARCH_IMAGICK'				=> '搜索 Imagemagick',
+	'SEARCH_IMAGICK'				=> '搜索 ImageMagick',
 	'SECURE_ALLOW_DENY'				=> '允许/封禁 列表',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> '当防盗链启用后, <strong>允许列表</strong> 和 <strong>封禁列表</strong> 规定了特例的情况',
 	'SECURE_DOWNLOADS'				=> '启用防盗链功能',
@@ -169,5 +168,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> '上载图标',
 	'UPLOAD_NOT_DIR'				=> '您指定的上载地址不是一个目录.',
 ));
-
-?>
