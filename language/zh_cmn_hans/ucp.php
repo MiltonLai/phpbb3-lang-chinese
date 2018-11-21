@@ -1,14 +1,13 @@
 <?php
-/** 
-*
-* ucp [Chinese Simplified]
-*
-* @package language
-* @version $Id: ucp.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+/**
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -39,20 +38,20 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> '对 “%1$s” (下文中指代 “我们”，“我们的”，“%1$s”，“%2$s”)的访问，表明您同意并遵守以下具有法律效力之条款。如果您不同意以下条款，请停止访问和使用 “%1$s”。我们可能在我们认为合适的时候，在并未通知您的情况下改变这些条款，您在条款改变后继续使用 “%1$s” 将被认为认同并遵守这些条款.<br />
 	<br />
-	我们的论坛运行使用 phpBB (下文中指代 “他们”，“他们的”，“phpBB 软件”，“www.phpbb.com”，“phpBB 组”，“phpBB 团队”)系统，这是一个使用 “<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (下文指代 “GPL”) 软件协议的公告栏系统解决方案，可以从 <a href="http://www.phpbb.com/">www.phpbb.com</a> 免费获得。phpBB 软件仅用于推动基于 Internet 的讨论， 我们所运行的内容遵守 GPL 协议的严格限制。如果希望得到更多关于phpBB的信息，请访问: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a>.<br />
+	我们的论坛运行使用 phpBB (下文中指代 “他们”，“他们的”，“phpBB 软件”，“www.phpbb.com”，“phpBB Limited”，“phpBB 团队”)系统，这是一个使用 “<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (下文指代 “GPL”) 软件协议的公告栏系统解决方案，可以从 <a href="https://www.phpbb.com/">www.phpbb.com</a> 免费获得。phpBB 软件仅用于推动基于 Internet 的讨论， phpBB团队对于允许或禁止内容及由此产生的后果不承担任何责任。如果希望得到更多关于phpBB的信息，请访问: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
 	您同意不张贴任何带有辱骂，淫秽，粗俗，诽谤，仇恨，威胁，色情的内容，不张贴任何带有侵犯您所在国家的法律， “%1$s” 所在国家的法律，国际公法的内容。以上的行为可能会使您在未得到通知的情况下被永远禁止访问这个论坛。所有文章发表所使用的 IP 地址将被记录，以协助调查违反条款的事件。您同意 “%1$s” 具有在任何我们认为合适的时候删除，修改，移动，或关闭任何话题的权力。作为一个用户，您同意您所输入的任何信息将被记录至数据库。在没有得到您同意的前提下我们不会向任何第三方发布这些信息，但是 “%1$s” 和 phpBB 不能为任何因为黑客行为导致的数据泄漏承担法律责任.
 	',
 
-	'PRIVACY_POLICY'		=> '这个策略用于细节化地解释 “%1$s” 和其附属的公司 (下文中指代 “我们”, “我方”, “我们的”, “%1$s”, “%2$s”) 和 phpBB (下文指代 “他们”, “他方”, “他们的”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB 开发团队”) 如何使用在与您的对话中得到的与您有关的信息 (下文中指代 “您的信息”).<br />
+	'PRIVACY_POLICY'		=> '这个策略用于细节化地解释 “%1$s” 和其附属的组织机构 (下文中指代 “我们”, “我方”, “我们的”, “%1$s”, “%2$s”) 和 phpBB (下文指代 “他们”, “他方”, “他们的”, “phpBB software”, “www.phpbb.com”, “phpBB Limited”, “phpBB 开发团队”) 如何使用在与您的对话中得到的与您有关的信息 (下文中指代 “您的信息”).<br />
 	<br />
 	您的信息通过两种方式产生. 首先, 通过浏览 “%1$s” 将使 phpBB 软件在您的电脑中生成一定数量的 cookie 文件, 这些 cookie 是浏览器用于缓存信息的临时文件. 其中有两个 cookie 包含用户的ID信息 (下文指代 “用户ID”) 和一个匿名的用户对话ID (下文中指代 “对话ID”), 将被 phpBB 软件指派自动生成. 第三个cookie 将在您浏览 “%1$s” 中的主题后自动产生, 用于存储您的浏览历史信息, 用于提高用户体验.<br />
 	<br />
-	phpBB软件在浏览 “%1$s” 的同时创建外部cookie, 虽然这已经超出了本文档的范围, 其目的只是在覆盖一个 phpBB 软件创建的页面. 第二种是我们通过您在软件中提交的内容收集到的您的信息. 这种情况是但是不局限于: 以匿名用户发帖 (下文中指代 “匿名帖子”), 在 “%1$s” 上注册帐号 (下文中指代 “您的帐号”) 登录动作和您在注册后发表的帖子 (下文中指代 “您的帖子”).<br />
+	您在浏览 “%1$s” 时会产生 phpBB 软件之外的 cookie, 这不属于本策略的声明范围, 本策略仅覆盖 phpBB 软件所创建的页面。第二种是我们通过您在软件中提交的内容收集到的您的信息. 这些情况包含但不限于: 以匿名用户发帖 (下文中指代 “匿名帖子”), 在 “%1$s” 上注册帐号 (下文中指代 “您的帐号”) 登录动作和您在注册后发表的帖子 (下文中指代 “您的帖子”).<br />
 	<br />
-	您的帐号将至少包含一个唯一的用户名 (下文中指代 “您的用户名”), 一个用于登录您的帐号的个人密码 (下文中指代 “您的密码”) 和一个个人的, 有效的 email 地址 (下文中指代 “您的 email”). 您在 “%1$s” 上的帐号所包含的信息将受到我们的主机所在国家的数据保护法律的保护. 除了您的用户名和您的密码以及在注册过程中 “%1$s” 要求的email地址以外, 您的其他任何信息都是可选的(除了软件使用者的特殊要求). 在任何情况下, 您可以选择您的信息是否被公开. 此外, 在您的帐号中, 您可以选择定向收发 phpBB 软件自动生成的email.<br />
+	您的帐号将至少包含一个唯一的用户名 (下文中指代 “您的用户名”), 一个用于登录您的帐号的个人密码 (下文中指代 “您的密码”) 和一个私人的有效 email 地址 (下文中指代 “您的 email”). 您在 “%1$s” 上的帐号所包含的信息将受到我们的主机所在国家的数字保护法律的保护. 除了您的用户名和您的密码以及在注册过程中 “%1$s” 要求的email地址以外, 您的其他任何信息都是可选的(除了软件使用者的特殊要求). 在任何情况下, 您可以选择您的信息是否被公开. 此外, 在您的帐号中, 您可以选择定向收发 phpBB 软件自动生成的email.<br />
 	<br />
-	您的密码在软件中以加密形式存在 (不可逆算法), 所以它是安全的. 但是, 我们希望您不要在不同的网站上使用相同的用户名和密码. 您的密码是你在  “%1$s” 上访问您的帐号的唯一途径, 所以请谨慎保管您的密码并且在任何情况下不会有任何与 “%1$s” 相关的个人或单位, 或者 phpBB,  或者任何第三方组织需要您提供您的密码. 如果您不慎遗失您的密码, 您可以使用 phpBB 软件提供的 “我忘记了我的密码” 功能. 在找回密码的过程中您将要回答您的用户名和您的email, 而后 phpBB 软件将会提供一个新的密码让您取回帐号.<br />
+	您的密码在软件中以加密形式存在 (不可逆算法)，所以它是安全的。但是，我们希望您不要在不同的网站上使用相同的用户名和密码。您的密码是你在 “%1$s” 上访问您的帐号的唯一途径, 所以请谨慎保管您的密码。在任何情况下不会有任何与 “%1$s” 相关的个人或组织，或者 phpBB，或者第三方机构需要您提供密码。如果您不慎遗失密码，您可以使用 phpBB 软件提供的 “我忘记了我的密码” 功能。在找回密码的过程中您将需要提供用户名和email, 而后 phpBB 软件将会提供一个新的密码让您取回帐号。<br />
 	',
 ));
 
@@ -65,7 +64,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_COPPA'					=> '您的帐号已经建立但是需要批准。更多信息请查收您的 Email。',
 	'ACCOUNT_EMAIL_CHANGED'			=> '您的帐号已经更新. 但是, 论坛需要您重新验证email的更改. 包含激活代码的email已经发送到您的新邮箱, 请检查邮箱以激活帐号.',
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> '您的帐号已经更新. 但是, 论坛需要由管理员验证您的email更改. 您会收到一封包含此信息的email, 在帐号激活后, 我们会再次email通知您.',
-	'ACCOUNT_INACTIVE'				=> '您的帐号已经建立，激活码已经发往您的 Email，请查收以获得更多信息。',
+	'ACCOUNT_INACTIVE'				=> '您的帐号已经建立，激活码已经发往您的 Email，请查收以获得更多信息。如果没有收到邮件，请查看一下垃圾邮件箱，另外不同邮件服务商也可能造成邮件延迟。',
 	'ACCOUNT_INACTIVE_ADMIN'		=> '您的帐号已经建立，但是您必须等待管理员批准帐号后才能登录。您将收到一封 Email，在帐号获得批准后我们将再次通知您。',
 	'ACTIVATION_EMAIL_SENT'			=> '激活 Email 已经发往您的邮箱',
 	'ACTIVATION_EMAIL_SENT_ADMIN'	=> '激活 Email 已经发往论坛管理员的邮箱.',
@@ -88,13 +87,25 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> '这是您在论坛中发表的附件列表。',
 	'ATTACHMENTS_DELETED'			=> '成功删除数个附件。',
 	'ATTACHMENT_DELETED'			=> '成功删除附件。',
+    'AUTOLOGIN_SESSION_KEYS_DELETED'=> '选中的"自动登录"键已经成功删除。',
 	'AVATAR_CATEGORY'				=> '分类',
+    'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
+    'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Gravatar服务使您在多个网站上使用相同的头像. 访问 <a href="http://www.gravatar.com/">Gravatar</a> 查看更多信息.',
+    'AVATAR_DRIVER_LOCAL_TITLE'		=> 'Gallery 头像',
+    'AVATAR_DRIVER_LOCAL_EXPLAIN'	=> '您可以在本地头像中选择。',
+    'AVATAR_DRIVER_REMOTE_TITLE'	=> '远程头像',
+    'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> '链接到其它网站的头像。',
+    'AVATAR_DRIVER_UPLOAD_TITLE'	=> '上传头像',
+    'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> '上传您的自定义头像。',
 	'AVATAR_EXPLAIN'				=> '最大尺寸：宽 %1$d 象素, 高 %2$d 象素, 文件大小 %3$.2f KiB.',
+    'AVATAR_EXPLAIN_NO_FILESIZE'	=> '最大尺寸; 宽: %1$s, 高: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> '头像功能暂时关闭.',
 	'AVATAR_GALLERY'				=> '本地图库',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> '无法上传头像到 %s',
 	'AVATAR_NOT_ALLOWED'			=> '无法显示头像, 因为头像功能已经停用.',
 	'AVATAR_PAGE'					=> '页',
+    'AVATAR_SELECT'					=> '选择您的头像',
+    'AVATAR_TYPE'					=> '头像类型',
 	'AVATAR_TYPE_NOT_ALLOWED'		=> '当前头像无法显示, 因为该头像类型已经停用.',
 
 	'BACK_TO_DRAFTS'			=> '回到已经保存的草稿',
@@ -103,7 +114,6 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY_EXPLAIN'			=> '如果设置年份，在您生日时，生日列表中将显示您的年龄。',
 	'BOARD_DATE_FORMAT'			=> '我的时间格式',
 	'BOARD_DATE_FORMAT_EXPLAIN'	=> '时间格式设置使用 PHP <a href="http://www.php.net/date">date()</a> 函数',
-	'BOARD_DST'					=> '夏令时生效',
 	'BOARD_LANGUAGE'			=> '我的语言',
 	'BOARD_STYLE'				=> '我的论坛风格',
 	'BOARD_TIMEZONE'			=> '我的时区',
@@ -123,8 +133,6 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$s回到您的 “%3$s” 文件夹%2$s',
 	'CONFIRMATION'				=> '注册确认',
 	'CONFIRM_CHANGES'			=> '确认修改',
-	'CONFIRM_EMAIL'				=> '确认 email 地址',
-	'CONFIRM_EMAIL_EXPLAIN'		=> '如果您需要修改 Email 地址，请在这里再输入一次.',
 	'CONFIRM_EXPLAIN'			=> '为了防止机器自动注册行为，请输入一组确认码，确认码显示在下面的图片中。如果您对阅读这组确认码存在困难，请联络 %s论坛管理员%s。',
 	'VC_REFRESH'                => '刷新确认码',
 	'VC_REFRESH_EXPLAIN'        => '如果您无法辨认当前的确认码, 您可以点击按钮更换新的确认码.',
@@ -189,27 +197,49 @@ $lang = array_merge($lang, array(
 	'EXPORT_FOLDER'				=> '导出目录',
 
 	'FIELD_REQUIRED'					=> '表格 “%s” 没有完成。',
-	'FIELD_TOO_SHORT'					=> '表格 “%1$s” 内容太短，至少需要 %2$d 个字符。',
-	'FIELD_TOO_LONG'					=> '表格 “%1$s” 内容太长，最多允许 %2$d 个字符。',
-	'FIELD_TOO_SMALL'					=> '“%1$s” 的值太小，必须大于 %2$d。',
-	'FIELD_TOO_LARGE'					=> '“%1$s” 的值太大，必须小于 %2$d。',
-	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> '表格 “%s” 包含无效字符，只允许填入数字。',
-	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> '表格 “%s” 包含无效字符，只允许英文字母。',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> '表格 “%s” 包含无效字符，只允许英文字符，空格，和 -+_[] 这些符号。',
-	'FIELD_INVALID_DATE'				=> '表格 “%s” 包含无效日期。',
-	'FIELD_INVALID_VALUE'				=> '表格 “%s” 的值无效.',
+    'FIELD_TOO_SHORT'					=> array(
+        1	=> '字段 “%2$s” 内容太短，至少需要 %1$d 个字符。',
+        2	=> '字段 “%2$s” 内容太短，至少需要 %1$d 个字符。',
+    ),
+    'FIELD_TOO_LONG'					=> array(
+        1	=> '字段 “%2$s” 内容太长，最多允许 %1$d 个字符。',
+        2	=> '字段 “%2$s” 内容太长，最多允许 %1$d 个字符。',
+    ),
+    'FIELD_TOO_SMALL'					=> '“%2$s”的值太小，至少需要 %1$d 。',
+    'FIELD_TOO_LARGE'					=> '“%2$s”的值太大，最多允许 %1$d 。',
+    'FIELD_INVALID_CHARS_INVALID'		=> '字段 “%s” 包含无效字符。',
+	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> '字段 “%s” 包含无效字符，只允许填入数字。',
+    'FIELD_INVALID_CHARS_ALPHA_DOTS'	=> '字段 “%s” 包含无效字符，只允许填入英文字符和“.”。',
+	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> '字段 “%s” 包含无效字符，只允许填入英文字符。',
+    'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'	=> '字段 “%s” 包含无效字符，只允许填入英文字符和“_”,“-”，第一个字符必须是英文字符。',
+    'FIELD_INVALID_CHARS_ALPHA_SPACERS'	=> '字段 “%s” 包含无效字符，只允许填入英文字符，空格和 -+_[] 这些符号。',
+    'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'	=> '字段 “%s” 包含无效字符，只允许填入英文字符和下划线"_“。',
+    'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'	=> '字段 “%s” 包含无效字符，只允许填入字符，数字和”.“。',
+    'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'	=> '字段 “%s” 包含无效字符，只允许填入字符和数字。',
+    'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION'	=> '字段 “%s” 包含无效字符，只允许填入字符，数字和”_“,”-“。第一个必须是英文字符。',
+    'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'		=> '字段 “%s” 包含无效字符，只允许填入字符，数字，空格和 -+_[] 。',
+    'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'		=> '字段 “%s” 包含无效字符，只允许填入字符，数字和下划线”_”。',
+	'FIELD_INVALID_DATE'				=> '字段 “%s” 包含无效日期。',
+    'FIELD_INVALID_URL'					=> '字段 “%s” 包含的url无效。',
+	'FIELD_INVALID_VALUE'				=> '字段 “%s” 的值无效。',
 
 	'FOE_MESSAGE'				=> '损友发来的短信',
 	'FOES_EXPLAIN'				=> '损友列表上的用户默认被忽略。这些用户的帖子将不会全部显示并且不允许对您发送私人短信。请注意这不能阻止版主和管理员的短信。',
 	'FOES_UPDATED'				=> '您的损友列表已经更新',
 	'FOLDER_ADDED'				=> '文件夹已经添加',
-	'FOLDER_MESSAGE_STATUS'		=> '%1$d / %2$d 已存储的短信',
+    'FOLDER_MESSAGE_STATUS'		=> array(
+        1	=> '%2$d / %1$s 已存储的短信',
+        2	=> '%2$d / %1$s 已存储的短信',
+    ),
 	'FOLDER_NAME_EMPTY'			=> '您需要指定一个文件夹名称.',
 	'FOLDER_NAME_EXIST'			=> '文件夹 <strong>%s</strong> 已经存在',
 	'FOLDER_OPTIONS'			=> '文件夹选项',
 	'FOLDER_RENAMED'			=> '文件夹已经重命名',
 	'FOLDER_REMOVED'			=> '文件夹已经删除',
-	'FOLDER_STATUS_MSG'			=> '文件夹空间使用率 %1$d%% (%2$d / %3$d 已存储的短信)',
+    'FOLDER_STATUS_MSG'			=> array(
+        1	=> '文件夹空间使用率 %3$d%% (%2$d / %1$s 占用)',
+        2	=> '文件夹空间使用率 %3$d%% (%2$d / %1$s 占用)',
+    ),
 	'FORWARD_PM'				=> '转发短信',
 	'FORCE_PASSWORD_EXPLAIN'	=> '为了继续浏览论坛，您需要更改您的密码',
 	'FRIEND_MESSAGE'			=> '好友的短信',
@@ -226,6 +256,11 @@ $lang = array_merge($lang, array(
 	'FWD_TO'					=> '收信人: %s',
 
 	'GLOBAL_ANNOUNCEMENT'		=> '全站公告',
+
+    'GRAVATAR_AVATAR_EMAIL'			=> 'Gravatar email',
+    'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> '输入您在<a href="http://www.gravatar.com/">Gravatar</a>注册帐号时使用的Email。',
+    'GRAVATAR_AVATAR_SIZE'			=> '头像尺寸',
+    'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> '请设置头像的高度和宽度，若留空则自动检测。',
 
 	'HIDE_ONLINE'				=> '隐藏您的线上状态',
 	'HIDE_ONLINE_EXPLAIN'		=> '若您更改这个设置，它将在您下次访问论坛时生效。',
@@ -247,6 +282,12 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_SIZE'			=> '头像尺寸',
 	'LINK_REMOTE_SIZE_EXPLAIN'	=> '指定头像的长和宽，如果留空将自动检测。',
 	'LOGIN_EXPLAIN_UCP'			=> '请登录后使用用户控制面板',
+    'LOGIN_LINK'					=> '用您的论坛账号关联或注册外部服务',
+    'LOGIN_LINK_EXPLAIN'			=> '您正尝试登录使用的外部服务尚未关联到论坛账号，您必须将其关联到一个已有的账号或者注册一个新的。',
+    'LOGIN_LINK_MISSING_DATA'		=> '用于关联您账号与外部服务所需的数据不可用，请重新登录。',
+    'LOGIN_LINK_NO_DATA_PROVIDED'	=> '连接外部账号到论坛账号所需的数据尚未被被提供到此页面，如果还一直遇到这个问题，请联系论坛管理员。',
+    'LOGIN_KEY'					=> '登录密钥',
+    'LOGIN_TIME'				=> '登录时间',
 	'LOGIN_REDIRECT'			=> '您已经成功登录',
 	'LOGOUT_FAILED'				=> '您没有退出登录, 因为请求并不符合您这次对话信息. 请联络论坛管理员反映这个问题.',
 	'LOGOUT_REDIRECT'			=> '您已经顺利退出',
@@ -257,8 +298,9 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'				=> '由',
 	'MESSAGE_COLOURS'				=> '短信颜色',
 	'MESSAGE_DELETED'				=> '短信已经删除',
+    'MESSAGE_EDITED'				=> '短信已编辑',
 	'MESSAGE_HISTORY'				=> '短信历史',
-	'MESSAGE_REMOVED_FROM_OUTBOX'	=> '这条短信已经在发送前被它的作者删除',
+	'MESSAGE_REMOVED_FROM_OUTBOX'	=> '这条短信已被发送者删除',
 	'MESSAGE_SENT_ON'				=> '时间',
 	'MESSAGE_STORED'				=> '短信发送成功',
 	'MESSAGE_TO'					=> '收件人',
@@ -266,16 +308,40 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> '移动已删除的短信到',
 	'MOVE_DOWN'						=> '下移',
 	'MOVE_MARKED_TO_FOLDER'			=> '移动标记的到 %s',
-	'MOVE_PM_ERROR'					=> '当移动短信到新文件夹时发生错误，只有 %1d / %2d 的短信被移动。',
+    'MOVE_PM_ERROR'					=> array(
+        1	=> '当移动短信到新文件夹时发生错误，只有 %2$d / %1$s 的短信被移动。',
+        2	=> '当移动短信到新文件夹时发生错误，只有 %2$d / %1$s 的短信被移动。',
+    ),
 	'MOVE_TO_FOLDER'				=> '移动到文件夹',
 	'MOVE_UP'						=> '上移',
 
-	'NEW_EMAIL_CONFIRM_EMPTY'		=> '您需要再次输入 email 地址.',
-	'NEW_EMAIL_ERROR'				=> '您输入的 email 地址不匹配',
 	'NEW_FOLDER_NAME'				=> '新文件夹名',
 	'NEW_PASSWORD'					=> '新密码', 
 	'NEW_PASSWORD_CONFIRM_EMPTY'	=> '您需要再次输入密码.',
 	'NEW_PASSWORD_ERROR'			=> '您输入的密码不匹配',
+
+    'NOTIFICATIONS_MARK_ALL_READ'						=> '将所有通知标记为已读',
+    'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> '您确定要标记所有通知为已读吗？',
+    'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> '所用通知已被标记为已读。',
+    'NOTIFICATION_GROUP_MISCELLANEOUS'					=> '其他通知',
+    'NOTIFICATION_GROUP_MODERATION'						=> '版主通知',
+    'NOTIFICATION_GROUP_ADMINISTRATION'					=> '管理员通知',
+    'NOTIFICATION_GROUP_POSTING'						=> '发布通知',
+    'NOTIFICATION_METHOD_BOARD'							=> '通知',
+    'NOTIFICATION_METHOD_EMAIL'							=> 'Email',
+    'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
+    'NOTIFICATION_TYPE'									=> '通知类型',
+    'NOTIFICATION_TYPE_BOOKMARK'						=> '有人回复了您收藏的主题',
+    'NOTIFICATION_TYPE_GROUP_REQUEST'					=> '有人请求加入您的组',
+    'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> '一个贴子或主题需要批准',
+    'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> '您的主题/帖子被版主审批通过或驳回',
+    'NOTIFICATION_TYPE_PM'								=> '有人给您发送站内消息',
+    'NOTIFICATION_TYPE_POST'							=> '有人回复了您订阅的主题',
+    'NOTIFICATION_TYPE_QUOTE'							=> '您被他人的贴子引用',
+    'NOTIFICATION_TYPE_REPORT'							=> '有人举报了帖子',
+    'NOTIFICATION_TYPE_TOPIC'							=> '有人在您订阅的版面发布了主题',
+    'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> '用户需要激活',
+
 	'NOTIFY_METHOD'					=> '通知方式',
 	'NOTIFY_METHOD_BOTH'			=> '全部',
 	'NOTIFY_METHOD_EMAIL'			=> '只用 email',
@@ -293,10 +359,13 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_SELF'			=> '您不能将自己添加到损友列表',
 	'NOT_AGREE'						=> '我不同意这些条款',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> '目标文件夹 “%s” 已经装满。请求的操作没有完成',
-	'NOT_MOVED_MESSAGE'				=> '您有一条新的短信被挂起，因为您的收件夹已满',
-	'NOT_MOVED_MESSAGES'			=> '您有 %d 条挂起的短信，因为您的收件夹已满',
+    'NOT_MOVED_MESSAGES'			=> array(
+        1	=> '您有 %d 条等待的消息，因为您的收件夹已满。',
+        2	=> '您有 %d 条等待的消息，因为您的收件夹已满。',
+    ),
 	'NO_ACTION_MODE'				=> '没有指定操作。',
 	'NO_AUTHOR'						=> '这条短信没有设定作者',
+    'NO_AVATAR'						=> '未选择头像',
 	'NO_AVATAR_CATEGORY'			=> '无',
 
 	'NO_AUTH_DELETE_MESSAGE'		=> '您不能删除私人短信',
@@ -304,6 +373,7 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_FORWARD_MESSAGE'		=> '您不能转发私人短信',
 	'NO_AUTH_GROUP_MESSAGE'			=> '您不能群发私人短信',
 	'NO_AUTH_PASSWORD_REMINDER'     => '您不能更换新密码',
+    'NO_AUTH_PROFILEINFO'			=> '您不能修改资料信息',
 	'NO_AUTH_READ_HOLD_MESSAGE'     => '您不能阅读被挂起的短信',
 	'NO_AUTH_READ_MESSAGE'			=> '您不能阅读私人短信',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> '您不能阅读这条短信，因为已经被作者删除',
@@ -334,10 +404,10 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'       => '您没有选中任何已订阅的主题或版面.',
 	'NO_WATCHED_TOPICS'			=> '您没有订阅任何话题。',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> '密码长度必须介于 %1$d 和 %2$d 个字符之间并且包含英文字符',
-	'PASS_TYPE_ANY_EXPLAIN'		=> '密码长度必须介于 %1$d 和 %2$d 个字符之间',
-	'PASS_TYPE_CASE_EXPLAIN'	=> '密码长度必须介于 %1$d 和 %2$d 个字符之间并且包含大写字母',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> '密码长度必须介于 %1$d 和 %2$d 个字符之间并且包含符号',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> '密码长度必须介于 %1$s 和 %2$s 之间并且包含大小写混合的英文字符和数字',
+	'PASS_TYPE_ANY_EXPLAIN'		=> '密码长度必须介于 %1$s 和 %2$s 之间',
+	'PASS_TYPE_CASE_EXPLAIN'	=> '密码长度必须介于 %1$s 和 %2$s 之间并且包含大小写混合的英文字符',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> '密码长度必须介于 %1$s 和 %2$s 之间并且包含大小写混合的英文字符，数字和符号',
 	'PASSWORD'					=> '密码',
 	'PASSWORD_ACTIVATED'		=> '您的新密码已经启用',
 	'PASSWORD_UPDATED'			=> '您的新密码已经发送到您的注册email邮箱。',
@@ -348,13 +418,16 @@ $lang = array_merge($lang, array(
 	'PM_FROM_REMOVED_AUTHOR'	=> '这条短信的发送者已经不再是注册用户。',
 	'PM_ICON'					=> '短信图标',
 	'PM_INBOX'					=> '收件箱',
+    'PM_MARK_ALL_READ'			=> '将所有消息标记为已读',
+    'PM_MARK_ALL_READ_SUCCESS'	=> '所有此文件夹的站内消息已经被标记为已读',
 	'PM_NO_USERS'				=> '请求添加的用户不存在.',
 	'PM_OUTBOX'					=> '发件箱',
 	'PM_SENTBOX'				=> '已发送',
 	'PM_SUBJECT'				=> '短信标题',
 	'PM_TO'						=> '发送给',
-	'PM_USERS_REMOVED_NO_PM'	=> '一些用户无法添加, 因为他们禁用了站内短信接收.',
-	'POPUP_ON_PM'				=> '在有新短信时弹出窗口',
+    'PM_TOOLS'					=> '消息工具',
+    'PM_USERS_REMOVED_NO_PERMISSION'	=> '一些用户无法添加，因为他们没有权限阅读站内消息。',
+	'PM_USERS_REMOVED_NO_PM'	=> '一些用户无法添加，因为他们禁用了站内短信接收。',
 	'POST_EDIT_PM'				=> '编辑短信',
 	'POST_FORWARD_PM'			=> '转发短信',
 	'POST_NEW_PM'				=> '发送短信',
@@ -366,6 +439,8 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> '您的参数已经更新。',
 	'PROFILE_INFO_NOTICE'		=> '请注意这些信息将对其他成员可见。请谨慎包含个人资料。标记 * 的表格是必填栏目。',
 	'PROFILE_UPDATED'			=> '您的资料已经更新。',
+    'PROFILE_AUTOLOGIN_KEYS'	=> '"记住登录"键能在关闭浏览器后保持登录状态。如果您退出登录，仅当前登录的浏览器中键会被删除。这里可以看到您从不同浏览器登录论坛时创建的键。',
+    'PROFILE_NO_AUTOLOGIN_KEYS'	=> '没有已保存的"记住登录"键。',
 
 	'RECIPIENT'							=> '收件人',
 	'RECIPIENTS'						=> '收件人',
@@ -390,8 +465,10 @@ $lang = array_merge($lang, array(
 	'RULE_DELETED'						=> '规则已经移除',
 	'RULE_LIMIT_REACHED'				=> '已经达到规则数量上限, 不能再增加规则.',
 	'RULE_NOT_DEFINED'					=> '没有正确指定规则',
-	'RULE_REMOVED_MESSAGE'				=> '一条私人短信被过滤删除。',
-	'RULE_REMOVED_MESSAGES'				=> '%d 私人短信被过滤删除。',
+    'RULE_REMOVED_MESSAGES'				=> array(
+        1	=> '%d 条站内消息被过滤删除。',
+        2	=> '%d 条站内消息被过滤删除。',
+    ),
 
 	'SAME_PASSWORD_ERROR'		=> '您输入的新密码和现在使用的密码相同',
 	'SEARCH_YOUR_POSTS'			=> '显示您的帖子',
@@ -401,6 +478,8 @@ $lang = array_merge($lang, array(
 	'SIGNATURE_EXPLAIN'			=> '这是一个可以显示在您的帖子中的文字方块。字数限制为 %d ',
 	'SIGNATURE_PREVIEW'			=> '您的签名将会这样出现在帖子中',
 	'SIGNATURE_TOO_LONG'		=> '您的签名太长了。',
+    'SELECT_CURRENT_TIME'		=> '选择当前时间',
+    'SELECT_TIMEZONE'			=> '选择时区',
 	'SORT'						=> '排列',
 	'SORT_COMMENT'				=> '文件注释',
 	'SORT_DOWNLOADS'			=> '下载次数',
@@ -410,20 +489,34 @@ $lang = array_merge($lang, array(
 	'SORT_SIZE'					=> '文件大小',
 
 	'TIMEZONE'					=> '时区',
-	'TO'						=> '收件人',
+    'TIMEZONE_DATE_SUGGESTION'	=> '建议: %s',
+    'TIMEZONE_INVALID'			=> '选择的时区无效。',
+    'TO'						=> '收件人',
+    'TO_MASS'					=> '收件人',
+    'TO_ADD'					=> '添加收件人',
+    'TO_ADD_MASS'				=> '添加收件人',
+    'TO_ADD_GROUPS'				=> '添加用户组',
 	'TOO_MANY_RECIPIENTS'		=> '收件人过多',
 	'TOO_MANY_REGISTERS'		=> '在这次对话中您已经超过注册的最大尝试次数。请稍后再尝试。',
 
 	'UCP'						=> '用户控制面板',
 	'UCP_ACTIVATE'				=> '激活帐号',
 	'UCP_ADMIN_ACTIVATE'		=> '请注意在帐号激活前您必须输入一个有效的 Email 地址，管理员将审核您的帐号，如果审核通过将会发送通知邮件到您提供的 Email 地址。',
-	'UCP_AIM'					=> 'AIM 帐户',
 	'UCP_ATTACHMENTS'			=> '附件',
+    'UCP_AUTH_LINK'				=> '外部帐号',
+    'UCP_AUTH_LINK_ASK'			=> '您当前没有关联外部服务的帐号。点击下面的按钮将您的帐号关联至外部服务。',
+    'UCP_AUTH_LINK_ID'			=> '唯一识别',
+    'UCP_AUTH_LINK_LINK'		=> '关联',
+    'UCP_AUTH_LINK_MANAGE'		=> '管理外部账户关联',
+    'UCP_AUTH_LINK_NOT_SUPPORTED'	=> '论坛当前的登录验证方式不支持关联外部帐号。',
+    'UCP_AUTH_LINK_TITLE'		=> '管理您的外部帐号关联',
+    'UCP_AUTH_LINK_UNLINK'		=> '解除关联',
 	'UCP_COPPA_BEFORE'			=> '早于 %s',
 	'UCP_COPPA_ON_AFTER'		=> '晚于 %s',
 	'UCP_EMAIL_ACTIVATE'		=> '请注意在帐号激活前您必须输入一个有效的 Email 地址。通过这个 Email 地址您将收到包含帐号激活链接的邮件。',
 	'UCP_ICQ'					=> 'ICQ 号码',
 	'UCP_JABBER'				=> 'Jabber 地址',
+    'UCP_LOGIN_LINK'			=> '设置关联外部帐号',
 
 	'UCP_MAIN'					=> '主要信息',
 	'UCP_MAIN_ATTACHMENTS'		=> '管理附件',
@@ -432,8 +525,12 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> '首页',
 	'UCP_MAIN_SUBSCRIBED'		=> '管理订阅',
 
-	'UCP_MSNM'					=> 'WL/MSN Messenger',
 	'UCP_NO_ATTACHMENTS'		=> '您没有发表的附件',
+
+    'UCP_NOTIFICATION_LIST'				=> '通知管理',
+    'UCP_NOTIFICATION_LIST_EXPLAIN'		=> '这里可以查看历史通知。',
+    'UCP_NOTIFICATION_OPTIONS'			=> '修改通知设置',
+    'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> '在这里修改论坛通知偏好设置。',
 
 	'UCP_PREFS'					=> '论坛相关参数',
 	'UCP_PREFS_PERSONAL'		=> '编辑全局设置',
@@ -444,8 +541,6 @@ $lang = array_merge($lang, array(
 	'UCP_PM_COMPOSE'			=> '编写短信',
 	'UCP_PM_DRAFTS'				=> '管理短信草稿',
 	'UCP_PM_OPTIONS'			=> '编辑选项',
-	'UCP_PM_POPUP'				=> '私人短信',
-	'UCP_PM_POPUP_TITLE'		=> '弹出短信',
 	'UCP_PM_UNREAD'				=> '未读短信',
 	'UCP_PM_VIEW'				=> '查看短信',
 
@@ -454,16 +549,17 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_PROFILE_INFO'	=> '编辑个人信息',
 	'UCP_PROFILE_REG_DETAILS'	=> '编辑帐号设置',
 	'UCP_PROFILE_SIGNATURE'		=> '编辑发文签名',
+    'UCP_PROFILE_AUTOLOGIN_KEYS'=> '管理“自动登录”键',
 
 	'UCP_USERGROUPS'			=> '用户组',
 	'UCP_USERGROUPS_MEMBER'		=> '管理成员',
 	'UCP_USERGROUPS_MANAGE'		=> '管理用户组',
 
+    'UCP_PASSWORD_RESET_DISABLED'	=> '密码重置功能已停用。如果您需要访问帐号，请联系 %s论坛管理员%s',
 	'UCP_REGISTER_DISABLE'			=> '暂时停止注册新用户。',
 	'UCP_REMIND'					=> '发送密码',
-	'UCP_RESEND'					=> '发送激活邮件',
+	'UCP_RESEND'					=> '发送激活Email',
 	'UCP_WELCOME'					=> '欢迎来到用户控制面板。这里您可以监视，查看和更新您的资料，参数，订阅版面和主题。您还可以给其他用户发送短信 (如果允许)。在继续下一步操作前请确认您已经仔细阅读了所有的公告。',
-	'UCP_YIM'						=> 'Yahoo Messenger',
 	'UCP_ZEBRA'						=> '好友与黑名单',
 	'UCP_ZEBRA_FOES'				=> '管理损友列表',
 	'UCP_ZEBRA_FRIENDS'				=> '管理好友列表',
@@ -473,12 +569,12 @@ $lang = array_merge($lang, array(
 	'UPLOAD_AVATAR_FILE'			=> '从您的机器上传',
 	'UPLOAD_AVATAR_URL'				=> '从链接上传',
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> '填入包含图片的链接，目标图片将被拷贝到这个论坛。',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> '用户名长度必须介于 %1$d 和 %2$d 之间，并且只能使用英文字符',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> '用户名长度必须介于 %1$d 和 %2$d 之间，并且只能使用英文字符，空格和 -+_[] 这些字符。',
-	'USERNAME_ASCII_EXPLAIN'		=> '用户名长度必须介于 %1$d 和 %2$d 之间，并且只能使用 ASCII 字符，不能使用特殊字符',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> '用户名长度必须介于 %1$d 和 %2$d 之间，并且只能使用英文和数字',
-	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> '用户名必须介于 %1$d 和 %2$d 之间，并且只能使用英文，数字，空格和 -+_[] 这些字符。',
-	'USERNAME_CHARS_ANY_EXPLAIN'	=> '长度必须介于 %1$d 和 %2$d 个字符之间。',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> '用户名长度必须介于 %1$s 和 %2$s 之间，并且只能使用英文字符',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> '用户名长度必须介于 %1$s 和 %2$s 之间，并且只能使用英文字符，空格和 -+_[] 这些字符。',
+	'USERNAME_ASCII_EXPLAIN'		=> '用户名长度必须介于 %1$s 和 %2$s 之间，并且只能使用 ASCII 字符，不能使用特殊字符',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> '用户名长度必须介于 %1$s 和 %2$s 之间，并且只能使用英文和数字',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> '用户名必须介于 %1$s 和 %2$s 之间，并且只能使用英文，数字，空格和 -+_[] 这些字符。',
+	'USERNAME_CHARS_ANY_EXPLAIN'	=> '长度必须介于 %1$s 和 %2$s 之间。',
 	'USERNAME_TAKEN_USERNAME'		=> '您输入的用户名已经被使用，请选择另一个用户名。',
 	'USERNAME_DISALLOWED_USERNAME'	=> '您输入的用户名是禁止的。',
 	'USER_NOT_FOUND_OR_INACTIVE'	=> '您指定的用户名无法找到或者未被激活。',
@@ -491,10 +587,13 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_PM'				=> '下一条短信',
 	'VIEW_PM'					=> '查看短信',
 	'VIEW_PM_INFO'				=> '短信信息',
-	'VIEW_PM_MESSAGE'			=> '1 条短信',
-	'VIEW_PM_MESSAGES'			=> '%d 条短信',
-	'VIEW_PREVIOUS_HISTORY'		=> '历史中的前一条短信',
-	'VIEW_PREVIOUS_PM'			=> '前一条短信',
+    'VIEW_PM_MESSAGES'			=> array(
+        1	=> '%d 条消息',
+        2	=> '%d 条消息',
+    ),
+	'VIEW_PREVIOUS_HISTORY'		=> '历史中的前一条消息',
+	'VIEW_PREVIOUS_PM'			=> '前一条消息',
+    'VIEW_PROFILE'				=> '查看资料',
 	'VIEW_SIGS'					=> '显示签名',
 	'VIEW_SMILIES'				=> '显示笑脸',
 	'VIEW_TOPICS_DAYS'			=> '显示几天前的主题',
@@ -519,15 +618,15 @@ $lang = array_merge($lang, array(
 	'PM_ACTION' => array(
 		'PLACE_INTO_FOLDER'	=> '放入文件夹',
 		'MARK_AS_READ'		=> '标记成已读',
-		'MARK_AS_IMPORTANT'	=> '标记短信',
-		'DELETE_MESSAGE'	=> '删除短信'
+		'MARK_AS_IMPORTANT'	=> '标记消息',
+		'DELETE_MESSAGE'	=> '删除消息',
 	),
 	'PM_CHECK' => array(
 		'SUBJECT'	=> '标题',
 		'SENDER'	=> '发送人',
-		'MESSAGE'	=> '短信',
-		'STATUS'	=> '短信状态',
-		'TO'		=> '发送往'
+		'MESSAGE'	=> '消息',
+		'STATUS'	=> '消息状态',
+		'TO'		=> '发送往',
 	),
 	'PM_RULE' => array(
 		'IS_LIKE'		=> '匹配',
@@ -543,9 +642,8 @@ $lang = array_merge($lang, array(
 		'ANSWERED'		=> '已回复的',
 		'FORWARDED'		=> '已转发的',
 		'TO_GROUP'		=> '发往我的默认用户组',
-		'TO_ME'			=> '发给我'
+		'TO_ME'			=> '发给我',
 	),
-
 
 	'GROUPS_EXPLAIN'	=> '用户组设置使管理员更好的管理用户。您会处于一个默认的组中。组定义将决定您对于其他用户的显示信息，例如您的用户名颜色，头像，级别等等。你可以改变您的默认组，但是这取决于管理员的设置。您也可以被放入或加入其他组。一些用户组将会具有额外的权限访问更多的区域。',
 	'GROUP_LEADER'		=> '组领导',
@@ -559,5 +657,3 @@ $lang = array_merge($lang, array(
 	'NO_PENDING'	=> '没有待批准的成员',
 	'NO_NONMEMBER'	=> '没有非组成员',
 ));
-
-?>

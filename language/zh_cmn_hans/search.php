@@ -1,13 +1,11 @@
 <?php
 /**
  *
- * This file is part of the phpBB Forum Software package.
+ * This file is part of the phpBB Chinese language package.
  *
- * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
- *
- * For full copyright and license information, please see
- * the docs/CREDITS.txt file.
  *
  */
 
