@@ -12,8 +12,35 @@ h3 {
 .footer-row {
     font-size: 12px;
 }
+a.forumtitle {
+    font-size: 1.1em;
+}
+.postbody h3 {
+    font-size: 1.2em;
+}
 .postbody .content {
     font-size: 1.2em;
+}
+.postbody h3.first {
+    font-size: 1.3em;
+}
+.action-bar {
+    font-size: 12px;
+}
+.postprofile dd, .postprofile dt {
+    font-size: 1.1em;
+}
+.tabs .tab, .minitabs .tab {
+    font-size: 1.1em;
+}
+input.button1, input.button2 {
+    font-size: 1.1em;
+}
+a.topictitle {
+    font-size: 1.1em;
+}
+.navigation a {
+    font-size: 1.1em;
 }
 
 /* Online image */
