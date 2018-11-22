@@ -108,8 +108,6 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> '图片链接尺寸',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> '当图片大于这个时在文本中插入的图片会显示为一个链接. 要禁用这个功能请将值设为长 0px 宽 0px.',
-	'IMAGICK_PATH'				=> 'ImageMagick路径',
-	'IMAGICK_PATH_EXPLAIN'		=> 'ImageMagick程序的完整路径, 例如 <samp>/usr/bin/</samp>',
 
 	'MAX_ATTACHMENTS'				=> '每个帖子的最大附件数量',
 	'MAX_ATTACHMENTS_PM'			=> '每个短信的最大附件数量',
@@ -132,7 +130,6 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'	=> '没有指定扩展名类别.',
 	'NO_FILE_CAT'				=> '无',
 	'NO_IMAGE'					=> '没有图片',
-	'NO_THUMBNAIL_SUPPORT'		=> '缩略图功能被禁用因为没有可支持的GD库函数和imagemagick可执行模块.',
 	'NO_UPLOAD_DIR'				=> '您指定的上载目录不存在.',
 	'NO_WRITE_UPLOAD'			=> '您指定的上载目录不可写入. 请更改目录权限使web服务器可以作写操作.',
 
@@ -144,7 +141,6 @@ $lang = array_merge($lang, array(
     'REMOVE_DISALLOWED_IPS'			=> '删除或排除 <em>禁止</em> 的IP/主机名',
     'RESYNC_FILES_STATS_CONFIRM'	=> '您确认要同步文件统计吗？',
 
-	'SEARCH_IMAGICK'				=> '搜索 ImageMagick',
 	'SECURE_ALLOW_DENY'				=> '允许/封禁 列表',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> '当防盗链启用后, <strong>允许列表</strong> 和 <strong>封禁列表</strong> 规定了特例的情况',
 	'SECURE_DOWNLOADS'				=> '启用防盗链功能',

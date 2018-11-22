@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_bots [Chinese Simplified]
-*
-* @package language
-* @version $Id: bots.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -69,5 +68,3 @@ $lang = array_merge($lang, array(
 	'NO_BOT'		=> '没有找到指定ID的机器人.',
 	'NO_BOT_GROUP'	=> '无法找到机器人用户组.',
 ));
-
-?>

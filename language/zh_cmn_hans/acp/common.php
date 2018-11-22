@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_common [Chinese Simplified]
-*
-* @package language
-* @version $Id: common.php 8591 2008-06-04 11:40:53Z Kellanved $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -50,7 +49,7 @@ $lang = array_merge($lang, array(
 	'ACP_BAN'					=> '封禁',
 	'ACP_BAN_EMAILS'			=> '封禁email地址',
 	'ACP_BAN_IPS'				=> '封禁IP地址',
-	'ACP_BAN_USERNAMES'			=> '封禁用户名',
+	'ACP_BAN_USERNAMES'			=> '封禁用户',
 	'ACP_BBCODES'				=> 'BBCode',
 	'ACP_BOARD_CONFIGURATION'	=> '论坛配置',
 	'ACP_BOARD_FEATURES'		=> '论坛功能',
@@ -60,8 +59,9 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> '验证图片',
 
+    'ACP_CAT_CUSTOMISE'			=> '定制',
 	'ACP_CAT_DATABASE'			=> '数据库',
-	'ACP_CAT_DOT_MODS'			=> '.MODs',
+	'ACP_CAT_DOT_MODS'			=> '扩展',
 	'ACP_CAT_FORUMS'			=> '版面',
 	'ACP_CAT_GENERAL'			=> '综合',
 	'ACP_CAT_MAINTENANCE'		=> '维护',
@@ -73,6 +73,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> '用户',
 	'ACP_CLIENT_COMMUNICATION'	=> '客户端通信',
 	'ACP_COOKIE_SETTINGS'		=> 'Cookie设定',
+    'ACP_CONTACT'				=> '联系页',
+    'ACP_CONTACT_SETTINGS'		=> '联系页设置',
 	'ACP_CRITICAL_LOGS'			=> '错误日志',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> '自定义资料栏目',
 
@@ -81,7 +83,9 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> '禁止注册的用户名',
 
 	'ACP_EMAIL_SETTINGS'		=> 'Email设定',
-	'ACP_EXTENSION_GROUPS'		=> '管理扩展名组',
+	'ACP_EXTENSION_GROUPS'		=> '管理附件扩展名组',
+    'ACP_EXTENSION_MANAGEMENT'	=> '扩展管理',
+    'ACP_EXTENSIONS'			=> '管理扩展',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> '基于版面的权限',
 	'ACP_FORUM_LOGS'				=> '版面日志',
@@ -100,10 +104,12 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> '管理用户组',
 	'ACP_GROUPS_MANAGEMENT'			=> '用户组管理',
 	'ACP_GROUPS_PERMISSIONS'		=> '用户组权限',
+    'ACP_GROUPS_POSITION'			=> '管理用户组位置',
+
+    'ACP_HELP_PHPBB'			=> '帮助支持phpBB',
 
 	'ACP_ICONS'					=> '主题图标',
 	'ACP_ICONS_SMILIES'			=> '主题图标/表情',
-	'ACP_IMAGESETS'				=> '图片组',
 	'ACP_INACTIVE_USERS'		=> '冻结的用户',
 	'ACP_INDEX'					=> '管理员控制面板首页',
 
@@ -115,7 +121,11 @@ $lang = array_merge($lang, array(
 	'ACP_LOGGING'				=> '记录',
 
 	'ACP_MAIN'					=> '管理员控制面板首页',
-	'ACP_MANAGE_EXTENSIONS'		=> '管理扩展名',
+
+    'ACP_MANAGE_ATTACHMENTS'			=> '管理附件',
+    'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> '这里您可以列出和删除帖子和站内消息中带的附件。',
+
+	'ACP_MANAGE_EXTENSIONS'		=> '管理附件扩展名',
 	'ACP_MANAGE_FORUMS'			=> '管理版面',
 	'ACP_MANAGE_RANKS'			=> '管理等级',
 	'ACP_MANAGE_REASONS'		=> '管理 举报/封禁 原因',
@@ -157,14 +167,14 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> '搜索设定',
 
 	'ACP_SECURITY_SETTINGS'		=> '安全设定',
-	'ACP_SEND_STATISTICS'		=> '发送统计信息',
 	'ACP_SERVER_CONFIGURATION'	=> '服务器配置',
 	'ACP_SERVER_SETTINGS'		=> '服务器设定',
 	'ACP_SIGNATURE_SETTINGS'	=> '签名设定',
 	'ACP_SMILIES'				=> '表情',
-	'ACP_STYLE_COMPONENTS'		=> '风格组件',
 	'ACP_STYLE_MANAGEMENT'		=> '风格管理',
 	'ACP_STYLES'				=> '风格',
+    'ACP_STYLES_CACHE'			=> '清除缓存',
+    'ACP_STYLES_INSTALL'		=> '安装风格',
 	
 	'ACP_SUBMIT_CHANGES'		=> '提交更改',
 
@@ -214,8 +224,26 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> '后退',
 
+    'CANNOT_CHANGE_FILE_GROUP'	=> '无法修改文件组',
+    'CANNOT_CHANGE_FILE_PERMISSIONS'	=> '无法修改文件权限',
+    'CANNOT_COPY_FILES'		=> '无法复制文件',
+    'CANNOT_CREATE_SYMLINK'	=> '无法创建软链',
+    'CANNOT_DELETE_FILES'	=> '无法从系统中删除文件',
+    'CANNOT_DUMP_FILE'		=> '无法dump文件',
+    'CANNOT_MIRROR_DIRECTORY'	=> '无法对目录做镜像',
+    'CANNOT_RENAME_FILE'	=> '无法从系统修改文件名',
+    'CANNOT_TOUCH_FILES'	=> '无法确认文件是否存在',
+
+    'CONTAINER_EXCEPTION' => '因为某个扩展的原因，phpBB在构造容器的过程中遇到了一个错误。所有扩展都已经被临时禁用，请清除论坛缓存。当容器错误解决后扩展将被自动恢复。如果依然存在问题，请访问 <a href="https://www.phpbb.com/support">phpBB.com</a> 寻求帮助。',
+    'EXCEPTION' => '异常',
+
 	'COLOUR_SWATCH'			=> '网页安全色取色板',
 	'CONFIG_UPDATED'		=> '配置更新完成.',
+    'CRON_LOCK_ERROR'		=> '无法获取定时任务锁',
+    'CRON_NO_SUCH_TASK'		=> '无法找到定时任务 “%s”.',
+    'CRON_NO_TASK'			=> '现在没有需要执行的定时任务',
+    'CRON_NO_TASKS'			=> '没有找到定时任务。',
+    'CURRENT_VERSION'		=> '当前版本',
 
 	'DEACTIVATE'				=> '冻结',
 	'DIRECTORY_DOES_NOT_EXIST'	=> '输入的路径 "%s" 不存在.',
@@ -226,6 +254,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> '下载为',
 	'DOWNLOAD_STORE'			=> '下载或存储文件',
 	'DOWNLOAD_STORE_EXPLAIN'	=> '您可以直接下载文件或保存到您的 <samp>store/</samp> 目录.',
+    'DOWNLOADS'					=> '下载',
 
 	'EDIT'					=> '编辑',
 	'ENABLE'				=> '启用',
@@ -240,6 +269,9 @@ $lang = array_merge($lang, array(
 	'IP'					=> '用户 IP',
 	'IP_HOSTNAME'			=> 'IP 地址或主机名',
 
+    'LATEST_VERSION'		=> '最新版本',
+    'LOAD_NOTIFICATIONS'			=> '显示通知',
+    'LOAD_NOTIFICATIONS_EXPLAIN'	=> '在每一页上显示通知(通常在页首).',
 	'LOGGED_IN_AS'			=> '您登录的身份为:',
 	'LOGIN_ADMIN'			=> '您必须是已授权的用户才能管理论坛.',
 	'LOGIN_ADMIN_CONFIRM'	=> '您需要再次登录才能进入管理面板.',
@@ -257,6 +289,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> '通知',
 	'NO_ADMIN'				=> '您未被授权管理这个论坛.',
 	'NO_EMAILS_DEFINED'		=> '没有发现可用的email地址',
+    'NO_FILES_TO_DELETE'	=> '您选中待删除的文件不存在。',
 	'NO_PASSWORD_SUPPLIED'	=> '您需要输入您的密码后才能访问管理员控制面板.',	
 
 	'OFF'					=> '关',
@@ -269,10 +302,12 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> '您现在使用来自于 %1$s 的权限. 您可以以这个用户的权限浏览版面但是不能访问管理员控制面板因为管理员权限没有被传递. 您可以随时 <a href="%2$s"><strong>恢复您的权限设置</strong></a>.',
 	'PROCEED_TO_ACP'					=> '%s 进入管理员控制面板%s',
 
+    'RELEASE_ANNOUNCEMENT'		=> '公告',
 	'REMIND'							=> '提醒',
+    'REPARSE_LOCK_ERROR'				=> '解析正在另一个进程中执行。',
 	'RESYNC'							=> '重新同步',
-	'RETURN_TO'							=> '回到…',
 
+    'RUNNING_TASK'			=> '正在执行任务: %s.',
 	'SELECT_ANONYMOUS'		=> '选择游客用户',
 	'SELECT_OPTION'			=> '选择选项',
 
@@ -283,16 +318,24 @@ $lang = array_merge($lang, array(
 	
 	'SHOW_ALL_OPERATIONS'	=> '显示所有操作',
 
+    'TASKS_NOT_READY'			=> '未准备好的任务:',
+    'TASKS_READY'			=> '准备好的任务:',
+    'TOTAL_SIZE'			=> '总共大小',
+
 	'UCP'					=> '用户控制面板',
 	'USERNAMES_EXPLAIN'		=> '在同一行上分开排列用户名',
 	'USER_CONTROL_PANEL'	=> '用户控制面板',
+
+    'UPDATE_NEEDED'			=> '论坛不是最新版本。',
+    'UPDATE_NOT_NEEDED'		=> '论坛是最新版本。',
+    'UPDATES_AVAILABLE'		=> '可用的更新：',
 
 	'WARNING'				=> '警告',
 ));
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> '这个页面列出了这个服务器上所安装的PHP的信息. 这包括装载的模块, 可用的变量和默认设定, 在诊断问题时这些信息可能会有用. 请注意一些主机服务商可能会因为安全因素禁止显示某些信息. 您尽可能不要泄露这些信息, 除非在技术支持中 <a href="http://www.phpbb.com/about/">官方开发成员</a> 需要这些信息.',
+	'ACP_PHP_INFO_EXPLAIN'	=> '这个页面列出了这个服务器上所安装的PHP的信息. 这包括装载的模块, 可用的变量和默认设定, 在诊断问题时这些信息可能会有用. 请注意一些主机服务商可能会因为安全因素禁止显示某些信息. 您尽可能不要泄露这些信息, 除非在技术支持版面中 <a href="https://www.phpbb.com/about/">官方团队成员</a> 需要这些信息.',
 
 	'NO_PHPINFO_AVAILABLE'	=> '无法获取PHP信息, Phpinfo() 因为安全原因被禁用.',
 ));
@@ -342,6 +385,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'GZip压缩',
 
+    'NO_SEARCH_INDEX'	=> '选中的搜索模块还没有建立索引。<br />请给 “%1$s” 在 %2$s搜索索引%3$s 中建立索引.',
 	'NOT_AVAILABLE'		=> '不可用',
 	'NUMBER_FILES'		=> '附件数量',
 	'NUMBER_POSTS'		=> '帖子数量',
@@ -349,44 +393,63 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> '用户数量',
 	'NUMBER_ORPHAN'		=> '幽灵文件',
 
-	'PHP_VERSION_OLD'	=> '当前服务器上的PHP版本太旧, 新的phpBB将不再支持这个版本的PHP. %sDetails%s', 
+    'PHP_VERSION'		=> 'PHP版本',
+    'PHP_VERSION_OLD'	=> 'The version of PHP on this server (%1$s) will no longer be supported by future versions of phpBB. The minimum required version will be PHP %2$s. %3$sDetails%4$s',
+	'PHP_VERSION_OLD'	=> '当前服务器上的PHP版本 (%1$s) 太旧, 新的phpBB将不再支持这个版本的PHP. 支持的最低PHP版本是 %2$s. %3$s详细信息%4$s',
 
 	'POSTS_PER_DAY'		=> '每日帖数',
 
 	'PURGE_CACHE'			=> '清除缓存',
-	'PURGE_CACHE_CONFIRM'	=> '您确认要清除缓存吗?',
-	'PURGE_CACHE_EXPLAIN'	=> '清除所有缓存相关的条目, 这包含被缓存的模板和数据库查询结果.',
+	'PURGE_CACHE_CONFIRM'	=> '您确认要清除缓存吗？',
+	'PURGE_CACHE_EXPLAIN'	=> '清除所有缓存相关的条目, 这包含被缓存的模板和数据库查询结果。',
+    'PURGE_CACHE_SUCCESS'	=> '缓存已清除。',
 	
 	'PURGE_SESSIONS'			=> '清除所有会话',
-	'PURGE_SESSIONS_CONFIRM'	=> '您确认要清除所有会话吗? 这会让所有已登录的用户登出论坛.',
-	'PURGE_SESSIONS_EXPLAIN'	=> '清除所有会话. 这会让所有已登录的用户登出论坛.',
+	'PURGE_SESSIONS_CONFIRM'	=> '您确认要清除所有会话吗？这会让所有已登录的用户退出登录。',
+	'PURGE_SESSIONS_EXPLAIN'	=> '清除所有会话。这会让所有已登录的用户退出登录。',
+    'PURGE_SESSIONS_SUCCESS'	=> '会话已清除。',
 
-	'RESET_DATE'			=> '重置日期',
-	'RESET_DATE_CONFIRM'			=> '您确认要重置论坛的起始时间吗?',
-	'RESET_ONLINE'			=> '重置在线数',
-	'RESET_ONLINE_CONFIRM'			=> '您确认要重置这个论坛的最大在线人数吗?',
-	'RESYNC_POSTCOUNTS'		=> '同步帖子统计',
+	'RESET_DATE'			    => '重置日期',
+	'RESET_DATE_CONFIRM'		=> '您确认要重置论坛的开始时间吗?',
+    'RESET_DATE_SUCCESS'		=> '论坛开始时间已重置',
+	'RESET_ONLINE'			    => '重置在线数',
+	'RESET_ONLINE_CONFIRM'		=> '您确认要重置这个论坛的最大在线人数吗?',
+    'RESET_ONLINE_SUCCESS'		=> '最大在线人数已重置',
+	'RESYNC_POSTCOUNTS'		    => '同步帖子统计',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> '只有存在的帖子才会被计入. 已经裁减掉的帖子将不予统计.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> '您确认要重新同步帖子统计吗?',
+    'RESYNC_POSTCOUNTS_SUCCESS'		=> '帖子统计已重新同步',
 	'RESYNC_POST_MARKING'	=> '同步主题数',
 	'RESYNC_POST_MARKING_CONFIRM'	=> '您确认要重新统计带标记的主题吗?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> '首先取消标记所有的主题, 然后重新标记在六个月内有操作的主题.',
+    'RESYNC_POST_MARKING_SUCCESS'	=> '带标记主题已重新统计',
 	'RESYNC_STATS'			=> '同步统计值',
 	'RESYNC_STATS_CONFIRM'			=> '您确认要重新同步统计吗?',
 	'RESYNC_STATS_EXPLAIN'			=> '重新计算帖子/主题/用户和文件的总数.',
+    'RESYNC_STATS_SUCCESS'			=> '统计已重新同步',
 	'RUN'							=> '现在执行',
 
 	'STATISTIC'			=> '统计',
 	'STATISTIC_RESYNC_OPTIONS'	=> '重新同步/重置统计',
 
+    'TIMEZONE_INVALID'	=> '您选择的时区是无效的。',
+    'TIMEZONE_SELECTED'	=> '(当前的选择)',
 	'TOPICS_PER_DAY'	=> '每日主题',
 
 	'UPLOAD_DIR_SIZE'	=> '发表的附件大小',
 	'USERS_PER_DAY'		=> '每日新用户',
 
-	'VALUE'					=> '值',
+	'VALUE'					    => '值',
 	'VERSIONCHECK_FAIL'			=> '无法获取最新版本信息.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> '再次检查版本',
+    'VERSION_CHECK'					=> '版本检查',
+    'VERSION_CHECK_EXPLAIN'			=> '检查您的 phpBB 是否是最新版本。',
+    'VERSIONCHECK_INVALID_ENTRY'	=> '最新的版本信息包含不支持的条目。',
+    'VERSIONCHECK_INVALID_URL'		=> '最新的版本信息包含无效链接。',
+    'VERSIONCHECK_INVALID_VERSION'	=> '最新的版本信息包含的版本无效。',
+    'VERSION_NOT_UP_TO_DATE_ACP'	=> '您的 phpBB 不是最新版本。<br />下面是发布公告的链接，包含如何升级的信息。',
+    'VERSION_NOT_UP_TO_DATE_TITLE'	=> '您的 phpBB 不是最新版本。',
+    'VERSION_UP_TO_DATE_ACP'		=> '您的 phpBB 是最新版本。目前没有可用的更新。',
 	'VIEW_ADMIN_LOG'		=> '查看管理员日志',
 	'VIEW_INACTIVE_USERS'	=> '查看冻结帐号',
 
@@ -419,16 +482,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> '用户被冻结',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> '请发送您的服务器和论坛设置信息至phpBB官方以便于进行统计分析. 此信息不会包含任何与您或您的论坛的隐私数据. 所有数据都是完全<strong>匿名</strong>的. 我们会在今后的phpBB版本开发中参考收集到的信息. 统计的结果会向公众公开, 并提供给PHP语言项目的开发团队.',
 	'EXPLAIN_SHOW_STATISTICS'	=> '使用下面的按钮您可以查看发送的内容.',
 	'DONT_SEND_STATISTICS'		=> '返回管理员控制面板, 如果您不希望发送统计信息给phpBB.',
 	'GO_ACP_MAIN'				=> '前往管理员控制面板首页',
 	'HIDE_STATISTICS'			=> '隐藏细节',
-	'SEND_STATISTICS'			=> '发送统计信息',
+	'SEND_STATISTICS'			=> '发送统计',
+    'SEND_STATISTICS_LONG'		=> '发送统计信息',
 	'SHOW_STATISTICS'			=> '显示细节',
 	'THANKS_SEND_STATISTICS'	=> '非常感谢您的参与, phpBB团队向您致敬!',
+    'FAIL_SEND_STATISTICS'		=> 'phpBB 无法发送统计信息',
 ));
 
 // Log Entries
@@ -486,6 +551,7 @@ $lang = array_merge($lang, array(
 	'LOG_BBCODE_ADD'		=> '<strong>添加新BBCode</strong><br />» %s',
 	'LOG_BBCODE_EDIT'		=> '<strong>编辑BBCode</strong><br />» %s',
 	'LOG_BBCODE_DELETE'		=> '<strong>删除BBCode</strong><br />» %s',
+    'LOG_BBCODE_CONFIGURATION_ERROR'	=> '<strong>配置BBCode时发生错误</strong>: %1$s<br />» %2$s',
 
 	'LOG_BOT_ADDED'		=> '<strong>添加新机器人</strong><br />» %s',
 	'LOG_BOT_DELETE'	=> '<strong>删除机器人</strong><br />» %s',
@@ -517,26 +583,32 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>批准主题</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>用户推举主题</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>删除帖子</strong><br />» %s',
+    'LOG_DELETE_POST'			=> '<strong>删除 “%2$s” 的帖子 “%1$s”，原因</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'   => '<strong>删除影子主题</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>删除主题</strong><br />» %s',
+    'LOG_DELETE_TOPIC'			=> '<strong>删除 “%2$s” 的主题 “%1$s”，原因</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>复制主题</strong><br />» from %s',
 	'LOG_LOCK'					=> '<strong>锁定主题</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>锁定帖子</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>合并帖子</strong> 至主题<br />» %s',
-	'LOG_MOVE'					=> '<strong>移动主题</strong><br />» 自 %1$s 至 %2$s', 
+	'LOG_MOVE'					=> '<strong>移动主题</strong><br />» 自 %1$s 至 %2$s',
+    'LOG_MOVED_TOPIC'			=> '<strong>移动主题</strong><br />» %s',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>关闭短信举报</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>删除短信举报</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>审批帖子</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>驳回帖子 “%1$s” 因为如下的原因</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>编辑帖子 “%1$s” 由</strong><br />» %2$s',
+    'LOG_POST_DISAPPROVED'		=> '<strong>驳回帖子 “%3$s” 发表的 “%1$s”，原因</strong><br />» %2$s',
+    'LOG_POST_EDITED'			=> '<strong>编辑帖子 “%2$s” 发表的 “%1$s”，原因</strong><br />» %3$s',
+    'LOG_POST_RESTORED'			=> '<strong>Restored post</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>关闭举报</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>删除举报</strong><br />» %s',
+    'LOG_RESTORE_TOPIC'			=> '<strong>恢复主题 “%1$s” 作者</strong><br />» %2$s',
+    'LOG_SOFTDELETE_POST'		=> '<strong>软删除 “%2$s” 发表的帖子 “%1$s”，原因</strong><br />» %3$s',
+    'LOG_SOFTDELETE_TOPIC'		=> '<strong>软删除 “%2$s” 发表的主题 “%1$s”，原因</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>分割并移动主题</strong><br />» 至 %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>风格帖子</strong><br />» 自 %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>审批主题</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>驳回主题 “%1$s” 因为如下的原因</strong><br />%2$s',
+    'LOG_TOPIC_RESTORED'		=> '<strong>恢复主题</strong><br />» %s',
+    'LOG_TOPIC_DISAPPROVED'		=> '<strong>驳回主题 “%3$s” 发表的 “%1$s”，原因</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>重新同步主题统计</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>更改主题类型</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>主题解锁</strong><br />» %s',
@@ -555,6 +627,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>Jabber错误</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>Email错误</strong><br />» %s',
+    'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA错误</strong><br />» %s',
 	
 	'LOG_FORUM_ADD'							=> '<strong>创建新版面</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>复制版面权限</strong> 自 %1$s<br />» %2$s',
@@ -587,16 +660,6 @@ $lang = array_merge($lang, array(
 	'LOG_USERS_PENDING'		=> '<strong>用户申请加入 “%1$s” 并等待批准</strong><br />» %2$s',
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>创建图片时出错</strong><br />» 错误位于 %1$s 行 %2$s: %3$s',
-	
-	'LOG_IMAGESET_ADD_DB'			=> '<strong>添加新图片组到数据库</strong><br />» %s',
-	'LOG_IMAGESET_ADD_FS'			=> '<strong>添加新图片组到文件系统</strong><br />» %s',
-	'LOG_IMAGESET_DELETE'			=> '<strong>删除图片组</strong><br />» %s',
-	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>编辑图片组细节</strong><br />» %s',
-	'LOG_IMAGESET_EDIT'				=> '<strong>编辑图片组</strong><br />» %s',
-	'LOG_IMAGESET_EXPORT'			=> '<strong>导出图片组</strong><br />» %s',
-	'LOG_IMAGESET_LANG_MISSING'		=> '<strong>图片组缺少 “%2$s” 本地化</strong><br />» %1$s',
-	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>刷新 “%2$s” 图片组地址</strong><br />» %1$s',
-	'LOG_IMAGESET_REFRESHED'		=> '<strong>刷新图片组</strong><br />» %s',
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>激活未激活的帐号</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>删除未激活的帐号</strong><br />» %s',
@@ -642,6 +705,8 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>用户角色编辑</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>用户角色删除</strong><br />» %s',
 
+    'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>无法打开 %1$s 进行处理，请检查权限。</strong><br />异常：%2$s<br />Trace: %3$s',
+
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>资料栏目激活</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>资料栏目添加</strong><br />» %s',
 	'LOG_PROFILE_FIELD_DEACTIVATE'	=> '<strong>资料栏目冻结</strong><br />» %s',
@@ -649,15 +714,15 @@ $lang = array_merge($lang, array(
 	'LOG_PROFILE_FIELD_REMOVED'		=> '<strong>资料栏目删除</strong><br />» %s',
 
 	'LOG_PRUNE'					=> '<strong>裁减版面</strong><br />» %s',
-	'LOG_AUTO_PRUNE'			=> '<strong>自动裁减版面</strong><br />» %s',
+	'LOG_AUTO_PRUNE'			=> '<strong>自动清理版面</strong><br />» %s',
+    'LOG_PRUNE_SHADOW'		    => '<strong>自动删除影子主题</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>用户冻结</strong><br />» %s',
-	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>裁减用户 删除帖子</strong><br />» %s',
-	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>裁减用户 保留帖子</strong><br />» %s',
+	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>清除用户 删除帖子</strong><br />» %s',
+	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>清除用户 保留帖子</strong><br />» %s',
 
 	'LOG_PURGE_CACHE'			=> '<strong>清除缓存</strong>',
 	'LOG_PURGE_SESSIONS'		=> '<strong>清除会话</strong>',
 
-	
 	'LOG_RANK_ADDED'		=> '<strong>添加新等级</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>删除等级</strong><br />» %s',
 	'LOG_RANK_UPDATED'		=> '<strong>更新等级</strong><br />» %s',
@@ -669,12 +734,14 @@ $lang = array_merge($lang, array(
 	'LOG_REFERER_INVALID'		=> '<strong>转向源验证错误</strong><br />»转向自 “<em>%1$s</em>”. 请求被拒绝, 此对话已终止.',
 	'LOG_RESET_DATE'			=> '<strong>论坛开始日期重置</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>最大在线用户数量重置</strong>',
+    'LOG_RESYNC_FILES_STATS'	=> '<strong>文件统计重新同步</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>用户帖子数重新统计</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>带点的主题重新同步</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>帖子, 主题和用户统计重新同步</strong>',
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>创建搜索索引于</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>删除搜索索引于</strong><br />» %s',
+    'LOG_SPHINX_ERROR'			=> '<strong>Sphinx错误</strong><br />» %s',
 	'LOG_STYLE_ADD'				=> '<strong>添加新风格</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>删除风格</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>编辑风格</strong><br />» %s',
@@ -741,17 +808,18 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>用户解除组成员关系</strong><br />» %s',
 	
 	'LOG_WARNING_DELETED'		=> '<strong>删除用户警告</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>删除 %2$s 条用户警告</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+    'LOG_WARNINGS_DELETED'		=> array(
+        1 => '<strong>删除用户警告</strong><br />» %1$s',
+        2 => '<strong>删除 %2$d 条用户警告</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+    ),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>删除所有用户警告</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>添加敏感词</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>删除敏感词</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>编辑敏感词</strong><br />» %s',
+
+    'LOG_EXT_ENABLE'	=> '<strong>启用扩展</strong><br />» %s',
+    'LOG_EXT_DISABLE'	=> '<strong>关闭扩展</strong><br />» %s',
+    'LOG_EXT_PURGE'		=> '<strong>删除扩展数据</strong><br />» %s',
+    'LOG_EXT_UPDATE'	=> '<strong>更新扩展</strong><br />» %s',
 ));
-
-	// Two language keys with the same text were used in different locations
-	// LOG_DELETE_TOPIC is the correct one, this line is here so that existing
-	// log entries are not broken. Ensure it is included in your language file.
-	$lang['LOG_TOPIC_DELETED'] = $lang['LOG_DELETE_TOPIC'];
-
-?>
