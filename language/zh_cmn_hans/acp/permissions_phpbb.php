@@ -1,12 +1,13 @@
 <?php
 /**
-* acp_permissions_phpbb (phpBB Permission Set) [Chinese Simplified]
-*
-* @package language
-* @version $Id: permissions_phpbb.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -34,104 +35,71 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 /**
-*	MODDERS PLEASE NOTE
-*
-*	You are able to put your permission sets into a separate file too by
-*	prefixing the new file with permissions_ and putting it into the acp 
-*	language folder.
-*
-*	An example of how the file could look like:
-*
-*	<code>
-*
-*	if (empty($lang) || !is_array($lang))
-*	{
-*		$lang = array();
-*	}
-*
-*	// Adding new category
-*	$lang['permission_cat']['bugs'] = 'Bugs';
-*
-*	// Adding new permission set
-*	$lang['permission_type']['bug_'] = 'Bug Permissions';
-*
-*	// Adding the permissions
-*	$lang = array_merge($lang, array(
-*		'acl_bug_view'		=> array('lang' => 'Can view bug reports', 'cat' => 'bugs'),
-*		'acl_bug_post'		=> array('lang' => 'Can post bugs', 'cat' => 'post'), // Using a phpBB category here
-*	));
-*
-*	</code>
-*/
+ *	EXTENSION-DEVELOPERS PLEASE NOTE
+ *
+ *	You are able to put your permission sets into your extension.
+ *	The permissions logic should be added via the 'core.permissions' event.
+ *	You can easily add new permission categories, types and permissions, by
+ *	simply merging them into the respective arrays.
+ *	The respective language strings should be added into a language file, that
+ *	start with 'permissions_', so they are automatically loaded within the ACP.
+ */
 
-// Define categories and permission types
 $lang = array_merge($lang, array(
-	'permission_cat'	=> array(
-		'actions'		=> '操作',
-		'content'		=> '内容',
-		'forums'		=> '版面',
-		'misc'			=> '杂项',
-		'permissions'	=> '权限',
-		'pm'			=> '私人短信',
-		'polls'			=> '投票',
-		'post'			=> '帖子',
-		'post_actions'	=> '发帖动作',
-		'posting'		=> '发帖',
-		'profile'		=> '资料',
-		'settings'		=> '设定',
-		'topic_actions'	=> '主题操作',
-		'user_group'	=> '用户&amp;组',
-	),
-
-	// With defining 'global' here we are able to specify what is printed out if the permission is within the global scope.
-	'permission_type'	=> array(
-		'u_'			=> '用户权限',
-		'a_'			=> '管理员权限',
-		'm_'			=> '版主权限',
-		'f_'			=> '版面权限',
-		'global'		=> array(
-			'm_'			=> '全局版主权限',
-		),
-	),
+    'ACL_CAT_ACTIONS'		=> '操作',
+    'ACL_CAT_CONTENT'		=> '内容',
+    'ACL_CAT_FORUMS'		=> '版面',
+    'ACL_CAT_MISC'			=> '杂项',
+    'ACL_CAT_PERMISSIONS'	=> '权限',
+    'ACL_CAT_PM'			=> '消息',
+    'ACL_CAT_POLLS'			=> '投票',
+    'ACL_CAT_POST'			=> '帖子',
+    'ACL_CAT_POST_ACTIONS'	=> '帖子操作',
+    'ACL_CAT_POSTING'		=> '发帖',
+    'ACL_CAT_PROFILE'		=> '资料',
+    'ACL_CAT_SETTINGS'		=> '设置',
+    'ACL_CAT_TOPIC_ACTIONS'	=> '主题操作',
+    'ACL_CAT_USER_GROUP'	=> '用户&amp;组',
 ));
 
 // User Permissions
 $lang = array_merge($lang, array(
-	'acl_u_viewprofile'	=> array('lang' => '可以查看用户资料、成员列表及在线名单', 'cat' => 'profile'),
-	'acl_u_chgname'		=> array('lang' => '可以更改用户名称', 'cat' => 'profile'),
-	'acl_u_chgpasswd'	=> array('lang' => '可以更改密码', 'cat' => 'profile'),
-	'acl_u_chgemail'	=> array('lang' => '可以更改email地址', 'cat' => 'profile'),
-	'acl_u_chgavatar'	=> array('lang' => '可以更改头像', 'cat' => 'profile'),
-	'acl_u_chggrp'		=> array('lang' => '可以更改默认用户组', 'cat' => 'profile'),
+    'ACL_U_VIEWPROFILE'	=> '可以查看用户资料、成员列表及在线名单',
+    'ACL_U_CHGNAME'		=> '可以更改用户名称',
+    'ACL_U_CHGPASSWD'	=> '可以更改密码',
+    'ACL_U_CHGEMAIL'	=> '可以更改email地址',
+    'ACL_U_CHGAVATAR'	=> '可以更改头像',
+    'ACL_U_CHGGRP'		=> '可以更改默认用户组',
+    'ACL_U_CHGPROFILEINFO'	=> 'Can change profile field information',
 
-	'acl_u_attach'		=> array('lang' => '可以发表附件', 'cat' => 'post'),
-	'acl_u_download'	=> array('lang' => '可以下载附件', 'cat' => 'post'),
-	'acl_u_savedrafts'	=> array('lang' => '可以保存草稿', 'cat' => 'post'),
-	'acl_u_chgcensors'	=> array('lang' => '可以禁用敏感词过滤', 'cat' => 'post'),
-	'acl_u_sig'			=> array('lang' => '可以使用签名档', 'cat' => 'post'),
+    'ACL_U_ATTACH'		=> '可以发表附件',
+    'ACL_U_DOWNLOAD'	=> '可以下载附件',
+    'ACL_U_SAVEDRAFTS'	=> '可以保存草稿',
+    'ACL_U_CHGCENSORS'	=> '可以禁用敏感词过滤',
+    'ACL_U_SIG'			=> '可以使用签名档',
 
-	'acl_u_sendpm'		=> array('lang' => '可以发送站内消息', 'cat' => 'pm'),
-	'acl_u_masspm'		=> array('lang' => '可以群发短信给用户', 'cat' => 'pm'),
-	'acl_u_masspm_group'=> array('lang' => '可以群发短信给用户组', 'cat' => 'pm'),
-	'acl_u_readpm'		=> array('lang' => '可以阅读站内消息', 'cat' => 'pm'),
-	'acl_u_pm_edit'		=> array('lang' => '可以编辑自己的站内消息', 'cat' => 'pm'),
-	'acl_u_pm_delete'	=> array('lang' => '可以删除自己的站内消息', 'cat' => 'pm'),
-	'acl_u_pm_forward'	=> array('lang' => '可以转发站内消息', 'cat' => 'pm'),
-	'acl_u_pm_emailpm'	=> array('lang' => '可以email站内消息', 'cat' => 'pm'),
-	'acl_u_pm_printpm'	=> array('lang' => '可以打印站内消息', 'cat' => 'pm'),
-	'acl_u_pm_attach'	=> array('lang' => '可以在短信中添加附件', 'cat' => 'pm'),
-	'acl_u_pm_download'	=> array('lang' => '可以在短信中下载附件', 'cat' => 'pm'),
-	'acl_u_pm_bbcode'	=> array('lang' => '可以在短信中使用BBCode', 'cat' => 'pm'),
-	'acl_u_pm_smilies'	=> array('lang' => '可以在短信中使用表情图标', 'cat' => 'pm'),
-	'acl_u_pm_img'		=> array('lang' => '可以在短信中粘贴图片', 'cat' => 'pm'),
-	'acl_u_pm_flash'	=> array('lang' => '可以在短信中粘贴Flash', 'cat' => 'pm'),
+    'ACL_U_SENDPM'		=> '可以发送站内消息',
+    'ACL_U_MASSPM'		=> '可以群发消息给用户',
+    'ACL_U_MASSPM_GROUP'=> '可以群发消息给用户组',
+    'ACL_U_READPM'		=> '可以阅读站内消息',
+    'ACL_U_PM_EDIT'		=> '可以编辑自己的站内消息',
+    'ACL_U_PM_DELETE'	=> '可以删除自己的站内消息',
+    'ACL_U_PM_FORWARD'	=> '可以转发站内消息',
+    'ACL_U_PM_EMAILPM'	=> '可以email站内消息',
+    'ACL_U_PM_PRINTPM'	=> '可以打印站内消息',
+    'ACL_U_PM_ATTACH'	=> '可以在消息中添加附件',
+    'ACL_U_PM_DOWNLOAD'	=> '可以在消息中下载附件',
+    'ACL_U_PM_BBCODE'	=> '可以在消息中使用BBCode',
+    'ACL_U_PM_SMILIES'	=> '可以在消息中使用表情图标',
+    'ACL_U_PM_IMG'		=> '可以在消息中使用 [img] 标签',
+    'ACL_U_PM_FLASH'	=> '可以在消息中使用 [flash] 标签',
 
-	'acl_u_sendemail'	=> array('lang' => '可以发送email', 'cat' => 'misc'),
-	'acl_u_sendim'		=> array('lang' => '可以发送即时消息', 'cat' => 'misc'),
-	'acl_u_ignoreflood'	=> array('lang' => '可以不受灌水间隔限制', 'cat' => 'misc'),
-	'acl_u_hideonline'	=> array('lang' => '可以隐藏在线状态', 'cat' => 'misc'),
-	'acl_u_viewonline'	=> array('lang' => '可以查看在线情况', 'cat' => 'misc'),
-	'acl_u_search'		=> array('lang' => '可以搜索论坛', 'cat' => 'misc'),
+    'ACL_U_SENDEMAIL'	=> '可以发送email',
+    'ACL_U_SENDIM'		=> '可以发送即时消息',
+    'ACL_U_IGNOREFLOOD'	=> '可以不受灌水间隔限制',
+    'ACL_U_HIDEONLINE'	=> '可以隐藏在线状态',
+    'ACL_U_VIEWONLINE'	=> '可以查看隐藏的在线用户',
+    'ACL_U_SEARCH'		=> '可以搜索论坛',
 ));
 
 // Forum Permissions

@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_forums [Chinese Simplified]
-*
-* @package language
-* @version $Id: forums.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -43,8 +42,12 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> '裁减操作之间的天数间隔.',
 	'AUTO_PRUNE_VIEWED'			=> '帖子自动裁减点击时间',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> '在帖子最后被查看后多少天这个主题会被删除.',
-	'CONTINUE'						=> '继续',
+    'AUTO_PRUNE_SHADOW_FREQ'	=> 'Auto-prune shadow topics frequency',
+    'AUTO_PRUNE_SHADOW_DAYS'	=> 'Auto-prune shadow topics age',
+    'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Number of days after which shadow topic is removed.',
+    'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Time in days between pruning events.',
 
+	'CONTINUE'						=> '继续',
 	'COPY_PERMISSIONS'				=> '复制权限自',
 	'COPY_PERMISSIONS_EXPLAIN'		=> '为了方便新版面的权限设置, 您可以复制一个现有的版面权限至新版面.',
 	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> '一旦创建, 这个版面将行使您选择的版面同样的权限. 如果没有选中, 新的版面在权限设置前将是不可见的.',
@@ -82,7 +85,7 @@ $lang = array_merge($lang, array(
 	'FORUM_DELETE_EXPLAIN'				=> '下面的表单允许您删除一个版面. 如果这个版面可以发表文章, 您可以决定如何处置这个版面中的子版面和文章.',
 	'FORUM_DELETED'						=> '版面删除完成.',
 	'FORUM_DESC'						=> '描述',
-	'FORUM_DESC_EXPLAIN'				=> '任何这里的文字都会原样显示.',
+	'FORUM_DESC_EXPLAIN'				=> '任何这里的文字都会原样显示。如果选择的版面类型是分区，则不显示描述。',
 	'FORUM_EDIT_EXPLAIN'				=> '下面的表单允许您自定因这个版面. 请注意版面管理和帖子数控制要通过每个用户或用户组的权限来控制.',
 	'FORUM_IMAGE'						=> '版面图标',
 	'FORUM_IMAGE_EXPLAIN'				=> '和版面关联的图标地址, 使用论坛根目录的相对路径.',
@@ -101,7 +104,9 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_UNSET_EXPLAIN'		=> '如果您希望删除版面密码请勾选此处.',
 	'FORUM_PASSWORD_OLD'				=> '当前版面密码使用的是旧的加密方式, 需要立即更改.',
 	'FORUM_PASSWORD_MISMATCH'			=> '您输入的密码不匹配.',
-	'FORUM_PRUNE_SETTINGS'				=> '版面裁减设定',
+	'FORUM_PRUNE_SETTINGS'				=> '版面清理设定',
+    'FORUM_PRUNE_SHADOW'				=> '启用影子主题自动清理',
+    'FORUM_PRUNE_SHADOW_EXPLAIN'		=> '清理版面上的影子主题，在下面设置频率和时间。',
 	'FORUM_RESYNCED'					=> '版面 “%s” 同步完成',
 	'FORUM_RULES_EXPLAIN'				=> '版面规则将在版面的任何页面显示.',
 	'FORUM_RULES_LINK'					=> '版面规则链接',
@@ -156,5 +161,3 @@ $lang = array_merge($lang, array(
 
 	'UNLOCKED'			=> '未锁定',
 ));
-
-?>

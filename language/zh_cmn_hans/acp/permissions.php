@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_permissions [Chinese Simplified]
-*
-* @package language
-* @version $Id: permissions.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -53,12 +52,12 @@ $lang = array_merge($lang, array(
 	
 		<br />
 
-		<p>需要了解更多的设定和权限管理信息, 请访问 <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5 of our Quick Start Guide</a>.</p>
+		<p>需要了解更多的设定和权限管理信息, 请访问 <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/">Setting permissions of our Quick Start Guide</a>.</p>
 	',
 
 	'ACL_NEVER'				=> '从不',
 	'ACL_SET'				=> '权限设定',
-	'ACL_SET_EXPLAIN'		=> '权限基于简单的 <samp>是</samp>/<samp>否</samp> 系统. 设定用户组和用户选项为 <samp>从不</samp> 将覆盖其他设定的值. 如果您不希望给这个用户或用户组设定值, 请选择 <samp>否</samp>. 如果值在其他地方设定, 他们将在设定中使用, 否则请选择 <samp>从不</samp>. 所有选中的对象 (他们前面的勾选框) 将复制您设置的权限组.',
+	'ACL_SET_EXPLAIN'		=> '权限基于简单的 <strong>是</strong>/<strong>否</strong> 系统. 设定用户组和用户选项为 <strong>从不</strong> 将覆盖其他设定的值. 如果您不希望给这个用户或用户组设定值, 请选择 <strong>否</strong>. 如果值在其他地方设定, 他们将在设定中使用, 否则请选择 <strong>从不</strong>. 所有选中的对象 (他们前面的勾选框) 将复制您设置的权限组.',
 	'ACL_SETTING'			=> '设定',
 
 	'ACL_TYPE_A_'			=> '管理权限',
@@ -101,10 +100,10 @@ $lang = array_merge($lang, array(
 	'ADD_USERS'					=> '添加用户',
 	'ADVANCED_PERMISSIONS'		=> '高级权限',
 	'ALL_GROUPS'				=> '全选',
-	'ALL_NEVER'					=> '所有 <samp>从不</samp>',
-	'ALL_NO'					=> '所有 <samp>否</samp>',
+	'ALL_NEVER'					=> '所有 <strong>从不</strong>',
+	'ALL_NO'					=> '所有 <strong>否</strong>',
 	'ALL_USERS'					=> '选择全部用户',
-	'ALL_YES'					=> '所有 <samp>是</samp>',
+	'ALL_YES'					=> '所有 <strong>是</strong>',
 	'APPLY_ALL_PERMISSIONS'		=> '应用所有权限',
 	'APPLY_PERMISSIONS'			=> '应用权限',
 	'APPLY_PERMISSIONS_EXPLAIN'	=> '为这个对象设置的权限和角色将只被应用到这个对象和所有选中的对象.',
@@ -138,7 +137,7 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'		=> '没有进行权限设定.',
 	'NO_ROLE_ASSIGNED'			=> '没有指定角色…',
-	'NO_ROLE_ASSIGNED_EXPLAIN'	=> '设定为这个角色并不改变右边的权限. 如果您需要重设/删除所有权限, 您需要使用 “所有 <samp>否</samp>” 链接.',
+	'NO_ROLE_ASSIGNED_EXPLAIN'	=> '设定为这个角色并不改变右边的权限. 如果您需要重设/删除所有权限, 您需要使用 “所有 <strong>否</strong>” 链接.',
 	'NO_ROLE_AVAILABLE'			=> '没有可用的角色',
 	'NO_ROLE_NAME_SPECIFIED'	=> '请设定角色的名称.',
 	'NO_ROLE_SELECTED'			=> '没有选中的角色.',
@@ -197,7 +196,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> '和标准访问一样但是可以创建投票.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> '可以访问版面, 但是不能创建也不能回复主题.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> '可以使用大多数论坛功能包括发表附件, 但是不能锁定和删除自己的主题, 也不能创建投票.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> '为新注册用户所在组指定的角色; 包含 <samp>从不</samp> 设定以锁定新用户权限.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> '为新注册用户所在组指定的角色; 包含 <strong>从不</strong> 设定以锁定新用户权限.',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> '可以行使所用版主功能, 包括封禁.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> '可以使用版主队列审阅和编辑帖子, 但是没有其他权限.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> '可以使用基本主题操作. 不能发送警告和使用版主队列.',
@@ -207,7 +206,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> '有限的功能设置, 并且不允许使用头像功能.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> '有限的功能设置, 并且不允许使用站内消息.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> '可以访问大多数但不是全部用户功能, 例如更改用户名称, 也受灌水间隔限制.',
-	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> '为新注册用户所在组指定的角色; 包含 <samp>从不</samp> 设定以锁定新用户权限.',
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> '为新注册用户所在组指定的角色; 包含 <strong>从不</strong> 设定以锁定新用户权限.',
 	
 	'ROLE_DESCRIPTION_EXPLAIN'		=> '您可以输入一个简短的说明, 以解释这个角色的用途和意义. 您这里输入的文字也会显示在权限界面上.',
 	'ROLE_DESCRIPTION_LONG'			=> '角色描述太长, 请压缩至4000字符以内.',
@@ -228,48 +227,48 @@ $lang = array_merge($lang, array(
 	'SET_USERS_PERMISSIONS'			=> '设置用户权限',
 	'SET_USERS_FORUM_PERMISSIONS'	=> '设置用户版面权限',
 
-	'TRACE_DEFAULT'					=> '默认情况下所有权限为 <samp>否</samp> (未设). 所以权限可以被其他设定覆盖.',
+	'TRACE_DEFAULT'					=> '默认情况下所有权限为 <strong>否</strong> (未设). 所以权限可以被其他设定覆盖.',
 	'TRACE_FOR'						=> '跟踪',
 	'TRACE_GLOBAL_SETTING'			=> '%s (全局)',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> '这个组的权限设置为 <samp>从不</samp> 所以保留旧的结果.',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> '这个组在该版面的权限被设置为 <samp>从不</samp> 与实际权限一致, 所以保留实际权限.',
-	'TRACE_GROUP_NEVER_TOTAL_NO'	=> '他的组权限设为 <samp>从不</samp>, 这成为了新的值因为这个值在之前并没有设置 (设置为 <samp>否</samp>).',
-	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> '这个组在该版面的权限被设置为 <samp>从不</samp> 这成为新的实际权限, 因为之前并未设置过 (例如设置为 <samp>否</samp>).',
-	'TRACE_GROUP_NEVER_TOTAL_YES'	=> '这个组的权限被设置为 <samp>从不</samp>, 这将覆盖用户的 <samp>是</samp> , 变成 <samp>从不</samp> .',
-	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> '这个组在该版面的权限被设置为 <samp>从不</samp> 这将用户的实际权限从 <samp>是</samp> 覆盖为 <samp>从不</samp> .',
-	'TRACE_GROUP_NO'				=> '这个组的权限是 <samp>否</samp>, 所以保留旧的值.',
-	'TRACE_GROUP_NO_LOCAL'			=> '这个组在该版面的权限是 <samp>否</samp> 所以保留旧的实际权限.',
-	'TRACE_GROUP_YES_TOTAL_NEVER'	=> '这个组的权限被设置为 <samp>是</samp> 但是 <samp>从不</samp> 无法被覆盖.',
-	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> '这个组在该版面的权限被设置为 <samp>是</samp> 但是无法覆盖实际权限 <samp>从不</samp>.',
-	'TRACE_GROUP_YES_TOTAL_NO'		=> '这个组的权限被设置为 <samp>是</samp>, 这将成为新的值, 因为原值并没有设置(设置成 <samp>否</samp>).',
-	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> '这个组在该版面的权限被设置为 <samp>是</samp> 这将成为新的实际权限, 因为之前并没有其他影响此值的设置 (例如设置为 <samp>否</samp>).',
-	'TRACE_GROUP_YES_TOTAL_YES'		=> '这个组的权限被设置为 <samp>是</samp>, 并且原值也被设置为 <samp>是</samp>, 所以最终还是一样的结果.',
-	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> '这个组在该版面的权限被设置为 <samp>是</samp> 而综合权限已经被设置为 <samp>是</samp>, 所以保持原设置.',
+	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> '这个组的权限设置为 <strong>从不</strong> 所以保留旧的结果.',
+	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> '这个组在该版面的权限被设置为 <strong>从不</strong> 与实际权限一致, 所以保留实际权限.',
+	'TRACE_GROUP_NEVER_TOTAL_NO'	=> '他的组权限设为 <strong>从不</strong>, 这成为了新的值因为这个值在之前并没有设置 (设置为 <strong>否</strong>).',
+	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> '这个组在该版面的权限被设置为 <strong>从不</strong> 这成为新的实际权限, 因为之前并未设置过 (例如设置为 <strong>否</strong>).',
+	'TRACE_GROUP_NEVER_TOTAL_YES'	=> '这个组的权限被设置为 <strong>从不</strong>, 这将覆盖用户的 <strong>是</strong> , 变成 <strong>从不</strong> .',
+	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> '这个组在该版面的权限被设置为 <strong>从不</strong> 这将用户的实际权限从 <strong>是</strong> 覆盖为 <strong>从不</strong> .',
+	'TRACE_GROUP_NO'				=> '这个组的权限是 <strong>否</strong>, 所以保留旧的值.',
+	'TRACE_GROUP_NO_LOCAL'			=> '这个组在该版面的权限是 <strong>否</strong> 所以保留旧的实际权限.',
+	'TRACE_GROUP_YES_TOTAL_NEVER'	=> '这个组的权限被设置为 <strong>是</strong> 但是 <strong>从不</strong> 无法被覆盖.',
+	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> '这个组在该版面的权限被设置为 <strong>是</strong> 但是无法覆盖实际权限 <strong>从不</strong>.',
+	'TRACE_GROUP_YES_TOTAL_NO'		=> '这个组的权限被设置为 <strong>是</strong>, 这将成为新的值, 因为原值并没有设置(设置成 <strong>否</strong>).',
+	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> '这个组在该版面的权限被设置为 <strong>是</strong> 这将成为新的实际权限, 因为之前并没有其他影响此值的设置 (例如设置为 <strong>否</strong>).',
+	'TRACE_GROUP_YES_TOTAL_YES'		=> '这个组的权限被设置为 <strong>是</strong>, 并且原值也被设置为 <strong>是</strong>, 所以最终还是一样的结果.',
+	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> '这个组在该版面的权限被设置为 <strong>是</strong> 而综合权限已经被设置为 <strong>是</strong>, 所以保持原设置.',
 	'TRACE_PERMISSION'				=> '跟踪权限 - %s',
 	'TRACE_RESULT'					=> '跟踪结果',
 	'TRACE_SETTING'					=> '跟踪设定',
 
-	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> '用户的版面无关权限设置为 <samp>是</samp> 而原权限也已经设置为 <samp>是</samp>, 所以最终还是一样的结果. %s跟踪全局权限%s',
-	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> '用户的版面无关权限设置为 <samp>是</samp>, 这将覆盖当前本地结果<samp>从不</samp>. %s跟踪全局权限%s',
-	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> '用户的版面无关权限设置为 <samp>从不</samp>, 这对于本地权限无影响. %s跟踪全局权限%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> '用户的版面无关权限设置为 <strong>是</strong> 而原权限也已经设置为 <strong>是</strong>, 所以最终还是一样的结果. %s跟踪全局权限%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> '用户的版面无关权限设置为 <strong>是</strong>, 这将覆盖当前本地结果<strong>从不</strong>. %s跟踪全局权限%s',
+	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> '用户的版面无关权限设置为 <strong>从不</strong>, 这对于本地权限无影响. %s跟踪全局权限%s',
 
-	'TRACE_USER_FOUNDER'					=> '用户属于创始人, 因此默认的管理员权限设置为 <samp>是</samp>.',
-	'TRACE_USER_KEPT'						=> '用户权限是<samp>否</samp> 所以保留旧的值.',
-	'TRACE_USER_KEPT_LOCAL'					=> '用户在该版面的权限被设置为 <samp>否</samp> 所以保留旧的实际权限.',
-	'TRACE_USER_NEVER_TOTAL_NEVER'			=> '用户权限设置为 <samp>从不</samp> 而原值也是 <samp>从不</samp>, 所以没有变化.',
-	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> '用户在该版面的权限被设置为 <samp>从不</samp> 并且原实际权限为 <samp>从不</samp>, 所以保留原样.',
-	'TRACE_USER_NEVER_TOTAL_NO'				=> '用户权限设置为 <samp>从不</samp>, 这成为新的值(旧的值是否).',
-	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> '用户在该版面的权限被设置为 <samp>从不</samp> 这将成为新的实际权限因为原实际权限被设置为 <samp>否</samp>.',
-	'TRACE_USER_NEVER_TOTAL_YES'			=> '用户权限设置为 <samp>从不</samp>, 覆盖了原先的 <samp>是</samp>.',
-	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> '用户在该版面的权限被设置为 <samp>从不</samp> 并覆盖了原先的 <samp>是</samp>.',
-	'TRACE_USER_NO_TOTAL_NO'				=> '用户权限设置为 <samp>否</samp> 而原值也设置为否, 所以最终恢复默认值 <samp>从不</samp>.',
-	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> '用户在该版面的权限被设置为 <samp>否</samp> 并且原实际权限为 <samp>否</samp> 所以成为默认的 <samp>从不</samp>.',
-	'TRACE_USER_YES_TOTAL_NEVER'			=> '用户权限设置为 <samp>是</samp> 但是无法覆盖原值 <samp>从不</samp>.',
-	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> '用户在该版面的权限被设置为 <samp>是</samp> 无法覆盖原实际权限 <samp>从不</samp>.',
-	'TRACE_USER_YES_TOTAL_NO'				=> '用户权限设置为 <samp>是</samp> 这成为新的值(旧的值是<samp>否</samp>).',
-	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> '用户在该版面的权限为 <samp>是</samp> 这成为新的实际权限, 因为旧的实际权限为 <samp>否</samp>.',
-	'TRACE_USER_YES_TOTAL_YES'				=> '用户权限设置为 <samp>是</samp> 而原值也是 <samp>是</samp>, 所以没有变化.',
-	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> '用户在该版面的权限为 <samp>是</samp> 并且原实际权限为 <samp>是</samp>, 所以保留原样.',
+	'TRACE_USER_FOUNDER'					=> '用户属于创始人, 因此默认的管理员权限设置为 <strong>是</strong>.',
+	'TRACE_USER_KEPT'						=> '用户权限是<strong>否</strong> 所以保留旧的值.',
+	'TRACE_USER_KEPT_LOCAL'					=> '用户在该版面的权限被设置为 <strong>否</strong> 所以保留旧的实际权限.',
+	'TRACE_USER_NEVER_TOTAL_NEVER'			=> '用户权限设置为 <strong>从不</strong> 而原值也是 <strong>从不</strong>, 所以没有变化.',
+	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> '用户在该版面的权限被设置为 <strong>从不</strong> 并且原实际权限为 <strong>从不</strong>, 所以保留原样.',
+	'TRACE_USER_NEVER_TOTAL_NO'				=> '用户权限设置为 <strong>从不</strong>, 这成为新的值(旧的值是否).',
+	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> '用户在该版面的权限被设置为 <strong>从不</strong> 这将成为新的实际权限因为原实际权限被设置为 <strong>否</strong>.',
+	'TRACE_USER_NEVER_TOTAL_YES'			=> '用户权限设置为 <strong>从不</strong>, 覆盖了原先的 <strong>是</strong>.',
+	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> '用户在该版面的权限被设置为 <strong>从不</strong> 并覆盖了原先的 <strong>是</strong>.',
+	'TRACE_USER_NO_TOTAL_NO'				=> '用户权限设置为 <strong>否</strong> 而原值也设置为否, 所以最终恢复默认值 <strong>从不</strong>.',
+	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> '用户在该版面的权限被设置为 <strong>否</strong> 并且原实际权限为 <strong>否</strong> 所以成为默认的 <strong>从不</strong>.',
+	'TRACE_USER_YES_TOTAL_NEVER'			=> '用户权限设置为 <strong>是</strong> 但是无法覆盖原值 <strong>从不</strong>.',
+	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> '用户在该版面的权限被设置为 <strong>是</strong> 无法覆盖原实际权限 <strong>从不</strong>.',
+	'TRACE_USER_YES_TOTAL_NO'				=> '用户权限设置为 <strong>是</strong> 这成为新的值(旧的值是<strong>否</strong>).',
+	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> '用户在该版面的权限为 <strong>是</strong> 这成为新的实际权限, 因为旧的实际权限为 <strong>否</strong>.',
+	'TRACE_USER_YES_TOTAL_YES'				=> '用户权限设置为 <strong>是</strong> 而原值也是 <strong>是</strong>, 所以没有变化.',
+	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> '用户在该版面的权限为 <strong>是</strong> 并且原实际权限为 <strong>是</strong>, 所以保留原样.',
 	'TRACE_WHO'								=> '谁',
 	'TRACE_TOTAL'							=> '合计',
 
@@ -285,5 +284,3 @@ $lang = array_merge($lang, array(
 	'WRONG_PERMISSION_TYPE'	=> '选择了错误的权限类型.',
 	'WRONG_PERMISSION_SETTING_FORMAT'	=> '权限设置格式错误, phpBB无法正确处理.',
 ));
-
-?>

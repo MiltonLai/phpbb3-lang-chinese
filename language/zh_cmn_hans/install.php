@@ -592,7 +592,7 @@ $lang = array_merge($lang, array(
     'CONV_ERROR_USER_ACCESS'			=> '无法得到用户权限信息.',
     'CONV_ERROR_WRONG_GROUP'			=> '错误的用户组 "%1$s" 定义于 %2$s.',
     'CONV_OPTIONS_BODY'					=> '这个页面用于收集访问原论坛所需要的数据. 输入原论坛数据库参数, 转换程序不会对原数据库作任何更改. 原论坛必须暂时停用以确保转换能正确完成.',
-    'CONV_SAVED_MESSAGES'				=> '保存信息',
+    'CONV_SAVED_MESSAGES'				=> '保存消息',
 
     'PRE_CONVERT_COMPLETE'			=> '全部的转换准备步骤都已被成功完成，您现在可以开始进行实际的转换操作。请注意您可能需要手工完成一些工作, 在转换完成后, 需要检查一下权限分配, 重新建立索引, 并检查头像和图标文件路径是否正确.',
 ));

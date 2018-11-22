@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_modules [Chinese Simplified]
-*
-* @package language
-* @version $Id: modules.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -80,5 +79,3 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MODULE'			=> '选择一个模块',
 ));
-
-?>

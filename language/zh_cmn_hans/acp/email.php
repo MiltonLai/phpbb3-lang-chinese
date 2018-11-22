@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_email [Chinese Simplified]
-*
-* @package language
-* @version $Id: email.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -65,5 +64,3 @@ $lang = array_merge($lang, array(
 	'NO_EMAIL_MESSAGE'		=> '您还没有输入内容?',
 	'NO_EMAIL_SUBJECT'		=> '您还没有输入标题.',
 ));
-
-?>

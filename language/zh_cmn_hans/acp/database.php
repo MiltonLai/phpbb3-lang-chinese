@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_database [Chinese Simplified]
-*
-* @package language
-* @version $Id: database.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -73,5 +72,3 @@ $lang = array_merge($lang, array(
 	'TABLE_SELECT'		=> '表单选择',
 	'TABLE_SELECT_ERROR'=> '您必须选中至少一个表单.',
 ));
-
-?>
