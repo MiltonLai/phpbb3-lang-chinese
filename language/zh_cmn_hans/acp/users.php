@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_users [Chinese Simplified]
-*
-* @package language
-* @version $Id: users.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -52,6 +51,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> '您不能强制激活创始人帐号.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> '您不能强制激活自己的帐号.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> '您不能删除游客帐号.',
+    'CANNOT_REMOVE_FOUNDER'			=> '您不能删除创始人帐号。',
 	'CANNOT_REMOVE_YOURSELF'		=> '您不能删除自己的帐号.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> '您不能提升被忽略的用户为创始人.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> '您需要先激活用户才能提升他们为创始人, 只有活动的用户才能被提升.',
@@ -139,5 +139,3 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_LOG_DELETED'		=> '无可用信息. 可能日志记录已经被删除.',
 	'USER_TOOLS'					=> '基本工具',
 ));
-
-?>

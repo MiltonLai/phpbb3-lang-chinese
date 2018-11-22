@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* posting [Chinese Simplified]
-*
-* @package language
-* @version $Id: posting.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -46,6 +45,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_ADDED'				=> 'BBCode添加完成.',
 	'BBCODE_EDITED'				=> 'BBCode编辑完成.',
+    'BBCODE_DELETED'			=> 'BBCode已经被删除.',
 	'BBCODE_NOT_EXIST'			=> '您选择的BBCode不存在.',
 	'BBCODE_HELPLINE'			=> '提示',
 	'BBCODE_HELPLINE_EXPLAIN'	=> '这个区域会在鼠标移过时显示BBCode提示信息',
@@ -83,7 +83,8 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> '任何数字序列',
 		'EMAIL'			=> '有效的email地址',
 		'URL'			=> '使用任何协议的有效的URL(http, ftp, 等等… 不能用作javascript掠夺). 如果没有提供, 将添加“http://”',
-		'LOCAL_URL'		=> '本地URL. URL必须和主题页相关并且不能包含服务器名称和协议',
+		'LOCAL_URL'		=> '本地链接。URL必须和主题页相关并且不能包含服务器名称和协议，例如以“%s”开头的链接',
+        'RELATIVE_URL'	=> '相对路径链接。您可以使用这种方式匹配来匹配。要小心，一个完整的链接是一个有效的相对链接。如果您想粘贴本论坛的链接，请使用本地链接。',
 		'COLOR'			=> 'HTML颜色, 可以是六位十六进制数<samp>#FF1234</samp> 或者<a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS色彩关键字</a> 例如<samp>fuchsia</samp> 或 <samp>InactiveBorder</samp>'
 	)
 ));
@@ -108,8 +109,6 @@ $lang = array_merge($lang, array(
 	'DISPLAY_POSTING'			=> '发帖时显示',
 	'DISPLAY_POSTING_NO'		=> '发帖时不显示',
 
-
-
 	'EDIT_ICONS'				=> '编辑图标',
 	'EDIT_SMILIES'				=> '编辑表情图标',
 	'EMOTION'					=> '表情',
@@ -121,15 +120,19 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> '第一个',
 
 	'ICONS_ADD'				=> '添加新图标',
-	'ICONS_NONE_ADDED'		=> '没有添加任何图标',
-	'ICONS_ONE_ADDED'		=> '图标添加完成.',
-	'ICONS_ADDED'			=> '图标添加完成.',
+    'ICONS_ADDED'			=> array(
+        0	=> '没有添加任何图标。',
+        1	=> '图标添加完成。',
+        2	=> '图标添加完成。',
+    ),
 	'ICONS_CONFIG'			=> '图标设置',
 	'ICONS_DELETED'			=> '图标删除完成.',
 	'ICONS_EDIT'			=> '编辑图标',
-	'ICONS_ONE_EDITED'		=> '图标更新完成.',
-	'ICONS_NONE_EDITED'		=> '没有更新任何图标',
-	'ICONS_EDITED'			=> '图标更新完成.',
+    'ICONS_EDITED'			=> array(
+        0	=> '未更新任何图标。',
+        1	=> '图标更新完成。',
+        2	=> '图标更新完成。',
+    ),
 	'ICONS_HEIGHT'			=> '图标高度',
 	'ICONS_IMAGE'			=> '图标图片',
 	'ICONS_IMPORTED'		=> '图标包安装完成.',
@@ -161,9 +164,11 @@ $lang = array_merge($lang, array(
 
 	'SELECT_PACKAGE'			=> '选择一个包文件',
 	'SMILIES_ADD'				=> '添加一个新表情',
-	'SMILIES_NONE_ADDED'		=> '没有添加任何表情',
-	'SMILIES_ONE_ADDED'			=> '表情添加完成.',
-	'SMILIES_ADDED'				=> '表情添加完成.',
+    'SMILIES_ADDED'				=> array(
+        0	=> '没有添加任何表情。',
+        1	=> '表情添加完成。',
+        2	=> '表情添加完成。',
+    ),
 	'SMILIES_CODE'				=> '表情代码',
 	'SMILIES_CONFIG'			=> '表情设置',
 	'SMILIES_DELETED'			=> '表情删除完成.',
@@ -171,9 +176,11 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_CODE'			=> '忽略表情 “%s” , 因为没有输入代码.',
 	'SMILIE_NO_EMOTION'			=> '忽略表情 “%s”, 因为没有输入表情注释.',
 	'SMILIE_NO_FILE'			=> '忽略表情 “%s”, 因为没有找到对应文件.',
-	'SMILIES_NONE_EDITED'		=> '没有更新任何表情',
-	'SMILIES_ONE_EDITED'		=> '表情更新完成.',
-	'SMILIES_EDITED'			=> '表情更新完成.',
+    'SMILIES_EDITED'			=> array(
+        0	=> '没有更新任何表情。',
+        1	=> '表情更新完成。',
+        2	=> '表情更新完成。',
+    ),
 	'SMILIES_EMOTION'			=> '表情',
 	'SMILIES_HEIGHT'			=> '表情图片高度',
 	'SMILIES_IMAGE'				=> '表情图片',
@@ -184,7 +191,11 @@ $lang = array_merge($lang, array(
 	'SMILIES_ORDER'				=> '表情图标顺序',
 	'SMILIES_URL'				=> '表情图片文件',
 	'SMILIES_WIDTH'				=> '表情图片宽度',
-	'TOO_MANY_SMILIES'			=> '超过 %d 个表情图片的限制.',
+
+    'TOO_MANY_SMILIES'			=> array(
+        1	=> '超过 %d 个表情图片的限制。',
+        2	=> '超过 %d 个表情图片的限制。',
+    ),
 
 	'WRONG_PAK_TYPE'	=> '指定的文件包中没有所需的数据.',
 ));
@@ -276,5 +287,3 @@ $lang = array_merge($lang, array(
 
 	'USED_IN_REPORTS'		=> '举报中使用',
 ));
-
-?>

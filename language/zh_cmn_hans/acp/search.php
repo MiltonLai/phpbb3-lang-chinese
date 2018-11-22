@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_search [Chinese Simplified]
-*
-* @package language
-* @version $Id: search.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -52,15 +51,38 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS'			=> '删除索引进行中',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> '搜索后端正在清除索引, 这需要几分钟的时间.',
 
-	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'MySQL全文检索后端只能在MySQL4或更高的版本中使用.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'MySQL全文检索只能在MyISAM格式表单中使用.',
+    'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'MySQL全文检索后端只能在MySQL4或更高的版本中使用。',
+    'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL全文检索只能在MyISAM或InnoDB格式数据表中使用。对于InnoDB数据表，需要MySQL 5.6.8或以上版本才能支持。',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> '索引帖子总数',
-	'FULLTEXT_MYSQL_MBSTRING'				=> '支持非拉丁 UTF-8 字符使用mbstring:',
-	'FULLTEXT_MYSQL_PCRE'					=> '支持非拉丁 UTF-8 字符使用 PCRE:',
-	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> '如果PCRE没有unicode字符属性, 搜索后端会尝试使用mbstring的正则表达式机制.',
-	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> '这个搜索后端需要使用PCRE unicode字符属性, 这只在PHP 版本 4.4, 5.1 或更高中可用, 如果您需要搜索非拉丁字符.',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'   => '至少需要达到这个长度的词才会被检索. 您必须更改mysql的设定才能修改此值.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => '不超过这个长度的词才会被检索. 您必须更改mysql的设定才能修改此值.',
+
+    'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'PostgreSQL 全文检索只能与 PostgreSQL 配合使用。',
+    'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> '已建立索引的帖子总数',
+    'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL版本',
+    'FULLTEXT_POSTGRES_TS_NAME'				=> '文字搜索配置资料：',
+    'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> '关键词最小长度',
+    'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> '关键词最大长度',
+    'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'		=> '此搜索功能需要 PostgreSQL 版本 8.3 或更高。',
+    'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'				=> '用于设置解析器和词库的文本搜索配置资料。',
+    'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'			=> '至少需要达到这个字符长度的词才会被包含在数据库查询中。',
+    'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'			=> '长度最多为这个字符长度的词才会被包含在数据库查询中。',
+
+    'FULLTEXT_SPHINX_CONFIGURE'				=> '配置以下信息来生成 sphinx 配置文件',
+    'FULLTEXT_SPHINX_DATA_PATH'				=> '数据目录的路径',
+    'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> '用于存储索引和日志文件的目录，以斜杆结尾。您应当在web可访问的目录之外创建此目录。',
+    'FULLTEXT_SPHINX_DELTA_POSTS'			=> '在经常更新的delta索引中保留的帖子数量',
+    'FULLTEXT_SPHINX_HOST'					=> 'Sphinx服务主机名',
+    'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'sphinx后端搜索守护进程(searchd)运行的主机。留空则默认使用 localhost',
+    'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'		=> '索引内存使用限制',
+    'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> '这个数字应当比您的机器可用的内存小。如果您经常遇到服务器卡顿，有可能是检索消耗了太多资源，您可以减少给索引使用的内存数量。',
+    'FULLTEXT_SPHINX_MAIN_POSTS'			=> '主索引中的帖子数量',
+    'FULLTEXT_SPHINX_PORT'					=> 'Sphinx服务端口',
+    'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'sphinx后端搜索守护进程(searchd)在侦听的端口。留空则使用默认的Sphinx API 端口 9312',
+    'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'sphinx 搜索仅支持 MySQL 和 PostgreSQL.',
+    'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx 配置文件',
+    'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'sphinx生成的配置文件内容。这些内容需要粘贴到sphinx服务端的配置文件 sphinx.conf，使用您的数据库连接信息代替里面的 [dbuser] 和 [dbpassword] 参数。',
+    'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'sphinx 数据目录路径未设置。请设置并提交生成配置文件。',
 
 	'GENERAL_SEARCH_SETTINGS'				=> '综合搜索设定',
 	'GO_TO_SEARCH_INDEX'					=> '前往索引页面',
@@ -85,8 +107,18 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> '游客搜索间隔',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> '在多次搜索中游客必须等待的间隔时间(秒).',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> '所有id不高于 %1$d 的帖子都已经建立索引, 这一操作中处理了 %2$d 个帖子.<br />速度接近 %3$.1f 帖子每秒.<br />索引正在进行中…',
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> '所有id不高于 %1$d 的帖子都已经从搜索索引中删除.<br />删除正在进行中…',
+    'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
+        2	=> '所有id不高于 %2$d 的帖子都已经建立索引，这一操作中处理了 %1$d 个帖子。<br>',
+    ),
+    'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
+        2	=> '当前速度接近 %1$.1f 个帖子每秒.<br />索引正在进行中…',
+    ),
+    'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
+        2	=> '所有id不高于 %2$d 的帖子都已经从索引中删除，这一操作中处理了 %1$d 个帖子。<br />',
+    ),
+    'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+        2	=> '删除速度接近 %1$.1f 个帖子每秒。<br />删除正在进行中…',
+    ),
 	'SEARCH_INDEX_CREATED'					=> '已经对数据库中的所有帖子建立了索引.',
 	'SEARCH_INDEX_REMOVED'					=> '成功清除了这个后端的索引数据.',
 	'SEARCH_INTERVAL'						=> '用户搜索间隔',
@@ -105,5 +137,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> '启用全文更新',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> '当文章发表时更新全文索引, 如果禁用检索这个功能将停用.',
 ));
-
-?>

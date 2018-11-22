@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_profile [Chinese Simplified]
-*
-* @package language
-* @version $Id: profile.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -38,8 +37,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> '成功添加用户自定义资料栏目.',
+    'ALPHA_DOTS'			=> '字母与点',
 	'ALPHA_ONLY'			=> '只允许数字与字母',
 	'ALPHA_SPACERS'			=> '数字, 字母和空格',
+    'ALPHA_UNDERSCORE'		=> '字母和下划线',
+    'ALPHA_PUNCTUATION'		=> '字母和逗号，点，下划线和中划线，以字母开头',
 	'ALWAYS_TODAY'			=> '总是当前日期',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> '输入您的选项',
@@ -66,6 +68,10 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> '用户可以在用户控制面板中更改这个资料栏.',
 	'DISPLAY_AT_REGISTER'			=> '注册时显示',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> '启用这个选项后, 用户注册时会显示此栏目.',
+    'DISPLAY_ON_MEMBERLIST'			=> '在用户列表页显示',
+    'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> '如果启用这个选项，字段将在用户列表页中显示。',
+    'DISPLAY_ON_PM'					=> '在站内消息查看页中显示',
+    'DISPLAY_ON_PM_EXPLAIN'			=> '如果启用这个选项，字段将在站内消息查看页中显示。',
 	'DISPLAY_ON_VT'					=> '于主题阅读页面显示',
 	'DISPLAY_ON_VT_EXPLAIN'			=> '启用后, 此栏目会显示于主题阅读页面中的用户资料中.',
 	'DISPLAY_PROFILE_FIELD'			=> '用户公开资料中显示',
@@ -79,20 +85,26 @@ $lang = array_merge($lang, array(
 	'EVERYTHING_OK'					=> '一切正常',
 
 	'FIELD_BOOL'				=> '正反判断 (是/否)',
+    'FIELD_CONTACT_DESC'		=> '联系说明',
+    'FIELD_CONTACT_URL'			=> '联系链接',
 	'FIELD_DATE'				=> '日期',
 	'FIELD_DESCRIPTION'			=> '栏目描述',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> '显示给用户的栏目描述',
 	'FIELD_DROPDOWN'			=> '下拉框',
+    'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> '栏目定义',
 	'FIELD_IDENT_ALREADY_EXIST'	=> '选择的栏目定义已经存在, 请选择另外一个名称.',
 	'FIELD_IDENT_EXPLAIN'		=> '栏目定义是在数据库和模板中区分栏目的标记.',
 	'FIELD_INT'					=> '数字',
+    'FIELD_IS_CONTACT'			=> '将字段作为联系字段显示',
+    'FIELD_IS_CONTACT_EXPLAIN'	=> '联系字段将显示在用户资料的联系信息分组里，显示的形式在帖子和站内消息旁边的简单资料中是不一样的。您可以使用 <samp>%s</samp> 作为一个占位符，显示时会替换为用户提供的值。',
 	'FIELD_LENGTH'				=> '输入框长度',
 	'FIELD_NOT_FOUND'			=> '资料栏目未找到.',
 	'FIELD_STRING'				=> '单行文字输入框',
 	'FIELD_TEXT'				=> '文本编辑框',
 	'FIELD_TYPE'				=> '栏目类型',
 	'FIELD_TYPE_EXPLAIN'		=> '设定栏目类型后将不可修改.',
+    'FIELD_URL'					=> 'URL (链接)',
 	'FIELD_VALIDATION'			=> '栏目验证',
 	'FIRST_OPTION'				=> '第一选项',
 
@@ -104,6 +116,12 @@ $lang = array_merge($lang, array(
 	'ISO_LANGUAGE'				=> '语言 [%s]',
 
 	'LANG_SPECIFIC_OPTIONS'		=> '语言特定选项 [<strong>%s</strong>]',
+
+    'LETTER_NUM_DOTS'			=> '所有的字符，数字和点(句号)',
+    'LETTER_NUM_ONLY'			=> '所有的字符和数字',
+    'LETTER_NUM_PUNCTUATION'	=> '所有的字符，数字，逗号，点，下划线和中划线，以字符开头',
+    'LETTER_NUM_SPACERS'		=> '所有的字符，数字和空格',
+    'LETTER_NUM_UNDERSCORE'		=> '所有的字符，数字和下划线',
 
 	'MAX_FIELD_CHARS'		=> '最大字符串长度',
 	'MAX_FIELD_NUMBER'		=> '最大允许数字',
@@ -154,5 +172,3 @@ $lang = array_merge($lang, array(
 
 	'VISIBILITY_OPTION'				=> '可视化选项',
 ));
-
-?>

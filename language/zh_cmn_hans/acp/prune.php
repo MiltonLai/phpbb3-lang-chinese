@@ -1,14 +1,13 @@
 <?php
 /**
-*
-* acp_prune [Chinese Simplified]
-*
-* @package language
-* @version $Id: prune.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2007 phpbbchina.com
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+ *
+ * This file is part of the phpBB Chinese language package.
+ *
+ * @author Milton Lai
+ * @copyright (c) phpBB China <https://www.phpbbchina.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
 * DO NOT CHANGE
@@ -39,19 +38,24 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_PRUNE_USERS_EXPLAIN'	=> '这里您可以将论坛中的会员删除（或者冻结）。 你可以有多种形式搜寻，然后删除。如：发帖数量和最后一次的时间等等... 这些方式可以自由组合， 如：你可以选用2001年1月1日之前发贴量少于10篇的会员来删除。 你也可以选择批量删除，只需要将会员名单放进删除栏目中即可。 此功能须小心使用！ 一旦用户被删除后将无法再恢复。',
 
+    'CRITERIA'				=> '条件',
+
 	'DEACTIVATE_DELETE'			=> '冻结或者删除',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> '选择冻结会员或者删除会员，注：此操作无法回复！',
 	'DELETE_USERS'				=> '删除',
 	'DELETE_USER_POSTS'			=> '被删除会员所发表的帖子也删除',
 	'DELETE_USER_POSTS_EXPLAIN' => '移动被删除会员发表的帖子。若会员被冻结将不会被移动。',
 
-	'JOINED_EXPLAIN'			=> '输入日期，使用 <kbd>YYYY-MM-DD</kbd> 格式。',
+	'JOINED_EXPLAIN'			=> '输入日期，使用 <kbd>YYYY-MM-DD</kbd> 格式。您可以两个都填表示一段间隔，或留空一处作为开放的日期范围',
 
 	'LAST_ACTIVE_EXPLAIN'		=> '输入日起，使用<kbd>YYYY-MM-DD</kbd> 格式。输入<kbd>0000-00-00</kbd>将删除从未登入的会员, <em>Before</em> 和 <em>After</em> 条件将被忽略',
 
+    'POSTS_ON_QUEUE'			=> '等待审核的帖子',
+    'PRUNE_USERS_GROUP_EXPLAIN'	=> '仅限于选中组中的用户',
+    'PRUNE_USERS_GROUP_NONE'	=> '所有组',
 	'PRUNE_USERS_LIST'				=> '将被裁减的用户',
-	'PRUNE_USERS_LIST_DELETE'		=> '使用选中的条件, 如下的用户帐号将被删除.',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> '使用选中的条件, 如下的用户帐号将被冻结.',
+	'PRUNE_USERS_LIST_DELETE'		=> '使用选中的条件，如下的用户帐号将被删除。您可以在删除列表里通过取消勾选来移除单个用户。',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> '使用选中的条件，如下的用户帐号将被冻结。您可以在删除列表里通过取消勾选来移除单个用户。',
 
 	'SELECT_USERS_EXPLAIN'		=> '在这里输入特定会员，他们将会用于上述的设定标准。创始人不会被删除',
 
@@ -87,5 +91,3 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_PRUNED'		=> '主题已裁减',
 ));
-
-?>
