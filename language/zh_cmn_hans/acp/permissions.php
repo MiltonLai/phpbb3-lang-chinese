@@ -179,7 +179,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_FULL'			=> '所有功能',
 	'ROLE_USER_LIMITED'			=> '有限功能',
 	'ROLE_USER_NOAVATAR'		=> '无头像',
-	'ROLE_USER_NOPM'			=> '无私人短信',
+	'ROLE_USER_NOPM'			=> '无站内消息',
 	'ROLE_USER_STANDARD'		=> '标准功能',
 	'ROLE_USER_NEW_MEMBER'		=> '新注冊會員',
 
@@ -203,9 +203,9 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> '可以使用基本主题操作. 不能发送警告和使用版主队列.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'			=> '可以使用大部分的版主工具, 但是不能封禁用户和更改帖子作者.',
 	'ROLE_DESCRIPTION_USER_FULL'			=> '可以对用户行使所有的版主功能, 包括更改用户名称, 也不受灌水间隔限制.<br />不推荐使用.',
-	'ROLE_DESCRIPTION_USER_LIMITED'			=> '可以访问部分用户功能. 但是不允许发表附件, 发送email和私人短信.',
+	'ROLE_DESCRIPTION_USER_LIMITED'			=> '可以访问部分用户功能. 但是不允许发表附件, 发送email和站内消息.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> '有限的功能设置, 并且不允许使用头像功能.',
-	'ROLE_DESCRIPTION_USER_NOPM'			=> '有限的功能设置, 并且不允许使用私人短信.',
+	'ROLE_DESCRIPTION_USER_NOPM'			=> '有限的功能设置, 并且不允许使用站内消息.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> '可以访问大多数但不是全部用户功能, 例如更改用户名称, 也受灌水间隔限制.',
 	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> '为新注册用户所在组指定的角色; 包含 <samp>从不</samp> 设定以锁定新用户权限.',
 	

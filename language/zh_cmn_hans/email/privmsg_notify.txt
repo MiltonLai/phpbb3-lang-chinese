@@ -1,8 +1,8 @@
-Subject: 收到新的私人短信
+Subject: 收到新的站内消息
 
 Hello {USERNAME},
 
-您在 "{SITENAME}" 上的帐号收到了来自 "{AUTHOR_NAME}"的站内短信, 标题为:
+您在 "{SITENAME}" 上的帐号收到了来自 "{AUTHOR_NAME}"的站内消息, 标题为:
 
 {SUBJECT}
 

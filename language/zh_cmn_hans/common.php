@@ -574,7 +574,7 @@ $lang = array_merge($lang, array(
     'PM'					=> 'PM',
     'PM_REPORTED'           => '点击查看报告',
     'POSTING_MESSAGE'		=> '发表文章于 %s',
-    'POSTING_PRIVATE_MESSAGE'	=> '编写私人短信',
+    'POSTING_PRIVATE_MESSAGE'	=> '编写站内消息',
     'POST'					=> '帖子',
     'POST_ANNOUNCEMENT'		=> '公告',
     'POST_STICKY'			=> '置顶',
@@ -610,9 +610,9 @@ $lang = array_merge($lang, array(
     'PREVIOUS_STEP'			=> '上一步',
     'PRIVACY'				=> '隐私政策',
     'PRIVACY_LINK'			=> '隐私',
-    'PRIVATE_MESSAGE'		=> '私人短信',
-    'PRIVATE_MESSAGES'		=> '私人短信',
-    'PRIVATE_MESSAGING'		=> '私人短信',
+    'PRIVATE_MESSAGE'		=> '站内消息',
+    'PRIVATE_MESSAGES'		=> '站内消息',
+    'PRIVATE_MESSAGING'		=> '站内消息',
     'PROFILE'				=> '用户控制面板',
 
     'QUICK_LINKS'			=> '快速链接',
@@ -701,7 +701,7 @@ $lang = array_merge($lang, array(
     'SELECT_FORUM'				=> '选择一个版面',
     'SEND_EMAIL'				=> '发送Email',				// Used for submit buttons
     'SEND_EMAIL_USER'			=> '发生Email给 %s',
-    'SEND_PRIVATE_MESSAGE'		=> '发送私人短信',
+    'SEND_PRIVATE_MESSAGE'		=> '发送站内消息',
     'SETTINGS'					=> '设置',
     'SIGNATURE'					=> '签名',
     'SKIP'						=> '跳到内容',
@@ -743,7 +743,7 @@ $lang = array_merge($lang, array(
     'TIMEOUT_PROCESSING_REQ'			=> '请求超时.',
 
     'TOO_LARGE'                     => '您输入的值太大了.',
-    'TOO_LARGE_MAX_RECIPIENTS'      => '您输入的<strong>每个私人短信的最大收件人数目</strong> 太大.',
+    'TOO_LARGE_MAX_RECIPIENTS'      => '您输入的<strong>每个站内消息的最大收件人数目</strong> 太大.',
     'TOO_LONG'						=> '您输入的值太长了.',
 
     'TOO_LONG_CONFIRM_CODE'			=> '您输入的确认码太长了。',
@@ -771,7 +771,7 @@ $lang = array_merge($lang, array(
     'TOO_SHORT_EMAIL_CONFIRM'		=> '您输入的 email 验证地址太短了。',
 
     'TOO_SMALL'                     => '您输入的值太小了.',
-    'TOO_SMALL_MAX_RECIPIENTS'      => '您输入的<strong>每个站内短信允许的最大收件人数目</strong>太小.',
+    'TOO_SMALL_MAX_RECIPIENTS'      => '您输入的<strong>每个站内消息允许的最大收件人数目</strong>太小.',
 
     'TOPIC'				=> '主题',
     'TOPICS'			=> '主题',
@@ -852,7 +852,7 @@ $lang = array_merge($lang, array(
     'VIEWING_ONLINE'			=> '查看有谁在线',
     'VIEWING_MCP'				=> '查看版主控制面板',
     'VIEWING_MEMBER_PROFILE'	=> '查看用户资料',
-    'VIEWING_PRIVATE_MESSAGES'	=> '查看私人短信',
+    'VIEWING_PRIVATE_MESSAGES'	=> '查看站内消息',
     'VIEWING_REGISTER'			=> '注册帐号',
     'VIEWING_UCP'				=> '查看用户控制面板',
     'VIEWS'						=> '阅读次数',

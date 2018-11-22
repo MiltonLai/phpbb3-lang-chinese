@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_ATTACHMENTS'					=> '允许附件',
 	'ALLOW_ALL_FORUMS'					=> '所有版面中允许',
 	'ALLOW_IN_PM'						=> '短信中允许',
-	'ALLOW_PM_ATTACHMENTS'				=> '允许在私人短信中添加附件',
+	'ALLOW_PM_ATTACHMENTS'				=> '允许在站内消息中添加附件',
 	'ALLOW_SELECTED_FORUMS'				=> '只允许在下列选中的版面',
 	'ASSIGNED_EXTENSIONS'				=> '指定的扩展名',
 	'ASSIGNED_GROUP'					=> '指定的扩展名组',
@@ -136,7 +136,7 @@ $lang = array_merge($lang, array(
 	'NO_UPLOAD_DIR'				=> '您指定的上载目录不存在.',
 	'NO_WRITE_UPLOAD'			=> '您指定的上载目录不可写入. 请更改目录权限使web服务器可以作写操作.',
 
-	'ONLY_ALLOWED_IN_PM'	=> '只在私人短信中允许',
+	'ONLY_ALLOWED_IN_PM'	=> '只在站内消息中允许',
 	'ORDER_ALLOW_DENY'		=> '允许',
 	'ORDER_DENY_ALLOW'		=> '禁止',
 

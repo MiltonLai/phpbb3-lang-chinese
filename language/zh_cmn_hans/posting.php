@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'DISALLOWED_CONTENT'		=> '上传失败, 因为文件可能包含安全隐患.',
 	'DISALLOWED_EXTENSION'		=> '扩展名 %s 是禁止的',
 	'DRAFT_LOADED'				=> '草稿已经导入编辑区，您可以结束编辑您的帖子。<br />您的草稿将在帖子提交后删除。',
-	'DRAFT_LOADED_PM'			=> '草稿已经导入编辑区域, 您可以现在完成您的私人短信.<br />您的草稿将在提交后删除.',
+	'DRAFT_LOADED_PM'			=> '草稿已经导入编辑区域, 您可以现在完成您的站内消息.<br />您的草稿将在提交后删除.',
 	'DRAFT_SAVED'				=> '草稿保存成功',
 	'DRAFT_TITLE'				=> '草稿标题',
 
@@ -277,7 +277,7 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_FORUM_POST'	=> '您不能在这个版面进行发帖操作，因为这个版面类型不支持。',
 
 	'VIEW_MESSAGE'				=> '%s查看您提交的内容%s',
-	'VIEW_PRIVATE_MESSAGE'		=> '%s查看您发送的私人短信%s',
+	'VIEW_PRIVATE_MESSAGE'		=> '%s查看您发送的站内消息%s',
 
 	'WRONG_FILESIZE'			=> '文件太大了, 最大允许文件尺寸为 %1$d %2$s',
 	'WRONG_SIZE'				=> '图片必须最小 %1$s 象素宽 %2$s 象素高；最大 %3$s 象素宽 %4$s 象素高. 您提交的图片宽 %5$s 象素, 高 %6$s 象素.',

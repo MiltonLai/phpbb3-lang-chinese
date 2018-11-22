@@ -214,8 +214,8 @@ $lang = array_merge($lang, array(
 	'IMG_GLOBAL_UNREAD_LOCKED'			=> '有新帖的锁定的全局公告',
 	'IMG_GLOBAL_UNREAD_LOCKED_MINE'		=> '参与的有新贴的锁定的全局公告',
 
-	'IMG_PM_READ'		=> '已读私人短信',
-	'IMG_PM_UNREAD'		=> '未读私人短信',
+	'IMG_PM_READ'		=> '已读站内消息',
+	'IMG_PM_UNREAD'		=> '未读站内消息',
 
 	'IMG_ICON_BACK_TOP'		=> 'Top',
 
@@ -249,9 +249,9 @@ $lang = array_merge($lang, array(
 	'IMG_ICON_USER_SEARCH'		=> '搜索帖子',
 	'IMG_ICON_USER_WARN'		=> '警告用户',
 
-	'IMG_BUTTON_PM_FORWARD'		=> '转发私人短信',
-	'IMG_BUTTON_PM_NEW'			=> '新私人短信',
-	'IMG_BUTTON_PM_REPLY'		=> '回复私人短信',
+	'IMG_BUTTON_PM_FORWARD'		=> '转发站内消息',
+	'IMG_BUTTON_PM_NEW'			=> '新站内消息',
+	'IMG_BUTTON_PM_REPLY'		=> '回复站内消息',
 	'IMG_BUTTON_TOPIC_LOCKED'	=> '锁定的主题',
 	'IMG_BUTTON_TOPIC_NEW'		=> '新主题',
 	'IMG_BUTTON_TOPIC_REPLY'	=> '回复主题',

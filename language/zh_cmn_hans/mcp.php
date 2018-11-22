@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 
 	'LATEST_LOGS'				=> '最近的5个操作记录',
 	'LATEST_REPORTED'			=> '最新的5个举报',
-	'LATEST_REPORTED_PMS'		=> '最新的5个站内短信举报',
+	'LATEST_REPORTED_PMS'		=> '最新的5个站内消息举报',
 	'LATEST_UNAPPROVED'			=> '最新5篇等待批准发布的帖子',
 	'LATEST_WARNING_TIME'		=> '最近发出的警告',
 	'LATEST_WARNINGS'			=> '最近的5个警告记录',
