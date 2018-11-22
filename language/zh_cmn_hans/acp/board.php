@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> '这里您可以进行论坛的基本操作。',
     'BOARD_INDEX_TEXT'				=> '论坛首页文字',
-    'BOARD_INDEX_TEXT_EXPLAIN'		=> '这个文字将显示在面包屑导航中作为论坛首页。如果未指定，将默认显示为“Board index”。',
+    'BOARD_INDEX_TEXT_EXPLAIN'		=> '这个文字将显示在面包屑导航中作为论坛首页。如果未指定，将默认显示为“论坛首页”。',
     'BOARD_STYLE'					=> '论坛风格',
 	'CUSTOM_DATEFORMAT'				=> '自定义…',
 	'DEFAULT_DATE_FORMAT'			=> '日期格式',
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'OVERRIDE_STYLE_EXPLAIN'		=> '使用默认的风格覆盖用户以及游客的风格。',
 	'SITE_DESC'						=> '站点描述',
     'SITE_HOME_TEXT'				=> '主网站文字',
-    'SITE_HOME_TEXT_EXPLAIN'		=> '这段文字将作为链接显示在面包屑导航中作为网站首页。如果未指定，默认显示“Home”。',
+    'SITE_HOME_TEXT_EXPLAIN'		=> '这段文字将作为链接显示在面包屑导航中作为网站首页。如果未指定，默认显示“首页”。',
     'SITE_HOME_URL'					=> '主网站URL',
     'SITE_HOME_URL_EXPLAIN'			=> '设置后，这个链接将被添加到论坛的面包屑导航中，并且论坛logo也会链接到这个URL上。URL必须是符合链接格式要求的，例如 <samp>http://www.phpbb.com</samp>.',
 	'SITE_NAME'						=> '站点名称',
@@ -113,9 +113,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> '允许会员上载来自另一个网站的头像.',
 	'ALLOW_UPLOAD'					=> '允许头像上载',
 	'AVATAR_GALLERY_PATH'			=> '头像册路径',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> '在您的phpBB论坛根目录下的预先设定的头像画册, 例如 <samp>images/avatars/gallery</samp>',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> '在您的phpBB论坛根目录下的预先设定的头像画册, 例如 <samp>images/avatars/gallery</samp>，<br>因为安全原因，双点路径 <samp>../</samp> 将从将被过滤',
 	'AVATAR_STORAGE_PATH'			=> '头像存储路径',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> '在您的phpBB论坛根目录下的路径, 例如 <samp>images/avatars/upload</samp>',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> '在您的phpBB论坛根目录下的路径, 例如 <samp>images/avatars/upload</samp>。<br>如果路径不可写，头像上传将<strong>不可用</strong>。<br>因为安全原因，双点路径 <samp>../</samp> 将从将被过滤。',
 	'MAX_AVATAR_SIZE'				=> '最大头像尺寸',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(用像素表示的宽 x 高)',
 	'MAX_FILESIZE'					=> '最大的头像文件大小',
@@ -158,6 +158,8 @@ $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> '这里您可以设置发帖的所有默认设置',
 	'ALLOW_POST_LINKS'					=> '在帖子/短信中允许链接',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> '如果禁用了<code>[URL]</code> 标签将停止链接解析.',
+    'ALLOWED_SCHEMES_LINKS'				=> '链接中允许的协议',
+    'ALLOWED_SCHEMES_LINKS_EXPLAIN'		=> '用户只能发表不带协议的链接，或是允许的(逗号分割的)这些协议的链接。',
 	'ALLOW_POST_FLASH'					=> '允许在帖子中使用 <code>[FLASH]</code> BBCode 标签',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> '如果禁用 <code>[FLASH]</code> BBCode 标签, 将禁止在帖子中使用flash. 否则由权限系统控制哪些用户可以使用 <code>[FLASH]</code> BBCode 标签.',
 
@@ -219,7 +221,8 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> '这里您可以进行用户注册和资料修改相关的设置',
 
 	'ACC_ACTIVATION'			=> '帐号激活',
-	'ACC_ACTIVATION_EXPLAIN'	=> '这决定了用户是否可以在注册后立刻浏览论坛, 还是必须进行确认. 您也可以禁止新用户注册.',
+	'ACC_ACTIVATION_EXPLAIN'	=> '这决定了用户是否可以在注册后立刻浏览论坛, 还是必须进行确认. 您也可以禁止新用户注册。<em>如果需要使用管理员或用户激活，需要开启论坛Email功能。</em>',
+    'ACC_ACTIVATION_WARNING'		=> '请注意，现在选择的激活方式需要开启Email功能，否则注册将被禁止。建议您选择其他的激活方式或开启邮件功能。',
 	'NEW_MEMBER_POST_LIMIT'			=> '新会员发文限制',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> '新会员会被归入 <em>新注册用户</em> 组直到其发表足够多的文章. 您可以使用此用户组的组权限来限制其使用站内消息以及方便发文审核. <strong>设置为0则不启用此项功能.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> '设置新注册用户组为默认组',
@@ -268,7 +271,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_SETTINGS_OTHER'			=> '其它设定',
 
 	'ACP_FEED_ENABLE'					=> '启用ATOM',
-	'ACP_FEED_ENABLE_EXPLAIN'			=> '对整个论坛启用或停止ATOM输出.<br />关闭此选项会关闭论坛的所有ATOM输出, 以下的选项将不再起作用.',
+	'ACP_FEED_ENABLE_EXPLAIN'			=> '对整个论坛启用或停止ATOM输出.<br>关闭此选项会关闭论坛的所有ATOM输出, 以下的选项将不再起作用.',
 	'ACP_FEED_LIMIT'					=> '数量',
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'ATOM输出条目的最大数量.',
 
@@ -284,7 +287,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_TOPICS_ACTIVE'			=> '启用活跃话题ATOM输出',
 	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> '活跃话题ATOM输出最近发表的活跃话题及其最后一篇回复的内容.',
 	'ACP_FEED_NEWS'						=> '各版面最新文章ATOM输出',
-	'ACP_FEED_NEWS_EXPLAIN'				=> '从以下版面中各摘取最新的一篇文章. 如果无指定版面则关闭此项输出.<br />要选定或反选多个版面, 请按住<samp>CTRL</samp>键用鼠标左键点选.',
+	'ACP_FEED_NEWS_EXPLAIN'				=> '从以下版面中各摘取最新的一篇文章. 如果无指定版面则关闭此项输出.<br>要选定或反选多个版面, 请按住<samp>CTRL</samp>键用鼠标左键点选.',
 
 	'ACP_FEED_OVERALL_FORUMS'			=> '启用版面ATOM输出',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> '所有版面ATOM输出会显示所有版面列表.',
@@ -292,14 +295,15 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_HTTP_AUTH'				=> '允许HTTP验证',
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> '启用此验证后, 用户可以访问到其他无权限用户所无法访问的内容, 需要添加<samp>auth=http</samp>参数到URL. 请注意一些PHP版本需要在.htaccess文件上做额外的设置. 更多信息请搜索相关文章.',
 	'ACP_FEED_ITEM_STATISTICS'			=> '条目统计',
-	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> '显示各<br />(作者, 日期和时间, 回复数, 查看数)',
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> '显示各<br>(作者, 日期和时间, 回复数, 查看数)',
 	'ACP_FEED_EXCLUDE_ID'				=> '排除下列版面',
-	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> '来自这些版面的内容将<strong>不会被输出</strong>. 无指定版面则输出所有版面内容.<br />要选定或反选多个版面, 请按住<samp>CTRL</samp>键用鼠标左键点选.',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> '来自这些版面的内容将<strong>不会被输出</strong>. 无指定版面则输出所有版面内容.<br>要选定或反选多个版面, 请按住<samp>CTRL</samp>键用鼠标左键点选.',
 ));
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> '这里您可以对论坛的验证机制进行设置, 有多种方式应对Spam机器人的注册尝试.',
+    'ACP_VC_EXT_GET_MORE'					=> '请访问 <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a> 了解更多的反垃圾注册插件。访问 <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a> 了解更多关于论坛的反垃圾知识。',
 	'AVAILABLE_CAPTCHAS'					=> '可用插件',
 	'CAPTCHA_UNAVAILABLE'					=> '无法使用验证图片因为服务器环境不支持.',
 	'CAPTCHA_GD'							=> 'GD 验证图片',
@@ -341,11 +345,16 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> '以下设定了送往用户浏览器的数据. 在大多数情况下使用默认设置就已足够. 如果您自行调整, 不正确的设置将会使用户无法登录论坛.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> '以下设定了送往用户浏览器的数据。在大多数情况下使用默认设置就已足够. 如果您自行调整需要谨慎，不正确的设置将会使用户无法登录论坛。如果您论坛的用户存在无法保持登录状态的问题，请查阅<strong><a href="https://www.phpbb.com/support/go/cookie-settings">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></strong>。',
 
 	'COOKIE_DOMAIN'				=> 'Cookie作用域',
+    'COOKIE_DOMAIN_EXPLAIN'		=> '大多数情况下cookie域是可选的。如果不确定填什么请留空。<br><br>如果您的论坛集成在其他网站之下，或使用了多个域名，您需要通过如下方法确定使用什么cookie域。如果您的网站结构是类似于 <i>example.com</i> 和 <i>forums.example.com</i>, 或者 <i>forums.example.com</i> 和 <i>blog.example.com</i>，去掉二级域名直到保留相同的域名部分, <i>example.com</i>，然后在前面添加一个点，需要输入的就是 .example.com (注意前面的点).',
 	'COOKIE_NAME'				=> 'Cookie名称',
+    'COOKIE_NAME_EXPLAIN'		=> '可以是任何名称，当修改cookie设置后也应当修改cookie名称。',
+    'COOKIE_NOTICE'				=> 'Cookie 提示',
+    'COOKIE_NOTICE_EXPLAIN'		=> '如果开启，用户访问论坛时将看到提示。是否需要开启取决于您的论坛使用的内容和扩展功能，有些是法律上要求的。',
 	'COOKIE_PATH'				=> 'Cookie路径',
+    'COOKIE_PATH_EXPLAIN'		=> '通常这是您的论坛脚本的路径，或只是一个斜杆，这样cookie对整个域名都有效。',
 	'COOKIE_SECURE'				=> 'Cookie安全',
 	'COOKIE_SECURE_EXPLAIN'		=> '如果您的服务器使用SSL协议, 则启用这个选项, 否则请禁用. 如果没有使用SSL而启用这个选项, 将会使论坛转向错误.',
 	'ONLINE_LENGTH'				=> '查看在线时间跨度',
@@ -354,22 +363,46 @@ $lang = array_merge($lang, array(
 	'SESSION_LENGTH_EXPLAIN'	=> '会话多少秒后超时.',
 ));
 
+// Contact Settings
+$lang = array_merge($lang, array(
+    'ACP_CONTACT_SETTINGS_EXPLAIN'		=> '这里您可以启用或禁用联系页，并在页面上添加文字。',
+
+    'CONTACT_US_ENABLE'				=> '启用联系页',
+    'CONTACT_US_ENABLE_EXPLAIN'		=> '联系页允许用户给论坛管理员发送Email。请注意必须启用论坛Email功能，这个功能位于综合》客户端通信》Email设置。',
+
+    'CONTACT_US_INFO'				=> '联系信息',
+    'CONTACT_US_INFO_EXPLAIN'		=> '这些文字将显示在联系页上',
+    'CONTACT_US_INFO_PREVIEW'		=> '联系信息 - 预览',
+    'CONTACT_US_INFO_UPDATED'		=> '联系信息已经更新。',
+));
+
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> '这里您可以启用或禁用部分论坛功能以减轻服务器负载. 对于大多数服务器并不需要禁用任何功能. 不过有些系统和合租环境下禁用某些不需要的功能能提高性能. 您也可以指定系统的负载限制, 超出限制的浏览将被拒绝.',
 
+    'ALLOW_CDN'						=> '允许使用第三方CDN(content delivery networks)服务',
+    'ALLOW_CDN_EXPLAIN'				=> '如果启用，一些文件将由外部第三方服务器提供，这将降低您的服务器的带宽需求，但是会带来一些隐私相关的问题。在默认的phpBB安装中包含从Google的CDN网络加载“jQuery” 和字体 “Open Sans”。',
+    'ALLOW_LIVE_SEARCHES'			=> '启用搜索建议',
+    'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> '开启后，用户在论坛一些表单中输入时，会根据他们的输入显示建议。',
 	'CUSTOM_PROFILE_FIELDS'			=> '自定义用户资料',
 	'LIMIT_LOAD'					=> '系统负载限制',
 	'LIMIT_LOAD_EXPLAIN'			=> '如果系统一分钟内的平均负载超过这个值论坛将自动关闭. 值1.0 等于单颗处理器的100%使用率. 这只工作于基于UNIX/Linux的系统.',
 	'LIMIT_SESSIONS'				=> '会话数限制',
 	'LIMIT_SESSIONS_EXPLAIN'		=> '如果一分钟内的会话数超过这个值论坛将自动关闭. 设置为0将不作限制.',
 	'LOAD_CPF_MEMBERLIST'			=> '允许界面在会员列表中显示自定义资料',
+    'LOAD_CPF_PM'					=> '在站内消息中显示自定义资料',
 	'LOAD_CPF_VIEWPROFILE'			=> '在用户资料中显示自定义资料',
 	'LOAD_CPF_VIEWTOPIC'			=> '在帖子查看中显示自定义用户资料',
 	'LOAD_USER_ACTIVITY'			=> '显示用户活跃统计',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> '在用户资料和用户控制面板中显示活跃版面和主题. 在帖子数超过百万的论坛上建议关闭此功能.',
+    'LOAD_USER_ACTIVITY_LIMIT'		=> '用户的活跃帖子限制',
+    'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'	=> '超出这个数量的活跃主题和版面将不会显示。设为0则不作限制。',
+    'READ_NOTIFICATION_EXPIRE_DAYS'	=> '通知过期时间',
+    'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => '通知在达到这个天数后将被自动删除。设置为0则永久保留。',
 	'RECOMPILE_STYLES'				=> '重新编译旧的风格组件',
 	'RECOMPILE_STYLES_EXPLAIN'		=> '检查文件系统中更新风格组件并重新编译.',
+    'YES_ACCURATE_PM_BUTTON'			=> '主题页启用站内消息按钮权限控制',
+    'YES_ACCURATE_PM_BUTTON_EXPLAIN'	=> '启用后，只有帖子里有阅读站内消息权限的用户才能使用站内消息按钮。',
 	'YES_ANON_READ_MARKING'			=> '允许游客标记主题',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> '为游客存储已读/未读状态. 如果禁用, 对于游客所有帖子将显示为已读.',
 	'YES_BIRTHDAYS'					=> '启用生日列表',
@@ -395,8 +428,15 @@ $lang = array_merge($lang, array(
 
 	'AUTH_METHOD'				=> '选择认证方式',
 
+    'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> '每个启用的OAuth服务，其提供方的key和secret都是必须的，目前只提供了一个。',
+    'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> '每个OAuth服务在和外部服务通信时都需要一对唯一的 secret 和 key。在您注册AOAuth服务时会得到这些信息。<br>如果未提供，论坛用户将无法使用，但是用户依然可以通过DB验证的方式注册和登录论坛。',
+    'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key',
+    'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
+    'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
+
 	'APACHE_SETUP_BEFORE_USE'	=> '您必须在转换到这种认证模式前建立apache认证功能. 记住您用于apache认证的用户名必须和phpBB的用户名相同.',
 
+    'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP基础<var>dn</var>',
 	'LDAP_DN_EXPLAIN'				=> '这是唯一的名字, 用于定位用户信息, 例如 <samp>o=My Company,c=US</samp>',
 	'LDAP_EMAIL'					=> 'LDAP email属性',
@@ -428,6 +468,10 @@ $lang = array_merge($lang, array(
 	'FORCE_SERVER_VARS_EXPLAIN'	=> '如果设置为是, 以下的设定将启用',
 	'ICONS_PATH'				=> '主题图标存储路径',
 	'ICONS_PATH_EXPLAIN'		=> '相对于phpBB根目录的路径, 例如<samp>images/icons</samp>',
+    'MOD_REWRITE_ENABLE'		=> '启用 URL Rewriting',
+    'MOD_REWRITE_ENABLE_EXPLAIN' => '启用后，包含 ’app.php’ 的 URL 将被重写 (例如 app.php/foo 将变成 /foo). <strong>这个功能需要 Apache 服务器的 mod_rewrite 模块，如果在没有 mod_rewrite 支持的服务器上启用这个功能，论坛的URL会变得无法访问。</strong>',
+    'MOD_REWRITE_DISABLED'		=> '您的 Apache 服务器的 <strong>mod_rewrite</strong> 模块未启用。如果您希望使用这个功能的话请先启用这个模块，或联系您的web空间服务商。',
+    'MOD_REWRITE_INFORMATION_UNAVAILABLE' => '无法确定服务器是否支持URL rewriting。如果启用了此功能但是 URL rewriting 不可用，论坛所生成的路径都将会变得无法访问。如果您不能确认是否能使用此功能，请联系您的web空间服务商。.',
 	'PATH_SETTINGS'				=> '路径设定',
 	'RANKS_PATH'				=> '等级图标存储路径',
 	'RANKS_PATH_EXPLAIN'		=> '相对于phpBB根目录的路径, 例如<samp>images/ranks</samp>',
@@ -444,6 +488,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> '相对于phpBB根目录的路径, 例如 <samp>images/smilies</samp>',
 	'UPLOAD_ICONS_PATH'			=> '扩展名组图标存储路径',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> '相对于phpBB根目录的路径, 例如 <samp>images/upload_icons</samp>',
+    'USE_SYSTEM_CRON'		    => '使用系统执行定时任务',
+    'USE_SYSTEM_CRON_EXPLAIN'		=> '关闭时，phpBB 会计划任务自动 执行。开启时，phpBB 不会自动执行计划任务。系统管理员需要将 <code>bin/phpbbcli.php cron:run</code> 设置合适的间隔(例如每5分钟)添加到系统的 cron 任务中。',
 ));
 
 // Security Settings
@@ -452,7 +498,9 @@ $lang = array_merge($lang, array(
 
 	'ALL'							=> '所有',
 	'ALLOW_AUTOLOGIN'				=> '允许自动登录', 
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> '决定用户是否可以在浏览论坛时自动登录.', 
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> '决定用户是否可以在浏览论坛时自动登录.',
+    'ALLOW_PASSWORD_RESET'			=> '允许重设密码 ("忘记密码")',
+    'ALLOW_PASSWORD_RESET_EXPLAIN'	=> '设置是否允许用户在登录页上使用"忘记密码"功能取回密码。如果您使用的是外部服务验证登录，您需要关闭这个功能。',
 	'AUTOLOGIN_LENGTH'				=> '自动登录失效时间 (天数)', 
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> '设置为0将取消限制.', 
 	'BROWSER_VALID'					=> '浏览器验证',
@@ -478,7 +526,7 @@ $lang = array_merge($lang, array(
 	'IP_LOGIN_LIMIT_TIME'			=> '登录尝试超时时间',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> '在这个时间后, 将重置登录尝试次数.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> '通过<var>X_FORWARDED_FOR</var>头信息限制登录尝试次数',
-	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> '通过<var>X_FORWARDED_FOR</var>而不是IP来限制登录尝试次数. <br /><em><strong>注意:</strong> 如果您使用了代理服务器, 仅当<var>X_FORWARDED_FOR</var>这个值被设置为可信的参数时, 才启用这个功能.</em>',
+	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> '通过<var>X_FORWARDED_FOR</var>而不是IP来限制登录尝试次数. <br><em><strong>注意:</strong> 如果您使用了代理服务器, 仅当<var>X_FORWARDED_FOR</var>这个值被设置为可信的参数时, 才启用这个功能.</em>',
 	'MAX_LOGIN_ATTEMPTS'			=> '对每个用户名的最大登录尝试次数',
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> '对单个用户名的登录尝试次数的限制. 超过这个次数后, 会激活反机器人的验证. 输入0则表示不启用这项功能.',
 	'NO_IP_VALIDATION'				=> '无',
@@ -495,6 +543,8 @@ $lang = array_merge($lang, array(
 	'REFERER_VALID_EXPLAIN'			=> '启用此功能后, POST请求将根据主机名/脚本路径等设置进行验证. 此功能会对使用多域名和外部登录的论坛造成影响.',
 	'TPL_ALLOW_PHP'					=> '在模板中允许PHP',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> '如果启用这个选项, <code>PHP</code> 和 <code>INCLUDEPHP</code> 声明将在模板中被解析.',
+    'UPLOAD_CERT_VALID'				=> '校验上传证书',
+    'UPLOAD_CERT_VALID_EXPLAIN'		=> '启用后，将会校验远程上传的证书。需要的 CA bundle 可以在 php.ini 使用<samp>openssl.cafile</samp> 或 <samp>curl.cainfo</samp> 进行配置。',
 ));
 
 // Email Settings
@@ -509,14 +559,20 @@ $lang = array_merge($lang, array(
 	'BOARD_HIDE_EMAILS_EXPLAIN'		=> '这个功能使email地址完全隐蔽.',
 	'CONTACT_EMAIL'					=> 'email联络地址',
 	'CONTACT_EMAIL_EXPLAIN'			=> '这将使用在任何需要指定联络方式的场合, 例如 垃圾信息, 错误输出, 等等. 这将总是显示在 <samp>From</samp> 和 <samp>Reply-To</samp>.',
-	'EMAIL_FUNCTION_NAME'			=> 'Email函数名称',
-	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> '在PHP中用于发送email的函数.',
+    'CONTACT_EMAIL_NAME'			=> '联系人名称',
+    'CONTACT_EMAIL_NAME_EXPLAIN'	=> '这是email收件人将看到的联系人名称。如果您不需要联系人名称请留空。',
+    'EMAIL_FORCE_SENDER'			=> '强制使用源Email地址',
+    'EMAIL_FORCE_SENDER_EXPLAIN'	=> '这会将 <samp>Return-Path</samp> 设置为这个地址而不是本地服务器的主机名和用户名。在使用SMTP时这个设置无效。<br><em><strong>警告:</strong> 这需要将运行webserver的用户添加到sendmail的可信任用户列表里。</em>',
 	'EMAIL_PACKAGE_SIZE'			=> 'Email数据包大小',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> '这是在一个数据包中包含的最大email数量。这项设置被用于内部信件队列；如果您遇到无法投递信件的错误，请将它设置为0。',
 	'EMAIL_SIG'						=> 'Email签名',
 	'EMAIL_SIG_EXPLAIN'				=> '将在论坛发送的email后附加这段文字.',
 	'ENABLE_EMAIL'					=> '允许论坛发送email',
 	'ENABLE_EMAIL_EXPLAIN'			=> '如果禁用, 论坛将不会发送任何email. <em>注意会员激活需要启用此项功能. 如果当前设定为会员自行激活和管理员激活, 则停用此项功能将使会员无需激活.</em>',
+    'SEND_TEST_EMAIL'				=> '发送测试Email',
+    'SEND_TEST_EMAIL_EXPLAIN'		=> '这个功能将会给您的帐号发送一封测试邮件。',
+    'SMTP_ALLOW_SELF_SIGNED'		=> '允许自签发的SSL证书',
+    'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> '允许使用自签发的SSL证书连接SMTP服务器。<br><em><strong>警告:</strong> 使用自签发的SSL证书可能会导致安全问题。</em>',
 	'SMTP_AUTH_METHOD'				=> 'SMTP验证方式',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> '只有在设置过用户名/密码的场合, 询问提供者如果您不能确定使用何种方式.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -528,10 +584,17 @@ $lang = array_merge($lang, array(
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'						=> 'SMTP服务器端口',
 	'SMTP_PORT_EXPLAIN'				=> '只有当您清楚您的SMTP服务器运行在一个不同的端口上时才需要设置.',
-	'SMTP_SERVER'					=> 'SMTP服务器地址',
+	'SMTP_SERVER'					=> 'SMTP服务器地址和协议',
+    'SMTP_SERVER_EXPLAIN'			=> '注意，您需要提供服务器所使用的协议。如果您使用了SSL，就应该是"ssl://your.mailserver.com"',
 	'SMTP_SETTINGS'					=> 'SMTP设定',
 	'SMTP_USERNAME'					=> 'SMTP用户名',
 	'SMTP_USERNAME_EXPLAIN'			=> '只有当您的SMTP服务器需要时才要输入.',
+    'SMTP_VERIFY_PEER'				=> 'Verify SSL certificate',
+    'SMTP_VERIFY_PEER_EXPLAIN'		=> 'SMTP服务器需要SSL证书校验。 <br><em><strong>警告:</strong> 使用未经验证的SSL证书连接可能会导致安全问题。</em>',
+    'SMTP_VERIFY_PEER_NAME'			=> '校验SMTP节点名称',
+    'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> '需要校验使用SSL/TLS连接的SMTP服务器的节点名称。<br><em><strong>警告:</strong> 连接到未经验证的节点可能会导致安全问题。</em>',
+    'TEST_EMAIL_SENT'				=> '测试Email已发生。<br>如果您未收到，请检查您的Email配置。<br><br>如果您需要帮助，请访问 <a href="https://www.phpbb.com/community/">phpBB support forums</a>.',
+
 	'USE_SMTP'						=> '使用SMTP服务器发送email',
 	'USE_SMTP_EXPLAIN'				=> '选择“是”, 如果您向通过其他服务器而不是本地mail函数发送email.',
 ));
@@ -540,6 +603,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> '这里您可以启用并控制用户使用Jabber发送及时消息和论坛通知. Jabber是任何人都可以使用的开放协议. 一些Jabber服务器提供允许您联系其他网络用户的通道. 并非所有的服务器都提供这样的通道, 协议上的变化将使得操作失败. 请确认输入的是已经注册的帐号信息, phpBB将会使用你这里输入的数据.',
 
+    'JAB_ALLOW_SELF_SIGNED'			=> '允许自签发证书',
+    'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> '允许使用自签发证书连接Jabber服务器。<br><em><strong>警告:</strong>允许使用自签发SSL证书可能会导致安全问题。</em>',
 	'JAB_ENABLE'				=> '启用Jabber',
 	'JAB_ENABLE_EXPLAIN'		=> '允许使用jabber消息和通知',
 	'JAB_GTALK_NOTE'			=> '请注意GTalk无法工作因为无法找到 <samp>dns_get_record</samp> 函数. 这个函数在PHP4中是无效的, 并且在windows平台上没有此模块. 当前此功能还无法工作在BSD系统和Mac操作系统上.',
@@ -556,6 +621,8 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL_EXPLAIN'		=> '如果启用安全连接, Jabber端口将更改为5223, 如果5222没有被指定.',
 	'JAB_USERNAME'				=> 'Jabber用户名或JID',
 	'JAB_USERNAME_EXPLAIN'		=> '请指定一个已经注册的用户, 它将不会被检测是否存在. 如果您仅仅指定一个用户名, 那么您的JID将是您指定的用户名和服务器名称, 否则您需要指定一个有效的JID, 例如user@jabber.org.',
+    'JAB_VERIFY_PEER'				=> 'Verify SSL certificate',
+    'JAB_VERIFY_PEER_EXPLAIN'		=> '需要对Jabber服务器使用的SSL证书进行校验。<br><em><strong>警告:</strong>使用未校验的SSL证书连接节点可能会导致安全问题。</em>',
+    'JAB_VERIFY_PEER_NAME'			=> 'Verify Jabber peer name',
+    'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> '需要对使用SSL/TLS连接的Jabber服务器校验节点名称。<br><em><strong>警告:</strong>连接未经校验的节点可能会导致安全问题。</em>',
 ));
-
-?>
