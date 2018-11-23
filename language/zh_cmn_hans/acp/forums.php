@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_QUICK_REPLY'			=> '启用快速回复',
 	'ENABLE_QUICK_REPLY_EXPLAIN'	=> '启用后用户在这个版面可以通过快速回复来回复帖子. 如果全局设定中停用了快速回复, 这里的选项将不起作用.',
 	'ENABLE_RECENT'					=> '显示活跃帖子',
-	'ENABLE_RECENT_EXPLAIN'			=> '如果设置为是, 这个版面的话题将显示在活跃帖子列表中.',
+	'ENABLE_RECENT_EXPLAIN'			=> '如果设置为是, 这个版面的主题将显示在活跃帖子列表中.',
 	'ENABLE_TOPIC_ICONS'			=> '允许主题图标',
 
 	'FORUM_ADMIN'						=> '版面管理',

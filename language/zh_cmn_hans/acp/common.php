@@ -582,7 +582,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_VISUAL'			=> '<strong>更改可视化确认设定</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>批准主题</strong><br />» %s',
-	'LOG_BUMP_TOPIC'			=> '<strong>用户推举主题</strong><br />» %s',
+	'LOG_BUMP_TOPIC'			=> '<strong>用户顶帖</strong><br />» %s',
     'LOG_DELETE_POST'			=> '<strong>删除 “%2$s” 的帖子 “%1$s”，原因</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'   => '<strong>删除影子主题</strong><br />» %s',
     'LOG_DELETE_TOPIC'			=> '<strong>删除 “%2$s” 的主题 “%1$s”，原因</strong><br />» %3$s',

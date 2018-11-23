@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> '其它相关',
 	'ACTIVE_IN_FORUM'		=> '活跃于版面',
-	'ACTIVE_IN_TOPIC'		=> '活跃于话题',
+	'ACTIVE_IN_TOPIC'		=> '活跃于主题',
 	'ADD_FOE'				=> '添加坏蛋',
 	'ADD_FRIEND'			=> '添加好友',
 	'AFTER'					=> '后于',

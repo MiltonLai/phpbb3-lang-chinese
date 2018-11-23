@@ -267,7 +267,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_FEED_GENERAL'					=> '综合设定',
 	'ACP_FEED_POST_BASED'				=> '基于帖子的输出设定',
-	'ACP_FEED_TOPIC_BASED'				=> '基于话题的输出设定',
+	'ACP_FEED_TOPIC_BASED'				=> '基于主题的输出设定',
 	'ACP_FEED_SETTINGS_OTHER'			=> '其它设定',
 
 	'ACP_FEED_ENABLE'					=> '启用ATOM',
@@ -279,13 +279,13 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_EXPLAIN'			=> '整个论坛的新帖.',
 	'ACP_FEED_FORUM'					=> '启用单个版面ATOM输出',
 	'ACP_FEED_FORUM_EXPLAIN'			=> '单个版面和子版面的最新帖子.',
-	'ACP_FEED_TOPIC'					=> '启用单个话题ATOM输出',
-	'ACP_FEED_TOPIC_EXPLAIN'			=> '单个话题的最新帖子.',
+	'ACP_FEED_TOPIC'					=> '启用单个主题ATOM输出',
+	'ACP_FEED_TOPIC_EXPLAIN'			=> '单个主题的最新帖子.',
 
-	'ACP_FEED_TOPICS_NEW'				=> '启用新话题ATOM输出',
-	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> '最新话题ATOM输出最近发表的话题及其第一篇帖子的内容.',
-	'ACP_FEED_TOPICS_ACTIVE'			=> '启用活跃话题ATOM输出',
-	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> '活跃话题ATOM输出最近发表的活跃话题及其最后一篇回复的内容.',
+	'ACP_FEED_TOPICS_NEW'				=> '启用新主题ATOM输出',
+	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> '最新主题ATOM输出最近发表的主题及其第一篇帖子的内容.',
+	'ACP_FEED_TOPICS_ACTIVE'			=> '启用活跃主题ATOM输出',
+	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> '活跃主题ATOM输出最近发表的活跃主题及其最后一篇回复的内容.',
 	'ACP_FEED_NEWS'						=> '各版面最新帖子ATOM输出',
 	'ACP_FEED_NEWS_EXPLAIN'				=> '从以下版面中各摘取最新的一篇帖子. 如果无指定版面则关闭此项输出.<br>要选定或反选多个版面, 请按住<samp>CTRL</samp>键用鼠标左键点选.',
 
