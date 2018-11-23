@@ -1,0 +1,11 @@
+Subject: 主题审核未通过 - "{TOPIC_TITLE}"
+
+您好 {USERNAME},
+
+您收到这个通知是因为您在"{SITENAME}"的主题"{TOPIC_TITLE}"在审核中被版主或管理员驳回。
+
+下面是审核未通过的原因：
+
+{REASON}
+
+{EMAIL_SIG}

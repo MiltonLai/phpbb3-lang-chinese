@@ -1,0 +1,15 @@
+Subject: 收到新的站内消息
+
+您好 {USERNAME},
+
+您在"{SITENAME}"收到了了来自于"{AUTHOR_NAME}"的一封站内消息，标题是：
+
+{SUBJECT}
+
+您可以点击下面的链接查看:
+
+{U_VIEW_MESSAGE}
+
+您的当前设置为希望收到这类通知，您可以在个人资料设置中关闭。
+
+{EMAIL_SIG}
