@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'SEND_YIM_MESSAGE'		=> '发送 YIM 消息',
 	'SORT_EMAIL'			=> 'Email',
 	'SORT_LAST_ACTIVE'		=> '最后活动',
-	'SORT_POST_COUNT'		=> '发贴总数',
+	'SORT_POST_COUNT'		=> '发帖总数',
 
 	'USERNAME_BEGINS_WITH'	=> '用户名首字母 ',
 	'USER_ADMIN'			=> '管理用户',

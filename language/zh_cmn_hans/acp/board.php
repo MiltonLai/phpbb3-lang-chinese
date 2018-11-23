@@ -48,8 +48,8 @@ $lang = array_merge($lang, array(
     'DEFAULT_STYLE_EXPLAIN'			=> '新注册用户的默认风格。',
 	'DISABLE_BOARD'					=> '关闭论坛',
 	'DISABLE_BOARD_EXPLAIN'			=> '这将让除了管理员和版主以外的用户无法使用论坛. 您可以输入一段简单的文字描述原因(255个字符以内).',
-    'DISPLAY_LAST_SUBJECT'			=> '在版面列表中显示最新发布的帖子标题',
-    'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> '最新发布的帖子标题将显示在版面列表中。而密码保护的版面以及用户无权限访问的版面则不会显示。',
+    'DISPLAY_LAST_SUBJECT'			=> '在版面列表中显示最新发表的帖子标题',
+    'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> '最新发表的帖子标题将显示在版面列表中。而密码保护的版面以及用户无权限访问的版面则不会显示。',
     'GUEST_STYLE'					=> '访客风格',
     'GUEST_STYLE_EXPLAIN'			=> '访客使用的论坛风格。',
 	'OVERRIDE_STYLE'				=> '覆盖用户界面',
@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 
 // Avatar Settings
 $lang = array_merge($lang, array(
-	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> '头像是用户用于展示自己的一幅小图片. 根据界面有所不同, 不过它们通常显示在用户发布的帖子旁边. 这里您可以决定用户是否能和如何定义他们的头像. 请注意如果允许用户上载头像, 您必须建立下面的目录并保证这个目录对于web服务器是可写的. 同时也要注意这个文件大小只对头像上载有效, 对于链接的头像是没有限制的.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> '头像是用户用于展示自己的一幅小图片. 根据界面有所不同, 不过它们通常显示在用户发表的帖子旁边. 这里您可以决定用户是否能和如何定义他们的头像. 请注意如果允许用户上载头像, 您必须建立下面的目录并保证这个目录对于web服务器是可写的. 同时也要注意这个文件大小只对头像上载有效, 对于链接的头像是没有限制的.',
 	'ALLOW_AVATARS'					=> '启用头像',
 	'ALLOW_AVATARS_EXPLAIN'			=> '允许使用头像;<br>如果您禁用了头像功能, 论坛将不再显示用户头像, 但是会员在会员控制面板中仍可以查看和下载自己的头像.',
     'ALLOW_GRAVATAR'				=> '允许使用 gravatar 头像',

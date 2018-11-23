@@ -789,7 +789,7 @@ $lang = array_merge($lang, array(
         2	=> '总计 %d 个站内消息',
     ),
     'TOPIC_POLL'		=> '这个主题包含投票.',
-    'TOTAL_POSTS'		=> '发贴总数',
+    'TOTAL_POSTS'		=> '发帖总数',
     'TOTAL_POSTS_COUNT'	=> array(
         2	=> '帖子总数: <strong>%d</strong>',
     ),

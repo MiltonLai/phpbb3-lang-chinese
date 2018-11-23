@@ -115,9 +115,9 @@ $lang = array_merge($lang, array(
 	'DRAFT_SAVED'				=> '草稿保存成功',
 	'DRAFT_TITLE'				=> '草稿标题',
 
-	'EDIT_REASON'				=> '编辑此贴的原因',
+	'EDIT_REASON'				=> '编辑这个帖子的原因',
 	'EMPTY_FILEUPLOAD'			=> '上传的是空文件',
-	'EMPTY_MESSAGE'				=> '发贴时，您必须输入正文。',
+	'EMPTY_MESSAGE'				=> '发帖时，您必须输入正文。',
 	'EMPTY_REMOTE_DATA'			=> '文件上传失败，请尝试手动上传此文件。',
 
 	'FLASH_IS_OFF'				=> '[flash] <em>禁止</em>',
@@ -221,7 +221,7 @@ $lang = array_merge($lang, array(
 	'POST_REVIEW_EDIT_EXPLAIN'	=> '在您编辑的过程中这篇帖子已经被其他用户更改. 您可能需要查看一下新的帖子内容以便调整自己的发文.',
 	'POST_REVIEW_EXPLAIN'		=> '已有至少一篇新回复在这个主题下发表了，您或许希望重新审视您的回贴。',
 	'POST_STORED'				=> '帖子已经成功发表',
-	'POST_STORED_MOD'			=> '帖子已经保存但是需要等待批准发布',
+	'POST_STORED_MOD'			=> '帖子已经保存但是需要等待审核',
 	'POST_TOPIC_AS'				=> '发表新主题为',
 	'PROGRESS_BAR'				=> '进度条',
 
