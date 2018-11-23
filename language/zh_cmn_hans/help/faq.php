@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_PMS_CANNOT_SEND_QUESTION'	=> '我不能发送站内消息！',
 	'HELP_FAQ_PMS_SPAM_ANSWER'	=> '我们对这种情况非常抱歉。这个论坛的email系统带有用户发送跟踪系统，您应该给论坛管理员发送email，随信附上您所收到的完整email说明您遭遇到的情况。完整的email非常重要，因为其中包含了email头信息 (发送email的用户的细节)。论坛管理员会对此进行相应的处理。',
 	'HELP_FAQ_PMS_SPAM_QUESTION'	=> '我收到了这个论坛里的成员发给我的垃圾邮件/包含冒犯内容的邮件！',
-	'HELP_FAQ_PMS_UNWANTED_ANSWER'	=> '您可以在用户控制面板中通过设定站内消息接收规则来拒绝来自某个用户的消息。如果您收到类似的短信，请向管理员投诉，他们有权限禁止这些用户发送站内消息。',
+	'HELP_FAQ_PMS_UNWANTED_ANSWER'	=> '您可以在用户控制面板中通过设定站内消息接收规则来拒绝来自某个用户的消息。如果您收到类似的消息，请向管理员投诉，他们有权限禁止这些用户发送站内消息。',
 	'HELP_FAQ_PMS_UNWANTED_QUESTION'	=> '我怎么总是收到骚扰消息！',
 
 	'HELP_FAQ_POSTING_BUMP_ANSWER'	=> '在主题页点击 “顶起主题” 链接。您可以 “顶起” 主题使其处于为版面顶部。如果您看不到这个链接，说明这个功能已经被停用了或者还没到顶贴间隔时间。您也可以通过回复主题来顶起它. 但是请注意遵守您所处版面的规定。',
