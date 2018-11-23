@@ -322,7 +322,6 @@ $lang = array_merge($lang, array(
     'RESTORE_TOPIC_CONFIRM'		=> '您确定要恢复这个主题吗?',
     'RESTORE_TOPICS'			=> '恢复主题',
     'RESTORE_TOPICS_CONFIRM'	=> '您确定要恢复选中的主题吗?',
-	'REPORT_TOTAL'				=> '一共有 <strong>1</strong> 个举报需要查复',
 	'RESYNC'					=> '重新同步',
 	'RETURN_MESSAGE'			=> '%s返回至短消息%s',
 	'RETURN_NEW_FORUM'			=> '%s前往新版面%s',

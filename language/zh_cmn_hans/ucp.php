@@ -184,7 +184,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> '这里您可以编辑你的草稿。草稿不能包含附件和投票。',
 	'EMAIL_BANNED_EMAIL'		=> '您输入的 email 地址不允许使用。',
-	'EMAIL_INVALID_EMAIL'		=> '您输入的 email 地址无效。',
 	'EMAIL_REMIND'				=> '这必须是与您的帐户关联的 e-mail 地址。如果您没有通过管理界面改变过您的 e-mail 地址，它就是您在注册时使用的地址。',
 	'EMAIL_TAKEN_EMAIL'			=> '您输入的 email 地址已经被使用',
 	'EMPTY_DRAFT'				=> '您必须填入适当的内容才能提交更改',
@@ -412,7 +411,6 @@ $lang = array_merge($lang, array(
 	'PASSWORD'					=> '密码',
 	'PASSWORD_ACTIVATED'		=> '您的新密码已经启用',
     'PASSWORD_UPDATED_IF_EXISTED'	=> '如果您的用户存在，新的密码将会被发送到您注册的邮箱。如果您没有收到邮件，请检查垃圾邮件箱，也有可能是您的帐号已经被封禁，或您不能修改密码。如果是这些情况请联系论坛管理员。',
-	'PASSWORD_UPDATED'			=> '您的新密码已经发送到您的注册email邮箱。',
 	'PERMISSIONS_RESTORED'		=> '成功恢复原权限。',
 	'PERMISSIONS_TRANSFERRED'	=> '成功切换到 <strong>%s</strong>的权限, 您现在可以使用这个用户的权限浏览版面.<br />请注意管理员权限不会被切换. 您可以在任何时候恢复回原权限。',
 	'PM_DISABLED'				=> '这个论坛的站内消息功能已经关闭',
@@ -516,7 +514,6 @@ $lang = array_merge($lang, array(
 	'UCP_COPPA_BEFORE'			=> '早于 %s',
 	'UCP_COPPA_ON_AFTER'		=> '晚于 %s',
 	'UCP_EMAIL_ACTIVATE'		=> '请注意在帐号激活前您必须输入一个有效的 Email 地址。通过这个 Email 地址您将收到包含帐号激活链接的邮件。',
-	'UCP_ICQ'					=> 'ICQ 号码',
 	'UCP_JABBER'				=> 'Jabber 地址',
     'UCP_LOGIN_LINK'			=> '设置关联外部帐号',
 

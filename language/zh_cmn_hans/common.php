@@ -208,10 +208,6 @@ $lang = array_merge($lang, array(
         1	=> '被下载 %d 次',
         2	=> '被下载 %d 次',
     ),
-    'DOWNLOAD_COUNT_NONE'	=> '还未被下载',
-    'VIEWED_COUNT'			=> '被浏览 %d 次',
-    'VIEWED_COUNTS'			=> '被浏览 %d 次',
-    'VIEWED_COUNT_NONE'		=> '还未被浏览',
 
     'EDIT_POST'							=> '编辑此帖',
     'ELLIPSIS'							=>	'…',
@@ -754,7 +750,6 @@ $lang = array_merge($lang, array(
     'TOO_LONG_USER_PASSWORD'		=> '您输入的密码太长了。',
     'TOO_LONG_USERNAME'				=> '您输入的用户名太长了。',
     'TOO_LONG_EMAIL'				=> '您输入的 email 地址太长了。',
-    'TOO_LONG_EMAIL_CONFIRM'		=> '您输入的 email 验证地址太长了。',
 
     'TOO_MANY_VOTE_OPTIONS'			=> '您在投票中选择了过多的选项。',
 
