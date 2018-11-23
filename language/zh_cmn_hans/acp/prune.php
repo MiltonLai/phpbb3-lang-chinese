@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 
 // Forum Pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_FORUMS_EXPLAIN'	=> '这将删除所有在规定的时间内没有新回复的主题. 若你不输入数字, 那么所有的文章将会被删除. 默认情况下, 这不会删除投票依然在进行的主题, 置顶的主题和公告.',
+	'ACP_PRUNE_FORUMS_EXPLAIN'	=> '这将删除所有在规定的时间内没有新回复的主题. 若你不输入数字, 那么所有的帖子将会被删除. 默认情况下, 这不会删除投票依然在进行的主题, 置顶的主题和公告.',
 
 	'FORUM_PRUNE'		=> '裁减版面',
 

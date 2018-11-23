@@ -186,8 +186,8 @@ $lang = array_merge($lang, array(
 	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> '作用于图片和flash, 设置为0则不作限制.',
 	'MAX_POST_URLS'					=> '帖子中允许的最大链接数量',
 	'MAX_POST_URLS_EXPLAIN'			=> '设置为0则不作限制.',
-	'MIN_CHAR_LIMIT'				=> '文章和站内消息的最小字符数限制',
-	'MIN_CHAR_LIMIT_EXPLAIN'		=> '用户在提交一篇文章或一封站内消息时的最小内容长度, 最小值为1.',
+	'MIN_CHAR_LIMIT'				=> '帖子和站内消息的最小字符数限制',
+	'MIN_CHAR_LIMIT_EXPLAIN'		=> '用户在提交一篇帖子或一封站内消息时的最小内容长度, 最小值为1.',
 	'POSTING'						=> '发帖',
 	'POSTS_PER_PAGE'				=> '每页帖子数',
 	'QUOTE_DEPTH_LIMIT'				=> '引用的最大深度',
@@ -224,7 +224,7 @@ $lang = array_merge($lang, array(
 	'ACC_ACTIVATION_EXPLAIN'	=> '这决定了用户是否可以在注册后立刻浏览论坛, 还是必须进行确认. 您也可以禁止新用户注册。<em>如果需要使用管理员或用户激活，需要开启论坛Email功能。</em>',
     'ACC_ACTIVATION_WARNING'		=> '请注意，现在选择的激活方式需要开启Email功能，否则注册将被禁止。建议您选择其他的激活方式或开启邮件功能。',
 	'NEW_MEMBER_POST_LIMIT'			=> '新会员发文限制',
-	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> '新会员会被归入 <em>新注册用户</em> 组直到其发表足够多的文章. 您可以使用此用户组的组权限来限制其使用站内消息以及方便发文审核. <strong>设置为0则不启用此项功能.</strong>',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> '新会员会被归入 <em>新注册用户</em> 组直到其发表足够多的帖子. 您可以使用此用户组的组权限来限制其使用站内消息以及方便发文审核. <strong>设置为0则不启用此项功能.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> '设置新注册用户组为默认组',
 	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> '如果设置为是, 并且设定了新会员发帖数目限制, 新会员不仅会加入到 <em>新注册用户</em> 组, 这个用户组也会成为他的默认组. 这将方便管理员为该组指定一个默认等级和组头像.',
 
@@ -266,7 +266,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> '此模块提供多种ATOM输出, 并转换BBCode为可阅读的内容.',
 
 	'ACP_FEED_GENERAL'					=> '综合设定',
-	'ACP_FEED_POST_BASED'				=> '基于文章的输出设定',
+	'ACP_FEED_POST_BASED'				=> '基于帖子的输出设定',
 	'ACP_FEED_TOPIC_BASED'				=> '基于话题的输出设定',
 	'ACP_FEED_SETTINGS_OTHER'			=> '其它设定',
 
@@ -278,22 +278,22 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL'					=> '启用整个论坛的ATOM输出',
 	'ACP_FEED_OVERALL_EXPLAIN'			=> '整个论坛的新帖.',
 	'ACP_FEED_FORUM'					=> '启用单个版面ATOM输出',
-	'ACP_FEED_FORUM_EXPLAIN'			=> '单个版面和子版面的最新文章.',
+	'ACP_FEED_FORUM_EXPLAIN'			=> '单个版面和子版面的最新帖子.',
 	'ACP_FEED_TOPIC'					=> '启用单个话题ATOM输出',
-	'ACP_FEED_TOPIC_EXPLAIN'			=> '单个话题的最新文章.',
+	'ACP_FEED_TOPIC_EXPLAIN'			=> '单个话题的最新帖子.',
 
 	'ACP_FEED_TOPICS_NEW'				=> '启用新话题ATOM输出',
-	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> '最新话题ATOM输出最近发表的话题及其第一篇文章的内容.',
+	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> '最新话题ATOM输出最近发表的话题及其第一篇帖子的内容.',
 	'ACP_FEED_TOPICS_ACTIVE'			=> '启用活跃话题ATOM输出',
 	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> '活跃话题ATOM输出最近发表的活跃话题及其最后一篇回复的内容.',
-	'ACP_FEED_NEWS'						=> '各版面最新文章ATOM输出',
-	'ACP_FEED_NEWS_EXPLAIN'				=> '从以下版面中各摘取最新的一篇文章. 如果无指定版面则关闭此项输出.<br>要选定或反选多个版面, 请按住<samp>CTRL</samp>键用鼠标左键点选.',
+	'ACP_FEED_NEWS'						=> '各版面最新帖子ATOM输出',
+	'ACP_FEED_NEWS_EXPLAIN'				=> '从以下版面中各摘取最新的一篇帖子. 如果无指定版面则关闭此项输出.<br>要选定或反选多个版面, 请按住<samp>CTRL</samp>键用鼠标左键点选.',
 
 	'ACP_FEED_OVERALL_FORUMS'			=> '启用版面ATOM输出',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> '所有版面ATOM输出会显示所有版面列表.',
 
 	'ACP_FEED_HTTP_AUTH'				=> '允许HTTP验证',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> '启用此验证后, 用户可以访问到其他无权限用户所无法访问的内容, 需要添加<samp>auth=http</samp>参数到URL. 请注意一些PHP版本需要在.htaccess文件上做额外的设置. 更多信息请搜索相关文章.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> '启用此验证后, 用户可以访问到其他无权限用户所无法访问的内容, 需要添加<samp>auth=http</samp>参数到URL. 请注意一些PHP版本需要在.htaccess文件上做额外的设置. 更多信息请搜索相关帖子.',
 	'ACP_FEED_ITEM_STATISTICS'			=> '条目统计',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> '显示各<br>(作者, 日期和时间, 回复数, 查看数)',
 	'ACP_FEED_EXCLUDE_ID'				=> '排除下列版面',
@@ -336,7 +336,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_NO_OPTIONS'					=> '此验证图片没有可设置的选项.',
 
 	'VISUAL_CONFIRM_POST'					=> '启用游客发文可视化验证',
-	'VISUAL_CONFIRM_POST_EXPLAIN'			=> '当匿名用户发表文章时会被要求输入一组随机字符以防止机器人发布垃圾信息.',
+	'VISUAL_CONFIRM_POST_EXPLAIN'			=> '当匿名用户发表帖子时会被要求输入一组随机字符以防止机器人发布垃圾信息.',
 	'VISUAL_CONFIRM_REG'					=> '在会员注册时启用可视化验证',
 	'VISUAL_CONFIRM_REG_EXPLAIN'			=> '在新会员注册时会被要求输入一组随机字符以防止机器人注册.',
 	'VISUAL_CONFIRM_REFRESH'				=> '允许用户刷新验证图片',
@@ -419,7 +419,7 @@ $lang = array_merge($lang, array(
 	'YES_POST_MARKING_EXPLAIN'		=> '带点的主题表示用户参与过这个主题.',
 	'YES_READ_MARKING'				=> '允许服务器端标记',
 	'YES_READ_MARKING_EXPLAIN'		=> '在数据库中保存已读/未读信息而不是存在cookie上.',
-	'YES_UNREAD_SEARCH'            => '允许搜索未读文章',
+	'YES_UNREAD_SEARCH'            => '允许搜索未读帖子',
 ));
 
 // Auth settings

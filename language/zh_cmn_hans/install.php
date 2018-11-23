@@ -245,7 +245,7 @@ $lang = array_merge($lang, array(
     'RANKS_SITE_ADMIN_TITLE'		=> '网站管理员',
     'REPORT_WAREZ'					=> '帖子包含非法或盗版的软件.',
     'REPORT_SPAM'					=> '被举报的帖子唯一的目的就是为网站或某些产品做广告.',
-    'REPORT_OFF_TOPIC'				=> '被举报的是跑题文章.',
+    'REPORT_OFF_TOPIC'				=> '被举报的是跑题帖子.',
     'REPORT_OTHER'					=> '举报的原因不符合列举的条目, 请输入进一步描述.',
 
     'SMILIES_ARROW'					=> '箭头',
