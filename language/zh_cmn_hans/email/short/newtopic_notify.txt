@@ -2,11 +2,11 @@ Subject: 新主题通知 - "{FORUM_NAME}"
 
 您好 {USERNAME},
 
-您收到这个通知是因为您在"{SITENAME}"关注了版面"{FORUM_NAME}"。这个版面在您上次访问后有<!-- IF AUTHOR_NAME != '' -->来自于{AUTHOR_NAME}的<!-- ENDIF -->新主题"{TOPIC_TITLE}"。您可以点击下面的链接前往版面查看，在您访问版面前不会再收到新的通知。
+您收到这个通知是因为您在"{SITENAME}"关注了版面"{FORUM_NAME}"。这个版面在您上次访问后有<!-- IF AUTHOR_NAME != '' -->来自于{AUTHOR_NAME}的<!-- ENDIF -->新主题"{TOPIC_TITLE}"。您可以点击下面的链接前往版面查看，在您再次访问版面前不会再收到新的通知。
 
 {U_FORUM}
 
-如果您不希望再关注这个版面，您可以点击版面上方的"取消订阅"链接，或点击下面的链接：
+如果您不希望再关注这个版面，您可以点击版面页面的"取消订阅"链接，或点击下面的链接：
 
 {U_STOP_WATCHING_FORUM}
 

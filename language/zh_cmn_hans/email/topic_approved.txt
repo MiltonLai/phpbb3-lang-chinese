@@ -1,11 +1,10 @@
-Subject: 主题已被批准 - "{TOPIC_TITLE}"
+Subject: 主题审核通过 - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+您好 {USERNAME},
 
-您收到这个通知, 因为您在 "{SITENAME}" 上发表的主题 "{TOPIC_TITLE}" 已经被版主或管理员批准.
+您收到这个通知是因为您在"{SITENAME}"上发表的主题"{TOPIC_TITLE}"已经被版主或管理员审批通过。
 
-如果您希望查看这个主题, 请点击下面的链接:
+如果您希望查看主题, 请点击:
 {U_VIEW_TOPIC}
-
 
 {EMAIL_SIG}

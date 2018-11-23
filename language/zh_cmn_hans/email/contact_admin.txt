@@ -1,0 +1,23 @@
+
+您好 {TO_USERNAME},
+
+这封邮件由"{SITENAME}"的管理员联系页面发送。
+
+<!-- IF S_IS_REGISTERED -->
+发件人为网站的注册用户：
+用户名: {FROM_USERNAME}
+Email: {FROM_EMAIL_ADDRESS}
+IP地址: {FROM_IP_ADDRESS}
+资料: {U_FROM_PROFILE}
+<!-- ELSE -->
+发件人为游客：
+姓名: {FROM_USERNAME}
+Email: {FROM_EMAIL_ADDRESS}
+IP地址: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+以下是邮件内容
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

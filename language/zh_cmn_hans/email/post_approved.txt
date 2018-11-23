@@ -1,14 +1,13 @@
-Subject: 帖子被批准 - "{POST_SUBJECT}"
+Subject: 帖子审核通过 - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+您好 {USERNAME},
 
-您收到这个通知是因为您在 "{SITENAME}" 上的帖子 "{POST_SUBJECT}" 已经被版主或管理员批准.
+您收到这个通知是因为您在"{SITENAME}"的帖子"{POST_SUBJECT}" 已经被版主或管理员审核通过。
 
-您可以点击下面的链接查看您的帖子:
+如果您想查看帖子，请点击：
 {U_VIEW_POST}
 
-您可以点击下面的链接查看这个主题:
+如果您想查看主题，请点击：
 {U_VIEW_TOPIC}
-
 
 {EMAIL_SIG}

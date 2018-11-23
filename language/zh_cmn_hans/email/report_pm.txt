@@ -1,0 +1,10 @@
+Subject: 站内消息举报 - "{TOPIC_TITLE}"
+
+您好 {USERNAME},
+
+您收到这个通知是因为"{SITENAME}"上"{AUTHOR_NAME}"发送的标题为"{SUBJECT}"的站内消息被举报。
+
+如果您希望查看举报，请点击：
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

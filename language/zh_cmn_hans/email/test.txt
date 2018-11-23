@@ -1,0 +1,9 @@
+Subject: phpBB 正在配置邮件发送功能
+
+您好 {USERNAME},
+
+恭喜！ 如果您收到这封邮件，说明phpBB的邮件发送功能已经正确配置。
+
+如果您需要帮助，请访问phpBB支持版面 - https://www.phpbb.com/community/
+
+{EMAIL_SIG}
