@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
         1	=> '%d 位用户',
         2	=> '%d 位用户',
     ),
-    'LOGIN_EXPLAIN_TEAM'		=> '您需要注册并登录后才能浏览用户组列表.',
+    'LOGIN_EXPLAIN_TEAM'		=> '您需要注册并登录后才能浏览群组列表.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> '您需要注册并登录后才能浏览用户列表。',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> '您需要注册并登录后才能搜索用户。',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> '您需要注册并登录后才能查看用户资料。',

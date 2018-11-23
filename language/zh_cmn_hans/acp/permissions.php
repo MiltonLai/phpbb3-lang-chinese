@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 		<p>用于管理整个论坛的全局访问, 并进一步区分为用户权限, 管理员权限和超级版主权限.</p>
 
 		<h2>版面权限</h2>
-		<p>针对每个版面的权限控制, 进一步分为版面权限, 版主版面权限, 用户版面权限, 用户组版面权限.</p>
+		<p>针对每个版面的权限控制, 进一步分为版面权限, 版主版面权限, 用户版面权限, 群组版面权限.</p>
 
 		<h2>权限角色</h2>
 		<p>用于创建不同的权限组, 以便于设定不同的角色权限. 默认的角色可以或大或小的覆盖论坛的管理权限, 不过在这四个权限组中您也可以添加/编辑/删除您觉得合适的角色.</p>
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> '从不',
 	'ACL_SET'				=> '权限设定',
-	'ACL_SET_EXPLAIN'		=> '权限基于简单的 <strong>是</strong>/<strong>否</strong> 系统. 设定用户组和用户选项为 <strong>从不</strong> 将覆盖其他设定的值. 如果您不希望给这个用户或用户组设定值, 请选择 <strong>否</strong>. 如果值在其他地方设定, 他们将在设定中使用, 否则请选择 <strong>从不</strong>. 所有选中的对象 (他们前面的勾选框) 将复制您设置的权限组.',
+	'ACL_SET_EXPLAIN'		=> '权限基于简单的 <strong>是</strong>/<strong>否</strong> 系统. 设定群组和用户选项为 <strong>从不</strong> 将覆盖其他设定的值. 如果您不希望给这个用户或群组设定值, 请选择 <strong>否</strong>. 如果值在其他地方设定, 他们将在设定中使用, 否则请选择 <strong>从不</strong>. 所有选中的对象 (他们前面的勾选框) 将复制您设置的权限组.',
 	'ACL_SETTING'			=> '设定',
 
 	'ACL_TYPE_A_'			=> '管理权限',
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	
 	'ACL_NO'				=> '否',
 	'ACL_VIEW'				=> '查看权限',
-	'ACL_VIEW_EXPLAIN'		=> '这里您可以看到用户和用户组拥有的有效权限. 红色方形表示用户/组没有该权限, 绿色方形表示用户/组拥有该权限.',
+	'ACL_VIEW_EXPLAIN'		=> '这里您可以看到用户和群组拥有的有效权限. 红色方形表示用户/组没有该权限, 绿色方形表示用户/组拥有该权限.',
 	'ACL_YES'				=> '是',
 
 	'ACP_ADMINISTRATORS_EXPLAIN'				=> '这里您可以赋于用户/组更高的管理权限. 所有拥有高级管理权限的用户都能看到管理员控制面板.',
@@ -81,14 +81,14 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> '这里您可以更改哪些用户/组可以访问哪些版面. 任命版主和管理员请使用其他的页面.',
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> '这里您可以将一个版面的权限复制到其他版面.',
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> '这里您可以设定用户/组为超级版主. 这些版主拥有一般的版主权限, 但是他们可以访问论坛的每个版面.',
-	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> '这里您可以设置用户组的版面权限.',
-	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> '这里您可以将全局权限设定到权限组 - 用户权限, 超级版主权限和管理员权限. 用户权限包含使用头像, 发送私人信件等等, 超级版主权限包含审阅帖子, 管理主题, 管理封禁等等, 而管理员权限包含更改权限, 设定BBCode, 管理版面等等. 只有少数的情况下才需要单独的用户权限设置, 推荐的方式是将用户归类到不同的组, 再赋予组不同的权限.',
+	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> '这里您可以设置群组的版面权限.',
+	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> '这里您可以将全局权限设定到权限组 - 用户权限, 超级版主权限和管理员权限. 用户权限包含使用头像, 发送站内消息等等, 超级版主权限包含审阅帖子, 管理主题, 管理封禁等等, 而管理员权限包含更改权限, 设定BBCode, 管理版面等等. 只有少数的情况下才需要单独的用户权限设置, 推荐的方式是将用户归类到不同的组, 再赋予组不同的权限.',
 	'ACP_ADMIN_ROLES_EXPLAIN'					=> '这里您可以管理管理员权限的角色. 角色是一种有效的权限组合, 如果您更改了角色内容, 那么使用这个角色的对象就会相应的被更改权限.',
 	'ACP_FORUM_ROLES_EXPLAIN'					=> '这里您可以管理版面权限的角色. 角色是有效的权限组合, 如果您更改了角色内容, 那么使用这个角色的对象就会相应的被更改权限.',
 	'ACP_MOD_ROLES_EXPLAIN'						=> '这里您可以管理版主权限的角色. 角色是有效的权限组合, 如果您更改了角色内容, 那么使用这个角色的对象就会相应的被更改权限.',
 	'ACP_USER_ROLES_EXPLAIN'					=> '这里您可以管理用户权限的角色. 角色是有效的权限组合, 如果您更改了角色内容, 那么使用这个角色的对象就会相应的被更改权限.',
 	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'		=> '这里您可以为用户设定权限.',
-	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> '这里您可以给用户设定全局权限 - 用户权限, 超级版主权限和管理员权限. 用户权限包含使用头像, 发送站内消息等等; 超级版主权限包含审阅帖子, 管理主题, 管理封禁等等; 管理员权限包含权限设定, BBCode设置, 版面管理等等. 对于大规模的用户权限设定请使用用户组权限方式. 用户的单独权限只在很少数的情况下需要更改, 推荐的方式是将用户归类在不同的用户组中, 再赋予用户组不同的权限.',
+	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> '这里您可以给用户设定全局权限 - 用户权限, 超级版主权限和管理员权限. 用户权限包含使用头像, 发送站内消息等等; 超级版主权限包含审阅帖子, 管理主题, 管理封禁等等; 管理员权限包含权限设定, BBCode设置, 版面管理等等. 对于大规模的用户权限设定请使用群组权限方式. 用户的单独权限只在很少数的情况下需要更改, 推荐的方式是将用户归类在不同的群组中, 再赋予群组不同的权限.',
 	'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'		=> '这里您可以查看给选中的用户/组设定的有效管理权限',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS_EXPLAIN'	=> '这里您可以查看给选中的用户/组设定的有效版主权限',
 	'ACP_VIEW_FORUM_PERMISSIONS_EXPLAIN'		=> '这里您可以查看给选中的用户/组和版面设定的有效版面权限',
@@ -129,10 +129,10 @@ $lang = array_merge($lang, array(
 
 	'GROUPS_NOT_ASSIGNED'		=> '没有使用这个角色的组',
 
-	'LOOK_UP_GROUP'				=> '查找用户组',
+	'LOOK_UP_GROUP'				=> '查找群组',
 	'LOOK_UP_USER'				=> '查找用户',
 
-	'MANAGE_GROUPS'		=> '管理用户组',
+	'MANAGE_GROUPS'		=> '管理群组',
 	'MANAGE_USERS'		=> '管理用户',
 
 	'NO_AUTH_SETTING_FOUND'		=> '没有进行权限设定.',
@@ -143,7 +143,7 @@ $lang = array_merge($lang, array(
 	'NO_ROLE_SELECTED'			=> '没有选中的角色.',
 	'NO_USER_GROUP_SELECTED'	=> '您没有选中用户或组.',
 
-	'ONLY_FORUM_DEFINED'	=> '您只设定了选中的版面, 请再选中至少一个用户或用户组.',
+	'ONLY_FORUM_DEFINED'	=> '您只设定了选中的版面, 请再选中至少一个用户或群组.',
 
 	'PERMISSION_APPLIED_TO_ALL'		=> '权限和角色也将被应用到选中的对象上',
 	'PLUS_SUBFORUMS'				=> '+子版面',

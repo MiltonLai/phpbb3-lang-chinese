@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
     'ACL_U_CHGPASSWD'	=> '可以更改密码',
     'ACL_U_CHGEMAIL'	=> '可以更改email地址',
     'ACL_U_CHGAVATAR'	=> '可以更改头像',
-    'ACL_U_CHGGRP'		=> '可以更改默认用户组',
+    'ACL_U_CHGGRP'		=> '可以更改默认群组',
     'ACL_U_CHGPROFILEINFO'	=> 'Can change profile field information',
 
     'ACL_U_ATTACH'		=> '可以发表附件',
@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 
     'ACL_U_SENDPM'		=> '可以发送站内消息',
     'ACL_U_MASSPM'		=> '可以群发消息给用户',
-    'ACL_U_MASSPM_GROUP'=> '可以群发消息给用户组',
+    'ACL_U_MASSPM_GROUP'=> '可以群发消息给群组',
     'ACL_U_READPM'		=> '可以阅读站内消息',
     'ACL_U_PM_EDIT'		=> '可以编辑自己的站内消息',
     'ACL_U_PM_DELETE'	=> '可以删除自己的站内消息',
@@ -180,9 +180,9 @@ $lang = array_merge($lang, array(
 
     'ACL_A_USER'		=> '可以管理用户<br><em>这包括在在线用户列表中查看用户浏览器版本。</em>',
     'ACL_A_USERDEL'		=> '可以删除/清理用户',
-    'ACL_A_GROUP'		=> '可以管理用户组',
-    'ACL_A_GROUPADD'	=> '可以添加新用户组',
-    'ACL_A_GROUPDEL'	=> '可以删除用户组',
+    'ACL_A_GROUP'		=> '可以管理群组',
+    'ACL_A_GROUPADD'	=> '可以添加新群组',
+    'ACL_A_GROUPDEL'	=> '可以删除群组',
     'ACL_A_RANKS'		=> '可以管理等级',
     'ACL_A_PROFILE'		=> '可以管理自定义用户资料',
     'ACL_A_NAMES'		=> '可以管理禁用用户名',

@@ -133,8 +133,8 @@ $lang = array_merge($lang, array(
 	'ALLOW_FLASH_PM_EXPLAIN'	=> '这个选项设置是否允许在站内消息中使用flash, 在这里启用后用户依然要视论坛的权限而决定是否可用.',
 	'ALLOW_FORWARD_PM'			=> '允许转发站内消息',
 	'ALLOW_IMG_PM'				=> '允许使用<code>[IMG]</code>',
-	'ALLOW_MASS_PM'				=> '允许对多个用户和用户组发送站内消息',
-	'ALLOW_MASS_PM_EXPLAIN'      => '对用户组的发送可以在用户组设置页面对每个用户组进行单独设置.',
+	'ALLOW_MASS_PM'				=> '允许对多个用户和群组发送站内消息',
+	'ALLOW_MASS_PM_EXPLAIN'      => '对群组的发送可以在群组设置页面对每个群组进行单独设置.',
 	'ALLOW_PRINT_PM'			=> '允许打印格式查看站内消息',
 	'ALLOW_QUOTE_PM'			=> '允许在站内消息中引用',
 	'ALLOW_SIG_PM'				=> '允许在站内消息中使用签名档',
@@ -150,7 +150,7 @@ $lang = array_merge($lang, array(
 	'PM_EDIT_TIME'				=> '编辑时限',
 	'PM_EDIT_TIME_EXPLAIN'		=> '对于没有发送完成的信件的编辑时限. 设置为0将不作限制.', 
 	'PM_MAX_RECIPIENTS'         => '收信人的数量上限',
-	'PM_MAX_RECIPIENTS_EXPLAIN'   => '对单个站内消息的收信人数量进行限制. 如果设置为 0 将不作限制. 此设置可以在用户组设置页面中对每个用户组单独进行设置.',
+	'PM_MAX_RECIPIENTS_EXPLAIN'   => '对单个站内消息的收信人数量进行限制. 如果设置为 0 将不作限制. 此设置可以在群组设置页面中对每个群组单独进行设置.',
 ));
 
 // Post Settings
@@ -224,9 +224,9 @@ $lang = array_merge($lang, array(
 	'ACC_ACTIVATION_EXPLAIN'	=> '这决定了用户是否可以在注册后立刻浏览论坛, 还是必须进行确认. 您也可以禁止新用户注册。<em>如果需要使用管理员或用户激活，需要开启论坛Email功能。</em>',
     'ACC_ACTIVATION_WARNING'		=> '请注意，现在选择的激活方式需要开启Email功能，否则注册将被禁止。建议您选择其他的激活方式或开启邮件功能。',
 	'NEW_MEMBER_POST_LIMIT'			=> '新会员发文限制',
-	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> '新会员会被归入 <em>新注册用户</em> 组直到其发表足够多的帖子. 您可以使用此用户组的组权限来限制其使用站内消息以及方便发文审核. <strong>设置为0则不启用此项功能.</strong>',
-	'NEW_MEMBER_GROUP_DEFAULT'		=> '设置新注册用户组为默认组',
-	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> '如果设置为是, 并且设定了新会员发帖数目限制, 新会员不仅会加入到 <em>新注册用户</em> 组, 这个用户组也会成为他的默认组. 这将方便管理员为该组指定一个默认等级和组头像.',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> '新会员会被归入 <em>新注册用户</em> 组直到其发表足够多的帖子. 您可以使用此群组的组权限来限制其使用站内消息以及方便发文审核. <strong>设置为0则不启用此项功能.</strong>',
+	'NEW_MEMBER_GROUP_DEFAULT'		=> '设置新注册群组为默认组',
+	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> '如果设置为是, 并且设定了新会员发帖数目限制, 新会员不仅会加入到 <em>新注册用户</em> 组, 这个群组也会成为他的默认组. 这将方便管理员为该组指定一个默认等级和组头像.',
 
 	'ACC_ADMIN'					=> '由管理员',
 	'ACC_DISABLE'				=> '禁止注册',
@@ -240,7 +240,7 @@ $lang = array_merge($lang, array(
 	'COPPA_MAIL'				=> 'COPPA邮件地址',
 	'COPPA_MAIL_EXPLAIN'		=> '这是父母用于发送COPPA注册表单的邮件地址',
 	'ENABLE_COPPA'				=> '启用COPPA',
-	'ENABLE_COPPA_EXPLAIN'		=> '这需要用户说明自己是否大于13周岁以遵守美国COPPA法规. 如果禁止, COPPA用户组将不再显示.',
+	'ENABLE_COPPA_EXPLAIN'		=> '这需要用户说明自己是否大于13周岁以遵守美国COPPA法规. 如果禁止, COPPA群组将不再显示.',
 	'MAX_CHARS'					=> '最大',
 	'MIN_CHARS'					=> '最小',
 	'NO_AUTH_PLUGIN'			=> '没有发现合适的认证插件.',
