@@ -38,7 +38,7 @@ $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> '其它相关',
 	'ACTIVE_IN_FORUM'		=> '活跃于版面',
 	'ACTIVE_IN_TOPIC'		=> '活跃于主题',
-	'ADD_FOE'				=> '添加坏蛋',
+	'ADD_FOE'				=> '拉黑用户',
 	'ADD_FRIEND'			=> '添加好友',
 	'AFTER'					=> '后于',
 
@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 
 	'REAL_NAME'				=> '收信人名',
 	'RECIPIENT'				=> '收信人',
-	'REMOVE_FOE'			=> '删除坏蛋',
+	'REMOVE_FOE'			=> '取消拉黑',
 	'REMOVE_FRIEND'			=> '删除好友',
 
 	'SELECT_MARKED'			=> '选择已标记',

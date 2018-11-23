@@ -31,7 +31,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_BLOCK_ATTACHMENTS'	=> '附件',
 	'HELP_FAQ_BLOCK_BOOKMARKS'	=> '订阅和收藏',
 	'HELP_FAQ_BLOCK_FORMATTING'	=> '格式和主题类型',
-	'HELP_FAQ_BLOCK_FRIENDS'	=> '好友和拉黑列表',
+	'HELP_FAQ_BLOCK_FRIENDS'	=> '好友和黑名单',
 	'HELP_FAQ_BLOCK_GROUPS'	=> '用户等级和群组',
 	'HELP_FAQ_BLOCK_ISSUES'	=> 'phpBB 问题',
 	'HELP_FAQ_BLOCK_LOGIN'	=> '登录和注册问题',
@@ -69,9 +69,9 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_FORMATTING_STICKIES_QUESTION'	=> '什么是置顶主题？',
 
 	'HELP_FAQ_FRIENDS_BASIC_ANSWER'	=> '您可以使用这些名单来管理论坛中的用户。加入好友名单的用户会在您的用户控制面板中列出，方便您快速查看在线状态和发送站内消息。另外如果有模板支持，您的好友所发表的帖子也会高亮显示。如果您将某个用户拉黑，他的帖子将对您自动隐藏。',
-	'HELP_FAQ_FRIENDS_BASIC_QUESTION'	=> '什么是我的好友名单和拉黑名单？',
+	'HELP_FAQ_FRIENDS_BASIC_QUESTION'	=> '什么是我的好友名单和黑名单？',
 	'HELP_FAQ_FRIENDS_MANAGE_ANSWER'	=> '您可以通过两种方式添加用户到您的名单。在浏览用户资料时，页面上有链接可以点击添加好友或拉黑。另外，在您的用户控制面板，您也可以直接输入用户名来添加。您还可以在这个页面删除名单中的用户。',
-	'HELP_FAQ_FRIENDS_MANAGE_QUESTION'	=> '我该如何添加好友/拉黑用户以及如何取消？',
+	'HELP_FAQ_FRIENDS_MANAGE_QUESTION'	=> '我该如何将用户添加为好友或拉黑以及如何取消？',
 
 	'HELP_FAQ_GROUPS_ADMINISTRATORS_ANSWER'	=> '管理员是整个论坛中拥有最高权限的用户。管理员用户可以从各个方面管理论坛，包括设置权限，封禁用户，创建群组或版主等等。取决于论坛创建者赋予的权限，他们还可以拥有所有版面的版主权限。',
 	'HELP_FAQ_GROUPS_ADMINISTRATORS_QUESTION'	=> '什么是管理员？',
