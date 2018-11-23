@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DESC'						=> '用户组描述',
 	'GROUP_HIDDEN'						=> '隐藏',
 	'GROUP_INFORMATION'					=> '用户组信息', 
-	'GROUP_IS_CLOSED'					=> '这是一个封闭的用户组，新成员不能自由加入，只能由组领导者邀请加入。',
+	'GROUP_IS_CLOSED'					=> '这是一个封闭的用户组，新成员不能自由加入，只能由组长邀请加入。',
 	'GROUP_IS_FREE'						=> '这是一个自由开放的用户组，欢迎任何新成员。', 
 	'GROUP_IS_HIDDEN'					=> '这是一个隐藏的用户组，只允许组内成员查看。',
 	'GROUP_IS_OPEN'						=> '这是一个开放的用户组，用户可以申请加入。',
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'GROUP_JOIN_PENDING'				=> '申请加入用户组',
 	'GROUP_JOIN_PENDING_CONFIRM'		=> '您确定要申请加入选中的用户组吗？',
 	'GROUP_JOINED'						=> '您已成功加入此用户组',
-	'GROUP_JOINED_PENDING'				=> '申请已经提交。请等待用户组领导者批复。',
+	'GROUP_JOINED_PENDING'				=> '申请已经提交。请等待组长批复。',
 	'GROUP_LIST'						=> '管理用户',
 	'GROUP_MEMBERS'						=> '用户组成员',
 	'GROUP_NAME'						=> '用户组名称',
@@ -77,8 +77,8 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_EXPLAIN_GROUP'	=> '您需要登录后才能查看组资料',
 
-	'NO_LEADERS'					=> '您不是任何用户组的领导者',
-	'NOT_LEADER_OF_GROUP'			=> '您不是此用户组的领导人，无法执行此操作。',
+	'NO_LEADERS'					=> '您不是任何用户组的组长',
+	'NOT_LEADER_OF_GROUP'			=> '您不是此用户组的组长，无法执行此操作。',
 	'NOT_MEMBER_OF_GROUP'			=> '您不是此用户组的成员，无法执行此操作。',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> '您不能退出您的默认用户组。',
 
@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_SELECTED'		=> '删除选中',
 
 	'USER_GROUP_CHANGE'			=> '从用户组 “%1$s” 到用户组 “%2$s”',
-	'USER_GROUP_DEMOTE'			=> '辞去领导职务',
-	'USER_GROUP_DEMOTE_CONFIRM'	=> '您确定要辞去此用户组的领导职务吗？',
-	'USER_GROUP_DEMOTED'		=> '您已成功辞去领导职务。',
+	'USER_GROUP_DEMOTE'			=> '辞去组长职务',
+	'USER_GROUP_DEMOTE_CONFIRM'	=> '您确定要辞去此用户组的组长职务吗？',
+	'USER_GROUP_DEMOTED'		=> '您已成功辞去组长职务。',
 ));

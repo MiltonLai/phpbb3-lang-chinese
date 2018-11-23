@@ -645,13 +645,13 @@ $lang = array_merge($lang, array(
 	),
 
 	'GROUPS_EXPLAIN'	=> '用户组设置使管理员更好的管理用户。您会处于一个默认的组中。组定义将决定您对于其他用户的显示信息，例如您的用户名颜色，头像，级别等等。你可以改变您的默认组，但是这取决于管理员的设置。您也可以被放入或加入其他组。一些用户组将会具有额外的权限访问更多的区域。',
-	'GROUP_LEADER'		=> '组领导',
+	'GROUP_LEADER'		=> '组长',
 	'GROUP_MEMBER'		=> '组成员',
 	'GROUP_PENDING'		=> '待批准的成员',
 	'GROUP_NONMEMBER'	=> '非组成员',
 	'GROUP_DETAILS'		=> '组信息',
 
-	'NO_LEADER'		=> '没有组领导',
+	'NO_LEADER'		=> '没有组长',
 	'NO_MEMBER'		=> '没有组成员',
 	'NO_PENDING'	=> '没有待批准的成员',
 	'NO_NONMEMBER'	=> '没有非组成员',

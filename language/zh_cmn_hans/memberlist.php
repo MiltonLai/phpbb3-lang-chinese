@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'FIND_USERNAME_EXPLAIN'	=> '用这个表单查找特定的成员。您不必填写所有的表格。匹配部分字符可以使用 * 作为通配符。当输入日期时请使用格式 <kbd>YYYY-MM-DD</kbd>，e.g. <samp>2004-02-29</samp>。使用多选框选择一个或多个用户名（是否接受多个用户名取决于表单本身）并点击选择选中的按钮回到原先的表单。',
 	'FLOOD_EMAIL_LIMIT'		=> '您现在不能再次发送 Email。请稍后再试。',
 
-	'GROUP_LEADER'			=> '组领导',
+	'GROUP_LEADER'			=> '组长',
 
 	'HIDE_MEMBER_SEARCH'	=> '隐藏用户搜索',
 
