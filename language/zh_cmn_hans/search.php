@@ -61,8 +61,8 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> '您需要登录后才能查看上次登录后产生的新帖子.',
 
     'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-        1	=> '您输入了过多的搜索词. 允许的最多搜索词为 %1$d 个.',
-        2	=> '您输入了过多的搜索词. 允许的最多搜索词为 %1$d 个.',
+        1	=> '您输入了过多的关键词. 允许的最多关键词为 %1$d 个.',
+        2	=> '您输入了过多的关键词. 允许的最多关键词为 %1$d 个.',
     ),
 
 	'NO_KEYWORDS'			=> '您必须指定至少一个关键词，且每个关键词必须为 %s 到 %s（不包含通配符）。',
@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_FORUMS'				=> '搜索版面',
 	'SEARCH_FORUMS_EXPLAIN'		=> '选择您想搜索的版面。如果您没有关闭“搜索子版面”选项，选中版面的子版面也会被一并搜索。',
 	'SEARCH_IN_RESULTS'			=> '搜索这些结果',
-	'SEARCH_KEYWORDS_EXPLAIN'	=> '在必须存在的搜索词前放置 <strong>+</strong> 号，在必须不存在的搜索词前面放置 <strong>-</strong> 号。如果一系列搜索词中只需要出现一个，在括号中间放置搜索词列表，词与词间用 <strong>|</strong> 隔开。使用 * 作为通配符。',
+	'SEARCH_KEYWORDS_EXPLAIN'	=> '在必须存在的关键词前放置 <strong>+</strong> 号，在必须不存在的关键词前面放置 <strong>-</strong> 号。如果一系列关键词中只需要出现一个，在括号中间放置关键词列表，词与词间用 <strong>|</strong> 隔开。使用 * 作为通配符。',
 	'SEARCH_MSG_ONLY'			=> '只搜索帖子内容',
 	'SEARCH_OPTIONS'			=> '搜索选项',
 	'SEARCH_QUERY'				=> '搜索帖子',

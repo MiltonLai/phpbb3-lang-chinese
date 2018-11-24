@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
     'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'sphinx后端搜索守护进程(searchd)在侦听的端口。留空则使用默认的Sphinx API 端口 9312',
     'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'sphinx 搜索仅支持 MySQL 和 PostgreSQL.',
     'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx 配置文件',
-    'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'sphinx生成的配置文件内容。这些内容需要粘贴到sphinx服务端的配置文件 sphinx.conf，使用您的数据库连接信息代替里面的 [dbuser] 和 [dbpassword] 参数。',
+    'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'sphinx生成的配置文件内容。这些内容需要粘贴到sphinx服务端的配置文件 sphinx.conf，使用您的数据库连接信息代替里面的 [dbuser] 和 [dbpassword]。',
     'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'sphinx 数据目录路径未设置。请设置并提交生成配置文件。',
 
 	'GENERAL_SEARCH_SETTINGS'				=> '综合搜索设定',

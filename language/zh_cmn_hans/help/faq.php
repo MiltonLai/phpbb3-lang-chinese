@@ -38,7 +38,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_BLOCK_PMS'	=> '站内消息',
 	'HELP_FAQ_BLOCK_POSTING'	=> '发帖相关',
 	'HELP_FAQ_BLOCK_SEARCH'	=> '搜索论坛',
-	'HELP_FAQ_BLOCK_USERSETTINGS'	=> '用户参数和设置',
+	'HELP_FAQ_BLOCK_USERSETTINGS'	=> '用户偏好设置',
 
 	'HELP_FAQ_BOOKMARKS_DIFFERENCE_ANSWER'	=> '在 phpBB 3.0 中，收藏类似于浏览器中的收藏夹, 当有更新时您不会收到提示。在 phpBB 3.1 之后，收藏更类似于订阅主题，在收藏的主题有更新时您将收到通知。而订阅，在主题或版面内容有更新时将会通过您指定的方式通知您。收藏和订阅的通知选项可以在用户控制面板 UCP 的“偏好设置”中设置。',
 	'HELP_FAQ_BOOKMARKS_DIFFERENCE_QUESTION'	=> '收藏和订阅有什么区别？',
@@ -171,7 +171,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_USERSETTINGS_CHANGE_SETTINGS_QUESTION'	=> '我该如何更改设置？',
 	'HELP_FAQ_USERSETTINGS_EMAIL_LOGIN_ANSWER'	=> '只有注册用户才能通过论坛发送Email给其他用户 (如果管理员启用了Email功能)。这主要是为了防止匿名用户使用Email系统发送垃圾邮件。',
 	'HELP_FAQ_USERSETTINGS_EMAIL_LOGIN_QUESTION'	=> '当我点击用户的Email链接时为什么要让我登录？',
-	'HELP_FAQ_USERSETTINGS_HIDE_ONLINE_ANSWER'	=> '在用户控制面板 “论坛参数F” 中您可以找到选项 <em>隐藏您的在线状态</em>, 如果您启用这个选项, 将只有管理员, 版主和您自己才能看到您的在线状态. 您将会显示为隐藏用户。',
+	'HELP_FAQ_USERSETTINGS_HIDE_ONLINE_ANSWER'	=> '在用户控制面板 “偏好设置” 中您可以找到选项 <em>隐藏您的在线状态</em>, 如果您启用这个选项, 将只有管理员, 版主和您自己才能看到您的在线状态. 您将会显示为隐藏用户。',
 	'HELP_FAQ_USERSETTINGS_HIDE_ONLINE_QUESTION'	=> '我怎样才能使自己不出现在在线用户列表中？',
 	'HELP_FAQ_USERSETTINGS_LANGUAGE_ANSWER'	=> '可能是管理员没有安装您的语言, 也有可能是目前还没有人将这个论坛翻译成您的语言. 请向论坛管理员咨询是否可以为您安装您使用的语言. 如果这个语言的翻译并不存在, 您可以尝试创建这个语言的翻译. 更多的信息请访问<a href="https://www.phpbb.com/">phpBB</a>&reg;。',
 	'HELP_FAQ_USERSETTINGS_LANGUAGE_QUESTION'	=> '我的语言不在列表里！',

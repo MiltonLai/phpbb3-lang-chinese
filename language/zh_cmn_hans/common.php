@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
     'BUTTON_EDIT'			=> '编辑',
     'BUTTON_FORUM_LOCKED'	=> '锁定',
     'BUTTON_INFORMATION'    => '信息',
-    'BUTTON_NEW_TOPIC'		=> '发帖',
+    'BUTTON_NEW_TOPIC'		=> '发表主题',
     'BUTTON_PM'				=> '消息',
     'BUTTON_PM_FORWARD'		=> '转发',
     'BUTTON_PM_NEW'			=> '新消息',
@@ -547,13 +547,13 @@ $lang = array_merge($lang, array(
     'ONLINE_BUDDIES'			=> '线上好友',
     // "... :: x registered and y hidden"
     'ONLINE_USERS_TOTAL'		=> array(
-        1	=> '线上共有 <strong>%1$d</strong> 位用户 :: %2$s 和 %3$s',
-        2	=> '线上共有 <strong>%1$d</strong> 位用户 :: %2$s 和 %3$s',
+        1	=> '线上共有 <strong>%1$d</strong> 位访客 :: %2$s 和 %3$s',
+        2	=> '线上共有 <strong>%1$d</strong> 位访客 :: %2$s 和 %3$s',
     ),
     // "... :: x registered, y hidden and z guests"
     'ONLINE_USERS_TOTAL_GUESTS'	=> array(
-        1	=> '线上共有 <strong>%1$d</strong> 位用户 :: %2$s, %3$s 和 %4$s',
-        2	=> '线上共有 <strong>%1$d</strong> 位用户 :: %2$s, %3$s 和 %4$s',
+        1	=> '线上共有 <strong>%1$d</strong> 位访客 :: %2$s, %3$s 和 %4$s',
+        2	=> '线上共有 <strong>%1$d</strong> 位访客 :: %2$s, %3$s 和 %4$s',
     ),
     'OPTIONS'					=> '选项',
 
@@ -620,7 +620,7 @@ $lang = array_merge($lang, array(
     'READING_TOPIC'				=> '查看主题于 %s',
     'READ_PROFILE'				=> '用户资料',
     'REASON'					=> '原因',
-    'RECORD_ONLINE_USERS'		=> '最高在线记录：<strong>%1$s</strong>，发生于 %2$s',
+    'RECORD_ONLINE_USERS'		=> '最高在线人数：<strong>%1$s</strong>，记录于%2$s',
     'REDIRECT'					=> '重定向',
     'REDIRECTS'					=> '总共转向',
     'REGISTER'					=> '注册',
@@ -681,11 +681,11 @@ $lang = array_merge($lang, array(
     'SEARCHING_FORUMS'			=> '查找版面',
     'SEARCH_ACTIVE_TOPICS'		=> '活跃的主题',
     'SEARCH_FOR'				=> '查找',
-    'SEARCH_FORUM'				=> '查找这个版面……',
+    'SEARCH_FORUM'				=> '搜索这个版面…',
     'SEARCH_NEW'				=> '新帖',
     'SEARCH_POSTS_BY'			=> '查找帖子，按',
     'SEARCH_SELF'				=> '您的帖子',
-    'SEARCH_TOPIC'				=> '查找这个主题……',
+    'SEARCH_TOPIC'				=> '搜索这个主题…',
     'SEARCH_UNANSWERED'			=> '无回复的主题',
     'SEARCH_UNREAD'				=> '未读帖子',
     'SEARCH_USER_POSTS'			=> '搜索用户帖子',
@@ -798,7 +798,7 @@ $lang = array_merge($lang, array(
         2	=> '主题总数: <strong>%d</strong>',
     ),
     'TOTAL_USERS'		=> array(
-        2	=> '注册用户总数: <strong>%d</strong>',
+        2	=> '用户总数: <strong>%d</strong>',
     ),
     'TRACKED_PHP_ERROR'	=> '记载的 PHP 错误: %s',
     'TWITTER'			=> 'Twitter',
@@ -884,7 +884,7 @@ $lang = array_merge($lang, array(
 
     'WRONG_DATA_COLOUR'			=> '您输入的颜色值无效.',
     'WRONG_DATA_JABBER'			=> '您输入的名字不是一个有效的 Jabber 帐号。',
-    'WRONG_DATA_LANG'			=> '您指定了一个无效的语言。',
+    'WRONG_DATA_LA线上NG'			=> '您指定了一个无效的语言。',
     'WRONG_DATA_POST_SD'		=> '您指定的帖子排序方向不可用.',
     'WRONG_DATA_POST_SK'		=> '您指定的帖子排序选项不可用.',
     'WRONG_DATA_TOPIC_SD'		=> '您指定的主题排序方向不可用.',
