@@ -3,7 +3,7 @@ Subject: 加入群组的申请
 您好 {USERNAME}:
 
 用户"{REQUEST_USERNAME}"申请加入您在"{SITENAME}"管理的群组"{GROUP_NAME}"。
-如果您需要进行批准或者驳回这个申请，请点击下面的链接：
+如果您需要审核通过或者拒绝这个申请，请点击下面的链接：
 
 {U_PENDING}
 

@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-    'APPROVE'								=> '审批',
+    'APPROVE'								=> '审核',
 	'ATTACHMENT'						=> '附件',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> '附件功能已经停用',
 
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_TOPIC'			=> '删除主题',
     'DELETED_INFORMATION'	=> '于 %2$s 被 %1$s 删除',
-    'DISAPPROVE'			=> '驳回',
+    'DISAPPROVE'			=> '拒绝',
 	'DOWNLOAD_NOTICE'		=> '您没有权限查看这个主题的附件。',
 
     'EDITED_TIMES_TOTAL'	=> array(

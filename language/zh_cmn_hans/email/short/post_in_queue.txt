@@ -1,8 +1,8 @@
-Subject: 帖子审核通知 - "{TOPIC_TITLE}"
+Subject: 帖子等待审核 - "{TOPIC_TITLE}"
 
 您好 {USERNAME},
 
-您收到这个通知是因为您在"{SITENAME}"发表的帖子"{POST_SUBJECT}"需要等待审核。
+您收到这个通知是因为您在"{SITENAME}"发表的帖子"{POST_SUBJECT}"需要审核。
 
 如果你要查看帖子，请点击：
 {U_VIEW_POST}

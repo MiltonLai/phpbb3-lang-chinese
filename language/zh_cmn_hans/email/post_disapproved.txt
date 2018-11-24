@@ -1,10 +1,10 @@
-Subject: 帖子审核未通过 - "{POST_SUBJECT}"
+Subject: 帖子审核被拒绝 - "{POST_SUBJECT}"
 
 您好 {USERNAME},
 
-您收到这个通知是因为您在"{SITENAME}"上发表的帖子"{POST_SUBJECT}"在审核中被版主或管理员驳回。
+您收到这个通知是因为您在"{SITENAME}"上发表的帖子"{POST_SUBJECT}"在审核中被版主或管理员拒绝。
 
-下面是审核未通过的原因：
+下面是审核被拒绝的原因：
 
 {REASON}
 

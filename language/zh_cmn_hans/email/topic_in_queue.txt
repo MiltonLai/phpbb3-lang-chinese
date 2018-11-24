@@ -1,8 +1,8 @@
-Subject: 主题审核通知 - "{TOPIC_TITLE}"
+Subject: 主题等待审核 - "{TOPIC_TITLE}"
 
 您好 {USERNAME},
 
-您收到这个通知是因为您在"{SITENAME}"发表的主题"{TOPIC_TITLE}"需要等待审核。
+您收到这个通知是因为您在"{SITENAME}"发表的主题"{TOPIC_TITLE}"需要审核。
 
 如果你想查看主题，请点击：
 {U_VIEW_TOPIC}
