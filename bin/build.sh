@@ -147,6 +147,12 @@ if [ ! -d ${BASE_DIR}/build ]; then
 else
     rm -rf ${BASE_DIR}/build/*
 fi
-# tar cjf build/phpbb.tar.bz2 -C phpbb/ phpBB
-tar cjf ${BASE_DIR}/build/phpbb-zh-${TAG}.tar.bz2 -C ${BASE_DIR}/phpbb phpBB
+# Language package
+tar cjf ${BASE_DIR}/build/phpbb_lang_zh_${TAG}.tar.bz2 -C ${BASE_DIR} \
+    --exclude=ext/phpbb/viglink/language/en \
+    --exclude=language/en \
+    --exclude=styles/prosilver/theme/en \
+    ext language styles
+# Full package
+tar cjf ${BASE_DIR}/build/phpbb_zh_${TAG}.tar.bz2 -C ${BASE_DIR}/phpbb phpBB
 echo '   Package: Done'
