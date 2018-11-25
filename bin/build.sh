@@ -99,7 +99,6 @@ echo '   Composer: Done'
 #
 # Clean up: tests,examples,builds,...
 echo '|| Clean '
-touch ${TARGET}/config.php
 rm -rf ${TARGET}/develop
 rm -rf ${TARGET}/config/development
 rm -rf ${TARGET}/config/test
@@ -138,6 +137,19 @@ do
     fi
 done
 echo '   Clean: Done'
+
+
+#
+# Decorations
+echo '|| Decorations'
+# Create an empty config.php
+touch ${TARGET}/config.php
+# Adjust the font size of admin panel
+sed -i '/font-size: x-small;/d' ${TARGET}/adm/style/admin.css
+sed -i '/font-size: small;/d' ${TARGET}/adm/style/admin.css
+sed -i 's/font-size: 62.5%;/font-size: 90%;/' ${TARGET}/adm/style/admin.css
+echo '   Decorations: Done'
+
 
 #
 # Compress to bz2
