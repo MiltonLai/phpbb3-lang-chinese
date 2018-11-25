@@ -359,7 +359,7 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> '感谢您选择phpBB作为论坛解决方案. 这个界面将显示您的论坛的总体统计信息. 左边的链接允许您从各个方面管理论坛, 每个分页有如何使用管理工具的提示.',
+	'ADMIN_INTRO'				=> '感谢您选择phpBB作为论坛解决方案. 这个界面将显示您的论坛的总体统计数据. 左边的链接允许您从各个方面管理论坛, 每个分页有如何使用管理工具的提示.',
 	'ADMIN_LOG'					=> '记录的管理员操作',
 	'ADMIN_LOG_INDEX_EXPLAIN'	=> '这里显示了管理员进行的最后五个操作. 完整的操作日志可以通过下面的链接查看.',
 	'AVATAR_DIR_SIZE'			=> '头像目录大小',
@@ -423,7 +423,7 @@ $lang = array_merge($lang, array(
 	'RESYNC_POST_MARKING_CONFIRM'	=> '您确认要重新统计带标记的主题吗?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> '首先取消标记所有的主题, 然后重新标记在六个月内有操作的主题.',
     'RESYNC_POST_MARKING_SUCCESS'	=> '带标记主题已重新统计',
-	'RESYNC_STATS'			=> '同步统计值',
+	'RESYNC_STATS'			=> '同步统计数据',
 	'RESYNC_STATS_CONFIRM'			=> '您确认要重新同步统计吗?',
 	'RESYNC_STATS_EXPLAIN'			=> '重新计算帖子/主题/用户和文件的总数.',
     'RESYNC_STATS_SUCCESS'			=> '统计已重新同步',
@@ -490,10 +490,10 @@ $lang = array_merge($lang, array(
 	'GO_ACP_MAIN'				=> '前往管理员控制面板首页',
 	'HIDE_STATISTICS'			=> '隐藏细节',
 	'SEND_STATISTICS'			=> '发送统计',
-    'SEND_STATISTICS_LONG'		=> '发送统计信息',
+    'SEND_STATISTICS_LONG'		=> '发送统计数据',
 	'SHOW_STATISTICS'			=> '显示细节',
 	'THANKS_SEND_STATISTICS'	=> '非常感谢您的参与, phpBB团队向您致敬!',
-    'FAIL_SEND_STATISTICS'		=> 'phpBB 无法发送统计信息',
+    'FAIL_SEND_STATISTICS'		=> 'phpBB 无法发送统计数据',
 ));
 
 // Log Entries
