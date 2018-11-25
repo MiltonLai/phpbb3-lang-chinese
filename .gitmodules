@@ -1,0 +1,3 @@
+[submodule "phpbb"]
+	path = phpbb
+	url = https://github.com/phpbb/phpbb.git

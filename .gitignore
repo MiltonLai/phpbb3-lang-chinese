@@ -13,3 +13,6 @@
 # IDE generated files
 *.iml
 .idea/
+
+# gitmodules
+phpbb/
