@@ -2,7 +2,7 @@ Subject: "{SITENAME}" - 给朋友发送Email
 
 您好 {TO_USERNAME},
 
-这个email来自于"{SITENAME}"的用户{FROM_USERNAME}，他/她觉得您可能会对这个内容感兴趣：
+这个Email来自于"{SITENAME}"的用户{FROM_USERNAME}，他/她觉得您可能会对这个内容感兴趣：
 
 {TOPIC_NAME}
 

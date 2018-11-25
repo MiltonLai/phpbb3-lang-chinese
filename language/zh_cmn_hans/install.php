@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
     // Install page
     'INSTALL_INTRO'			=> '欢迎安装！',
-    'INSTALL_INTRO_BODY'	=> '使用这个选项, 应该可以在您的服务器上安装 phpBB.</p><p>为了继续安装, 您需要知道您的数据库设置. 如果您不清楚这些, 请联络您的web空间提供者. 没有这些信息安装将不能继续. 您需要:</p>
+    'INSTALL_INTRO_BODY'	=> '使用这个选项, 应该可以在您的服务器上安装 phpBB.</p><p>为了继续安装, 您需要知道您的数据库设置. 如果您不清楚这些, 请联系您的web空间提供者. 没有这些信息安装将不能继续. 您需要:</p>
 
 	<ul>
 		<li>数据库类型 - 您将使用的数据库.</li>
@@ -492,7 +492,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
     // Common converter messages
     'CONVERT_NOT_EXIST'			=> '指定的转换程序不存在.',
-    'DEV_NO_TEST_FILE'			=> '在转换器中没有指定test_file变量的值. 如果您是转换器的使用者, 您不应该看到这个错误, 请联络转换器的作者并报告这个错误. 如果您是转换器的作者, 您必须指定一个源论坛中存在的文件名称, 使得路径校验能正常进行.',
+    'DEV_NO_TEST_FILE'			=> '在转换器中没有指定test_file变量的值. 如果您是转换器的使用者, 您不应该看到这个错误, 请联系转换器的作者并报告这个错误. 如果您是转换器的作者, 您必须指定一个源论坛中存在的文件名称, 使得路径校验能正常进行.',
     'COULD_NOT_FIND_PATH'		=> '无法找到旧论坛的路径. 请检查您的设定并再试一次.<br />» 指定的路径是 %s',
     'CONFIG_PHPBB_EMPTY'		=> '缺少 phpBB3 的配置信息“%s”。',
 

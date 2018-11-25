@@ -36,16 +36,16 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> '这里您可以给所有的用户或者某个群组的用户发送email. 发送时, 将会先往管理员的邮箱中发送一份拷贝, 同时也发送到其他收信人的邮箱中. 如果您要给很多人发送email, 当提交后请耐心等待而不要动这个页面. 一般群发需要很长一段时间, 当结束的时候会提示您',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> '这里您可以给所有的用户或者某个群组的用户发送Email. 发送时, 将会先往管理员的邮箱中发送一份拷贝, 同时也发送到其他收信人的邮箱中. 如果您要给很多人发送Email, 当提交后请耐心等待而不要动这个页面. 一般群发需要很长一段时间, 当结束的时候会提示您',
 	'ALL_USERS'						=> '所有用户',
 
 	'COMPOSE'				=> '撰写',
 
-	'EMAIL_SEND_ERROR'		=> '当发送email的时候出现一个或多个错误. 请检查 %s错误日志%s 以得到更多信息.',
+	'EMAIL_SEND_ERROR'		=> '当发送Email的时候出现一个或多个错误. 请检查 %s错误日志%s 以得到更多信息.',
 	'EMAIL_SENT'			=> '这个邮件已经被发送.',
 	'EMAIL_SENT_QUEUE'		=> '这个邮件已经在队列中等待发送.',
 
-	'LOG_SESSION'			=> '记录email对话到关键日志',
+	'LOG_SESSION'			=> '记录Email对话到关键日志',
 
 	'SEND_IMMEDIATELY'		=> '立即发送',
 	'SEND_TO_GROUP'			=> '发送到组',

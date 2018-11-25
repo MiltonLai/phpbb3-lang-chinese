@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_BACKUP'				=> '备份',
 	'ACP_BAN'					=> '封禁',
-	'ACP_BAN_EMAILS'			=> '封禁email地址',
+	'ACP_BAN_EMAILS'			=> '封禁Email地址',
 	'ACP_BAN_IPS'				=> '封禁IP地址',
 	'ACP_BAN_USERNAMES'			=> '封禁用户',
 	'ACP_BBCODES'				=> 'BBCode',
@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 	'ACP_MANAGE_RANKS'			=> '管理等级',
 	'ACP_MANAGE_REASONS'		=> '管理 举报/封禁 原因',
 	'ACP_MANAGE_USERS'			=> '管理用户',
-	'ACP_MASS_EMAIL'			=> '群发email',
+	'ACP_MASS_EMAIL'			=> '群发Email',
 	'ACP_MESSAGES'				=> '站内消息',
 	'ACP_MESSAGE_SETTINGS'		=> '站内消息设定',
 	'ACP_MODULE_MANAGEMENT'		=> '模块管理',
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 
 	'NOTIFY'				=> '通知',
 	'NO_ADMIN'				=> '您未被授权管理这个论坛.',
-	'NO_EMAILS_DEFINED'		=> '没有发现可用的email地址',
+	'NO_EMAILS_DEFINED'		=> '没有发现可用的Email地址',
     'NO_FILES_TO_DELETE'	=> '您选中待删除的文件不存在。',
 	'NO_PASSWORD_SUPPLIED'	=> '您需要输入您的密码后才能访问管理员控制面板.',	
 
@@ -343,7 +343,7 @@ $lang = array_merge($lang, array(
 // Logs
 $lang = array_merge($lang, array(
 	'ACP_ADMIN_LOGS_EXPLAIN'	=> '这里列出了论坛管理员执行的操作. 您可以按用户名、日期、IP地址或操作排序. 如果您有合适的权限, 您也可以清除部分或全部日志记录.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> '这里列出了论坛自身的操作. 这些日志为您解决特定问题提供有用信息, 例如无法投递的email. 您可以按用户名、日期、IP地址或操作排序. 如果您有足够的权限, 您也可以清除部分或全部日志记录.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> '这里列出了论坛自身的操作. 这些日志为您解决特定问题提供有用信息, 例如无法投递的Email. 您可以按用户名、日期、IP地址或操作排序. 如果您有足够的权限, 您也可以清除部分或全部日志记录.',
 	'ACP_MOD_LOGS_EXPLAIN'		=> '这里列出了论坛版主执行的操作, 在下拉框中选择一个版面. 您可以按用户名、日期、IP地址或操作排序. 如果您有足够的权限, 您也可以清除部分或全部日志记录.',
 	'ACP_USERS_LOGS_EXPLAIN'	=> '这里列出了用户执行的操作以及作用于用户的操作.',
 	'ALL_ENTRIES'				=> '所有条目',
@@ -467,8 +467,8 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_REMIND'		=> '强制帐号激活',
 	'INACTIVE_REASON_UNKNOWN'		=> '未知',
 	'INACTIVE_USERS'				=> '冻结的用户',
-	'INACTIVE_USERS_EXPLAIN'		=> '这是已经注册但是没有激活的用户列表. 您可以删除或提醒 (发送email) 他们.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> '这是最近十个未激活的用户列表. 您可以通过下面的链接查看完整列表并进行激活、删除或email通知操作.',
+	'INACTIVE_USERS_EXPLAIN'		=> '这是已经注册但是没有激活的用户列表. 您可以删除或提醒 (发送Email) 他们.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> '这是最近十个未激活的用户列表. 您可以通过下面的链接查看完整列表并进行激活、删除或Email通知操作.',
 
 	'NO_INACTIVE_USERS'	=> '没有冻结的用户',
 
@@ -540,13 +540,13 @@ $lang = array_merge($lang, array(
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>封禁中解除用户</strong> 原因: "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_EXCLUDE_IP'	=> '<strong>封禁中解除IP</strong> 原因: "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>封禁中解除email</strong> 原因: "<em>%1$s</em>"<br />» %2$s ',
+	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>封禁中解除Email</strong> 原因: "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_USER'			=> '<strong>封禁用户</strong> 原因: "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_IP'			=> '<strong>封禁IP</strong> 原因: "<em>%1$s</em>"<br />» %2$s',
-	'LOG_BAN_EMAIL'			=> '<strong>封禁email</strong> 原因: "<em>%1$s</em>"<br />» %2$s',
+	'LOG_BAN_EMAIL'			=> '<strong>封禁Email</strong> 原因: "<em>%1$s</em>"<br />» %2$s',
 	'LOG_UNBAN_USER'		=> '<strong>用户解禁</strong><br />» %s',
 	'LOG_UNBAN_IP'			=> '<strong>IP解禁</strong><br />» %s',
-	'LOG_UNBAN_EMAIL'		=> '<strong>email解禁</strong><br />» %s',
+	'LOG_UNBAN_EMAIL'		=> '<strong>Email解禁</strong><br />» %s',
 
 	'LOG_BBCODE_ADD'		=> '<strong>添加新BBCode</strong><br />» %s',
 	'LOG_BBCODE_EDIT'		=> '<strong>编辑BBCode</strong><br />» %s',
@@ -567,7 +567,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_AUTH'			=> '<strong>更改身份验证设定</strong>',
 	'LOG_CONFIG_AVATAR'			=> '<strong>更改头像设定</strong>',
 	'LOG_CONFIG_COOKIE'			=> '<strong>更改cookie设定</strong>',
-	'LOG_CONFIG_EMAIL'			=> '<strong>更改email设定</strong>',
+	'LOG_CONFIG_EMAIL'			=> '<strong>更改Email设定</strong>',
 	'LOG_CONFIG_FEATURES'		=> '<strong>更改论坛功能</strong>',
 	'LOG_CONFIG_LOAD'			=> '<strong>更改负载设定</strong>',
 	'LOG_CONFIG_MESSAGE'		=> '<strong>更改站内消息设定</strong>',
@@ -663,7 +663,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>激活未激活的帐号</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>删除未激活的帐号</strong><br />» %s',
-	'LOG_INACTIVE_REMIND'	=> '<strong>发送提醒email给未激活的用户</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'	=> '<strong>发送提醒Email给未激活的用户</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'	=> '<strong>转换自 %1$s 至 phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>安装phpBB %s</strong>',
 
@@ -680,7 +680,7 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>替换语言文件</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>提交语言文件并放置于store文件夹</strong><br />» %s',
 
-	'LOG_MASS_EMAIL'		=> '<strong>群发email</strong><br />» %s',
+	'LOG_MASS_EMAIL'		=> '<strong>群发Email</strong><br />» %s',
 
 	'LOG_MCP_CHANGE_POSTER'	=> '<strong>更改主题作者 "%1$s"</strong><br />» 自 %2$s to %3$s',
 
@@ -771,7 +771,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_ACTIVE'		=> '<strong>用户激活</strong><br />» %s',
 	'LOG_USER_BAN_USER'		=> '<strong>通过用户管理封禁用户</strong> 原因: "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_BAN_IP'		=> '<strong>通过用户管理封禁IP</strong> 原因: "<em>%1$s</em>"<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>通过用户管理封禁email</strong> 原因: "<em>%1$s</em>"<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>通过用户管理封禁Email</strong> 原因: "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>删除用户</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>删除这个用户发表的所有附件</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>删除用户头像</strong><br />» %s',
@@ -784,7 +784,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_REACTIVATE'	=> '<strong>强制用户帐号重新激活</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>关闭新注册标记于用户</strong><br />» %s',
 	
-	'LOG_USER_UPDATE_EMAIL'	=> '<strong>用户 "%1$s" 更改 email</strong><br />» from "%2$s" to "%3$s"',
+	'LOG_USER_UPDATE_EMAIL'	=> '<strong>用户 "%1$s" 更改 Email</strong><br />» from "%2$s" to "%3$s"',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>用户名称更改</strong><br />» from "%1$s" to "%2$s"',
 	'LOG_USER_USER_UPDATE'	=> '<strong>用户细节更新</strong><br />» %s',
 

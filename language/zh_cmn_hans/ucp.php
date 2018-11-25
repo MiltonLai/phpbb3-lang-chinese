@@ -43,15 +43,15 @@ $lang = array_merge($lang, array(
 	您同意不张贴任何带有辱骂，淫秽，粗俗，诽谤，仇恨，威胁，色情的内容，不张贴任何带有侵犯您所在国家的法律， “%1$s” 所在国家的法律，国际公法的内容。以上的行为可能会使您在未得到通知的情况下被永远禁止访问这个论坛。所有帖子发表所使用的 IP 地址将被记录，以协助调查违反条款的事件。您同意 “%1$s” 具有在任何我们认为合适的时候删除，修改，移动，或关闭任何主题的权力。作为一个用户，您同意您所输入的任何信息将被记录至数据库。在没有得到您同意的前提下我们不会向任何第三方发布这些信息，但是 “%1$s” 和 phpBB 不能为任何因为黑客行为导致的数据泄漏承担法律责任.
 	',
 
-	'PRIVACY_POLICY'		=> '这个策略用于细节化地解释 “%1$s” 和其附属的组织机构 (下文中指代 “我们”, “我方”, “我们的”, “%1$s”, “%2$s”) 和 phpBB (下文指代 “他们”, “他方”, “他们的”, “phpBB software”, “www.phpbb.com”, “phpBB Limited”, “phpBB 开发团队”) 如何使用在与您的对话中得到的与您有关的信息 (下文中指代 “您的信息”).<br />
+	'PRIVACY_POLICY'		=> '这个策略用于细节化地解释 “%1$s” 和其附属的组织机构 (下文中指代 “我们”，“我方”，“我们的”，“%1$s”，“%2$s”) 和 phpBB (下文指代 “他们”，“他方”，“他们的”，“phpBB software”，“www.phpbb.com”，“phpBB Limited”，“phpBB 开发团队”) 如何使用在与您的对话中得到的与您有关的信息 (下文中指代 “您的信息”).<br />
 	<br />
-	您的信息通过两种方式产生. 首先, 通过浏览 “%1$s” 将使 phpBB 软件在您的电脑中生成一定数量的 cookie 文件, 这些 cookie 是浏览器用于缓存信息的临时文件. 其中有两个 cookie 包含用户的ID信息 (下文指代 “用户ID”) 和一个匿名的用户对话ID (下文中指代 “对话ID”), 将被 phpBB 软件指派自动生成. 第三个cookie 将在您浏览 “%1$s” 中的主题后自动产生, 用于存储您的浏览历史信息, 用于提高用户体验.<br />
+	您的信息通过两种方式产生。首先，通过浏览 “%1$s” 将使 phpBB 软件在您的电脑中生成一定数量的 cookie 文件，这些 cookie 是浏览器用于缓存信息的临时文件。其中有两个 cookie 包含用户的ID信息 (下文指代 “用户ID”) 和一个匿名的用户对话ID (下文中指代 “对话ID”)，将被 phpBB 软件指派自动生成。第三个cookie 将在您浏览 “%1$s” 中的主题后自动产生，用于存储您的浏览历史信息，用于提高用户体验.<br />
 	<br />
-	您在浏览 “%1$s” 时会产生 phpBB 软件之外的 cookie, 这不属于本策略的声明范围, 本策略仅覆盖 phpBB 软件所创建的页面。第二种是我们通过您在软件中提交的内容收集到的您的信息. 这些情况包含但不限于: 以匿名用户发帖 (下文中指代 “匿名帖子”), 在 “%1$s” 上注册帐号 (下文中指代 “您的帐号”) 登录动作和您在注册后发表的帖子 (下文中指代 “您的帖子”).<br />
+	您在浏览 “%1$s” 时会产生 phpBB 软件之外的 cookie，这不属于本策略的声明范围，本策略仅覆盖 phpBB 软件所创建的页面。第二种是我们通过您在软件中提交的内容收集到的您的信息。这些情况包含但不限于: 以匿名用户发帖 (下文中指代 “匿名帖子”)，在 “%1$s” 上注册帐号 (下文中指代 “您的帐号”) 登录动作和您在注册后发表的帖子 (下文中指代 “您的帖子”).<br />
 	<br />
-	您的帐号将至少包含一个唯一的用户名 (下文中指代 “您的用户名”), 一个用于登录您的帐号的个人密码 (下文中指代 “您的密码”) 和一个个人的有效 email 地址 (下文中指代 “您的 email”). 您在 “%1$s” 上的帐号所包含的信息将受到我们的主机所在国家的数字保护法律的保护. 除了您的用户名和您的密码以及在注册过程中 “%1$s” 要求的email地址以外, 您的其他任何信息都是可选的(除了软件使用者的特殊要求). 在任何情况下, 您可以选择您的信息是否被公开. 此外, 在您的帐号中, 您可以选择定向收发 phpBB 软件自动生成的email.<br />
+	您的帐号将至少包含一个唯一的用户名 (下文中指代 “您的用户名”)，一个用于登录您的帐号的个人密码 (下文中指代 “您的密码”) 和一个个人的有效 Email地址 (下文中指代 “您的Email”)。您在 “%1$s” 上的帐号所包含的信息将受到我们的主机所在国家的数字保护法律的保护。除了您的用户名和您的密码以及在注册过程中 “%1$s” 要求的Email地址以外，您的其他任何信息都是可选的(除了软件使用者的特殊要求)。在任何情况下，您可以选择您的信息是否被公开。此外，在您的帐号中，您可以选择定向收发 phpBB 软件自动生成的Email。<br />
 	<br />
-	您的密码在软件中以加密形式存在 (不可逆算法)，所以它是安全的。但是，我们希望您不要在不同的网站上使用相同的用户名和密码。您的密码是你在 “%1$s” 上访问您的帐号的唯一途径, 所以请谨慎保管您的密码。在任何情况下不会有任何与 “%1$s” 相关的个人或组织，或者 phpBB，或者第三方机构需要您提供密码。如果您不慎遗失密码，您可以使用 phpBB 软件提供的 “我忘记了我的密码” 功能。在找回密码的过程中您将需要提供用户名和email, 而后 phpBB 软件将会提供一个新的密码让您取回帐号。<br />
+	您的密码在软件中以加密形式存在 (不可逆算法)，所以它是安全的。但是，我们希望您不要在不同的网站上使用相同的用户名和密码。您的密码是你在 “%1$s” 上访问您的帐号的唯一途径，所以请谨慎保管您的密码。在任何情况下不会有任何与 “%1$s” 相关的个人或组织，或者 phpBB，或者第三方机构需要您提供密码。如果您不慎遗失密码，您可以使用 phpBB 软件提供的 “我忘记了我的密码” 功能。在找回密码的过程中您将需要提供用户名和Email，而后 phpBB 软件将会提供一个新的密码让您取回帐号。<br />
 	',
 ));
 
@@ -62,12 +62,12 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE_PROFILE'		=> '您的帐号已经重新激活.',
 	'ACCOUNT_ADDED'					=> '感谢注册，您的帐号已经建立，请使用您的用户名和密码登录。',
 	'ACCOUNT_COPPA'					=> '您的帐号已经建立但是需要批准。更多信息请查收您的 Email。',
-	'ACCOUNT_EMAIL_CHANGED'			=> '您的帐号已经更新. 但是, 论坛需要您重新验证email的更改. 包含激活代码的email已经发送到您的新邮箱, 请检查邮箱以激活帐号.',
-	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> '您的帐号已经更新. 但是, 论坛需要由管理员验证您的email更改. 您会收到一封包含此信息的email, 在帐号激活后, 我们会再次email通知您.',
+	'ACCOUNT_EMAIL_CHANGED'			=> '您的帐号已经更新。但是，论坛需要您重新验证Email的更改。包含激活代码的Email已经发送到您的新邮箱，请检查邮箱以激活帐号.',
+	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> '您的帐号已经更新。但是，论坛需要由管理员验证您的Email更改。您会收到一封包含此信息的Email，在帐号激活后，我们会再次通过Email通知您.',
 	'ACCOUNT_INACTIVE'				=> '您的帐号已经建立，激活码已经发往您的 Email，请查收以获得更多信息。如果没有收到邮件，请查看一下垃圾邮件箱，另外不同邮件服务商也可能造成邮件延迟。',
-	'ACCOUNT_INACTIVE_ADMIN'		=> '您的帐号已经建立，但是您必须等待管理员批准帐号后才能登录。您将收到一封 Email，在帐号获得批准后我们将再次通知您。',
-	'ACTIVATION_EMAIL_SENT'			=> '激活 Email 已经发往您的邮箱',
-	'ACTIVATION_EMAIL_SENT_ADMIN'	=> '激活 Email 已经发往论坛管理员的邮箱.',
+	'ACCOUNT_INACTIVE_ADMIN'		=> '您的帐号已经建立，但是您必须等待管理员批准帐号后才能登录。您将收到一封Email，在帐号获得批准后我们将再次通知您。',
+	'ACTIVATION_EMAIL_SENT'			=> '激活Email已经发往您的邮箱',
+	'ACTIVATION_EMAIL_SENT_ADMIN'	=> '激活Email已经发往论坛管理员的邮箱.',
 	'ADD'							=> '添加',
 	'ADD_BCC'						=> '添加[BCC]',
 	'ADD_FOES'						=> '添加黑名单',
@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	'ADD_NEW_RULE'					=> '添加新规则',
 	'ADD_RULE'						=> '添加规则',
 	'ADD_TO'						=> '添加【收件人】',
-	'ADD_USERS_UCP_EXPLAIN'			=> '你可以在这里添加新组员. 您可以选择是否让这个组成为新组员的默认组. 多个会员请分行输入.',
+	'ADD_USERS_UCP_EXPLAIN'			=> '你可以在这里添加新组员。您可以选择是否让这个组成为新组员的默认组。多个会员请分行输入.',
 	'ADMIN_EMAIL'					=> '管理员可以给我发送 Email',
 	'AGREE'							=> '我同意这些条款',
 	'ALLOW_PM'						=> '允许用户给我发站内消息',
@@ -90,23 +90,23 @@ $lang = array_merge($lang, array(
     'AUTOLOGIN_SESSION_KEYS_DELETED'=> '选中的"自动登录"键已经成功删除。',
 	'AVATAR_CATEGORY'				=> '分类',
     'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
-    'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Gravatar服务使您在多个网站上使用相同的头像. 访问 <a href="http://www.gravatar.com/">Gravatar</a> 查看更多信息.',
+    'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Gravatar服务使您在多个网站上使用相同的头像。访问 <a href="http://www.gravatar.com/">Gravatar</a> 查看更多信息.',
     'AVATAR_DRIVER_LOCAL_TITLE'		=> 'Gallery 头像',
     'AVATAR_DRIVER_LOCAL_EXPLAIN'	=> '您可以在本地头像中选择。',
     'AVATAR_DRIVER_REMOTE_TITLE'	=> '远程头像',
     'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> '链接到其它网站的头像。',
     'AVATAR_DRIVER_UPLOAD_TITLE'	=> '上传头像',
     'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> '上传您的自定义头像。',
-	'AVATAR_EXPLAIN'				=> '最大尺寸：宽 %1$d 象素, 高 %2$d 象素, 文件大小 %3$.2f KiB.',
-    'AVATAR_EXPLAIN_NO_FILESIZE'	=> '最大尺寸; 宽: %1$s, 高: %2$s.',
+	'AVATAR_EXPLAIN'				=> '最大尺寸：宽 %1$d 象素，高 %2$d 象素，文件大小 %3$.2f KiB.',
+    'AVATAR_EXPLAIN_NO_FILESIZE'	=> '最大尺寸; 宽: %1$s，高: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> '头像功能暂时关闭.',
 	'AVATAR_GALLERY'				=> '本地图库',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> '无法上传头像到 %s',
-	'AVATAR_NOT_ALLOWED'			=> '无法显示头像, 因为头像功能已经停用.',
+	'AVATAR_NOT_ALLOWED'			=> '无法显示头像，因为头像功能已经停用.',
 	'AVATAR_PAGE'					=> '页',
     'AVATAR_SELECT'					=> '选择您的头像',
     'AVATAR_TYPE'					=> '头像类型',
-	'AVATAR_TYPE_NOT_ALLOWED'		=> '当前头像无法显示, 因为该头像类型已经停用.',
+	'AVATAR_TYPE_NOT_ALLOWED'		=> '当前头像无法显示，因为该头像类型已经停用.',
 
 	'BACK_TO_DRAFTS'			=> '回到已经保存的草稿',
 	'BACK_TO_LOGIN'				=> '回到登录窗口',
@@ -133,20 +133,20 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$s回到您的 “%3$s” 文件夹%2$s',
 	'CONFIRMATION'				=> '注册确认',
 	'CONFIRM_CHANGES'			=> '确认修改',
-	'CONFIRM_EXPLAIN'			=> '为了防止机器自动注册行为，请输入一组确认码，确认码显示在下面的图片中。如果您对阅读这组确认码存在困难，请联络 %s论坛管理员%s。',
+	'CONFIRM_EXPLAIN'			=> '为了防止机器自动注册行为，请输入一组确认码，确认码显示在下面的图片中。如果您对阅读这组确认码存在困难，请联系 %s论坛管理员%s。',
 	'VC_REFRESH'                => '刷新确认码',
-	'VC_REFRESH_EXPLAIN'        => '如果您无法辨认当前的确认码, 您可以点击按钮更换新的确认码.',
+	'VC_REFRESH_EXPLAIN'        => '如果您无法辨认当前的确认码，您可以点击按钮更换新的确认码.',
 
 	'CONFIRM_PASSWORD'			=> '确认新密码',
 	'CONFIRM_PASSWORD_EXPLAIN'	=> '只有在改变密码时您才需要再重复输入一次',
 	'COPPA_BIRTHDAY'			=> '为了继续注册进程，请输入您的生日。',
 	'COPPA_COMPLIANCE'			=> 'COPPA 守则',
-	'COPPA_EXPLAIN'				=> '请注意点击提交将创建您的帐号，但是帐号将需要父母或监护人的批复才能激活。您将收到一份包含表单拷贝的 email 指导您后续的操作。',
+	'COPPA_EXPLAIN'				=> '请注意点击提交将创建您的帐号，但是帐号将需要父母或监护人的批复才能激活。您将收到一份包含表单拷贝的Email指导您后续的操作。',
 	'CREATE_FOLDER'				=> '添加文件夹',
 	'CURRENT_IMAGE'				=> '当前图片',
 	'CURRENT_PASSWORD'			=> '当前密码',
-	'CURRENT_PASSWORD_EXPLAIN'	=> '如果您要修改email地址或者用户名，您必须输入您当前的密码。',
-	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => '如果您要修改密码，email地址或者用户名，您必须输入您当前的密码。',
+	'CURRENT_PASSWORD_EXPLAIN'	=> '如果您要修改Email地址或者用户名，您必须输入您当前的密码。',
+	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => '如果您要修改密码，Email地址或者用户名，您必须输入您当前的密码。',
 	'CUR_PASSWORD_EMPTY'		=> '未输入当前密码.',
 	'CUR_PASSWORD_ERROR'		=> '您输入的当前密码不正确。',
 	'CUSTOM_DATEFORMAT'			=> '自定义',
@@ -176,16 +176,16 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> '降级所选',
 	'DISABLE_CENSORS'			=> '开启用词过滤',
 	'DISPLAY_GALLERY'			=> '显示类别',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> '输入的 email 域名没有有效的 MX 记录。',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> '输入的Email域名没有有效的 MX 记录。',
 	'DOWNLOADS'					=> '下载',
 	'DRAFTS_DELETED'			=> '所有选中的草稿已经被删除。',
 	'DRAFTS_EXPLAIN'			=> '这里可以查看，编辑和删除您保存的草稿。',
 	'DRAFT_UPDATED'				=> '草稿已经更新。',
 
 	'EDIT_DRAFT_EXPLAIN'		=> '这里您可以编辑你的草稿。草稿不能包含附件和投票。',
-	'EMAIL_BANNED_EMAIL'		=> '您输入的 email 地址不允许使用。',
-	'EMAIL_REMIND'				=> '这必须是与您的帐户关联的 e-mail 地址。如果您没有通过管理界面改变过您的 e-mail 地址，它就是您在注册时使用的地址。',
-	'EMAIL_TAKEN_EMAIL'			=> '您输入的 email 地址已经被使用',
+	'EMAIL_BANNED_EMAIL'		=> '您输入的Email地址不允许使用。',
+	'EMAIL_REMIND'				=> '这必须是与您的帐户关联的Email地址。如果您没有通过管理界面改变过您的Email地址，它就是您在注册时使用的地址。',
+	'EMAIL_TAKEN_EMAIL'			=> '您输入的Email地址已经被使用',
 	'EMPTY_DRAFT'				=> '您必须填入适当的内容才能提交更改',
 	'EMPTY_DRAFT_TITLE'			=> '您必须输入一个草稿标题',
 	'EXPORT_AS_XML'				=> '导出为 XML',
@@ -243,7 +243,7 @@ $lang = array_merge($lang, array(
 	'FORCE_PASSWORD_EXPLAIN'	=> '为了继续浏览论坛，您需要更改您的密码',
 	'FRIEND_MESSAGE'			=> '好友的消息',
 	'FRIENDS'					=> '好友',
-	'FRIENDS_EXPLAIN'			=> '好友名单能让您迅速找到您经常联络的其他用户。如果模板支持，好友发表的帖子将被高亮显示。',
+	'FRIENDS_EXPLAIN'			=> '好友名单能让您迅速找到您经常联系的其他用户。如果模板支持，好友发表的帖子将被高亮显示。',
 	'FRIENDS_OFFLINE'			=> '离线好友',
 	'FRIENDS_ONLINE'			=> '线上好友',
 	'FRIENDS_UPDATED'			=> '您的好友名单已经更新',
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
     'LOGIN_KEY'					=> '登录密钥',
     'LOGIN_TIME'				=> '登录时间',
 	'LOGIN_REDIRECT'			=> '您已经成功登录',
-	'LOGOUT_FAILED'				=> '您没有退出登录, 因为请求并不符合您这次对话信息. 请联络论坛管理员反映这个问题.',
+	'LOGOUT_FAILED'				=> '您没有退出登录，因为请求并不符合您这次对话信息。请联系论坛管理员反映这个问题.',
 	'LOGOUT_REDIRECT'			=> '您已经顺利退出',
 
 	'MARK_IMPORTANT'				=> '标记为重要',
@@ -315,7 +315,7 @@ $lang = array_merge($lang, array(
 	'MOVE_UP'						=> '上移',
 
 	'NEW_FOLDER_NAME'				=> '新文件夹名',
-	'NEW_PASSWORD'					=> '新密码', 
+	'NEW_PASSWORD'					=> '新密码',
 	'NEW_PASSWORD_CONFIRM_EMPTY'	=> '您需要再次输入密码.',
 	'NEW_PASSWORD_ERROR'			=> '您输入的密码不匹配',
 
@@ -343,7 +343,7 @@ $lang = array_merge($lang, array(
 
 	'NOTIFY_METHOD'					=> '通知方式',
 	'NOTIFY_METHOD_BOTH'			=> '全部',
-	'NOTIFY_METHOD_EMAIL'			=> '只用 email',
+	'NOTIFY_METHOD_EMAIL'			=> '只使用Email',
 	'NOTIFY_METHOD_EXPLAIN'			=> '通过这个论坛发送消息的方法',
 	'NOTIFY_METHOD_IM'				=> '只用 Jabber',
 	'NOTIFY_ON_PM'					=> '当有新消息时通知我',
@@ -412,7 +412,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD_ACTIVATED'		=> '您的新密码已经启用',
     'PASSWORD_UPDATED_IF_EXISTED'	=> '如果您的用户存在，新的密码将会被发送到您注册的邮箱。如果您没有收到邮件，请检查垃圾邮件箱，也有可能是您的帐号已经被封禁，或您不能修改密码。如果是这些情况请联系论坛管理员。',
 	'PERMISSIONS_RESTORED'		=> '成功恢复原权限。',
-	'PERMISSIONS_TRANSFERRED'	=> '成功切换到 <strong>%s</strong>的权限, 您现在可以使用这个用户的权限浏览版面.<br />请注意管理员权限不会被切换. 您可以在任何时候恢复回原权限。',
+	'PERMISSIONS_TRANSFERRED'	=> '成功切换到 <strong>%s</strong>的权限，您现在可以使用这个用户的权限浏览版面.<br />请注意管理员权限不会被切换。您可以在任何时候恢复回原权限。',
 	'PM_DISABLED'				=> '这个论坛的站内消息功能已经关闭',
 	'PM_FROM'					=> '发件人',
 	'PM_FROM_REMOVED_AUTHOR'	=> '这条消息的发送者已经不再是注册用户。',
@@ -463,7 +463,7 @@ $lang = array_merge($lang, array(
 	'RULE_ADDED'						=> '规则已经添加',
 	'RULE_ALREADY_DEFINED'				=> '这个规则已经存在',
 	'RULE_DELETED'						=> '规则已经移除',
-	'RULE_LIMIT_REACHED'				=> '已经达到规则数量上限, 不能再增加规则.',
+	'RULE_LIMIT_REACHED'				=> '已经达到规则数量上限，不能再增加规则.',
 	'RULE_NOT_DEFINED'					=> '没有正确指定规则',
     'RULE_REMOVED_MESSAGES'				=> array(
         1	=> '%d 条站内消息被过滤删除。',
@@ -474,7 +474,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_YOUR_POSTS'			=> '显示您的帖子',
 	'SEND_PASSWORD'				=> '发送密码',
 	'SENT_AT'					=> '发送于',
-	'SHOW_EMAIL'				=> '用户可以通过email联络我',
+	'SHOW_EMAIL'				=> '用户可以通过Email联系我',
 	'SIGNATURE_EXPLAIN'			=> '这是一个可以显示在您的帖子中的文字方块。字数限制为 %d ',
 	'SIGNATURE_PREVIEW'			=> '您的签名将会这样出现在帖子中',
 	'SIGNATURE_TOO_LONG'		=> '您的签名太长了。',
