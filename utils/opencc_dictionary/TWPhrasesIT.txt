@@ -222,6 +222,7 @@ SQL注入攻擊	SQL隱碼攻擊
 全站公告	全域公告
 簡體中文	正體中文
 Simplified	Traditional
+Email地址	Email位址
 舉報	檢舉
 界面	介面
 異步	非同步
