@@ -37,9 +37,8 @@ For general questions, find support on [phpBB.com](https://www.phpbb.com).
 
 ## Copyright And License
 
-All the translatios in this project are done by [phpbbchina.com](http://www.phpbbchina.com).Contributors
-Copyright(c) 2018 [phpbbchina.com](http://www.phpbbchina.com) All Rights Reserved.  
-This software is licensed under
+All the translatios in this project are done by [phpbbchina.com](http://www.phpbbchina.com).  
+Copyright(c) 2018 [phpbbchina.com](http://www.phpbbchina.com) All Rights Reserved.  This software is licensed under
 [GNU General Public License v2](http://opensource.org/licenses/gpl-2.0.php)  
 
 ## Contributors
