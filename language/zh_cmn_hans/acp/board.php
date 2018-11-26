@@ -549,7 +549,7 @@ $lang = array_merge($lang, array(
 
 // Email Settings
 $lang = array_merge($lang, array(
-	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> '在论坛向用户发送e-mail时将使用这个信息. 请确保e-mail地址有效, 任何被退回和无法投递的消息将很可能被发回至这个地址. 如果您的主机不提供本地(基于PHP的) Email服务, 您可以使用SMTP发送消息. 这需要服务器的地址 (必要的话询问提供者). 如果服务器需要验证 (并且只有在需要时) 输入必要的用户名和密码.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> '在论坛向用户发送Email时将使用这个信息. 请确保Email地址有效, 任何被退回和无法投递的消息将很可能被发回至这个地址. 如果您的主机不提供本地(基于PHP的) Email服务, 您可以使用SMTP发送消息. 这需要服务器的地址 (必要的话询问提供者). 如果服务器需要验证 (并且只有在需要时) 输入必要的用户名和密码.',
 
 	'ADMIN_EMAIL'					=> '返回Email地址',
 	'ADMIN_EMAIL_EXPLAIN'			=> '这将是所有Email的返回地址, 技术联系Email. 将显示于<samp>Return-Path</samp> 和 <samp>Sender</samp>.',
