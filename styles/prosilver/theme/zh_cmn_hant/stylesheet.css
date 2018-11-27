@@ -23,7 +23,7 @@ h3 {
     font-size: 12px;
 }
 a.forumtitle, a.topictitle, a.lastsubject {
-    font-family: "Helvetica Neue", Helvetica, Arial, PMingLiU, MingLiU, "Microsoft YaHei", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
 }
 a.forumtitle, a.topictitle {
     font-size: 1.18em;
@@ -32,7 +32,7 @@ fieldset {
     font-family: Verdana, Helvetica, Arial, "Microsoft YaHei", sans-serif;
 }
 .postbody h3 {
-    font-family: "Helvetica Neue", Helvetica, Arial, PMingLiU, MingLiU, "Microsoft YaHei", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
     font-size: 1.3em;
     font-weight: unset;
 }
@@ -40,11 +40,15 @@ fieldset {
     font-size: 1.4em;
 }
 .postbody .content {
-    font-family: Verdana, Helvetica, Arial, PMingLiU, MingLiU, "Microsoft YaHei", sans-serif;
+    font-family: Verdana, Helvetica, Arial, "Microsoft YaHei", sans-serif;
     font-size: 1.3em;
+    line-height: 1.6em;
+}
+.postlink {
+    border-bottom: none;
 }
 dl.faq {
-    font-family: "Lucida Grande", Verdana, Helvetica, Arial, PMingLiU, MingLiU, "Microsoft YaHei", sans-serif;
+    font-family: "Lucida Grande", Verdana, Helvetica, Arial, "Microsoft YaHei", sans-serif;
     font-size: 1.3em;
 }
 .action-bar {
@@ -62,6 +66,10 @@ input.button1, input.button2 {
 .navigation a {
     font-size: 1.1em;
 }
-
+.message-box textarea {
+    font-family: "Trebuchet MS", Verdana, Helvetica, Arial, "Microsoft YaHei", sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
 /* Online image */
 .online { background-image: url("./icon_user_online.gif"); }

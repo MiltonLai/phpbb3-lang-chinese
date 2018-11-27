@@ -42,6 +42,10 @@ fieldset {
 .postbody .content {
     font-family: Verdana, Helvetica, Arial, "Microsoft YaHei", sans-serif;
     font-size: 1.2em;
+    line-height: 1.55em;
+}
+.postlink {
+    border-bottom: none;
 }
 dl.faq {
     font-family: "Lucida Grande", Verdana, Helvetica, Arial, "Microsoft YaHei", sans-serif;
@@ -61,6 +65,9 @@ input.button1, input.button2 {
 .navigation a {
     font-size: 1.1em;
 }
-
+.message-box textarea {
+    font-family: "Trebuchet MS", Verdana, Helvetica, Arial, "Microsoft YaHei", sans-serif;
+    font-size: 1.1em;
+}
 /* Online image */
 .online { background-image: url("./icon_user_online.gif"); }
