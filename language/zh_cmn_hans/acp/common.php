@@ -200,7 +200,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> '签名档',
 	'ACP_USER_WARNINGS'				=> '警告',
 
-	'ACP_VC_SETTINGS'					=> '验证图片模块设定',
+	'ACP_VC_SETTINGS'					=> '反垃圾验证设定',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA 图片预览',
 	'ACP_VERSION_CHECK'					=> '检查更新',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> '查看管理员权限',
