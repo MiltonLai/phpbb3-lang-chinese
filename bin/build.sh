@@ -87,14 +87,19 @@ echo '   Integrate: Done'
 #
 # composer install 3rd party libraries
 echo '|| Composer install 3rd party libs'
-echo '  Clean vender folder'
+echo '   Clean vender folder'
 rm -rf $BASE_DIR/phpbb/phpBB/vendor
 rm -rf $BASE_DIR/phpbb/phpBB/vendor-ext
-echo '  composer install'
+echo '   Composer install'
 cd $BASE_DIR/phpbb/phpBB
 php ../composer.phar install --no-dev --prefer-dist --optimize-autoloader
 echo '   Composer: Done'
 
+#
+# Generate the schema.json file
+echo '|| Generate schema.json'
+php ${TARGET}/develop/create_schema_files.php
+echo "\n   Generate schema.json: Done"
 
 #
 # Clean up: tests,examples,builds,...
