@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
     'ACL_U_CHGEMAIL'	=> '可以更改Email地址',
     'ACL_U_CHGAVATAR'	=> '可以更改头像',
     'ACL_U_CHGGRP'		=> '可以更改默认群组',
-    'ACL_U_CHGPROFILEINFO'	=> 'Can change profile field information',
+    'ACL_U_CHGPROFILEINFO'	=> '可以修改自定义资料',
 
     'ACL_U_ATTACH'		=> '可以发表附件',
     'ACL_U_DOWNLOAD'	=> '可以下载附件',
