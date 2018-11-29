@@ -36,38 +36,42 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_PERMISSIONS_EXPLAIN'	=> '
-		<p>权限具有很高的粒度, 合并为四个主要权限组:</p>
+		<p>权限是粒度化的, 合并为四个主要权限组:</p>
 
 		<h2>全局权限</h2>
-		<p>用于管理整个论坛的全局访问, 并进一步区分为用户权限, 管理员权限和超级版主权限.</p>
+		<p>用于管理整个论坛的全局访问，分为全局用户权限、管理员权限和全局版主权限。</p>
+		<p>在用户权限和群组权限这两个入口，可以从群组的角度查看和修改该群组对应这三种权限的明细。</p>
+		<p>管理员和全局版主这两个入口，则是查看和配置这两个全局权限与用户和群组的对应关系。</p>
 
 		<h2>版面权限</h2>
-		<p>针对每个版面的权限控制, 进一步分为版面权限, 版主版面权限, 用户版面权限, 群组版面权限.</p>
+		<p>针对每个版面的权限控制，分为版面权限和版主权限。</p>
+		<p>版面权限和版主权限这两个入口，通过先选择版面，再选择用户/群组，可以查看其对应的版面角色</p>
+		<p>用户版面版主权限、群组版面版主权限这两个入口，则是先选择用户和群组，再选择版面，查看其对应的版面角色，和上面是一样的。</p>
 
 		<h2>权限角色</h2>
-		<p>用于创建不同的权限组, 以便于设定不同的角色权限. 默认的角色可以或大或小的覆盖论坛的管理权限, 不过在这四个权限组中您也可以添加/编辑/删除您觉得合适的角色.</p>
+		<p>角色是权限的组合。phpBB论坛对管理员、用户、版主、版面这四类权限预设不同的角色，方便统一管理。默认的角色基本能符合论坛的日常需求，您也可以进行编辑和删除，或添加您觉得合适的角色。</p>
 
-		<h2>权限掩码</h2>
-		<p>用于查看设定给用户, 版主, 管理员的权限的效果.</p>
+		<h2>权限检验</h2>
+		<p>用于检查用户, 版主, 管理员的实际权限。</p>
 	
-		<br />
+		<br>
 
-		<p>需要了解更多的设定和权限管理信息, 请访问 <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/">Setting permissions of our Quick Start Guide</a>.</p>
+		<p>需要了解更多的设定和权限管理信息, 请访问官网 <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/">快速上手：权限设置(英文)</a>.</p>
 	',
 
 	'ACL_NEVER'				=> '从不',
-	'ACL_SET'				=> '权限设定',
-	'ACL_SET_EXPLAIN'		=> '权限基于简单的 <strong>是</strong>/<strong>否</strong> 系统. 设定群组和用户选项为 <strong>从不</strong> 将覆盖其他设定的值. 如果您不希望给这个用户或群组设定值, 请选择 <strong>否</strong>. 如果值在其他地方设定, 他们将在设定中使用, 否则请选择 <strong>从不</strong>. 所有选中的对象 (他们前面的勾选框) 将复制您设置的权限组.',
-	'ACL_SETTING'			=> '设定',
+	'ACL_SET'				=> '权限设置',
+	'ACL_SET_EXPLAIN'		=> '权限基于简单的 <strong>是</strong>/<strong>否</strong> 系统. 设定群组和用户选项为 <strong>从不</strong> 将覆盖其他设定的值. 如果您不希望给这个用户或群组设置值, 请选择 <strong>否</strong>. 如果值在其他地方已经设置, 他们将体现在实际权限中, 否则请选择 <strong>从不</strong>. 所有选中的对象(他们前面的勾选框)将复制您设置的权限组。',
+	'ACL_SETTING'			=> '设置',
 
-	'ACL_TYPE_A_'			=> '管理权限',
+	'ACL_TYPE_A_'			=> '管理员权限',
 	'ACL_TYPE_F_'			=> '版面权限',
 	'ACL_TYPE_M_'			=> '版主权限',
 	'ACL_TYPE_U_'			=> '用户权限',
 
-	'ACL_TYPE_GLOBAL_A_'	=> '管理权限',
-	'ACL_TYPE_GLOBAL_U_'	=> '用户权限',
-	'ACL_TYPE_GLOBAL_M_'	=> '超级版主权限',
+	'ACL_TYPE_GLOBAL_A_'	=> '全局管理员权限',
+	'ACL_TYPE_GLOBAL_U_'	=> '全局用户权限',
+	'ACL_TYPE_GLOBAL_M_'	=> '全局版主权限',
 	'ACL_TYPE_LOCAL_M_'		=> '版主权限',
 	'ACL_TYPE_LOCAL_F_'		=> '版面权限',
 	
@@ -77,25 +81,25 @@ $lang = array_merge($lang, array(
 	'ACL_YES'				=> '是',
 
 	'ACP_ADMINISTRATORS_EXPLAIN'				=> '这里您可以赋于用户/组更高的管理权限. 所有拥有高级管理权限的用户都能看到管理员控制面板.',
-	'ACP_FORUM_MODERATORS_EXPLAIN'				=> '这里您可以将用户/组任命为版主. 请使用其他的页面设定用户访问版面的权限和设定超级版主, 管理员..',
+	'ACP_FORUM_MODERATORS_EXPLAIN'				=> '这里您可以将用户/组任命为版主. 请使用其他的页面设定用户访问版面的权限和设定全局版主, 管理员..',
 	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> '这里您可以更改哪些用户/组可以访问哪些版面. 任命版主和管理员请使用其他的页面.',
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> '这里您可以将一个版面的权限复制到其他版面.',
-	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> '这里您可以设定用户/组为超级版主. 这些版主拥有一般的版主权限, 但是他们可以访问论坛的每个版面.',
+	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> '这里您可以设定用户/组为全局版主. 这些版主拥有一般的版主权限, 但是他们可以访问论坛的每个版面.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> '这里您可以设置群组的版面权限.',
-	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> '这里您可以将全局权限设定到权限组 - 用户权限, 超级版主权限和管理员权限. 用户权限包含使用头像, 发送站内消息等等, 超级版主权限包含审阅帖子, 管理主题, 管理封禁等等, 而管理员权限包含更改权限, 设定BBCode, 管理版面等等. 只有少数的情况下才需要单独的用户权限设置, 推荐的方式是将用户归类到不同的组, 再赋予组不同的权限.',
+	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> '这里您可以将全局权限设置到权限组 - 全局用户权限, 全局版主权限和管理员权限. 全局用户权限包含使用头像, 发送站内消息等等, 全局版主权限包含审阅帖子, 管理主题, 管理封禁等等, 而管理员权限包含更改权限, 设定BBCode, 管理版面等等. 只有少数的情况下才需要单独的用户权限设置，推荐的方式是将用户归类在不同的群组中, 再赋予群组不同的权限。',
 	'ACP_ADMIN_ROLES_EXPLAIN'					=> '这里您可以管理管理员权限的角色. 角色是一种有效的权限组合, 如果您更改了角色内容, 那么使用这个角色的对象就会相应的被更改权限.',
 	'ACP_FORUM_ROLES_EXPLAIN'					=> '这里您可以管理版面权限的角色. 角色是有效的权限组合, 如果您更改了角色内容, 那么使用这个角色的对象就会相应的被更改权限.',
 	'ACP_MOD_ROLES_EXPLAIN'						=> '这里您可以管理版主权限的角色. 角色是有效的权限组合, 如果您更改了角色内容, 那么使用这个角色的对象就会相应的被更改权限.',
 	'ACP_USER_ROLES_EXPLAIN'					=> '这里您可以管理用户权限的角色. 角色是有效的权限组合, 如果您更改了角色内容, 那么使用这个角色的对象就会相应的被更改权限.',
-	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'		=> '这里您可以为用户设定权限.',
-	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> '这里您可以给用户设定全局权限 - 用户权限, 超级版主权限和管理员权限. 用户权限包含使用头像, 发送站内消息等等; 超级版主权限包含审阅帖子, 管理主题, 管理封禁等等; 管理员权限包含权限设定, BBCode设置, 版面管理等等. 对于大规模的用户权限设定请使用群组权限方式. 用户的单独权限只在很少数的情况下需要更改, 推荐的方式是将用户归类在不同的群组中, 再赋予群组不同的权限.',
+	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'		=> '这里您可以为用户设置权限.',
+	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> '这里您可以给用户设置全局权限 - 全局用户权限，全局版主权限和管理员权限。全局用户权限包含使用头像、发送站内消息等等；全局版主权限包含审阅帖子、管理主题、管理封禁等等；管理员权限包含权限设定、BBCode设置、版面管理等等。对于大规模的用户权限设定请使用群组权限方式，只有少数的情况下才需要单独的用户权限设置，推荐的方式是将用户归类在不同的群组中，再赋予群组不同的权限。',
 	'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'		=> '这里您可以查看给选中的用户/组设定的有效管理权限',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS_EXPLAIN'	=> '这里您可以查看给选中的用户/组设定的有效版主权限',
 	'ACP_VIEW_FORUM_PERMISSIONS_EXPLAIN'		=> '这里您可以查看给选中的用户/组和版面设定的有效版面权限',
 	'ACP_VIEW_FORUM_MOD_PERMISSIONS_EXPLAIN'	=> '这里您可以查看给选中的用户/组和版面设定的版主权限',
 	'ACP_VIEW_USER_PERMISSIONS_EXPLAIN'			=> '这里您可以查看给选中的用户/组设定的有效用户权限',
 
-	'ADD_GROUPS'				=> '添加组',
+	'ADD_GROUPS'				=> '添加群组',
 	'ADD_PERMISSIONS'			=> '添加权限',
 	'ADD_USERS'					=> '添加用户',
 	'ADVANCED_PERMISSIONS'		=> '高级权限',
@@ -127,7 +131,7 @@ $lang = array_merge($lang, array(
 	'EDIT_PERMISSIONS'			=> '编辑权限',
 	'EDIT_ROLE'					=> '编辑对象',
 
-	'GROUPS_NOT_ASSIGNED'		=> '没有使用这个角色的组',
+	'GROUPS_NOT_ASSIGNED'		=> '没有使用这个角色的群组',
 
 	'LOOK_UP_GROUP'				=> '查找群组',
 	'LOOK_UP_USER'				=> '查找用户',
@@ -217,7 +221,7 @@ $lang = array_merge($lang, array(
 	'ROLE_NOT_ASSIGNED'				=> '角色尚未指派.',
 
 	'SELECTED_FORUM_NOT_EXIST'		=> '选中的版面不存在.',
-	'SELECTED_GROUP_NOT_EXIST'		=> '选中的组不存在.',
+	'SELECTED_GROUP_NOT_EXIST'		=> '选中的群组不存在.',
 	'SELECTED_USER_NOT_EXIST'		=> '选中的用户不存在.',
 	'SELECT_FORUM_SUBFORUM_EXPLAIN'	=> '您选中的版面将包含所有的子版面',
 	'SELECT_ROLE'					=> '选择角色…',
@@ -232,7 +236,7 @@ $lang = array_merge($lang, array(
 	'TRACE_GLOBAL_SETTING'			=> '%s (全局)',
 	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> '这个组的权限设置为 <strong>从不</strong> 所以保留旧的结果.',
 	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> '这个组在该版面的权限被设置为 <strong>从不</strong> 与实际权限一致, 所以保留实际权限.',
-	'TRACE_GROUP_NEVER_TOTAL_NO'	=> '他的组权限设为 <strong>从不</strong>, 这成为了新的值因为这个值在之前并没有设置 (设置为 <strong>否</strong>).',
+	'TRACE_GROUP_NEVER_TOTAL_NO'	=> '他的群组权限设为 <strong>从不</strong>, 这成为了新的值因为这个值在之前并没有设置 (设置为 <strong>否</strong>).',
 	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> '这个组在该版面的权限被设置为 <strong>从不</strong> 这成为新的实际权限, 因为之前并未设置过 (例如设置为 <strong>否</strong>).',
 	'TRACE_GROUP_NEVER_TOTAL_YES'	=> '这个组的权限被设置为 <strong>从不</strong>, 这将覆盖用户的 <strong>是</strong> , 变成 <strong>从不</strong> .',
 	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> '这个组在该版面的权限被设置为 <strong>从不</strong> 这将用户的实际权限从 <strong>是</strong> 覆盖为 <strong>从不</strong> .',
@@ -273,7 +277,7 @@ $lang = array_merge($lang, array(
 	'TRACE_TOTAL'							=> '合计',
 
 	'USERS_NOT_ASSIGNED'			=> '这个角色没有用户',
-	'USER_IS_MEMBER_OF_DEFAULT'		=> '是下列默认组的成员',
+	'USER_IS_MEMBER_OF_DEFAULT'		=> '是下列默认群组的成员',
 	'USER_IS_MEMBER_OF_CUSTOM'		=> '是下列自定义组的成员',
 
 	'VIEW_ASSIGNED_ITEMS'	=> '查看设置的条目',
