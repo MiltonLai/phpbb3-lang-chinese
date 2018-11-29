@@ -158,7 +158,7 @@ $lang = array_merge($lang, array(
     'ACL_M_INFO'		=> '可以查看帖子明细',
     'ACL_M_WARN'		=> '可以发送警告<br /><em>T这是全局设置，与版面无关。</em>', // This moderator setting is only global (and not local)
     'ACL_M_PM_REPORT'	=> '可以关闭和删除站内消息举报<br /><em>这是全局设置，与版面无关。</em>', // This moderator setting is only global (and not local)
-    'ACL_M_BAN'			=> 'Can manage bans<br /><em>这是全局设置，与版面无关。</em>', // This moderator setting is only global (and not local)
+    'ACL_M_BAN'			=> '可以管理封禁<br /><em>这是全局设置，与版面无关。</em>', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
@@ -189,7 +189,7 @@ $lang = array_merge($lang, array(
     'ACL_A_BAN'			=> '可以管理封禁',
 
     'ACL_A_VIEWAUTH'	=> '可以查看权限掩码',
-    'ACL_A_AUTHGROUPS'	=> '可以修改单独的组权限',
+    'ACL_A_AUTHGROUPS'	=> '可以修改单独的群组权限',
     'ACL_A_AUTHUSERS'	=> '可以修改单独的用户权限',
     'ACL_A_FAUTH'		=> '可以修改版面权限类',
     'ACL_A_MAUTH'		=> '可以修改版主权限类',

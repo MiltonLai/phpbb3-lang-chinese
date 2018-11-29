@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'FOUNDER_EXPLAIN'				=> '创始人拥有管理员的所有权限, 并且不能被封禁、删除和更改',
 
 	'GROUP_APPROVE'					=> '成员批准',
-	'GROUP_DEFAULT'					=> '设置为成员默认组',
+	'GROUP_DEFAULT'					=> '设置为成员默认群组',
 	'GROUP_DELETE'					=> '删除组员',
 	'GROUP_DEMOTE'					=> '组管理员降职',
 	'GROUP_PROMOTE'					=> '提升为组管理员',
