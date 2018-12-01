@@ -176,7 +176,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> '这里您可以编辑你的草稿。草稿不能包含附件和投票。',
 	'EMAIL_BANNED_EMAIL'		=> '您输入的 email 地址不允许使用。',
-	'EMAIL_REMIND'				=> '这必须是与您的帐户关联的 e-mail 地址。如果您没有通过管理界面改变过您的 e-mail 地址，它就是您在注册时使用的地址。',
+	'EMAIL_REMIND'				=> '这必须是与您的帐户关联的 Email 地址。如果您没有通过管理界面改变过您的 Email 地址，它就是您在注册时使用的地址。',
 	'EMAIL_TAKEN_EMAIL'			=> '您输入的 email 地址已经被使用',
 	'EMPTY_DRAFT'				=> '您必须填入适当的内容才能提交更改',
 	'EMPTY_DRAFT_TITLE'			=> '您必须输入一个草稿标题',
