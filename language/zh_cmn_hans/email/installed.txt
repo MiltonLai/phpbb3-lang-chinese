@@ -12,7 +12,7 @@ Subject: phpBB 安装成功
 论坛地址：{U_BOARD}
 ----------------------------
 
-您可以在安装目录的“docs”文件夹，以及phpBB.com的支持页面“http://www.phpbb.com/support/”找到一些有用的信息。
+您可以在安装目录的“docs”文件夹，以及phpBB.com的支持页面“https://www.phpbb.com/support/”找到一些有用的信息。
 
 为了保障您的论坛安全稳定，我们强烈建议您订阅邮件列表以便随时获得最新的发布消息，地址如下：
 

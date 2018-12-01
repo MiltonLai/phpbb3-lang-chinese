@@ -2,7 +2,7 @@ Subject: 新主题通知 - "{FORUM_NAME}"
 
 Hello {USERNAME},
 
-您收到这个通知是因为您在 "{SITENAME}" 上订阅了版面 "{FORUM_NAME}". 刚刚有人在这个版面发表了新主题 "{TOPIC_TITLE}". 您可以点击下面的链接查看版面, 在您查看版面前不会再有更多的通知.
+您收到这个通知是因为您在 "{SITENAME}" 上关注了版面 "{FORUM_NAME}". 在您上次访问这个版面后收到了<!-- IF AUTHOR_NAME !== '' --> 来自于 {AUTHOR_NAME} 的<!-- ENDIF -->新主题 "{TOPIC_TITLE}". 您可以点击下面的链接查看版面, 在您再次查看版面前不会再收到新通知。
 
 {U_FORUM}
 
