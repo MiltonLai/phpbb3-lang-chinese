@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'ACP_BAN'					=> '封禁',
 	'ACP_BAN_EMAILS'			=> '封禁email地址',
 	'ACP_BAN_IPS'				=> '封禁IP地址',
-	'ACP_BAN_USERNAMES'			=> '封禁用户名',
+	'ACP_BAN_USERNAMES'			=> '封禁用户',
 	'ACP_BBCODES'				=> 'BBCode',
 	'ACP_BOARD_CONFIGURATION'	=> '论坛配置',
 	'ACP_BOARD_FEATURES'		=> '论坛功能',
@@ -292,7 +292,7 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> '这个页面列出了这个服务器上所安装的PHP的信息. 这包括装载的模块, 可用的变量和默认设定, 在诊断问题时这些信息可能会有用. 请注意一些主机服务商可能会因为安全因素禁止显示某些信息. 您尽可能不要泄露这些信息, 除非在技术支持中 <a href="http://www.phpbb.com/about/">官方开发成员</a> 需要这些信息.',
+	'ACP_PHP_INFO_EXPLAIN'	=> '这个页面列出了这个服务器上所安装的PHP的信息. 这包括装载的模块, 可用的变量和默认设定, 在诊断问题时这些信息可能会有用. 请注意一些主机服务商可能会因为安全因素禁止显示某些信息. 您尽可能不要泄露这些信息, 除非在技术支持中 <a href="https://www.phpbb.com/about/">官方开发团队成员</a> 需要这些信息.',
 
 	'NO_PHPINFO_AVAILABLE'	=> '无法获取PHP信息, Phpinfo() 因为安全原因被禁用.',
 ));
@@ -748,10 +748,5 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>删除敏感词</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>编辑敏感词</strong><br />» %s',
 ));
-
-	// Two language keys with the same text were used in different locations
-	// LOG_DELETE_TOPIC is the correct one, this line is here so that existing
-	// log entries are not broken. Ensure it is included in your language file.
-	$lang['LOG_TOPIC_DELETED'] = $lang['LOG_DELETE_TOPIC'];
 
 ?>

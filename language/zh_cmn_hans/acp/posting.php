@@ -83,7 +83,8 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> '任何数字序列',
 		'EMAIL'			=> '有效的email地址',
 		'URL'			=> '使用任何协议的有效的URL(http, ftp, 等等… 不能用作javascript掠夺). 如果没有提供, 将添加“http://”',
-		'LOCAL_URL'		=> '本地URL. URL必须和主题页相关并且不能包含服务器名称和协议',
+		'LOCAL_URL'		=> '本地URL. URL必须和主题页相关并且不能包含服务器名称和协议，例如开头的前缀 “%s”',
+        'RELATIVE_URL'	=> '相对路径 URL。您可以用这部分匹配一个URL，但是需要注意的是，完整URL是合法的相对URL。当您需要使用论坛的相对URL时，使用 LOCAL_URL 变量。',
 		'COLOR'			=> 'HTML颜色, 可以是六位十六进制数<samp>#FF1234</samp> 或者<a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS色彩关键字</a> 例如<samp>fuchsia</samp> 或 <samp>InactiveBorder</samp>'
 	)
 ));
@@ -184,6 +185,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_ORDER'				=> '表情图标顺序',
 	'SMILIES_URL'				=> '表情图片文件',
 	'SMILIES_WIDTH'				=> '表情图片宽度',
+
 	'TOO_MANY_SMILIES'			=> '超过 %d 个表情图片的限制.',
 
 	'WRONG_PAK_TYPE'	=> '指定的文件包中没有所需的数据.',

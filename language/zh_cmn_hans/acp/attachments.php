@@ -96,6 +96,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUPS'				=> '扩展名类别',
 	'EXTENSION_GROUP_DELETED'		=> '扩展名类别删除完成.',
 	'EXTENSION_GROUP_EXIST'			=> '扩展名类别 %s 已经存在',
+
 	'EXT_GROUP_ARCHIVES'         => '存档文件',
 	'EXT_GROUP_DOCUMENTS'         => '文档',
 	'EXT_GROUP_DOWNLOADABLE_FILES'   => '可下载文件',

@@ -52,6 +52,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> '您不能强制激活创始人帐号.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> '您不能强制激活自己的帐号.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> '您不能删除游客帐号.',
+    'CANNOT_REMOVE_FOUNDER'			=> '您不能删除创始人帐号。',
 	'CANNOT_REMOVE_YOURSELF'		=> '您不能删除自己的帐号.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> '您不能提升被忽略的用户为创始人.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> '您需要先激活用户才能提升他们为创始人, 只有活动的用户才能被提升.',

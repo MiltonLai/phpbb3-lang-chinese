@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> '这里您可以给所有的用户或者某个用户组的用户发送email. 发送时, 将会先往管理员的邮箱中发送一份拷贝, 同时也发送到其他收信人的邮箱中. 如果您要给很多人发送email, 当提交后请耐心等待而不要动这个页面. 一般群发需要很长一段时间, 当结束的时候会提示您',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> '这里您可以给所有的用户或者某个<strong>已经开启了群发邮件接收选项的</strong>用户组的用户发送email。发送时, 将会往管理员的邮箱中发送, 同时也暗发(BCC)到其他收信人的邮箱。默认的设置是只包含20个收件人，收件人越多，发送的Email就越多。如果您要给很多人发送email, 当提交后请耐心等待而不要动这个页面. 一般群发需要很长一段时间, 当结束的时候会提示您',
 	'ALL_USERS'						=> '所有用户',
 
 	'COMPOSE'				=> '撰写',

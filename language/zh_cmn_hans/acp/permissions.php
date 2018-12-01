@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	
 		<br />
 
-		<p>需要了解更多的设定和权限管理信息, 请访问 <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5 of our Quick Start Guide</a>.</p>
+		<p>需要了解更多的设定和权限管理信息, 请访问 <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5 of our Quick Start Guide</a>.</p>
 	',
 
 	'ACL_NEVER'				=> '从不',
