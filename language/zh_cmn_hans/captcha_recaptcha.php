@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'reCaptcha 私键',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> '您的 reCaptcha 私键. 键值可以从 <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> 上获得.',
 
-	'RECAPTCHA_EXPLAIN'				=> '为了证明您不是Spam机器人, 请输入下面显示的两个词.',
+	'RECAPTCHA_EXPLAIN'				=> '为了证明您不是机器人, 请输入下面显示的两个词.',
 ));
 
 ?>

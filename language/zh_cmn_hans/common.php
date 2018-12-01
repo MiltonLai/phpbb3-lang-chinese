@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> '简体中文语系由 <a href="http://www.phpbbchina.com/creditinfo">PHPBB中文翻译小组</a> 维护制作',
+	'TRANSLATION_INFO'	=> '简体中文语系由 <a href="http://www.phpbbchina.com">PHPBB中文翻译小组</a> 维护制作',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|', // 01 Jan 2007 (with Relative days enabled)
 	'USER_LANG'			=> 'zh-cn',
@@ -88,9 +88,10 @@ $lang = array_merge($lang, array(
 	'AVATAR_PARTIAL_UPLOAD'			=> '上传的文件只上传了一部分',
 	'AVATAR_PHP_SIZE_NA'			=> '头像文件太大。<br />无法判断服务器PHP允许的最大文件大小。',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> '头像文件太大，服务器允许的最大文件大小是 %1$d %2$s。<br />请注意这个由php.ini设置所以无法更改。',
+    'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> '请求超时，头像文件无法上传。',
 	'AVATAR_URL_INVALID'			=> '指定的链接无效。',
 	'AVATAR_URL_NOT_FOUND'			=> '无法找到指定的文件。',
-	'AVATAR_WRONG_FILESIZE'			=> '头像文件大小必须在 0 和 %1d %2s 之间。',
+	'AVATAR_WRONG_FILESIZE'			=> '头像文件大小必须在 0 和 %1$d %2$s 之间。',
 	'AVATAR_WRONG_SIZE'				=> '头像的宽度要大于 %1$d 象素，高度要大于 %2$d 象素 并且宽度不能超过 %3$d 象素，高度不能超过 %4$d 象素。您提交的头像宽为 %5$d 象素，高为 %6$d 象素。',
 
 	'BACK_TO_TOP'			=> '页首',
@@ -160,7 +161,8 @@ $lang = array_merge($lang, array(
 	'EDIT_POST'							=> '编辑此帖',
 	'EMAIL'								=> 'Email',
 	'EMAIL_ADDRESS'						=> 'Email 地址',
-	'EMAIL_SMTP_ERROR_RESPONSE'			=> '发送email遇到问题 <strong>Line %1$s</strong>。Response: %2$s',
+    'EMAIL_INVALID_EMAIL'				=> '您输入了无效的Email地址。',
+	'EMAIL_SMTP_ERROR_RESPONSE'			=> '发送Email遇到问题 <strong>Line %1$s</strong>。Response: %2$s',
 	'EMPTY_SUBJECT'						=> '您必须为新主题指定一个标题。',
 	'EMPTY_MESSAGE_SUBJECT'				=> '您没有输入标题.',
 	'ENABLED'							=> '启用',
@@ -340,6 +342,9 @@ $lang = array_merge($lang, array(
 	'MODERATE'				=> '管理',
 	'MODERATOR'				=> '版主',
 	'MODERATORS'			=> '版主',
+    'MODULE_NOT_ACCESS'		=> '无法访问模块',
+    'MODULE_NOT_FIND'		=> '无法找到模块 %s',
+    'MODULE_FILE_INCORRECT_CLASS'	=> '模块文件 %s 未包含正确的类 [%s]',
 	'MONTH'					=> '月',
 	'MOVE'					=> '移动',
 	'MSNM'					=> 'MSNM/WLM',	
@@ -390,6 +395,7 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> '在选定的时间段中没有这个主题的帖子。',
 	'NO_FEED_ENABLED'			=> 'ATOM输出尚未启用.',
 	'NO_FEED'					=> '请求的ATOM输出无效.',
+    'NO_STYLE_DATA'				=> '无法获取风格数据',
 	'NO_SUBJECT'				=> '没有输入标题',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> '指定的搜索模块不存在',
 	'NO_SUPPORTED_AUTH_METHODS'	=> '没有可支持的认证方法',
@@ -568,9 +574,11 @@ $lang = array_merge($lang, array(
 	'SUBJECT'					=> '文章标题',
 	'SUBMIT'					=> '提交',
 
+    'TB'				=> 'TB',
 	'TERMS_USE'			=> '使用条款',
 	'TEST_CONNECTION'	=> '连接测试',
 	'THE_TEAM'			=> '团队',
+    'TIB'				=> 'TiB',
 	'TIME'				=> '时间',
 	
 	'TOO_LARGE'                     => '您输入的值太大了.',
@@ -646,7 +654,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_USERS_ZERO'	=> '注册用户总数：<strong>0</strong>',
 	'TRACKED_PHP_ERROR'	=> '记载的 PHP 错误: %s',
 
-	'UNABLE_GET_IMAGE_SIZE'	=> '无法浏览图片，或者此文件不是一个有效的图片文件。',
+	'UNABLE_GET_IMAGE_SIZE'	=> '无法浏览图片，或者此文件不是一个有效的图片文件。请检查输入的URL是否正确。',
 	'UNABLE_TO_DELIVER_FILE'=> '无法传送文件。',
 	'UNKNOWN_BROWSER'		=> '无法浏览',
 	'UNMARK_ALL'			=> '取消全部',
@@ -717,6 +725,7 @@ $lang = array_merge($lang, array(
 	'WHO_IS_ONLINE'		=> '在线用户',
 	'WRONG_PASSWORD'	=> '您输入了错误的密码。',
 
+    'WRONG_DATA_COLOUR'			=> '您输入的不是有效的颜色值。',
 	'WRONG_DATA_ICQ'			=> '您输入的数字不是一个有效的 ICQ 号码。',
 	'WRONG_DATA_JABBER'			=> '您输入的名字不是一个有效的 Jabber 帐号。',
 	'WRONG_DATA_LANG'			=> '您指定了一个无效的语言。',

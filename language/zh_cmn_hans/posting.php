@@ -47,21 +47,21 @@ $lang = array_merge($lang, array(
 	'ATTACH_SIG'				=> '添加签名（签名可以在用户控制面板修改）',
 
 	'BBCODE_A_HELP'				=> '行内显示附件: [attachment=]filename.ext[/attachment]',
-	'BBCODE_B_HELP'				=> '粗体：[b]text[/b]  (alt+b)',
-	'BBCODE_C_HELP'				=> '显示代码：[code]code[/code]  (alt+c)',
-	'BBCODE_D_HELP'				=> 'Flash动画：[flash=width,height]http://url[/flash]  (alt+d)',
+	'BBCODE_B_HELP'				=> '粗体：[b]text[/b]',
+	'BBCODE_C_HELP'				=> '显示代码：[code]code[/code]',
+	'BBCODE_D_HELP'				=> 'Flash动画：[flash=width,height]http://url[/flash]',
 	'BBCODE_F_HELP'				=> '文字大小：[size=85]small text[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>禁止</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>允许</em>',
-	'BBCODE_I_HELP'				=> '斜体：[i]text[/i]  (alt+i)',
-	'BBCODE_L_HELP'				=> '列表：[list]text[/list]  (alt+l)',
-	'BBCODE_LISTITEM_HELP'		=> '列表条目: [*]text[/*]',
-	'BBCODE_O_HELP'				=> '顺序列表：[list=]text[/list]  (alt+o)',
-	'BBCODE_P_HELP'				=> '插入图像：[img]http://image_url[/img]  (alt+p)',
-	'BBCODE_Q_HELP'				=> '引用文字：[quote]text[/quote]  (alt+q)',
+	'BBCODE_I_HELP'				=> '斜体：[i]text[/i]',
+	'BBCODE_L_HELP'				=> '列表：[list][*]text[/list]',
+	'BBCODE_LISTITEM_HELP'		=> '列表条目: [*]text',
+	'BBCODE_O_HELP'				=> '顺序列表： [list=1][*]First point[/list]或[list=a][*]Point a[/list]',
+	'BBCODE_P_HELP'				=> '插入图像：[img]http://image_url[/img]',
+	'BBCODE_Q_HELP'				=> '引用文字：[quote]text[/quote]',
 	'BBCODE_S_HELP'				=> '字体颜色：[color=red]text[/color]  提示：您也可以使用 color=#FF0000',
-	'BBCODE_U_HELP'				=> '下划线：[u]text[/u]  (alt+u)',
-	'BBCODE_W_HELP'				=> '插入链接：[url]http://url[/url] or [url=http://url]URL text[/url]  (alt+w)',
+	'BBCODE_U_HELP'				=> '下划线：[u]text[/u]',
+	'BBCODE_W_HELP'				=> '插入链接：[url]http://url[/url] or [url=http://url]URL text[/url]',
 	'BBCODE_Y_HELP'				=> '列表：添加条目',
 	'BUMP_ERROR'				=> '您不能在发表后这么快就推举文章。',
 
@@ -178,6 +178,7 @@ $lang = array_merge($lang, array(
 
 	'QUOTE_DEPTH_EXCEEDED'		=> '最多允许嵌套使用 %1$d 层引用',
 
+    'REMOTE_UPLOAD_TIMEOUT'		=> '请求超时，文件上传失败。',
 	'SAVE'						=> '保存',
 	'SAVE_DATE'					=> '另存为',
 	'SAVE_DRAFT'				=> '保存草稿',
@@ -219,7 +220,7 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%s查看您提交的内容%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%s查看您发送的私人短信%s',
 
-	'WRONG_FILESIZE'			=> '文件太大了, 最大允许文件尺寸为 %1d %2s',
+	'WRONG_FILESIZE'			=> '文件太大了, 最大允许文件尺寸为 %1$d %2$s',
 	'WRONG_SIZE'				=> '图片必须最小宽 %1$d 象素，高 %2$d 象素；最大宽 %3$d 象素，高 %4$d 象素。您提交的图片为：宽 %5$d 象素，高 %6$d 象素。',
 ));
 

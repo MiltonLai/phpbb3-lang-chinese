@@ -138,6 +138,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> '在线',
 	'USER_PRESENCE'			=> '论坛形象',
+    'USERS_PER_PAGE'		=> '每页数量',
 
 	'VIEWING_PROFILE'		=> '查看资料 - %s',
 	'VISITED'				=> '最后浏览',

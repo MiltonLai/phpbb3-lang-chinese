@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> '对 “%1$s” (下文中指代 “我们”，“我们的”，“%1$s”，“%2$s”)的访问，表明您同意并遵守以下具有法律效力之条款。如果您不同意以下条款，请停止访问和使用 “%1$s”。我们可能在我们认为合适的时候，在并未通知您的情况下改变这些条款，您在条款改变后继续使用 “%1$s” 将被认为认同并遵守这些条款.<br />
 	<br />
-	我们的论坛运行使用 phpBB (下文中指代 “他们”，“他们的”，“phpBB 软件”，“www.phpbb.com”，“phpBB 组”，“phpBB 团队”)系统，这是一个使用 “<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (下文指代 “GPL”) 软件协议的公告栏系统解决方案，可以从 <a href="http://www.phpbb.com/">www.phpbb.com</a> 免费获得。phpBB 软件仅用于推动基于 Internet 的讨论， 我们所运行的内容遵守 GPL 协议的严格限制。如果希望得到更多关于phpBB的信息，请访问: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a>.<br />
+	我们的论坛运行使用 phpBB (下文中指代 “他们”，“他们的”，“phpBB 软件”，“www.phpbb.com”，“phpBB 组”，“phpBB 团队”)系统，这是一个使用 “<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (下文指代 “GPL”) 软件协议的公告栏系统解决方案，可以从 <a href="https://www.phpbb.com/">www.phpbb.com</a> 免费获得。phpBB 软件仅用于推动基于 Internet 的讨论， 我们所运行的内容遵守 GPL 协议的严格限制。如果希望得到更多关于phpBB的信息，请访问: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
 	您同意不张贴任何带有辱骂，淫秽，粗俗，诽谤，仇恨，威胁，色情的内容，不张贴任何带有侵犯您所在国家的法律， “%1$s” 所在国家的法律，国际公法的内容。以上的行为可能会使您在未得到通知的情况下被永远禁止访问这个论坛。所有文章发表所使用的 IP 地址将被记录，以协助调查违反条款的事件。您同意 “%1$s” 具有在任何我们认为合适的时候删除，修改，移动，或关闭任何话题的权力。作为一个用户，您同意您所输入的任何信息将被记录至数据库。在没有得到您同意的前提下我们不会向任何第三方发布这些信息，但是 “%1$s” 和 phpBB 不能为任何因为黑客行为导致的数据泄漏承担法律责任.
 	',
@@ -176,7 +176,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> '这里您可以编辑你的草稿。草稿不能包含附件和投票。',
 	'EMAIL_BANNED_EMAIL'		=> '您输入的 email 地址不允许使用。',
-	'EMAIL_INVALID_EMAIL'		=> '您输入的 email 地址无效。',
 	'EMAIL_REMIND'				=> '这必须是与您的帐户关联的 e-mail 地址。如果您没有通过管理界面改变过您的 e-mail 地址，它就是您在注册时使用的地址。',
 	'EMAIL_TAKEN_EMAIL'			=> '您输入的 email 地址已经被使用',
 	'EMPTY_DRAFT'				=> '您必须填入适当的内容才能提交更改',
@@ -257,8 +256,9 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'				=> '由',
 	'MESSAGE_COLOURS'				=> '短信颜色',
 	'MESSAGE_DELETED'				=> '短信已经删除',
+    'MESSAGE_EDITED'				=> '短信已经编辑',
 	'MESSAGE_HISTORY'				=> '短信历史',
-	'MESSAGE_REMOVED_FROM_OUTBOX'	=> '这条短信已经在发送前被它的作者删除',
+	'MESSAGE_REMOVED_FROM_OUTBOX'	=> '这条短信已经被它的作者删除',
 	'MESSAGE_SENT_ON'				=> '时间',
 	'MESSAGE_STORED'				=> '短信发送成功',
 	'MESSAGE_TO'					=> '收件人',
@@ -266,7 +266,7 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> '移动已删除的短信到',
 	'MOVE_DOWN'						=> '下移',
 	'MOVE_MARKED_TO_FOLDER'			=> '移动标记的到 %s',
-	'MOVE_PM_ERROR'					=> '当移动短信到新文件夹时发生错误，只有 %1d / %2d 的短信被移动。',
+	'MOVE_PM_ERROR'					=> '当移动短信到新文件夹时发生错误，只有 %1$d / %2$d 的短信被移动。',
 	'MOVE_TO_FOLDER'				=> '移动到文件夹',
 	'MOVE_UP'						=> '上移',
 

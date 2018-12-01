@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_OLD_CONVERSION'	=> '继续进行以前的转换',
 	'CONVERT'					=> '转换',
 	'CONVERT_COMPLETE'			=> '转换完成',
-	'CONVERT_COMPLETE_EXPLAIN'	=> '您已经将您的论坛成功转换为 phpBB 3.0，您现在可以 <a href="../">访问您的论坛</a>。请在启用新论坛前确认参数都已经正确设置. phpBB 的线上使用帮助位于 <a href="http://www.phpbb.com/support/documentation/3.0/">用户指南</a> 和 <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">技术支持版面</a>',
+	'CONVERT_COMPLETE_EXPLAIN'	=> '您已经将您的论坛成功转换为 phpBB 3.0，您现在可以 <a href="../">访问您的论坛</a>。请在启用新论坛前确认参数都已经正确设置. phpBB 的线上使用帮助位于 <a href="https://www.phpbb.com/support/documentation/3.0/">用户指南</a> 和 <a href="https://www.phpbb.com/phpBB/viewforum.php?f=46">技术支持版面</a>',
 	'CONVERT_INTRO'				=> '欢迎使用 phpBB 统一转换框架',
 	'CONVERT_INTRO_BODY'		=> '这里您可以从其它（已安装）的论坛导入数据，下表列出的是所有可用的转换模块。如果其中没有您想要的转换模块，请访问我们的网站，那里可能会提供更多的转换模块下载。',
 	'CONVERT_NEW_CONVERSION'	=> '新的转换',
@@ -194,7 +194,7 @@ $lang = array_merge($lang, array(
 		<h2>转换一个已经存在的论坛到 phpBB3</h2>
 		<p>phpBB 统一转换框架支持从 phpBB 2.0.x 和其他论坛软件到 phpBB3 的转换. 如果您有一个旧的论坛需要转换, 请 <a href="%2$s">运行转换程序</a>.</p>
 		<h2>使用您的 phpBB3!</h2>
-		<p>点击下面的链接将带您到管理员控制面板 (ACP)下提交统计数据的界面. 花一些时间检查设置选项是否可用. 记住可以使用在线帮助文档位于 <a href="http://www.phpbb.com/support/documentation/3.0/">文档</a> 和 <a href="http://www.phpbb.com/community/viewforum.php?f=46">技术支持版面</a>, 查看 <a href="%3$s">README</a> 以得到更多的信息.</p><p><strong>请在使用论坛前删除, 移动或重命名install文件夹. 如果这个文件夹存在, 只有管理员控制面板才可以访问.</strong></p>',
+		<p>点击下面的链接将带您到管理员控制面板 (ACP)下提交统计数据的界面. 花一些时间检查设置选项是否可用. 记住可以使用在线帮助文档位于 <a href="https://www.phpbb.com/support/documentation/3.0/">文档</a> 和 <a href="https://www.phpbb.com/community/viewforum.php?f=46">技术支持版面</a>, 查看 <a href="%3$s">README</a> 以得到更多的信息.</p><p><strong>请在使用论坛前删除, 移动或重命名install文件夹. 如果这个文件夹存在, 只有管理员控制面板才可以访问.</strong></p>',
 	'INSTALL_INTRO'				=> '欢迎安装！',
 
 	'INSTALL_INTRO_BODY'		=> '使用这个选项, 应该可以在您的服务器上安装 phpBB.</p><p>为了继续安装, 您需要知道您的数据库设置. 如果您不清楚这些, 请联络您的web空间提供者. 没有这些信息安装将不能继续. 您需要:</p>
@@ -277,7 +277,7 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDER_WRITABLE'		=> '请首先确保此文件夹存在并且可以被网络服务器写入，然后重试：<br />»<strong>%s</strong>',
 	'MAKE_FOLDERS_WRITABLE'		=> '请首先确保这些文件夹存在并且可以被网络服务器写入，然后重试：<br />»<strong>%s</strong>',
 	
-	'MYSQL_SCHEMA_UPDATE_REQUIRED'   => '您的phpBB数据库结构需要升级. phpBB检测到的结构是用于MySQL 3.x/4.x版本, 但是当前服务器所运行的是MySQL %2$s.<br /><strong>在您继续升级之前, 您需要升级您的数据库结构.</strong><br /><br />请参考 <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">关于MySQL数据库升级的教学文章</a>. 如果您遇到问题, 请访问<a href="http://www.phpbb.com/community/viewforum.php?f=46">我们的技术支持论坛</a>.',
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'   => '您的phpBB数据库结构需要升级. phpBB检测到的结构是用于MySQL 3.x/4.x版本, 但是当前服务器所运行的是MySQL %2$s.<br /><strong>在您继续升级之前, 您需要升级您的数据库结构.</strong><br /><br />请参考 <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">关于MySQL数据库升级的教学文章</a>. 如果您遇到问题, 请访问<a href="https://www.phpbb.com/community/viewforum.php?f=46">我们的技术支持论坛</a>.',
 
 	'NAMING_CONFLICT'			=> '命名冲突：%s 与 %s 都是别名<br /><br />%s',
 	'NEXT_STEP'					=> '继续进行下一步',
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 	'NO_LOCATION'				=> '无法确定位置。如果您确定 Imagemagick 已经安装，请于论坛安装完成之后，在管理员控制面板中指定它的位置。',
 	'NO_TABLES_FOUND'			=> '没有找到任何表格',
 
-	'OVERVIEW_BODY'					=> '欢迎安装 phpBB3!<br /><br />phpBB™ 是世界上使用最为广泛的开源论坛软件. phpBB3 是自2000年以来这一系列的最新产品. 与之前的版本相比, phpBB3 具有更丰富的功能, 更友好的操作界面, 并拥有phpBB团队的完整技术支持. phpBB3大幅提升了phpBB2受人欢迎的功能, 并且添加了众多用户迫切需要的新特性. 我们希望phpBB3能满足您的期待.<br /><br />安装模块将引导您安装的全过程, 并且指导您升级或转换不同的论坛(包括phpBB2)到phpBB3. 要获取更多的信息, 我们推荐您阅读 <a href="../docs/INSTALL.html">安装指南</a>.<br /><br />从侧面的菜单中选取不同的内容, 阅读phpBB3授权协议以了解支持和我们对此的要求. 继续下一步操作, 请从上方选择相应的页面.',
+	'OVERVIEW_BODY'					=> '欢迎安装 phpBB3!<br /><br />phpBB® 是世界上使用最为广泛的开源论坛软件. phpBB3 是自2000年以来这一系列的最新产品. 与之前的版本相比, phpBB3 具有更丰富的功能, 更友好的操作界面, 并拥有phpBB团队的完整技术支持. phpBB3大幅提升了phpBB2受人欢迎的功能, 并且添加了众多用户迫切需要的新特性. 我们希望phpBB3能满足您的期待.<br /><br />安装模块将引导您安装的全过程, 并且指导您升级或转换不同的论坛(包括phpBB2)到phpBB3. 要获取更多的信息, 我们推荐您阅读 <a href="../docs/INSTALL.html">安装指南</a>.<br /><br />从侧面的菜单中选取不同的内容, 阅读phpBB3授权协议以了解支持和我们对此的要求. 继续下一步操作, 请从上方选择相应的页面.',
 
 	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 支持',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> '如果PHP的PCRE插件不支持UTF-8，phpBB 将 <strong>无法</strong> 运行。',
@@ -345,7 +345,7 @@ $lang = array_merge($lang, array(
 	'SUB_LICENSE'				=> '授权',
 	'SUB_SUPPORT'				=> '支持',
 	'SUCCESSFUL_CONNECT'		=> '连接成功',
-	'SUPPORT_BODY'				=> '我们将免费为此次发布的phpBB3稳定版本提供完全的技术支持. 这包括:</p><ul><li>安装</li><li>设置</li><li>技术问题</li><li>与软件中潜在的Bug相关的问题</li><li>从先前发布的候选(RC)版本升级至最新版本</li><li>从phpBB 2.0.x 转换至 phpBB3</li><li>从其他的论坛转换至 phpBB3 (请访问 <a href="http://www.phpbb.com/community/viewforum.php?f=65">转换讨论版面</a>)</li></ul><p>我们建议还在使用Beta版本的用户立即用最新的版本替换他们的系统.</p><h2>MOD / 风格</h2><p>与MOD相关的问题, 请发表在相应的 <a href="http://www.phpbb.com/community/viewforum.php?f=81">插件讨论版面</a>.<br />与风格相关的问题, 请发表在相应的 <a href="http://www.phpbb.com/community/viewforum.php?f=80">风格讨论版面</a>.<br /><br />如果您的问题与特定的风格或插件相关, 请直接在相应程序的主题后回帖.</p><h2>获取帮助</h2><p><a href="http://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">phpBB欢迎页面</a><br /><a href="http://www.phpbb.com/support/">技术支持</a><br /><a href="http://www.phpbb.com/support/documentation/3.0/quickstart/">快速上手</a><br /><br />为了确保您获得最新版本的相关信息, 请 <a href="http://www.phpbb.com/support/">订阅我们的邮件组</a>.<br /><br />',
+	'SUPPORT_BODY'				=> '我们将免费为此次发布的phpBB3稳定版本提供完全的技术支持. 这包括:</p><ul><li>安装</li><li>设置</li><li>技术问题</li><li>与软件中潜在的Bug相关的问题</li><li>从先前发布的候选(RC)版本升级至最新版本</li><li>从phpBB 2.0.x 转换至 phpBB3</li><li>从其他的论坛转换至 phpBB3 (请访问 <a href="https://www.phpbb.com/community/viewforum.php?f=65">转换讨论版面</a>)</li></ul><p>我们建议还在使用Beta版本的用户立即用最新的版本替换他们的系统.</p><h2>MOD / 风格</h2><p>与MOD相关的问题, 请发表在相应的 <a href="https://www.phpbb.com/community/viewforum.php?f=81">插件讨论版面</a>.<br />与风格相关的问题, 请发表在相应的 <a href="https://www.phpbb.com/community/viewforum.php?f=80">风格讨论版面</a>.<br /><br />如果您的问题与特定的风格或插件相关, 请直接在相应程序的主题后回帖.</p><h2>获取帮助</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">phpBB欢迎页面</a><br /><a href="https://www.phpbb.com/support/">技术支持</a><br /><a href="https://www.phpbb.com/support/documentation/3.0/quickstart/">快速上手</a><br /><br />为了确保您获得最新版本的相关信息, 请 <a href="https://www.phpbb.com/support/">订阅我们的邮件组</a>.<br /><br />',
 	'SYNC_FORUMS'				=> '开始同步版面',
 	'SYNC_POST_COUNT'			=> '正在同步帖子',
 	'SYNC_POST_COUNT_ID'		=> '正在同步<var>序号</var>为 %1$s 到 %2$s 的帖子.',
@@ -468,7 +468,7 @@ $lang = array_merge($lang, array(
 	'NO_ERRORS'						=> '没有错误',
 	'NO_UPDATE_FILES'				=> '不要升级以下文件',
 	'NO_UPDATE_FILES_EXPLAIN'		=> '以下的文件有更新或者修改过的版本, 但是在您的安装的目录中找到。如果列表中包含了除了language/或者styles/ 目录以外的文件，可能您曾经修改过目录结构，升级程序可能没有执行完全。',
-	'NO_UPDATE_FILES_OUTDATED'		=> '没有发现有效的更新目录，请确认上载了相关的升级文件。<br /><br />您的安装似乎Your installation does <strong>不是</strong> 最新版本。版本 %1$s 的phpBB的更新程序已经提供下载，请访问 <a href="http://www.phpbb.com/downloads.php" rel="external">http://www.phpbb.com/downloads.php</a> 获得正确的从版本%2$s 到版本%3$s 升级文件。',
+	'NO_UPDATE_FILES_OUTDATED'		=> '没有发现有效的更新目录，请确认上载了相关的升级文件。<br /><br />您的安装似乎Your installation does <strong>不是</strong> 最新版本。版本 %1$s 的phpBB的更新程序已经提供下载，请访问 <a href="https://www.phpbb.com/downloads.php" rel="external">https://www.phpbb.com/downloads.php</a> 获得正确的从版本%2$s 到版本%3$s 升级文件。',
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> '您的版本已经是最新版本。没有必要进行升级。如果您希望做一个完全的文件检查, 请确信您上传了正确的更新文件。',
 	'NO_UPDATE_INFO'				=> '无法找到升级文件信息.',
 	'NO_UPDATES_REQUIRED'			=> '不需要升级',
@@ -536,8 +536,8 @@ $lang = array_merge($lang, array(
 		<p>下面列出的是推荐的升级方法，它只对自动升级包有效。您也可以采用 INSTALL.html 文档中列出的方式升级。自动升级 phpBB3 的步骤是：</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>到 <a href="http://www.phpbb.com/downloads.php" title="http://www.phpbb.com/downloads.php">phpBB.com 下载页面</a> 下载 "Automatic Update Package" 档案.<br /><br /></li>
-			<li>解压缩档案.<br /><br /></li>
+			<li>到 <a href="https://www.phpbb.com/downloads.php" title="https://www.phpbb.com/downloads.php">phpBB.com 下载页面</a> 下载 "Automatic Update Package" 文件。<br /><br /></li>
+			<li>解压缩文件。<br /><br /></li>
 			<li>上传解压完成的文件到您的phpBB安装的根目录（即config.php文件所在目录）。<br /><br /></li>
 		</ul>
 

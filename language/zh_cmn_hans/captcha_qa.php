@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'				=> '请填写所有空格并输入至少一个答案.',
 	'QA_LAST_QUESTION'			=> '在插件还处于激活状态时不能删除所有问题.',
+
 ));
 
 ?>
