@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_COMPLETED'			=> '上传完成.',
 	'UPLOAD_FAILED'				=> '上传因为未知的原因失败. 您可能需要手动替换相关文件.',
 	'UPLOAD_METHOD'				=> '上传方式',
-	'UPLOAD_SETTINGS'			=> '上传设定',
+	'UPLOAD_SETTINGS'			=> '上传设置',
 
 	'WRONG_LANGUAGE_FILE'		=> '选中的语言包无效.',
 ));

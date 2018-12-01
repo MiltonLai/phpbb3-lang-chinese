@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_SETTINGS_VERIFIED'	=> '您输入的信息已经被校验，要开始转换，请点击下面的按钮。',
 	'CONV_ERR_FATAL'					=> '严重错误',
 
-	'CONV_ERROR_ATTACH_FTP_DIR'			=> '原论坛允许附件使用FTP上传，请禁用FTP上传并确认设定了有效的上传目录，所有附件将被拷贝到这个新的web可访问的目录。这些完成后，请重新开始转换程序。',
+	'CONV_ERROR_ATTACH_FTP_DIR'			=> '原论坛允许附件使用FTP上传，请禁用FTP上传并确认设置了有效的上传目录，所有附件将被拷贝到这个新的web可访问的目录。这些完成后，请重新开始转换程序。',
 	'CONV_ERROR_CONFIG_EMPTY'			=> '转换程序没有可用的配置信息。',
 	'CONV_ERROR_FORUM_ACCESS'			=> '无法得到版面的访问信息.',
 	'CONV_ERROR_GET_CATEGORIES'			=> '无法得到分区信息.',
@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 	'CONV_SAVED_MESSAGES'				=> '保存信息',
 
 	'COULD_NOT_COPY'			=> '无法复制文件 <strong>%1$s</strong> 到 <strong>%2$s</strong><br /><br />请检查目标文件夹是否存在并是否可以被web服务器写入',
-	'COULD_NOT_FIND_PATH'		=> '无法找到您以前论坛的路径. 请检查您的设定并再试一次.<br />» 指定的路径是 %s',
+	'COULD_NOT_FIND_PATH'		=> '无法找到您以前论坛的路径. 请检查您的设置并再试一次.<br />» 指定的路径是 %s',
 
 	'DBMS'						=> '数据库类型',
 	'DB_CONFIG'					=> '数据库设置',
@@ -303,7 +303,7 @@ $lang = array_merge($lang, array(
 	'PHP_SAFE_MODE'					=> '安全模式',
 	'PHP_SETTINGS'					=> 'PHP 版本和设置',
 	'PHP_SETTINGS_EXPLAIN'			=> '<strong>必需的</strong> - 要安装phpBB，您必需正在运行最低 4.3.3 版本的PHP。如果下面出现 <var>safe mode</var>，您的PHP正在运行于安全模式，这将给远程管理及类似功能带来限制。',
-	'PHP_URL_FOPEN_SUPPORT'			=> 'PHP 设定 <var>allow_url_fopen</var> 为启用状态',
+	'PHP_URL_FOPEN_SUPPORT'			=> 'PHP 设置 <var>allow_url_fopen</var> 为启用状态',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>可选项</strong> - 这个设置是可选的, 不过某些phpBB的功能例如外部头像可能会因为没有这个功能而无法正常工作. ',
 	'PHP_VERSION_REQD'				=> 'PHP 版本 >= 4.3.3',
 	'POST_ID'						=> '帖子 ID',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_INDEX_UNCONVERTED'	=> '搜索索引没有转换',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> '您的旧搜索索引没有转换. 搜索将总是得到空结果. 如果需要创建一个新索引, 请到管理员控制面板, 选择维护, 然后从子菜单中选择搜索索引.',
 	'SOFTWARE'					=> '论坛软件',
-	'SPECIFY_OPTIONS'			=> '设定转换选项',
+	'SPECIFY_OPTIONS'			=> '设置转换选项',
 	'STAGE_ADMINISTRATOR'		=> '管理员信息',
 	'STAGE_ADVANCED'			=> '高级设置',
 	'STAGE_ADVANCED_EXPLAIN'	=> '只有您确定需要一些非默认设置时，您才有必要更改此页的内容。如果您不确定，请继续至下一页，因为这些设置可以随时在管理员控制面板中更改。',
@@ -433,7 +433,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> '下面的文件在老版本的phpBB文件再新版本中没有修改。',
 	'FILES_UP_TO_DATE'				=> '已经升级的文件',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> '以下的文件已经是最新的, 不需要升级.',
-	'FTP_SETTINGS'					=> 'FTP 设定',
+	'FTP_SETTINGS'					=> 'FTP 设置',
 	'FTP_UPDATE_METHOD'				=> 'FTP 上传',
 
 	'INCOMPATIBLE_UPDATE_FILES'		=> '找到的升级文件不适用于您当前的版本. 您的安装版本是 %1$s 而升级文件是用于升级 phpBB %2$s 到 %3$s.',
@@ -490,7 +490,7 @@ $lang = array_merge($lang, array(
 
 	'SELECT_DIFF_MODE'			=> '选择对比模式',
 	'SELECT_DOWNLOAD_FORMAT'	=> '选择下载文档格式',
-	'SELECT_FTP_SETTINGS'		=> '选择 FTP 设定',
+	'SELECT_FTP_SETTINGS'		=> '选择 FTP 设置',
 	'SHOW_DIFF_CONFLICT'		=> '显示差异/冲突',
 	'SHOW_DIFF_FINAL'			=> '显示结果文件',
 	'SHOW_DIFF_MODIFIED'		=> '显示合并的差异',

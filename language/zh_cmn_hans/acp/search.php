@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_SEARCH_INDEX_EXPLAIN'				=> '这里您可以管理内容索引. 因为一般只使用一个后台, 您可以删除所有不用的索引. 在改变搜索设置(例如最小/最大字符串长度)后, 建议重新生成索引以体现修改.',
-	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> '这里您可以设置如何使用搜索和检索帖子. 您可以设置选项限制搜索动作的处理器负载. 一部分设定和和搜索引擎的设定是一样的.',
+	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> '这里您可以设置如何使用搜索和检索帖子. 您可以设置选项限制搜索动作的处理器负载. 一部分设置和和搜索引擎的设置是一样的.',
 
 	'COMMON_WORD_THRESHOLD'					=> '词频阈值',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> '在所有的帖子中都频繁出现的单词将被识别为高频词. 高频词在搜索中将被忽略. 设置0则取消这项功能. 只有当帖子数大于100时这个设置才能生效. 调整过词频阈值后需要重新建立索引',
@@ -59,10 +59,10 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_PCRE'					=> '支持非拉丁 UTF-8 字符使用 PCRE:',
 	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> '如果PCRE没有unicode字符属性, 搜索后端会尝试使用mbstring的正则表达式机制.',
 	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> '这个搜索后端需要使用PCRE unicode字符属性, 这只在PHP 版本 4.4, 5.1 或更高中可用, 如果您需要搜索非拉丁字符.',
-	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'   => '至少需要达到这个长度的词才会被检索. 您必须更改mysql的设定才能修改此值.',
-	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => '不超过这个长度的词才会被检索. 您必须更改mysql的设定才能修改此值.',
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'   => '至少需要达到这个长度的词才会被检索. 您必须更改mysql的设置才能修改此值.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => '不超过这个长度的词才会被检索. 您必须更改mysql的设置才能修改此值.',
 
-	'GENERAL_SEARCH_SETTINGS'				=> '综合搜索设定',
+	'GENERAL_SEARCH_SETTINGS'				=> '综合搜索设置',
 	'GO_TO_SEARCH_INDEX'					=> '前往索引页面',
 
 	'INDEX_STATS'							=> '索引统计',

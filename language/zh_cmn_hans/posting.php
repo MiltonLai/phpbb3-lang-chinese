@@ -141,8 +141,8 @@ $lang = array_merge($lang, array(
 	'NO_POST_MODE'				=> '没有指定帖子类型',
 
 	'PARTIAL_UPLOAD'			=> '要上传的文件只上传了一部分',
-	'PHP_SIZE_NA'				=> '要上传的附件太大了。<br />无法获知 php.ini 中设定的最大允许上传文件大小。',
-	'PHP_SIZE_OVERRUN'			=> '要上传的附件太大了，php.ini 中设定的最大允许上传文件大小为 %1$d %2$s。<br />请注意这个数值是在 php.ini 内设定的，无法被覆盖。',
+	'PHP_SIZE_NA'				=> '要上传的附件太大了。<br />无法获知 php.ini 中设置的最大允许上传文件大小。',
+	'PHP_SIZE_OVERRUN'			=> '要上传的附件太大了，php.ini 中设置的最大允许上传文件大小为 %1$d %2$s。<br />请注意这个数值是在 php.ini 内设置的，无法被覆盖。',
 	'PLACE_INLINE'				=> '置入文中',
 	'POLL_DELETE'				=> '删除投票',
 	'POLL_FOR'					=> '投票持续时间',

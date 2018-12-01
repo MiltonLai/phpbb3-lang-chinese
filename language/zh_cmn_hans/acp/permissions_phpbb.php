@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 		'post_actions'	=> '发帖动作',
 		'posting'		=> '发帖',
 		'profile'		=> '资料',
-		'settings'		=> '设定',
+		'settings'		=> '设置',
 		'topic_actions'	=> '主题操作',
 		'user_group'	=> '用户&amp;组',
 	),
@@ -167,7 +167,7 @@ $lang = array_merge($lang, array(
 
 	'acl_f_search'		=> array('lang' => '可以搜索版面', 'cat' => 'misc'),
 	'acl_f_ignoreflood' => array('lang' => '可以不受灌水间隔限制', 'cat' => 'misc'),
-	'acl_f_postcount'	=> array('lang' => '增加帖子数<br /><em>请注意这个设定只对新帖子有效.</em>', 'cat' => 'misc'),
+	'acl_f_postcount'	=> array('lang' => '增加帖子数<br /><em>请注意这个设置只对新帖子有效.</em>', 'cat' => 'misc'),
 	'acl_f_noapprove'	=> array('lang' => '可以不经审核发表主题', 'cat' => 'misc'),
 ));
 
@@ -193,18 +193,18 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'acl_a_board'		=> array('lang' => '可以修改论坛设置/检查更新', 'cat' => 'settings'),
 	'acl_a_server'		=> array('lang' => '可以修改服务器/通讯设置', 'cat' => 'settings'),
-	'acl_a_jabber'		=> array('lang' => '可以修改Jabber设定', 'cat' => 'settings'),
-	'acl_a_phpinfo'		=> array('lang' => '可以查看php设定', 'cat' => 'settings'),
+	'acl_a_jabber'		=> array('lang' => '可以修改Jabber设置', 'cat' => 'settings'),
+	'acl_a_phpinfo'		=> array('lang' => '可以查看php设置', 'cat' => 'settings'),
 
 	'acl_a_forum'		=> array('lang' => '可以管理版面', 'cat' => 'forums'),
 	'acl_a_forumadd'	=> array('lang' => '可以添加新版面', 'cat' => 'forums'),
 	'acl_a_forumdel'	=> array('lang' => '可以删除版面', 'cat' => 'forums'),
-	'acl_a_prune'		=> array('lang' => '可以裁减版面', 'cat' => 'forums'),
+	'acl_a_prune'		=> array('lang' => '可以清理版面', 'cat' => 'forums'),
 
 	'acl_a_icons'		=> array('lang' => '可以修改主题图标和表情图标', 'cat' => 'posting'),
-	'acl_a_words'		=> array('lang' => '可以修改敏感词设定', 'cat' => 'posting'),
-	'acl_a_bbcode'		=> array('lang' => '可以设定BBCode标签', 'cat' => 'posting'),
-	'acl_a_attach'		=> array('lang' => '可以修改附件相关设定', 'cat' => 'posting'),
+	'acl_a_words'		=> array('lang' => '可以修改敏感词设置', 'cat' => 'posting'),
+	'acl_a_bbcode'		=> array('lang' => '可以设置BBCode标签', 'cat' => 'posting'),
+	'acl_a_attach'		=> array('lang' => '可以修改附件相关设置', 'cat' => 'posting'),
 
 	'acl_a_user'		=> array('lang' => '可以管理用户<br /><em>这包括在在线用户列表中查看用户浏览器版本.</em>', 'cat' => 'user_group'),
 	'acl_a_userdel'		=> array('lang' => '可以删除/修剪用户', 'cat' => 'user_group'),
@@ -235,7 +235,7 @@ $lang = array_merge($lang, array(
 	'acl_a_bots'		=> array('lang' => '可以管理机器人用户', 'cat' => 'misc'),
 	'acl_a_reasons'		=> array('lang' => '可以管理举报/否决原因', 'cat' => 'misc'),
 	'acl_a_backup'		=> array('lang' => '可以备份/恢复数据库', 'cat' => 'misc'),
-	'acl_a_search'		=> array('lang' => '可以管理搜索后端和设定', 'cat' => 'misc'),
+	'acl_a_search'		=> array('lang' => '可以管理搜索后端和设置', 'cat' => 'misc'),
 ));
 
 ?>

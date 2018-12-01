@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETE_MODULE_CONFIRM'	=> '您确认删除这个模块吗?',
 
 	'EDIT_MODULE'			=> '编辑模块',
-	'EDIT_MODULE_EXPLAIN'	=> '这里您可以输入模块特有设定',
+	'EDIT_MODULE_EXPLAIN'	=> '这里您可以输入模块特有设置',
 
 	'HIDDEN_MODULE'			=> '隐藏模块',
 

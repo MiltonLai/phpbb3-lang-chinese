@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_GROUPS_MANAGE_EXPLAIN'		=> '在这个面板您可以管理所有的群组。您可以删除、创建和编辑现有的群组。此外，您还可以选择版主，设定群组状态为开放、隐藏或关闭，以及设置群组的名称与描述。',
+	'ACP_GROUPS_MANAGE_EXPLAIN'		=> '在这个面板您可以管理所有的群组。您可以删除、创建和编辑现有的群组。此外，您还可以选择版主，设置群组状态为开放、隐藏或关闭，以及设置群组的名称与描述。',
 	'ADD_USERS'						=> '添加用户',
 	'ADD_USERS_EXPLAIN'				=> '这里您可以添加新用户到群组. 您可以选择是否使用这个群组作为用户的默认群组. 并且您可以设置群组组长. 如果有多个用户请在每一行输入用户名.',
 
@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 
 	'USERS_APPROVED'				=> '用户已经批准.',
 	'USER_DEFAULT'					=> '用户默认',
-	'USER_DEF_GROUPS'				=> '用户设定的群组',
+	'USER_DEF_GROUPS'				=> '用户设置的群组',
 	'USER_DEF_GROUPS_EXPLAIN'		=> '这些群组由您或者其他管理员创建. 您可以管理成员和编辑其属性或者删除它. 点击 “默认” 可以设置这个组为其成员的默认群组.',
 	'USER_GROUP_DEFAULT'			=> '设置为默认群组',
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> '选择是, 将设置为添加的用户的默认组',

@@ -49,11 +49,11 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE_EXPLAIN'		=> '输入日起，使用<kbd>YYYY-MM-DD</kbd> 格式。输入<kbd>0000-00-00</kbd>将删除从未登入的用户, <em>Before</em> 和 <em>After</em> 条件将被忽略',
 
-	'PRUNE_USERS_LIST'				=> '将被裁减的用户',
+	'PRUNE_USERS_LIST'				=> '将被清理的用户',
 	'PRUNE_USERS_LIST_DELETE'		=> '使用选中的条件, 如下的用户帐号将被删除.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> '使用选中的条件, 如下的用户帐号将被冻结.',
 
-	'SELECT_USERS_EXPLAIN'		=> '在这里输入特定用户，他们将会用于上述的设定标准。创始人不会被删除',
+	'SELECT_USERS_EXPLAIN'		=> '在这里输入特定用户，他们将会用于上述的设置标准。创始人不会被删除',
 
 	'USER_DEACTIVATE_SUCCESS'	=> '被选择的用户已经成功冻结',
 	'USER_DELETE_SUCCESS'		=> '被选择的用户已经成功删除',
@@ -66,26 +66,26 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_PRUNE_FORUMS_EXPLAIN'	=> '这将删除所有在规定的时间内没有新回复的主题. 若你不输入数字, 那么所有的帖子将会被删除. 默认情况下, 这不会删除投票依然在进行的主题, 置顶的主题和公告.',
 
-	'FORUM_PRUNE'		=> '裁减版面',
+	'FORUM_PRUNE'		=> '清理版面',
 
-	'NO_PRUNE'			=> '没有版面被裁减',
+	'NO_PRUNE'			=> '没有版面被清理',
 
 	'SELECTED_FORUM'	=> '已选版面',
 	'SELECTED_FORUMS'	=> '已选版面',
 
-	'POSTS_PRUNED'					=> '帖子已裁减',
-	'PRUNE_ANNOUNCEMENTS'			=> '裁减公告',
-	'PRUNE_FINISHED_POLLS'			=> '裁减已关闭的投票',
+	'POSTS_PRUNED'					=> '帖子已清理',
+	'PRUNE_ANNOUNCEMENTS'			=> '清理公告',
+	'PRUNE_FINISHED_POLLS'			=> '清理已关闭的投票',
 	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> '移除已经结束的投票主题',
-	'PRUNE_FORUM_CONFIRM'			=> '您确认要以指定的设置裁减选中的版面吗? 一旦开始裁减, 满足条件的帖子和主题将被永远删除.',
+	'PRUNE_FORUM_CONFIRM'			=> '您确认要以指定的设置清理选中的版面吗? 一旦开始清理, 满足条件的帖子和主题将被永远删除.',
 	'PRUNE_NOT_POSTED'				=> '从最后发表的天数算起',
 	'PRUNE_NOT_VIEWED'				=> '从最后查看的天数算起',
-	'PRUNE_OLD_POLLS'				=> '裁减较旧的投票',
-	'PRUNE_OLD_POLLS_EXPLAIN'		=> '裁减在规定的时间内没有新投票的主题',
-	'PRUNE_STICKY'					=> '裁减置顶主题',
-	'PRUNE_SUCCESS'					=> '版面裁减成功',
+	'PRUNE_OLD_POLLS'				=> '清理较旧的投票',
+	'PRUNE_OLD_POLLS_EXPLAIN'		=> '清理在规定的时间内没有新投票的主题',
+	'PRUNE_STICKY'					=> '清理置顶主题',
+	'PRUNE_SUCCESS'					=> '版面清理成功',
 
-	'TOPICS_PRUNED'		=> '主题已裁减',
+	'TOPICS_PRUNED'		=> '主题已清理',
 ));
 
 ?>

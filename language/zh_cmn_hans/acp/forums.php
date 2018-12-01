@@ -37,11 +37,11 @@ if (empty($lang) || !is_array($lang))
 
 // Forum Admin
 $lang = array_merge($lang, array(
-	'AUTO_PRUNE_DAYS'			=> '帖子自动裁减回复时间',
+	'AUTO_PRUNE_DAYS'			=> '帖子自动清理回复时间',
 	'AUTO_PRUNE_DAYS_EXPLAIN'	=> '在最后一个帖子发表后多少天这个主题会被删除.',
-	'AUTO_PRUNE_FREQ'			=> '自动裁减频率',
-	'AUTO_PRUNE_FREQ_EXPLAIN'	=> '裁减操作之间的天数间隔.',
-	'AUTO_PRUNE_VIEWED'			=> '帖子自动裁减点击时间',
+	'AUTO_PRUNE_FREQ'			=> '自动清理频率',
+	'AUTO_PRUNE_FREQ_EXPLAIN'	=> '清理操作之间的天数间隔.',
+	'AUTO_PRUNE_VIEWED'			=> '帖子自动清理点击时间',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> '在帖子最后被查看后多少天这个主题会被删除.',
 	'CONTINUE'						=> '继续',
 
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'COPY_PERMISSIONS_EXPLAIN'		=> '为了方便新版面的权限设置, 您可以复制一个现有的版面权限至新版面.',
 	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> '一旦创建, 这个版面将行使您选择的版面同样的权限. 如果没有选中, 新的版面在权限设置前将是不可见的.',
 	'COPY_PERMISSIONS_EDIT_EXPLAIN'	=> '如果您选择了复制权限, 版面将行使您选择的版面同样的权限. 这将覆盖您原先设置的权限. 如果没有选中, 将保留原有权限.',
-	'COPY_TO_ACL'					=> '另外, 您也可以为这个版面 %s 设定新权限 %s .',
+	'COPY_TO_ACL'					=> '另外, 您也可以为这个版面 %s 设置新权限 %s .',
 	'CREATE_FORUM'					=> '创建新版面',
 
 	'DECIDE_MOVE_DELETE_CONTENT'		=> '删除或移动到版面',
@@ -66,17 +66,17 @@ $lang = array_merge($lang, array(
 	'ENABLE_POST_REVIEW'			=> '允许预览帖子',
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> '如果设置为是, 当用户在编写帖子时有新的帖子发布, 用户可以预览他们的帖子. 这在交谈版面中应该禁用.',
 	'ENABLE_QUICK_REPLY'			=> '启用快速回复',
-	'ENABLE_QUICK_REPLY_EXPLAIN'	=> '启用后用户在这个版面可以通过快速回复来回复帖子. 如果全局设定中停用了快速回复, 这里的选项将不起作用.',
+	'ENABLE_QUICK_REPLY_EXPLAIN'	=> '启用后用户在这个版面可以通过快速回复来回复帖子. 如果全局设置中停用了快速回复, 这里的选项将不起作用.',
 	'ENABLE_RECENT'					=> '显示活跃帖子',
 	'ENABLE_RECENT_EXPLAIN'			=> '如果设置为是, 这个版面的主题将显示在活跃帖子列表中.',
 	'ENABLE_TOPIC_ICONS'			=> '允许主题图标',
 
 	'FORUM_ADMIN'						=> '版面管理',
 	'FORUM_ADMIN_EXPLAIN'				=> '在phpBB3中所有的分类都是基于版面. 每个版面可以拥有无限的子版面, 并且您可以设置哪些能发帖哪些不能. (例如是否表现为分区). 这里您能添加, 编辑, 删除, 锁定, 解锁各个版面并设置一些额外控制. 如果您的帖子和主题统计失去同步, 您可以重新统计一下版面. <strong>要显示新创建的版面，您必须为它复制或设置适当的权限.</strong>',
-	'FORUM_AUTO_PRUNE'					=> '开启自动裁减',
-	'FORUM_AUTO_PRUNE_EXPLAIN'			=> '裁减版面的主题, 在下面设置频率/时间参数.',
+	'FORUM_AUTO_PRUNE'					=> '开启自动清理',
+	'FORUM_AUTO_PRUNE_EXPLAIN'			=> '清理版面的主题, 在下面设置频率/时间参数.',
 	'FORUM_CREATED'						=> '版面创建完成.',
-	'FORUM_DATA_NEGATIVE'				=> '裁减参数不能为负.',
+	'FORUM_DATA_NEGATIVE'				=> '清理参数不能为负.',
 	'FORUM_DESC_TOO_LONG'				=> '版面描述太长, 不能超过4000字符.',
 	'FORUM_DELETE'						=> '删除版面',
 	'FORUM_DELETE_EXPLAIN'				=> '下面的表单允许您删除一个版面. 如果这个版面可以发表帖子, 您可以决定如何处置这个版面中的子版面和帖子.',
@@ -101,14 +101,14 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_UNSET_EXPLAIN'		=> '如果您希望删除版面密码请勾选此处.',
 	'FORUM_PASSWORD_OLD'				=> '当前版面密码使用的是旧的加密方式, 需要立即更改.',
 	'FORUM_PASSWORD_MISMATCH'			=> '您输入的密码不匹配.',
-	'FORUM_PRUNE_SETTINGS'				=> '版面裁减设定',
+	'FORUM_PRUNE_SETTINGS'				=> '版面清理设置',
 	'FORUM_RESYNCED'					=> '版面 “%s” 同步完成',
 	'FORUM_RULES_EXPLAIN'				=> '版面规则将在版面的任何页面显示.',
 	'FORUM_RULES_LINK'					=> '版面规则链接',
-	'FORUM_RULES_LINK_EXPLAIN'			=> '您可以在这里输入包含版面规则的链接. 这个设定将覆盖版面文字规则.',
+	'FORUM_RULES_LINK_EXPLAIN'			=> '您可以在这里输入包含版面规则的链接. 这个设置将覆盖版面文字规则.',
 	'FORUM_RULES_PREVIEW'				=> '版面规则预览',
 	'FORUM_RULES_TOO_LONG'				=> '版面规则不能超过4000个字符.',
-	'FORUM_SETTINGS'					=> '版面设定',
+	'FORUM_SETTINGS'					=> '版面设置',
 	'FORUM_STATUS'						=> '版面状态',
 	'FORUM_STYLE'						=> '版面风格',
 	'FORUM_TOPICS_PAGE'					=> '每页主题数',
@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 
 	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'		=> '您正试图讲一个拥有子版面的普通版面改变为链接。请在继续之前将全部子版面移出，因为在您将它变为链接之后将无法看到它的子版面。',
 
-	'GENERAL_FORUM_SETTINGS'	=> '版面综合设定',
+	'GENERAL_FORUM_SETTINGS'	=> '版面综合设置',
 
 	'LINK'						=> '链接',
 	'LIST_INDEX'				=> '在子版面列表中显示',
@@ -140,9 +140,9 @@ $lang = array_merge($lang, array(
 
 	'PARENT_IS_LINK_FORUM'		=> '您指定的版面是一个版面链接. 版面链接不能包含其他的版面, 请指定其他分区或版面作为父版面.',
 	'PARENT_NOT_EXIST'			=> '父版面不存在.',
-	'PRUNE_ANNOUNCEMENTS'		=> '裁减公告',
-	'PRUNE_STICKY'				=> '裁减置顶',
-	'PRUNE_OLD_POLLS'			=> '裁减旧投票',
+	'PRUNE_ANNOUNCEMENTS'		=> '清理公告',
+	'PRUNE_STICKY'				=> '清理置顶',
+	'PRUNE_OLD_POLLS'			=> '清理旧投票',
 	'PRUNE_OLD_POLLS_EXPLAIN'	=> '移除在帖子的活跃天数内没有新投票的投票.',
 
 	'REDIRECT_ACL'	=> '下一步您可以对这个论坛 %s设置权限%s.',
