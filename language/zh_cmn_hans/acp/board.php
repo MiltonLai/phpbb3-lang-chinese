@@ -313,12 +313,12 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_PREVIEW_MSG'					=> '您的可视化验证设定尚未保存, 这只是预览.',
 	'CAPTCHA_PREVIEW_EXPLAIN'				=> '您当前设定下的验证图片预览.',
 
-	'CAPTCHA_SELECT'						=> '安装验证图片插件',
-	'CAPTCHA_SELECT_EXPLAIN'				=> '下拉框显示被识别的可用验证图片插件. 灰色项为需要预先设定方可使用的插件.',
-	'CAPTCHA_CONFIGURE'						=> '验证图片设定',
-	'CAPTCHA_CONFIGURE_EXPLAIN'				=> '设定选中的验证图片.',
-	'CONFIGURE'								=> '设定',
-	'CAPTCHA_NO_OPTIONS'					=> '此验证图片没有可设置的选项.',
+    'CAPTCHA_SELECT'						=> '已安装的验证插件',
+    'CAPTCHA_SELECT_EXPLAIN'				=> '下拉框列出所有已安装的验证插件. 灰色项为需要先设置才可以使用的插件.',
+    'CAPTCHA_CONFIGURE'						=> '插件设置',
+    'CAPTCHA_CONFIGURE_EXPLAIN'				=> '修改选中的验证插件的配置.',
+    'CONFIGURE'								=> '设置',
+    'CAPTCHA_NO_OPTIONS'					=> '此验证插件没有可设置的选项.',
 
 	'VISUAL_CONFIRM_POST'					=> '启用游客发帖可视化验证',
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> '当匿名用户发表帖子时会被要求输入一组随机字符以防止机器人发布垃圾信息.',
