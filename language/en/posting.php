@@ -54,9 +54,9 @@ $lang = array_merge($lang, array(
 	'BBCODE_IS_OFF'				=> '%sBBCode%s is <em>OFF</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s is <em>ON</em>',
 	'BBCODE_I_HELP'				=> 'Italic text: [i]text[/i]',
-	'BBCODE_L_HELP'				=> 'List: [list]text[/list]',
-	'BBCODE_LISTITEM_HELP'		=> 'List item: [*]text[/*]',
-	'BBCODE_O_HELP'				=> 'Ordered list: [list=]text[/list]',
+	'BBCODE_L_HELP'				=> 'List: [list][*]text[/list]', 
+	'BBCODE_LISTITEM_HELP'		=> 'List item: [*]text',
+	'BBCODE_O_HELP'				=> 'Ordered list: e.g. [list=1][*]First point[/list] or [list=a][*]Point a[/list]',
 	'BBCODE_P_HELP'				=> 'Insert image: [img]http://image_url[/img]',
 	'BBCODE_Q_HELP'				=> 'Quote text: [quote]text[/quote]',
 	'BBCODE_S_HELP'				=> 'Font colour: [color=red]text[/color]  Tip: you can also use color=#FF0000',
@@ -178,6 +178,7 @@ $lang = array_merge($lang, array(
 
 	'QUOTE_DEPTH_EXCEEDED'		=> 'You may embed only %1$d quotes within each other.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'The specified file could not be uploaded because the request timed out.',
 	'SAVE'						=> 'Save',
 	'SAVE_DATE'					=> 'Saved at',
 	'SAVE_DRAFT'				=> 'Save draft',
@@ -219,7 +220,7 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sView your submitted message%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sView your submitted private message%s',
 
-	'WRONG_FILESIZE'			=> 'The file is too big, maximum allowed size is %1d %2s.',
+	'WRONG_FILESIZE'			=> 'The file is too big, maximum allowed size is %1$d %2$s.',
 	'WRONG_SIZE'				=> 'The image must be at least %1$d pixels wide, %2$d pixels high and at most %3$d pixels wide and %4$d pixels high. The submitted image is %5$d pixels wide and %6$d pixels high.',
 ));
 
