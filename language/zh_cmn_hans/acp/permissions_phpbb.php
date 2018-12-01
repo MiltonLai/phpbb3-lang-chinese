@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'acl_u_chgpasswd'	=> array('lang' => '可以更改密码', 'cat' => 'profile'),
 	'acl_u_chgemail'	=> array('lang' => '可以更改email地址', 'cat' => 'profile'),
 	'acl_u_chgavatar'	=> array('lang' => '可以更改头像', 'cat' => 'profile'),
-	'acl_u_chggrp'		=> array('lang' => '可以更改默认用户组', 'cat' => 'profile'),
+	'acl_u_chggrp'		=> array('lang' => '可以更改默认群组', 'cat' => 'profile'),
 
 	'acl_u_attach'		=> array('lang' => '可以发表附件', 'cat' => 'post'),
 	'acl_u_download'	=> array('lang' => '可以下载附件', 'cat' => 'post'),
@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 
 	'acl_u_sendpm'		=> array('lang' => '可以发送私人短信', 'cat' => 'pm'),
 	'acl_u_masspm'		=> array('lang' => '可以群发短信给用户', 'cat' => 'pm'),
-	'acl_u_masspm_group'=> array('lang' => '可以群发短信给用户组', 'cat' => 'pm'),
+	'acl_u_masspm_group'=> array('lang' => '可以群发短信给群组', 'cat' => 'pm'),
 	'acl_u_readpm'		=> array('lang' => '可以阅读私人短信', 'cat' => 'pm'),
 	'acl_u_pm_edit'		=> array('lang' => '可以编辑自己的私人短信', 'cat' => 'pm'),
 	'acl_u_pm_delete'	=> array('lang' => '可以删除自己的私人短信', 'cat' => 'pm'),
@@ -208,9 +208,9 @@ $lang = array_merge($lang, array(
 
 	'acl_a_user'		=> array('lang' => '可以管理用户<br /><em>这包括在在线用户列表中查看用户浏览器版本.</em>', 'cat' => 'user_group'),
 	'acl_a_userdel'		=> array('lang' => '可以删除/修剪用户', 'cat' => 'user_group'),
-	'acl_a_group'		=> array('lang' => '可以管理用户组', 'cat' => 'user_group'),
-	'acl_a_groupadd'	=> array('lang' => '可以添加新用户组', 'cat' => 'user_group'),
-	'acl_a_groupdel'	=> array('lang' => '可以删除用户组', 'cat' => 'user_group'),
+	'acl_a_group'		=> array('lang' => '可以管理群组', 'cat' => 'user_group'),
+	'acl_a_groupadd'	=> array('lang' => '可以添加新群组', 'cat' => 'user_group'),
+	'acl_a_groupdel'	=> array('lang' => '可以删除群组', 'cat' => 'user_group'),
 	'acl_a_ranks'		=> array('lang' => '可以管理等级', 'cat' => 'user_group'),
 	'acl_a_profile'		=> array('lang' => '可以管理自定义用户资料', 'cat' => 'user_group'),
 	'acl_a_names'		=> array('lang' => '可以管理禁用用户名', 'cat' => 'user_group'),

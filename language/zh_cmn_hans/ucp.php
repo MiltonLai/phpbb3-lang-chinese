@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'ADD_NEW_RULE'					=> '添加新规则',
 	'ADD_RULE'						=> '添加规则',
 	'ADD_TO'						=> '添加【收件人】',
-	'ADD_USERS_UCP_EXPLAIN'			=> '你可以在这里添加新组员. 您可以选择是否让这个组成为新组员的默认组. 多个会员请分行输入.',
+	'ADD_USERS_UCP_EXPLAIN'			=> '你可以在这里添加新组员. 您可以选择是否让这个组成为新组员的默认组. 多个用户请分行输入.',
 	'ADMIN_EMAIL'					=> '管理员可以给我发送 Email',
 	'AGREE'							=> '我同意这些条款',
 	'ALLOW_PM'						=> '允许用户给我发私人短信',
@@ -319,7 +319,7 @@ $lang = array_merge($lang, array(
 	'NO_FRIENDS'				=> '没有定义好友',
 	'NO_FRIENDS_OFFLINE'		=> '没有离线好友',
 	'NO_FRIENDS_ONLINE'			=> '没有线上好友',
-	'NO_GROUP_SELECTED'			=> '没有指定用户组',
+	'NO_GROUP_SELECTED'			=> '没有指定群组',
 	'NO_IMPORTANT_NEWS'			=> '没有重要公告',
 	'NO_MESSAGE'				=> '无法找到私人短信',
 	'NO_NEW_FOLDER_NAME'		=> '您必须指定一个新文件夹名',
@@ -455,9 +455,9 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_REG_DETAILS'	=> '编辑帐号设置',
 	'UCP_PROFILE_SIGNATURE'		=> '编辑发文签名',
 
-	'UCP_USERGROUPS'			=> '用户组',
+	'UCP_USERGROUPS'			=> '群组',
 	'UCP_USERGROUPS_MEMBER'		=> '管理成员',
-	'UCP_USERGROUPS_MANAGE'		=> '管理用户组',
+	'UCP_USERGROUPS_MANAGE'		=> '管理群组',
 
 	'UCP_REGISTER_DISABLE'			=> '暂时停止注册新用户。',
 	'UCP_REMIND'					=> '发送密码',
@@ -539,15 +539,15 @@ $lang = array_merge($lang, array(
 		'IS_FRIEND'		=> '是好友',
 		'IS_FOE'		=> '是损友',
 		'IS_USER'		=> '是用户',
-		'IS_GROUP'		=> '在用户组中',
+		'IS_GROUP'		=> '在群组中',
 		'ANSWERED'		=> '已回复的',
 		'FORWARDED'		=> '已转发的',
-		'TO_GROUP'		=> '发往我的默认用户组',
+		'TO_GROUP'		=> '发往我的默认群组',
 		'TO_ME'			=> '发给我'
 	),
 
 
-	'GROUPS_EXPLAIN'	=> '用户组设置使管理员更好的管理用户。您会处于一个默认的组中。组定义将决定您对于其他用户的显示信息，例如您的用户名颜色，头像，级别等等。你可以改变您的默认组，但是这取决于管理员的设置。您也可以被放入或加入其他组。一些用户组将会具有额外的权限访问更多的区域。',
+	'GROUPS_EXPLAIN'	=> '群组设置使管理员更好的管理用户。您会处于一个默认的组中。组定义将决定您对于其他用户的显示信息，例如您的用户名颜色，头像，级别等等。你可以改变您的默认组，但是这取决于管理员的设置。您也可以被放入或加入其他组。一些群组将会具有额外的权限访问更多的区域。',
 	'GROUP_LEADER'		=> '组领导',
 	'GROUP_MEMBER'		=> '组成员',
 	'GROUP_PENDING'		=> '待批准的成员',

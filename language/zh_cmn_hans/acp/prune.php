@@ -37,26 +37,26 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> '这里您可以将论坛中的会员删除（或者冻结）。 你可以有多种形式搜寻，然后删除。如：发帖数量和最后一次的时间等等... 这些方式可以自由组合， 如：你可以选用2001年1月1日之前发贴量少于10篇的会员来删除。 你也可以选择批量删除，只需要将会员名单放进删除栏目中即可。 此功能须小心使用！ 一旦用户被删除后将无法再恢复。',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> '这里您可以将论坛中的用户删除（或者冻结）。 你可以有多种形式搜寻，然后删除。如：发帖数量和最后一次的时间等等... 这些方式可以自由组合， 如：你可以选用2001年1月1日之前发贴量少于10篇的用户来删除。 你也可以选择批量删除，只需要将用户名单放进删除栏目中即可。 此功能须小心使用！ 一旦用户被删除后将无法再恢复。',
 
 	'DEACTIVATE_DELETE'			=> '冻结或者删除',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> '选择冻结会员或者删除会员，注：此操作无法回复！',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> '选择冻结用户或者删除用户，注：此操作无法回复！',
 	'DELETE_USERS'				=> '删除',
-	'DELETE_USER_POSTS'			=> '被删除会员所发表的帖子也删除',
-	'DELETE_USER_POSTS_EXPLAIN' => '移动被删除会员发表的帖子。若会员被冻结将不会被移动。',
+	'DELETE_USER_POSTS'			=> '被删除用户所发表的帖子也删除',
+	'DELETE_USER_POSTS_EXPLAIN' => '移动被删除用户发表的帖子。若用户被冻结将不会被移动。',
 
 	'JOINED_EXPLAIN'			=> '输入日期，使用 <kbd>YYYY-MM-DD</kbd> 格式。',
 
-	'LAST_ACTIVE_EXPLAIN'		=> '输入日起，使用<kbd>YYYY-MM-DD</kbd> 格式。输入<kbd>0000-00-00</kbd>将删除从未登入的会员, <em>Before</em> 和 <em>After</em> 条件将被忽略',
+	'LAST_ACTIVE_EXPLAIN'		=> '输入日起，使用<kbd>YYYY-MM-DD</kbd> 格式。输入<kbd>0000-00-00</kbd>将删除从未登入的用户, <em>Before</em> 和 <em>After</em> 条件将被忽略',
 
 	'PRUNE_USERS_LIST'				=> '将被裁减的用户',
 	'PRUNE_USERS_LIST_DELETE'		=> '使用选中的条件, 如下的用户帐号将被删除.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> '使用选中的条件, 如下的用户帐号将被冻结.',
 
-	'SELECT_USERS_EXPLAIN'		=> '在这里输入特定会员，他们将会用于上述的设定标准。创始人不会被删除',
+	'SELECT_USERS_EXPLAIN'		=> '在这里输入特定用户，他们将会用于上述的设定标准。创始人不会被删除',
 
-	'USER_DEACTIVATE_SUCCESS'	=> '被选择的会员已经成功冻结',
-	'USER_DELETE_SUCCESS'		=> '被选择的会员已经成功删除',
+	'USER_DEACTIVATE_SUCCESS'	=> '被选择的用户已经成功冻结',
+	'USER_DELETE_SUCCESS'		=> '被选择的用户已经成功删除',
 	'USER_PRUNE_FAILURE'		=> '没有适合条件的用户.',
 
 	'WRONG_ACTIVE_JOINED_DATE'	=> '输入的日期错误. 正确的格式是 <kbd>YYYY-MM-DD</kbd>.',

@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> '这里您可以给所有的用户或者某个<strong>已经开启了群发邮件接收选项的</strong>用户组的用户发送email。发送时, 将会往管理员的邮箱中发送, 同时也暗发(BCC)到其他收信人的邮箱。默认的设置是只包含20个收件人，收件人越多，发送的Email就越多。如果您要给很多人发送email, 当提交后请耐心等待而不要动这个页面. 一般群发需要很长一段时间, 当结束的时候会提示您',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> '这里您可以给所有的用户或者某个<strong>已经开启了群发邮件接收选项的</strong>群组的用户发送email。发送时, 将会往管理员的邮箱中发送, 同时也暗发(BCC)到其他收信人的邮箱。默认的设置是只包含20个收件人，收件人越多，发送的Email就越多。如果您要给很多人发送email, 当提交后请耐心等待而不要动这个页面. 一般群发需要很长一段时间, 当结束的时候会提示您',
 	'ALL_USERS'						=> '所有用户',
 
 	'COMPOSE'				=> '撰写',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'SEND_TO_USERS_EXPLAIN'	=> '这里输入用户名将覆盖上面选择的组. 用多行输入多个用户名.',
 	
 	'MAIL_BANNED'			=> '发送至被封禁的用户',
-	'MAIL_BANNED_EXPLAIN'	=> '当群发邮件给用户组时, 您可以在这里设定是否发送给被封禁的用户.',
+	'MAIL_BANNED_EXPLAIN'	=> '当群发邮件给群组时, 您可以在这里设定是否发送给被封禁的用户.',
 	'MAIL_HIGH_PRIORITY'	=> '高',
 	'MAIL_LOW_PRIORITY'		=> '低',
 	'MAIL_NORMAL_PRIORITY'	=> '中',
