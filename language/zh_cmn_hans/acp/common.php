@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'ACP_MANAGE_USERS'			=> '管理用户',
 	'ACP_MASS_EMAIL'			=> '群发email',
 	'ACP_MESSAGES'				=> '站内消息',
-	'ACP_MESSAGE_SETTINGS'		=> '站内消息设置',
+	'ACP_MESSAGE_SETTINGS'		=> '消息设置',
 	'ACP_MODULE_MANAGEMENT'		=> '模块管理',
 	'ACP_MOD_LOGS'				=> '版主日志',
 	'ACP_MOD_ROLES'				=> '版主角色',
@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_RANKS'					=> '等级',
 	'ACP_REASONS'				=> '举报/封禁 原因',
-	'ACP_REGISTER_SETTINGS'		=> '用户注册设置',
+	'ACP_REGISTER_SETTINGS'		=> '注册设置',
 
 	'ACP_RESTORE'				=> '恢复',
 	
@@ -190,7 +190,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> '签名档',
 	'ACP_USER_WARNINGS'				=> '警告',
 
-	'ACP_VC_SETTINGS'					=> '反垃圾验证设置',
+	'ACP_VC_SETTINGS'					=> '反垃圾设置',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA 图片预览',
 	'ACP_VERSION_CHECK'					=> '检查更新',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> '查看管理员权限',
@@ -273,7 +273,7 @@ $lang = array_merge($lang, array(
 	'RESYNC'							=> '重新同步',
 	'RETURN_TO'							=> '回到…',
 
-	'SELECT_ANONYMOUS'		=> '选择游客用户',
+	'SELECT_ANONYMOUS'		=> '选择游客',
 	'SELECT_OPTION'			=> '选择选项',
 
 	'SETTING_TOO_LOW'		=> '对设置项 “%1$s” 输入的值太小. 允许的最小值为 %2$d.',
@@ -504,7 +504,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_EMAIL'			=> '<strong>更改email设置</strong>',
 	'LOG_CONFIG_FEATURES'		=> '<strong>更改论坛功能</strong>',
 	'LOG_CONFIG_LOAD'			=> '<strong>更改负载设置</strong>',
-	'LOG_CONFIG_MESSAGE'		=> '<strong>更改站内消息设置</strong>',
+	'LOG_CONFIG_MESSAGE'		=> '<strong>更改消息设置</strong>',
 	'LOG_CONFIG_POST'			=> '<strong>更改帖子设置</strong>',
 	'LOG_CONFIG_REGISTRATION'	=> '<strong>更改用户注册设置</strong>',
 	'LOG_CONFIG_FEED'			=> '<strong>更改ATOM设置</strong>',
