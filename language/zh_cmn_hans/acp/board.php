@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_BOOKMARKS'			=> '允许主题收藏',
 	'ALLOW_BOOKMARKS_EXPLAIN'	=> '用户可以存储个人收藏夹',
 	'ALLOW_BBCODE'				=> '允许BBCode',
-	'ALLOW_FORUM_NOTIFY'		=> '允许订阅版面',
+	'ALLOW_FORUM_NOTIFY'		=> '允许关注版面',
 	'ALLOW_NAME_CHANGE'			=> '允许更改用户名',
 	'ALLOW_NO_CENSORS'			=> '允许禁用敏感词过滤',
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> '用户可以选择是否禁用帖子和消息中的敏感词自动过滤.',
@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SIG_LINKS_EXPLAIN'	=> '如果禁用 <code>[URL]</code> 标签和自动链接解析都会失效.',
 	'ALLOW_SIG_SMILIES'			=> '在用户签名档中使用表情图标',
 	'ALLOW_SMILIES'				=> '允许表情图标',
-	'ALLOW_TOPIC_NOTIFY'		=> '允许订阅主题',
+	'ALLOW_TOPIC_NOTIFY'		=> '允许关注主题',
 	'BOARD_PM'					=> '站内消息',
 	'BOARD_PM_EXPLAIN'			=> '启用所有用户的站内消息.',
 ));

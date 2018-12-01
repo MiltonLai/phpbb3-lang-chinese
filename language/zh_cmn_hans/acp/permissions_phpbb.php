@@ -161,7 +161,7 @@ $lang = array_merge($lang, array(
 	'acl_f_user_lock'	=> array('lang' => '可以锁定自己的主题', 'cat' => 'actions'),
 	'acl_f_bump'		=> array('lang' => '可以顶主题', 'cat' => 'actions'),
 	'acl_f_report'		=> array('lang' => '可以举报帖子', 'cat' => 'actions'),
-	'acl_f_subscribe'	=> array('lang' => '可以订阅版面', 'cat' => 'actions'),
+	'acl_f_subscribe'	=> array('lang' => '可以关注版面', 'cat' => 'actions'),
 	'acl_f_print'		=> array('lang' => '可以打印主题', 'cat' => 'actions'),
 	'acl_f_email'		=> array('lang' => '可以email主题', 'cat' => 'actions'),
 

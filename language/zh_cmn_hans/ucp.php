@@ -330,9 +330,9 @@ $lang = array_merge($lang, array(
 	'NO_RULES_DEFINED'			=> '没有定义的规则',
 	'NO_SAVED_DRAFTS'			=> '没有保存的草稿',
 	'NO_TO_RECIPIENT'			=> '无',
-	'NO_WATCHED_FORUMS'			=> '您没有订阅任何版面。',
-	'NO_WATCHED_SELECTED'       => '您没有选中任何已订阅的主题或版面.',
-	'NO_WATCHED_TOPICS'			=> '您没有订阅任何主题。',
+	'NO_WATCHED_FORUMS'			=> '您没有关注任何版面。',
+	'NO_WATCHED_SELECTED'       => '您没有选中任何已关注的主题或版面.',
+	'NO_WATCHED_TOPICS'			=> '您没有关注任何主题。',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'	=> '密码长度必须介于 %1$d 和 %2$d 个字符之间并且包含英文字符',
 	'PASS_TYPE_ANY_EXPLAIN'		=> '密码长度必须介于 %1$d 和 %2$d 个字符之间',
@@ -427,10 +427,10 @@ $lang = array_merge($lang, array(
 
 	'UCP_MAIN'					=> '主要信息',
 	'UCP_MAIN_ATTACHMENTS'		=> '管理附件',
-	'UCP_MAIN_BOOKMARKS'		=> '管理收藏夹',
+	'UCP_MAIN_BOOKMARKS'		=> '管理收藏',
 	'UCP_MAIN_DRAFTS'			=> '管理草稿',
 	'UCP_MAIN_FRONT'			=> '首页',
-	'UCP_MAIN_SUBSCRIBED'		=> '管理订阅',
+	'UCP_MAIN_SUBSCRIBED'		=> '管理关注',
 
 	'UCP_MSNM'					=> 'WL/MSN Messenger',
 	'UCP_NO_ATTACHMENTS'		=> '您没有发表的附件',
@@ -462,7 +462,7 @@ $lang = array_merge($lang, array(
 	'UCP_REGISTER_DISABLE'			=> '暂时停止注册新用户。',
 	'UCP_REMIND'					=> '发送密码',
 	'UCP_RESEND'					=> '发送激活邮件',
-	'UCP_WELCOME'					=> '欢迎来到用户控制面板。这里您可以监视，查看和更新您的资料，参数，订阅版面和主题。您还可以给其他用户发送消息 (如果允许)。在继续下一步操作前请确认您已经仔细阅读了所有的公告。',
+	'UCP_WELCOME'					=> '欢迎来到用户控制面板。这里您可以查看和更新您的资料，参数，关注版面和主题。您还可以给其他用户发送消息 (如果允许)。在继续下一步操作前请确认您已经仔细阅读了所有的公告。',
 	'UCP_YIM'						=> 'Yahoo Messenger',
 	'UCP_ZEBRA'						=> '好友与黑名单',
 	'UCP_ZEBRA_FOES'				=> '管理黑名单',
@@ -504,7 +504,7 @@ $lang = array_merge($lang, array(
 	'VIEW_POSTS_DIR'			=> '显示帖子排列方向',
 	'VIEW_POSTS_KEY'			=> '显示帖子排列依据',
 
-	'WATCHED_EXPLAIN'			=> '以下是您订阅的版面和主题列表。您将收到它们的更新信息。退订: 选中版面或主题后点击 <em>退订选中</em> 按钮。',
+	'WATCHED_EXPLAIN'			=> '以下是您关注的版面和主题列表。您将收到它们的更新信息。退订: 选中版面或主题后点击 <em>退订选中</em> 按钮。',
 	'WATCHED_FORUMS'			=> '观察的版面',
 	'WATCHED_TOPICS'			=> '观察的主题',
 	'WRONG_ACTIVATION'			=> '您提供的激活码在数据库中找不到匹配的记录',
