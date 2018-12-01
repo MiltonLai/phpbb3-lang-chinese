@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ALREADY_DEFAULT_GROUP'	=> '所选群组是您的默认群组',
 	'ALREADY_IN_GROUP'		=> '您已经是这个群组的成员了',
-	'ALREADY_IN_GROUP_PENDING'	=> '您已经申请加入指定的组了.',
+	'ALREADY_IN_GROUP_PENDING'	=> '您已经申请加入指定的群组了.',
 
 	'CANNOT_JOIN_GROUP'			=> '您不能加入这个群组. 您只能加入自由开放的群组.',
 	'CANNOT_RESIGN_GROUP'		=> '您不能退出这个群组. 您只能退出自由开放的群组.',
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DESC'						=> '群组描述',
 	'GROUP_HIDDEN'						=> '隐藏',
 	'GROUP_INFORMATION'					=> '群组信息',
-	'GROUP_IS_CLOSED'					=> '这是一个封闭的群组，新成员不能自由加入，只能由组领导者邀请加入。',
+	'GROUP_IS_CLOSED'					=> '这是一个封闭的群组，新成员不能自由加入，只能由组长邀请加入。',
 	'GROUP_IS_FREE'						=> '这是一个自由开放的群组，欢迎任何新成员。',
 	'GROUP_IS_HIDDEN'					=> '这是一个隐藏的群组，只允许组内成员查看。',
 	'GROUP_IS_OPEN'						=> '这是一个开放的群组，用户可以申请加入。',
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'GROUP_JOIN_PENDING'				=> '申请加入群组',
 	'GROUP_JOIN_PENDING_CONFIRM'		=> '您确定要申请加入选中的群组吗？',
 	'GROUP_JOINED'						=> '您已成功加入此群组',
-	'GROUP_JOINED_PENDING'				=> '申请已经提交。请等待群组领导者批复。',
+	'GROUP_JOINED_PENDING'				=> '申请已经提交。请等待群组组长批复。',
 	'GROUP_LIST'						=> '管理用户',
 	'GROUP_MEMBERS'						=> '群组成员',
 	'GROUP_NAME'						=> '群组名称',

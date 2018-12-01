@@ -66,9 +66,9 @@ $lang = array_merge($lang, array(
 	'ENABLE_POST_REVIEW'			=> '允许预览帖子',
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> '如果设置为是, 当用户在编写帖子时有新的帖子发布, 用户可以预览他们的帖子. 这在交谈版面中应该禁用.',
 	'ENABLE_QUICK_REPLY'			=> '启用快速回复',
-	'ENABLE_QUICK_REPLY_EXPLAIN'	=> '启用后用户在这个版面可以通过快速回复来回复文章. 如果全局设定中停用了快速回复, 这里的选项将不起作用.',
+	'ENABLE_QUICK_REPLY_EXPLAIN'	=> '启用后用户在这个版面可以通过快速回复来回复帖子. 如果全局设定中停用了快速回复, 这里的选项将不起作用.',
 	'ENABLE_RECENT'					=> '显示活跃帖子',
-	'ENABLE_RECENT_EXPLAIN'			=> '如果设置为是, 这个版面的话题将显示在活跃帖子列表中.',
+	'ENABLE_RECENT_EXPLAIN'			=> '如果设置为是, 这个版面的主题将显示在活跃帖子列表中.',
 	'ENABLE_TOPIC_ICONS'			=> '允许主题图标',
 
 	'FORUM_ADMIN'						=> '版面管理',
@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'FORUM_DATA_NEGATIVE'				=> '裁减参数不能为负.',
 	'FORUM_DESC_TOO_LONG'				=> '版面描述太长, 不能超过4000字符.',
 	'FORUM_DELETE'						=> '删除版面',
-	'FORUM_DELETE_EXPLAIN'				=> '下面的表单允许您删除一个版面. 如果这个版面可以发表文章, 您可以决定如何处置这个版面中的子版面和文章.',
+	'FORUM_DELETE_EXPLAIN'				=> '下面的表单允许您删除一个版面. 如果这个版面可以发表帖子, 您可以决定如何处置这个版面中的子版面和帖子.',
 	'FORUM_DELETED'						=> '版面删除完成.',
 	'FORUM_DESC'						=> '描述',
 	'FORUM_DESC_EXPLAIN'				=> '任何这里的文字都会原样显示.',
@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 	'LIST_SUBFORUMS_EXPLAIN'	=> '如果启用此选项, 就会在首页或其他页面的图例中显示子版面的链接.',
 	'LOCKED'				=> '锁定',
 
-	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> '您选中移动的目标版面不可发表文章. 请选择其他的版面.',
+	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> '您选中移动的目标版面不可发表帖子. 请选择其他的版面.',
 	'MOVE_POSTS_TO'		=> '移动帖子到',
 	'MOVE_SUBFORUMS_TO'	=> '移动子版面到',
 

@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH'							=> '启用检索功能',
 	'YES_SEARCH_EXPLAIN'					=> '允许用户使用搜索功能, 包括用户搜索.',
 	'YES_SEARCH_UPDATE'						=> '启用全文更新',
-	'YES_SEARCH_UPDATE_EXPLAIN'				=> '当文章发表时更新全文索引, 如果禁用检索这个功能将停用.',
+	'YES_SEARCH_UPDATE_EXPLAIN'				=> '当帖子发表时更新全文索引, 如果禁用检索这个功能将停用.',
 ));
 
 ?>

@@ -47,12 +47,12 @@ $lang = array_merge($lang, array(
 	'HELP_FILES'				=> '帮助文件',
 
 	'INSTALLED_LANGUAGE_PACKS'	=> '已安装的语言包',
-	'INVALID_LANGUAGE_PACK'		=> '选中的语言包无效. 请校验语言包并重新上载.',
-	'INVALID_UPLOAD_METHOD'		=> '选中的上载方式无效, 请选择其他方式.',
+	'INVALID_LANGUAGE_PACK'		=> '选中的语言包无效. 请校验语言包并重新上传.',
+	'INVALID_UPLOAD_METHOD'		=> '选中的上传方式无效, 请选择其他方式.',
 
 	'LANGUAGE_DETAILS_UPDATED'			=> '语言细节更新完成.',
 	'LANGUAGE_ENTRIES'					=> '语言条目',
-	'LANGUAGE_ENTRIES_EXPLAIN'			=> '这里您可以改变现有的语言包或尚未翻译的条目.<br /><strong>注意:</strong> 一旦您更改语言文件, 改动将存储在一个单独的文件夹中用于下载. 变化对于用户是不可见的, 除非您上载覆盖原来的语言文件.',
+	'LANGUAGE_ENTRIES_EXPLAIN'			=> '这里您可以改变现有的语言包或尚未翻译的条目.<br /><strong>注意:</strong> 一旦您更改语言文件, 改动将存储在一个单独的文件夹中用于下载. 变化对于用户是不可见的, 除非您上传覆盖原来的语言文件.',
 	'LANGUAGE_FILES'					=> '语言文件',
 	'LANGUAGE_KEY'						=> '语言字键',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> '这个语言包已经安装过了.',
@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 
 	'SELECT_DOWNLOAD_FORMAT'	=> '选择下载格式',
 	'SUBMIT_AND_DOWNLOAD'		=> '提交并下载文件',
-	'SUBMIT_AND_UPLOAD'			=> '提交并上载文件',
+	'SUBMIT_AND_UPLOAD'			=> '提交并上传文件',
 
 	'THOSE_MISSING_LANG_FILES'			=> '位于 %s 语言文件夹中的语言文件缺少如下文件',
 	'THOSE_MISSING_LANG_VARIABLES'		=> '在 <strong>%s</strong> 语言包中缺少如下语言变量',
@@ -92,10 +92,10 @@ $lang = array_merge($lang, array(
 	'UNINSTALLED_LANGUAGE_PACKS'	=> '未安装的语言包',
 
 	'UNABLE_TO_WRITE_FILE'		=> '文件无法写入 %s.',
-	'UPLOAD_COMPLETED'			=> '上载完成.',
-	'UPLOAD_FAILED'				=> '上载因为未知的原因失败. 您可能需要手动替换相关文件.',
-	'UPLOAD_METHOD'				=> '上载方式',
-	'UPLOAD_SETTINGS'			=> '上载设定',
+	'UPLOAD_COMPLETED'			=> '上传完成.',
+	'UPLOAD_FAILED'				=> '上传因为未知的原因失败. 您可能需要手动替换相关文件.',
+	'UPLOAD_METHOD'				=> '上传方式',
+	'UPLOAD_SETTINGS'			=> '上传设定',
 
 	'WRONG_LANGUAGE_FILE'		=> '选中的语言包无效.',
 ));

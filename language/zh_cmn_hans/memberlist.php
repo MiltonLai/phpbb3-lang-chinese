@@ -38,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> '其它相关',
 	'ACTIVE_IN_FORUM'		=> '活跃于版面',
-	'ACTIVE_IN_TOPIC'		=> '活跃于话题',
-	'ADD_FOE'				=> '添加坏蛋',
+	'ACTIVE_IN_TOPIC'		=> '活跃于主题',
+	'ADD_FOE'				=> '拉黑',
 	'ADD_FRIEND'			=> '添加好友',
 	'AFTER'					=> '后于',
 
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'FIND_USERNAME_EXPLAIN'	=> '用这个表单查找特定的成员。您不必填写所有的表格。匹配部分字符可以使用 * 作为通配符。当输入日期时请使用格式 <kbd>YYYY-MM-DD</kbd>，e.g. <samp>2004-02-29</samp>。使用多选框选择一个或多个用户名（是否接受多个用户名取决于表单本身）并点击选择选中的按钮回到原先的表单。',
 	'FLOOD_EMAIL_LIMIT'		=> '您现在不能再次发送 Email。请稍后再试。',
 
-	'GROUP_LEADER'			=> '组领导者',
+	'GROUP_LEADER'			=> '组长',
 
 	'HIDE_MEMBER_SEARCH'	=> '隐藏用户搜索',
 
@@ -108,11 +108,11 @@ $lang = array_merge($lang, array(
 	'ORDER'					=> '顺序',
 	'OTHER'					=> '其他',
 
-	'POST_IP'				=> '发文 IP/域名',
+	'POST_IP'				=> '发帖 IP/域名',
 
 	'REAL_NAME'				=> '收信人名',
 	'RECIPIENT'				=> '收信人',
-	'REMOVE_FOE'			=> '删除坏蛋',
+	'REMOVE_FOE'			=> '取消拉黑',
 	'REMOVE_FRIEND'			=> '删除好友',
 
 	'SELECT_MARKED'			=> '选择已标记',
@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 	'SEND_YIM_MESSAGE'		=> '发送 YIM 消息',
 	'SORT_EMAIL'			=> 'Email',
 	'SORT_LAST_ACTIVE'		=> '最后活动',
-	'SORT_POST_COUNT'		=> '发贴总数',
+	'SORT_POST_COUNT'		=> '发帖总数',
 
 	'USERNAME_BEGINS_WITH'	=> '用户名首字母 ',
 	'USER_ADMIN'			=> '管理用户',

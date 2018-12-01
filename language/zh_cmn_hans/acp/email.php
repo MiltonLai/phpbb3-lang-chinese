@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'SEND_IMMEDIATELY'		=> '立即发送',
 	'SEND_TO_GROUP'			=> '发送到组',
 	'SEND_TO_USERS'			=> '发送到用户',
-	'SEND_TO_USERS_EXPLAIN'	=> '这里输入用户名将覆盖上面选择的组. 用多行输入多个用户名.',
+	'SEND_TO_USERS_EXPLAIN'	=> '这里输入用户名将覆盖上面选择的群组. 用多行输入多个用户名.',
 	
 	'MAIL_BANNED'			=> '发送至被封禁的用户',
 	'MAIL_BANNED_EXPLAIN'	=> '当群发邮件给群组时, 您可以在这里设定是否发送给被封禁的用户.',

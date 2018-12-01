@@ -52,9 +52,9 @@ $lang = array_merge($lang, array(
 
 	'JUMP_TO_POST'			=> '跳到帖子',
 	
-	'LOGIN_EXPLAIN_EGOSEARCH'	=> '您需要登录后才能查看您的文章.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> '您需要登录后才能查看未读文章.',
-	'LOGIN_EXPLAIN_NEWPOSTS'	=> '您需要登录后才能查看上次登录后产生的新文章.',
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> '您需要登录后才能查看您的帖子.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> '您需要登录后才能查看未读帖子.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> '您需要登录后才能查看上次登录后产生的新帖子.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'   => '您输入了过多的搜索关键词. 允许的最多搜索词为 %1$d 个.',
 
@@ -63,9 +63,9 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH'				=> '对不起您不能使用搜索系统。',
 	'NO_SEARCH_RESULTS'		=> '没有搜索到符合的结果。',
 	'NO_SEARCH_TIME'		=> '对不起您暂时不能使用搜索功能，请过几分钟后再试。',
-	'NO_SEARCH_UNREADS'     => '对不起论坛禁止了对未读文章的搜索.',
-	'WORD_IN_NO_POST'		=> '没有搜索到任何结果，因为 <strong>%s</strong> 不在任何文章内。',
-	'WORDS_IN_NO_POST'		=> '没有搜索到任何结果，因为 <strong>%s</strong> 不在任何文章内。',
+	'NO_SEARCH_UNREADS'     => '对不起论坛禁止了对未读帖子的搜索.',
+	'WORD_IN_NO_POST'		=> '没有搜索到任何结果，因为 <strong>%s</strong> 不在任何帖子内。',
+	'WORDS_IN_NO_POST'		=> '没有搜索到任何结果，因为 <strong>%s</strong> 不在任何帖子内。',
 
 	'POST_CHARACTERS'		=> '个字符',
 
@@ -87,18 +87,18 @@ $lang = array_merge($lang, array(
 	'SEARCH_FORUMS_EXPLAIN'		=> '选择您想搜索的版面。如果您没有关闭“搜索子版面”选项，选中版面的子版面也会被一并搜索。',
 	'SEARCH_IN_RESULTS'			=> '搜索这些结果',
 	'SEARCH_KEYWORDS_EXPLAIN'	=> '在必须存在的搜索词前放置 <strong>+</strong> 号，在必须不存在的搜索词前面放置 <strong>-</strong> 号。如果一系列搜索词中只需要出现一个，在括号中间放置搜索词列表，词与词间用 <strong>|</strong> 隔开。使用 * 作为通配符。',
-	'SEARCH_MSG_ONLY'			=> '只搜索文章内容',
+	'SEARCH_MSG_ONLY'			=> '只搜索帖子内容',
 	'SEARCH_OPTIONS'			=> '搜索选项',
-	'SEARCH_QUERY'				=> '搜索文章',
+	'SEARCH_QUERY'				=> '搜索帖子',
 	'SEARCH_SUBFORUMS'			=> '搜索子版面',
-	'SEARCH_TITLE_MSG'			=> '搜索文章标题和内容',
-	'SEARCH_TITLE_ONLY'			=> '只搜索文章标题',
+	'SEARCH_TITLE_MSG'			=> '搜索帖子标题和内容',
+	'SEARCH_TITLE_ONLY'			=> '只搜索帖子标题',
 	'SEARCH_WITHIN'				=> '搜索范围',
 	'SORT_ASCENDING'			=> '升序',
 	'SORT_AUTHOR'				=> '作者',
 	'SORT_DESCENDING'			=> '降序',
 	'SORT_FORUM'				=> '版面',
-	'SORT_POST_SUBJECT'			=> '文章标题',
+	'SORT_POST_SUBJECT'			=> '帖子标题',
 	'SORT_TIME'					=> '发表时间',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> '您必须提供至少 %d 个字符来匹配作者名字。',

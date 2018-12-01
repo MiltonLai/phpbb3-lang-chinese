@@ -52,13 +52,13 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> '有新帖[锁定]',	// Not used anymore
 	'NO_NEW_POSTS_HOT'		=> '无新帖[活跃]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> '无新帖[锁定]',	// Not used anymore
-	'NO_READ_ACCESS'		=> '您没有阅读本版面文章的权限。',
+	'NO_READ_ACCESS'		=> '您没有阅读本版面帖子的权限。',
 	'NO_UNREAD_POSTS_HOT'      => '无新帖 [ 活跃 ]',
 	'NO_UNREAD_POSTS_LOCKED'   => '无新帖 [ 锁定 ]',
 
 	'POST_FORUM_LOCKED'		=> '版面被锁定',
 
-	'TOPICS_MARKED'			=> '这个版面的文章现在被标记为已读',
+	'TOPICS_MARKED'			=> '这个版面的帖子现在被标记为已读',
 	
 	'UNREAD_POSTS_HOT'      => '有新帖 [ 活跃 ]',
 	'UNREAD_POSTS_LOCKED'   => '有新帖 [ 锁定 ]',

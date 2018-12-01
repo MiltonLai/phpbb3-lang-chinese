@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_SETTINGS_VERIFIED'	=> '您输入的信息已经被校验，要开始转换，请点击下面的按钮。',
 	'CONV_ERR_FATAL'					=> '严重错误',
 
-	'CONV_ERROR_ATTACH_FTP_DIR'			=> '原论坛允许附件使用FTP上载，请禁用FTP上载并确认设定了有效的上载目录，所有附件将被拷贝到这个新的web可访问的目录。这些完成后，请重新开始转换程序。',
+	'CONV_ERROR_ATTACH_FTP_DIR'			=> '原论坛允许附件使用FTP上传，请禁用FTP上传并确认设定了有效的上传目录，所有附件将被拷贝到这个新的web可访问的目录。这些完成后，请重新开始转换程序。',
 	'CONV_ERROR_CONFIG_EMPTY'			=> '转换程序没有可用的配置信息。',
 	'CONV_ERROR_FORUM_ACCESS'			=> '无法得到版面的访问信息.',
 	'CONV_ERROR_GET_CATEGORIES'			=> '无法得到分区信息.',
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_NO_SMILIES_PATH'		=> '开发者注意: 您必须指定 $convertor[\'smilies_path\'] 以使用 %s.',
 	'CONV_ERROR_NO_UPLOAD_DIR'			=> '开发者注意: 您必须指定 $convertor[\'upload_path\'] 以使用 %s.',
 	'CONV_ERROR_PERM_SETTING'			=> '无法添加/更改权限设置.',
-	'CONV_ERROR_PM_COUNT'				=> '无法选择站内短信数量.',
+	'CONV_ERROR_PM_COUNT'				=> '无法选择站内消息数量.',
 	'CONV_ERROR_REPLACE_CATEGORY'		=> '无法在新论坛中替换旧分区.',
 	'CONV_ERROR_REPLACE_FORUM'			=> '无法在新论坛中替换旧版面.',
 	'CONV_ERROR_USER_ACCESS'			=> '无法得到用户权限信息.',
@@ -174,7 +174,7 @@ $lang = array_merge($lang, array(
 	
 	'FINAL_STEP'				=> '正在执行最后一步',
 	'FORUM_ADDRESS'				=> '论坛地址',
-	'FORUM_ADDRESS_EXPLAIN'		=> '这是指向您的论坛根目录的超链接地址，例如：<samp>http://www.example.com/phpBB2/</samp>。如果您填入了一个地址，所有在信件、短信及签名档中与前面示例相同的地址都将被替换为新的论坛地址。',
+	'FORUM_ADDRESS_EXPLAIN'		=> '这是指向您的论坛根目录的超链接地址，例如：<samp>http://www.example.com/phpBB2/</samp>。如果您填入了一个地址，所有在信件、消息及签名档中与前面示例相同的地址都将被替换为新的论坛地址。',
 	'FORUM_PATH'				=> '论坛路径',
 	'FORUM_PATH_EXPLAIN'		=> '这是在磁盘上对应于您<strong>现在的phpBB3根目录</strong>的原论坛 <strong>相对</strong> 路径',
 	'FOUND'						=> '存在',
@@ -405,7 +405,7 @@ $lang = array_merge($lang, array(
 	'DIFF_SEP_EXPLAIN'					=> '新文件或已更新文件使用的代码段',
 	'DIFF_SIDE_BY_SIDE'					=> '对齐',
 	'DIFF_UNIFIED'						=> '标准对比',
-	'DO_NOT_UPDATE'						=> '不要上载这个文件',
+	'DO_NOT_UPDATE'						=> '不要上传这个文件',
 	'DONE'								=> '完成',
 	'DOWNLOAD'							=> '下载',
 	'DOWNLOAD_AS'						=> '下载为',
@@ -413,7 +413,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_CONFLICTS'            => '下载此文件的冲突部分',
 	'DOWNLOAD_CONFLICTS_EXPLAIN'      => '查找 &lt;&lt;&lt; 标出冲突',
 	'DOWNLOAD_UPDATE_METHOD'			=> '下载已修改的文档',
-	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> '当您下载并解压缩档案后, 您需要上载安装包内的文件到phpBB安装目录。请上传文件到各个正确位置。当你完成所有文件的上传后，请用下面的按钮做文件检查。',
+	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> '当您下载并解压缩文件后, 您需要上传安装包内的文件到phpBB安装目录。请上传文件到各个正确位置。当你完成所有文件的上传后，请用下面的按钮做文件检查。',
 
 	'ERROR'			=> '错误',
 	'EDIT_USERNAME'	=> '编辑用户名',
@@ -434,10 +434,10 @@ $lang = array_merge($lang, array(
 	'FILES_UP_TO_DATE'				=> '已经升级的文件',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> '以下的文件已经是最新的, 不需要升级.',
 	'FTP_SETTINGS'					=> 'FTP 设定',
-	'FTP_UPDATE_METHOD'				=> 'FTP 上载',
+	'FTP_UPDATE_METHOD'				=> 'FTP 上传',
 
 	'INCOMPATIBLE_UPDATE_FILES'		=> '找到的升级文件不适用于您当前的版本. 您的安装版本是 %1$s 而升级文件是用于升级 phpBB %2$s 到 %3$s.',
-	'INCOMPLETE_UPDATE_FILES'		=> '上载的文件不完全',
+	'INCOMPLETE_UPDATE_FILES'		=> '上传的文件不完全',
 	'INLINE_UPDATE_SUCCESSFUL'		=> '数据库升级成功. 现在您需要继续升级过程.',
 
 	'KEEP_OLD_NAME'		=> '保留用户名',
@@ -450,7 +450,7 @@ $lang = array_merge($lang, array(
 	'LINE_UNMODIFIED'		=> '未修改',
 	'LOGIN_UPDATE_EXPLAIN'	=> '您必须登录后才能升级您的论坛.',
 
-	'MAPPING_FILE_STRUCTURE'	=> '为了方便上载, 这里有安装文件位置的对应表.',
+	'MAPPING_FILE_STRUCTURE'	=> '为了方便上传, 这里有安装文件位置的对应表.',
 
 	'MERGE_MODIFICATIONS_OPTION'	=> '合并更改',
 
@@ -468,7 +468,7 @@ $lang = array_merge($lang, array(
 	'NO_ERRORS'						=> '没有错误',
 	'NO_UPDATE_FILES'				=> '不要升级以下文件',
 	'NO_UPDATE_FILES_EXPLAIN'		=> '以下的文件有更新或者修改过的版本, 但是在您的安装的目录中找到。如果列表中包含了除了language/或者styles/ 目录以外的文件，可能您曾经修改过目录结构，升级程序可能没有执行完全。',
-	'NO_UPDATE_FILES_OUTDATED'		=> '没有发现有效的更新目录，请确认上载了相关的升级文件。<br /><br />您的安装似乎Your installation does <strong>不是</strong> 最新版本。版本 %1$s 的phpBB的更新程序已经提供下载，请访问 <a href="https://www.phpbb.com/downloads.php" rel="external">https://www.phpbb.com/downloads.php</a> 获得正确的从版本%2$s 到版本%3$s 升级文件。',
+	'NO_UPDATE_FILES_OUTDATED'		=> '没有发现有效的更新目录，请确认上传了相关的升级文件。<br /><br />您的安装似乎Your installation does <strong>不是</strong> 最新版本。版本 %1$s 的phpBB的更新程序已经提供下载，请访问 <a href="https://www.phpbb.com/downloads.php" rel="external">https://www.phpbb.com/downloads.php</a> 获得正确的从版本%2$s 到版本%3$s 升级文件。',
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> '您的版本已经是最新版本。没有必要进行升级。如果您希望做一个完全的文件检查, 请确信您上传了正确的更新文件。',
 	'NO_UPDATE_INFO'				=> '无法找到升级文件信息.',
 	'NO_UPDATES_REQUIRED'			=> '不需要升级',
@@ -522,7 +522,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_FILES'					=> '升级文件',
 	'UPDATE_FILES_NOTICE'			=> '请确认您已经升级了论坛文件, 这个文件仅用于升级您的论坛数据库.',
 	'UPDATE_INSTALLATION'			=> '升级安装',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> '本选项将升级您的phpBB安装到最新版本。<br />在升级处理期间所有的文件都将被检查是否完整。您可以查看文件和升级前的变化。<br /><br />文件自动升级的途径有两条。</p><h2>手动升级</h2><p>这个选项, 您只需要下载有改动的文件以确保不会丢失你对其他文件的修改。下载后将文件上载到phpBB目录的相应位置。之后，您可以再次进行文件检查，检查是否将文件放到了正确的位置。</p><h2>通过FTP自动升级</h2><p>这个方法和第一个类似，但是不需要下载有变动的文件和手动上传它们。系统将为你自动做这个工作。用这个方法进行升级您需要知道您的FTP登录的详细信息。 一旦完成设置，系统将重新定向到文件检查功能完成系统升级。.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> '本选项将升级您的phpBB安装到最新版本。<br />在升级处理期间所有的文件都将被检查是否完整。您可以查看文件和升级前的变化。<br /><br />文件自动升级的途径有两条。</p><h2>手动升级</h2><p>这个选项, 您只需要下载有改动的文件以确保不会丢失你对其他文件的修改。下载后将文件上传到phpBB目录的相应位置。之后，您可以再次进行文件检查，检查是否将文件放到了正确的位置。</p><h2>通过FTP自动升级</h2><p>这个方法和第一个类似，但是不需要下载有变动的文件和手动上传它们。系统将为你自动做这个工作。用这个方法进行升级您需要知道您的FTP登录的详细信息。 一旦完成设置，系统将重新定向到文件检查功能完成系统升级。.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>发行公告</h1>
@@ -541,7 +541,7 @@ $lang = array_merge($lang, array(
 			<li>上传解压完成的文件到您的phpBB安装的根目录（即config.php文件所在目录）。<br /><br /></li>
 		</ul>
 
-		<p>上载install目录后您的论坛将阻止普通用户的访问。<br /><br />
+		<p>上传install目录后您的论坛将阻止普通用户的访问。<br /><br />
 		<strong><a href="%2$s" title="%2$s">现在输入install地址开始更新程序</a>。</strong><br />
 		<br />
 		按向导完成开始更新。完成后更新程序将给您发送一个通知。
@@ -554,7 +554,7 @@ $lang = array_merge($lang, array(
 		<p>phpBB 检测到一个未完成的自动升级. 请确认您按照自动升级程序的提示依次执行了每一个步骤. 您可以在下面再次看到链接, 或者直接前往您的安装目录.</p>
 	',
 	'UPDATE_METHOD'					=> '升级方式',
-	'UPDATE_METHOD_EXPLAIN'			=> '你可以选择合适的上载方式。使用FTP上载你需要提供FTP帐号的详细信息。 使用这种方法文件将自动移动到对应目录并且通过在原文件后添加.bak扩展名的方式备份原来的文件 。如果你选择下载修改的文件则你要解压缩包后手动的上载文件到相应的目录。',
+	'UPDATE_METHOD_EXPLAIN'			=> '你可以选择合适的上传方式。使用FTP上传你需要提供FTP帐号的详细信息。 使用这种方法文件将自动移动到对应目录并且通过在原文件后添加.bak扩展名的方式备份原来的文件 。如果你选择下载修改的文件则你要解压缩包后手动的上传文件到相应的目录。',
 	'UPDATE_REQUIRES_FILE'			=> '升级程序需要如下文件: %s',
 	'UPDATE_SUCCESS'				=> '更新完成',
 	'UPDATE_SUCCESS_EXPLAIN'		=> '成功更新所有文件. 下一步将重新校验所有文件以确保文件被正确升级.',
@@ -563,7 +563,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_TO_LATEST_STABLE'		=> '更新数据库至最新的稳定版本',
 	'UPDATED_VERSION'				=> '已更新的版本',
 	'UPGRADE_INSTRUCTIONS'         => '新的版本 <strong>%1$s</strong> 已经发布. 请阅读 <a href="%2$s" title="%2$s"><strong>发布公告</strong></a> 获取更多信息以及升级途径.',
-	'UPLOAD_METHOD'					=> '上载方式',
+	'UPLOAD_METHOD'					=> '上传方式',
 
 	'UPDATE_DB_SUCCESS'				=> '数据库更新完成',
 	'USER_ACTIVE'					=> '已激活用户',
@@ -597,7 +597,7 @@ $lang = array_merge($lang, array(
 	'RANKS_SITE_ADMIN_TITLE'		=> '网站管理员',
 	'REPORT_WAREZ'					=> '帖子包含非法或盗版的软件.',
 	'REPORT_SPAM'					=> '被举报的帖子唯一的目的就是为网站或某些产品做广告.',
-	'REPORT_OFF_TOPIC'				=> '被举报的是跑题文章.',
+	'REPORT_OFF_TOPIC'				=> '被举报的是无关主题.',
 	'REPORT_OTHER'					=> '举报的原因不符合列举的条目, 请输入进一步描述.',
 
 	'SMILIES_ARROW'					=> '箭头',
