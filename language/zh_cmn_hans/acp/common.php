@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS'	=> '附件设置',
 	'ACP_AUTH_SETTINGS'			=> '认证设置',
 	'ACP_AUTOMATION'			=> '自动操作',
-	'ACP_AVATAR_SETTINGS'		=> '头像设定',
+	'ACP_AVATAR_SETTINGS'		=> '头像设置',
 
 	'ACP_BACKUP'				=> '备份',
 	'ACP_BAN'					=> '封禁',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_CONFIGURATION'	=> '论坛配置',
 	'ACP_BOARD_FEATURES'		=> '论坛功能',
 	'ACP_BOARD_MANAGEMENT'		=> '论坛管理',
-	'ACP_BOARD_SETTINGS'		=> '论坛设定',
+	'ACP_BOARD_SETTINGS'		=> '论坛设置',
 	'ACP_BOTS'					=> '爬虫/机器人',
 
 	'ACP_CAPTCHA'				=> '验证图片',
@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERGROUP'			=> '用户和组',
 	'ACP_CAT_USERS'				=> '用户',
 	'ACP_CLIENT_COMMUNICATION'	=> '客户端通信',
-	'ACP_COOKIE_SETTINGS'		=> 'Cookie设定',
+	'ACP_COOKIE_SETTINGS'		=> 'Cookie设置',
     'ACP_CONTACT'				=> '联系页',
     'ACP_CONTACT_SETTINGS'		=> '联系页设置',
 	'ACP_CRITICAL_LOGS'			=> '错误日志',
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW'				=> '禁止',
 	'ACP_DISALLOW_USERNAMES'	=> '禁止注册的用户名',
 
-	'ACP_EMAIL_SETTINGS'		=> 'Email设定',
+	'ACP_EMAIL_SETTINGS'		=> 'Email设置',
 	'ACP_EXTENSION_GROUPS'		=> '管理附件扩展名组',
     'ACP_EXTENSION_MANAGEMENT'	=> '扩展管理',
     'ACP_EXTENSIONS'			=> '管理扩展',
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_PERMISSIONS_COPY'	=> '复制版面权限',
 	'ACP_FORUM_ROLES'				=> '版面角色',
 
-	'ACP_GENERAL_CONFIGURATION'		=> '综合设定',
+	'ACP_GENERAL_CONFIGURATION'		=> '综合设置',
 	'ACP_GENERAL_TASKS'				=> '一般任务',
 	'ACP_GLOBAL_MODERATORS'			=> '全局版主',
 	'ACP_GLOBAL_PERMISSIONS'		=> '全局权限',
@@ -106,21 +106,21 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> '群组权限',
     'ACP_GROUPS_POSITION'			=> '管理群组位置',
 
-    'ACP_HELP_PHPBB'			=> '帮助支持phpBB',
+    'ACP_HELP_PHPBB'			=> '支持phpBB',
 
 	'ACP_ICONS'					=> '主题图标',
 	'ACP_ICONS_SMILIES'			=> '主题图标/表情',
 	'ACP_INACTIVE_USERS'		=> '冻结的用户',
-	'ACP_INDEX'					=> '管理员控制面板首页',
+	'ACP_INDEX'					=> '管理后台首页',
 
-	'ACP_JABBER_SETTINGS'		=> 'Jabber设定',
+	'ACP_JABBER_SETTINGS'		=> 'Jabber设置',
 
 	'ACP_LANGUAGE'				=> '语言管理',
 	'ACP_LANGUAGE_PACKS'		=> '语言包',
-	'ACP_LOAD_SETTINGS'			=> '负载设定',
+	'ACP_LOAD_SETTINGS'			=> '负载设置',
 	'ACP_LOGGING'				=> '记录',
 
-	'ACP_MAIN'					=> '管理员控制面板首页',
+	'ACP_MAIN'					=> '管理后台首页',
 
     'ACP_MANAGE_ATTACHMENTS'			=> '管理附件',
     'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> '这里您可以列出和删除帖子和站内消息中带的附件。',
@@ -132,7 +132,7 @@ $lang = array_merge($lang, array(
 	'ACP_MANAGE_USERS'			=> '管理用户',
 	'ACP_MASS_EMAIL'			=> '群发Email',
 	'ACP_MESSAGES'				=> '站内消息',
-	'ACP_MESSAGE_SETTINGS'		=> '站内消息设定',
+	'ACP_MESSAGE_SETTINGS'		=> '消息设置',
 	'ACP_MODULE_MANAGEMENT'		=> '模块管理',
 	'ACP_MOD_LOGS'				=> '版主日志',
 	'ACP_MOD_ROLES'				=> '版主角色',
@@ -146,30 +146,30 @@ $lang = array_merge($lang, array(
 	'ACP_PERMISSION_ROLES'		=> '权限角色',
 	'ACP_PERMISSION_TRACE'		=> '权限跟踪',
 	'ACP_PHP_INFO'				=> 'PHP 信息',
-	'ACP_POST_SETTINGS'			=> '帖子设定',
-	'ACP_PRUNE_FORUMS'			=> '裁减版面',
-	'ACP_PRUNE_USERS'			=> '裁减用户',
-	'ACP_PRUNING'				=> '裁减',
+	'ACP_POST_SETTINGS'			=> '帖子设置',
+	'ACP_PRUNE_FORUMS'			=> '清理版面',
+	'ACP_PRUNE_USERS'			=> '清理用户',
+	'ACP_PRUNING'				=> '清理',
 
 	'ACP_QUICK_ACCESS'			=> '快速访问',
 
 	'ACP_RANKS'					=> '等级',
 	'ACP_REASONS'				=> '举报/封禁 原因',
-	'ACP_REGISTER_SETTINGS'		=> '用户注册设定',
+	'ACP_REGISTER_SETTINGS'		=> '注册设置',
 
 	'ACP_RESTORE'				=> '恢复',
 	
 	'ACP_FEED'					=> 'ATOM管理',
-	'ACP_FEED_SETTINGS'			=> 'ATOM设定',
+	'ACP_FEED_SETTINGS'			=> 'ATOM设置',
 
 	'ACP_SEARCH'				=> '搜索配置',
 	'ACP_SEARCH_INDEX'			=> '搜索索引',
-	'ACP_SEARCH_SETTINGS'		=> '搜索设定',
+	'ACP_SEARCH_SETTINGS'		=> '搜索设置',
 
-	'ACP_SECURITY_SETTINGS'		=> '安全设定',
+	'ACP_SECURITY_SETTINGS'		=> '安全设置',
 	'ACP_SERVER_CONFIGURATION'	=> '服务器配置',
-	'ACP_SERVER_SETTINGS'		=> '服务器设定',
-	'ACP_SIGNATURE_SETTINGS'	=> '签名设定',
+	'ACP_SERVER_SETTINGS'		=> '服务器设置',
+	'ACP_SIGNATURE_SETTINGS'	=> '签名设置',
 	'ACP_SMILIES'				=> '表情',
 	'ACP_STYLE_MANAGEMENT'		=> '风格管理',
 	'ACP_STYLES'				=> '风格',
@@ -200,7 +200,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> '签名档',
 	'ACP_USER_WARNINGS'				=> '警告',
 
-	'ACP_VC_SETTINGS'					=> '反垃圾验证设定',
+	'ACP_VC_SETTINGS'					=> '反垃圾设置',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA 图片预览',
 	'ACP_VERSION_CHECK'					=> '检查更新',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> '查看管理员权限',
@@ -217,10 +217,10 @@ $lang = array_merge($lang, array(
 	'ADD'					=> '添加',
 	'ADMIN'					=> '管理',
 	'ADMIN_INDEX'			=> '管理首页',
-	'ADMIN_PANEL'			=> '管理员控制面板',
+	'ADMIN_PANEL'			=> '管理后台',
 
 	'ADM_LOGOUT'			=> '退出控制面板',
-	'ADM_LOGGED_OUT'		=> '成功退出管理员控制面板',
+	'ADM_LOGGED_OUT'		=> '成功退出管理后台',
 
 	'BACK'					=> '后退',
 
@@ -262,7 +262,7 @@ $lang = array_merge($lang, array(
 	'EXPORT_STORE'			=> '存储',
 
 	'GENERAL_OPTIONS'		=> '综合选项',
-	'GENERAL_SETTINGS'		=> '综合设定',
+	'GENERAL_SETTINGS'		=> '综合设置',
 	'GLOBAL_MASK'			=> '全局权限掩码',
 
 	'INSTALL'				=> '安装',
@@ -275,7 +275,7 @@ $lang = array_merge($lang, array(
 	'LOGGED_IN_AS'			=> '您登录的身份为:',
 	'LOGIN_ADMIN'			=> '您必须是已授权的用户才能管理论坛.',
 	'LOGIN_ADMIN_CONFIRM'	=> '您需要再次登录才能进入管理面板.',
-	'LOGIN_ADMIN_SUCCESS'	=> '您已经成功登录, 稍后将进入管理员控制面板',
+	'LOGIN_ADMIN_SUCCESS'	=> '您已经成功登录, 稍后将进入管理后台',
 	'LOOK_UP_FORUM'			=> '选择一个版面',
 	'LOOK_UP_FORUMS_EXPLAIN'=> '您可以选择一个或多个版面.',
 
@@ -290,7 +290,7 @@ $lang = array_merge($lang, array(
 	'NO_ADMIN'				=> '您未被授权管理这个论坛.',
 	'NO_EMAILS_DEFINED'		=> '没有发现可用的Email地址',
     'NO_FILES_TO_DELETE'	=> '您选中待删除的文件不存在。',
-	'NO_PASSWORD_SUPPLIED'	=> '您需要输入您的密码后才能访问管理员控制面板.',	
+	'NO_PASSWORD_SUPPLIED'	=> '您需要输入您的密码后才能访问管理后台.',
 
 	'OFF'					=> '关',
 	'ON'					=> '开',
@@ -299,8 +299,8 @@ $lang = array_merge($lang, array(
 	'PARSE_SMILIES'						=> '解析表情图标',
 	'PARSE_URLS'						=> '解析链接格式',
 	'PERMISSIONS_TRANSFERRED'			=> '权限已经传递',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> '您现在使用来自于 %1$s 的权限. 您可以以这个用户的权限浏览版面但是不能访问管理员控制面板因为管理员权限没有被传递. 您可以随时 <a href="%2$s"><strong>恢复您的权限设置</strong></a>.',
-	'PROCEED_TO_ACP'					=> '%s 进入管理员控制面板%s',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> '您现在使用来自于 %1$s 的权限. 您可以以这个用户的权限浏览版面但是不能访问管理后台因为管理员权限没有被传递. 您可以随时 <a href="%2$s"><strong>恢复您的权限设置</strong></a>.',
+	'PROCEED_TO_ACP'					=> '%s 进入管理后台%s',
 
     'RELEASE_ANNOUNCEMENT'		=> '公告',
 	'REMIND'							=> '提醒',
@@ -322,9 +322,9 @@ $lang = array_merge($lang, array(
     'TASKS_READY'			=> '准备好的任务:',
     'TOTAL_SIZE'			=> '总共大小',
 
-	'UCP'					=> '用户控制面板',
+	'UCP'					=> '用户面板',
 	'USERNAMES_EXPLAIN'		=> '在同一行上分开排列用户名',
-	'USER_CONTROL_PANEL'	=> '用户控制面板',
+	'USER_CONTROL_PANEL'	=> '用户面板',
 
     'UPDATE_NEEDED'			=> '论坛不是最新版本。',
     'UPDATE_NOT_NEEDED'		=> '论坛是最新版本。',
@@ -335,7 +335,7 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> '这个页面列出了这个服务器上所安装的PHP的信息. 这包括装载的模块, 可用的变量和默认设定, 在诊断问题时这些信息可能会有用. 请注意一些主机服务商可能会因为安全因素禁止显示某些信息. 您尽可能不要泄露这些信息, 除非在技术支持版面中 <a href="https://www.phpbb.com/about/">官方团队成员</a> 需要这些信息.',
+	'ACP_PHP_INFO_EXPLAIN'	=> '这个页面列出了这个服务器上所安装的PHP的信息. 这包括装载的模块, 可用的变量和默认设置, 在诊断问题时这些信息可能会有用. 请注意一些主机服务商可能会因为安全因素禁止显示某些信息. 您尽可能不要泄露这些信息, 除非在技术支持版面中 <a href="https://www.phpbb.com/about/">官方团队成员</a> 需要这些信息.',
 
 	'NO_PHPINFO_AVAILABLE'	=> '无法获取PHP信息, Phpinfo() 因为安全原因被禁用.',
 ));
@@ -416,7 +416,7 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE_CONFIRM'		=> '您确认要重置这个论坛的最大在线人数吗?',
     'RESET_ONLINE_SUCCESS'		=> '最大在线人数已重置',
 	'RESYNC_POSTCOUNTS'		    => '同步帖子统计',
-	'RESYNC_POSTCOUNTS_EXPLAIN'		=> '只有存在的帖子才会被计入. 已经裁减掉的帖子将不予统计.',
+	'RESYNC_POSTCOUNTS_EXPLAIN'		=> '只有存在的帖子才会被计入. 已经清理掉的帖子将不予统计.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> '您确认要重新同步帖子统计吗?',
     'RESYNC_POSTCOUNTS_SUCCESS'		=> '帖子统计已重新同步',
 	'RESYNC_POST_MARKING'	=> '同步主题数',
@@ -486,8 +486,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> '请发送您的服务器和论坛设置信息至phpBB官方以便于进行统计分析. 此信息不会包含任何与您或您的论坛的隐私数据. 所有数据都是完全<strong>匿名</strong>的. 我们会在今后的phpBB版本开发中参考收集到的信息. 统计的结果会向公众公开, 并提供给PHP语言项目的开发团队.',
 	'EXPLAIN_SHOW_STATISTICS'	=> '使用下面的按钮您可以查看发送的内容.',
-	'DONT_SEND_STATISTICS'		=> '返回管理员控制面板, 如果您不希望发送统计信息给phpBB.',
-	'GO_ACP_MAIN'				=> '前往管理员控制面板首页',
+	'DONT_SEND_STATISTICS'		=> '返回管理后台, 如果您不希望发送统计信息给phpBB.',
+	'GO_ACP_MAIN'				=> '前往管理后台首页',
 	'HIDE_STATISTICS'			=> '隐藏细节',
 	'SEND_STATISTICS'			=> '发送统计',
     'SEND_STATISTICS_LONG'		=> '发送统计数据',
@@ -563,23 +563,23 @@ $lang = array_merge($lang, array(
 	'LOG_CLEAR_USER'		=> '<strong>清空用户日志</strong><br />» %s',
 	'LOG_CLEAR_USERS'		=> '<strong>清空多个用户日志</strong>',
 
-	'LOG_CONFIG_ATTACH'			=> '<strong>更改附件设定</strong>',
-	'LOG_CONFIG_AUTH'			=> '<strong>更改身份验证设定</strong>',
-	'LOG_CONFIG_AVATAR'			=> '<strong>更改头像设定</strong>',
-	'LOG_CONFIG_COOKIE'			=> '<strong>更改cookie设定</strong>',
-	'LOG_CONFIG_EMAIL'			=> '<strong>更改Email设定</strong>',
+	'LOG_CONFIG_ATTACH'			=> '<strong>更改附件设置</strong>',
+	'LOG_CONFIG_AUTH'			=> '<strong>更改身份验证设置</strong>',
+	'LOG_CONFIG_AVATAR'			=> '<strong>更改头像设置</strong>',
+	'LOG_CONFIG_COOKIE'			=> '<strong>更改cookie设置</strong>',
+	'LOG_CONFIG_EMAIL'			=> '<strong>更改Email设置</strong>',
 	'LOG_CONFIG_FEATURES'		=> '<strong>更改论坛功能</strong>',
-	'LOG_CONFIG_LOAD'			=> '<strong>更改负载设定</strong>',
-	'LOG_CONFIG_MESSAGE'		=> '<strong>更改站内消息设定</strong>',
-	'LOG_CONFIG_POST'			=> '<strong>更改帖子设定</strong>',
-	'LOG_CONFIG_REGISTRATION'	=> '<strong>更改用户注册设定</strong>',
-	'LOG_CONFIG_FEED'			=> '<strong>更改ATOM设定</strong>',
-	'LOG_CONFIG_SEARCH'			=> '<strong>更改搜索设定</strong>',
-	'LOG_CONFIG_SECURITY'		=> '<strong>更改安全设定</strong>',
-	'LOG_CONFIG_SERVER'			=> '<strong>更改服务器设定</strong>',
-	'LOG_CONFIG_SETTINGS'		=> '<strong>更改论坛设定</strong>',
-	'LOG_CONFIG_SIGNATURE'		=> '<strong>更改签名档设定</strong>',
-	'LOG_CONFIG_VISUAL'			=> '<strong>更改可视化确认设定</strong>',
+	'LOG_CONFIG_LOAD'			=> '<strong>更改负载设置</strong>',
+	'LOG_CONFIG_MESSAGE'		=> '<strong>更改站内消息设置</strong>',
+	'LOG_CONFIG_POST'			=> '<strong>更改帖子设置</strong>',
+	'LOG_CONFIG_REGISTRATION'	=> '<strong>更改用户注册设置</strong>',
+	'LOG_CONFIG_FEED'			=> '<strong>更改ATOM设置</strong>',
+	'LOG_CONFIG_SEARCH'			=> '<strong>更改搜索设置</strong>',
+	'LOG_CONFIG_SECURITY'		=> '<strong>更改安全设置</strong>',
+	'LOG_CONFIG_SERVER'			=> '<strong>更改服务器设置</strong>',
+	'LOG_CONFIG_SETTINGS'		=> '<strong>更改论坛设置</strong>',
+	'LOG_CONFIG_SIGNATURE'		=> '<strong>更改签名档设置</strong>',
+	'LOG_CONFIG_VISUAL'			=> '<strong>更改可视化验证设置</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>批准主题</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>用户顶帖</strong><br />» %s',
@@ -713,7 +713,7 @@ $lang = array_merge($lang, array(
 	'LOG_PROFILE_FIELD_EDIT'		=> '<strong>资料栏目修改</strong><br />» %s',
 	'LOG_PROFILE_FIELD_REMOVED'		=> '<strong>资料栏目删除</strong><br />» %s',
 
-	'LOG_PRUNE'					=> '<strong>裁减版面</strong><br />» %s',
+	'LOG_PRUNE'					=> '<strong>清理版面</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>自动清理版面</strong><br />» %s',
     'LOG_PRUNE_SHADOW'		    => '<strong>自动删除影子主题</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>用户冻结</strong><br />» %s',

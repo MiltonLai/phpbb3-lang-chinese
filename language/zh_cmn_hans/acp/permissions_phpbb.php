@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
     'ACL_F_LIST_TOPICS' => '可以看见主题',
     'ACL_F_READ'		=> '可以浏览版面',
     'ACL_F_SEARCH'		=> '可以搜索版面',
-    'ACL_F_SUBSCRIBE'	=> '可以订阅版面',
+    'ACL_F_SUBSCRIBE'	=> '可以关注版面',
     'ACL_F_PRINT'		=> '可以打印主题',
     'ACL_F_EMAIL'		=> '可以Email主题',
     'ACL_F_BUMP'		=> '可以顶主题',
@@ -125,7 +125,7 @@ $lang = array_merge($lang, array(
     'ACL_F_DELETE'		=> '可以删除自己的帖子',
     'ACL_F_SOFTDELETE'	=> '可以软删除自己的帖子<br /><em>有帖子审核权限的版主可以恢复软删除的帖子。</em>',
     'ACL_F_IGNOREFLOOD' => '可以不受灌水间隔限制',
-    'ACL_F_POSTCOUNT'	=> '增加帖子数<br /><em>请注意这个设定只对新帖子有效。</em>',
+    'ACL_F_POSTCOUNT'	=> '增加帖子数<br /><em>请注意这个设置只对新帖子有效。</em>',
     'ACL_F_NOAPPROVE'	=> '可以不经审核发表主题',
 
     'ACL_F_ATTACH'		=> '可以发表附件',
@@ -174,8 +174,8 @@ $lang = array_merge($lang, array(
     'ACL_A_PRUNE'		=> '可以清理版面',
 
     'ACL_A_ICONS'		=> '可以修改主题图标和表情图标',
-    'ACL_A_WORDS'		=> '可以修改敏感词设定',
-    'ACL_A_BBCODE'		=> '可以设定BBCode标签',
+    'ACL_A_WORDS'		=> '可以修改敏感词设置',
+    'ACL_A_BBCODE'		=> '可以设置BBCode标签',
     'ACL_A_ATTACH'		=> '可以修改附件相关设置',
 
     'ACL_A_USER'		=> '可以管理用户<br><em>这包括在在线用户列表中查看用户浏览器版本。</em>',
@@ -208,5 +208,5 @@ $lang = array_merge($lang, array(
     'ACL_A_BOTS'		=> '可以管理机器人用户',
     'ACL_A_REASONS'		=> '可以管理举报/否决原因',
     'ACL_A_BACKUP'		=> '可以备份/恢复数据库',
-    'ACL_A_SEARCH'		=> '可以管理搜索后端和设定',
+    'ACL_A_SEARCH'		=> '可以管理搜索后端和设置',
 ));

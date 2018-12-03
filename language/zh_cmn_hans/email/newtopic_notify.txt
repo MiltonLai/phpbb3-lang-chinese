@@ -7,7 +7,7 @@ List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 {U_FORUM}
 
-如果您不希望再关注这个版面, 您可以点击版面页面上的"取消订阅"链接或者点击下面的链接:
+如果您不希望再关注这个版面, 您可以点击版面页面上的"取消关注"链接或者点击下面的链接:
 
 {U_STOP_WATCHING_FORUM}
 

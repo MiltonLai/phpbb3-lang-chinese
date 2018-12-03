@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE'			=> '提示',
 	'BBCODE_HELPLINE_EXPLAIN'	=> '这个区域会在鼠标移过时显示BBCode提示信息',
 	'BBCODE_HELPLINE_TEXT'		=> '提示文本',
-	'BBCODE_HELPLINE_TOO_LONG'   => '您设定的提示文本过长.', 
+	'BBCODE_HELPLINE_TOO_LONG'   => '您设置的提示文本过长.',
 
 	'BBCODE_INVALID_TAG_NAME'	=> '您选择的BBCode标签名称已经存在.',
 	'BBCODE_INVALID'			=> '您的 BBCode 形式无效.',
@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'					=> '标记',
 	'TOKENS'				=> '标记',
-	'TOKENS_EXPLAIN'		=> '标记是用户输入的占位符. 只有满足设定的输入才能通过验证. 如果需要的话, 您可以使用数字对它们进行编号, 例如 {TEXT1}, {TEXT2}.<br /><br />在HTML替换语句中您可以使用language目录下的任意语言条目, 例如: {L_<em>&lt;STRINGNAME&gt;</em>} 这里 <em>&lt;STRINGNAME&gt;</em> 就是语言包下的一个翻译条目. 例如, {L_WROTE} 在英文中将被显示为 &quot;wrote&quot; 或者用户所使用的语言的翻译.<br /><br /><strong>请注意只有如下列出的标记可以在自定义BBCode中使用.</strong>',
+	'TOKENS_EXPLAIN'		=> '标记是用户输入的占位符. 只有满足设置的输入才能通过验证. 如果需要的话, 您可以使用数字对它们进行编号, 例如 {TEXT1}, {TEXT2}.<br /><br />在HTML替换语句中您可以使用language目录下的任意语言条目, 例如: {L_<em>&lt;STRINGNAME&gt;</em>} 这里 <em>&lt;STRINGNAME&gt;</em> 就是语言包下的一个翻译条目. 例如, {L_WROTE} 在英文中将被显示为 &quot;wrote&quot; 或者用户所使用的语言的翻译.<br /><br /><strong>请注意只有如下列出的标记可以在自定义BBCode中使用.</strong>',
 	'TOKEN_DEFINITION'		=> '这将是?',
 	'TOO_MANY_BBCODES'		=> '您不能创建更多BBCodes. 请删除掉一些现有的BBCode后再重试.',
 
@@ -265,7 +265,7 @@ $lang = array_merge($lang, array(
 	'AVAILABLE_TITLES'		=> '可用的本地语言原因标题',
 
 	'IS_NOT_TRANSLATED'			=> '原因 <strong>尚未</strong> 本地化.',
-	'IS_NOT_TRANSLATED_EXPLAIN'	=> '原因 <strong>尚未</strong> 被翻译成本地语言. 如果您希望提供本地化的表单, 则需要为语言文件的举报原因片段设定合适的关键字.',
+	'IS_NOT_TRANSLATED_EXPLAIN'	=> '原因 <strong>尚未</strong> 被翻译成本地语言. 如果您希望提供本地化的表单, 则需要为语言文件的举报原因片段设置合适的关键字.',
 	'IS_TRANSLATED'				=> '原因已经本地化.',
 	'IS_TRANSLATED_EXPLAIN'		=> '原因已经被翻译成本地语言. 如果你您输入的标题在语言文件的举报原因章节已经设置过, 本地化的标题和描述将自动启用.',
 

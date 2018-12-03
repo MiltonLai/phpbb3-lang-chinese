@@ -493,7 +493,7 @@ $lang = array_merge($lang, array(
     // Common converter messages
     'CONVERT_NOT_EXIST'			=> '指定的转换程序不存在.',
     'DEV_NO_TEST_FILE'			=> '在转换器中没有指定test_file变量的值. 如果您是转换器的使用者, 您不应该看到这个错误, 请联系转换器的作者并报告这个错误. 如果您是转换器的作者, 您必须指定一个源论坛中存在的文件名称, 使得路径校验能正常进行.',
-    'COULD_NOT_FIND_PATH'		=> '无法找到旧论坛的路径. 请检查您的设定并再试一次.<br />» 指定的路径是 %s',
+    'COULD_NOT_FIND_PATH'		=> '无法找到旧论坛的路径. 请检查您的设置并再试一次.<br />» 指定的路径是 %s',
     'CONFIG_PHPBB_EMPTY'		=> '缺少 phpBB3 的配置信息“%s”。',
 
     'MAKE_FOLDER_WRITABLE'		=> '请首先确保此文件夹存在并且可以被网络服务器写入，然后重试：<br />»<strong>%s</strong>',
@@ -526,7 +526,7 @@ $lang = array_merge($lang, array(
     'STAGE_SETTINGS'			=> '设置',
     'TABLE_PREFIX_SAME'			=> '表格前缀需要与转换之前所使用的相同。<br />»  之前所使用的表格前缀是 %s',
     'DEFAULT_PREFIX_IS'			=> '根据提供的前缀, 转换器无法找到可用的表单. 请确认您在同一数据库中存在旧的表单. %1$s 默认的表单前缀是 <strong>%2$s</strong>',
-    'SPECIFY_OPTIONS'			=> '设定转换选项',
+    'SPECIFY_OPTIONS'			=> '设置转换选项',
     'FORUM_PATH'				=> '论坛路径',
     'FORUM_PATH_EXPLAIN'		=> '这是在磁盘上对应于您<strong>现在的phpBB3根目录</strong>的原论坛 <strong>相对</strong> 路径',
     'REFRESH_PAGE'				=> '刷新页面继续转换',
@@ -556,7 +556,7 @@ $lang = array_merge($lang, array(
     'SYNC_TOPIC_ID'				=> '正在同步主题：<var>topic_id</var> %1$s 至 %2$s',
     'PROCESS_LAST'				=> '正在执行最后一步操作',
     'UPDATE_TOPICS_POSTED'		=> '正在生成主题发布信息',
-    'UPDATE_TOPICS_POSTED_ERR'	=> '在生成主题信息时发生错误. 您可以在转换结束后在管理员控制面板中重试这个操作.',
+    'UPDATE_TOPICS_POSTED_ERR'	=> '在生成主题信息时发生错误. 您可以在转换结束后在管理后台中重试这个操作.',
     'CONTINUE_LAST'				=> '继续进行上一步操作',
     'CLEAN_VERIFY'				=> '正在清理并校验最终结构',
     'NOT_UNDERSTAND'			=> '无法理解 %s #%d，表格 %s (“%s”)',
@@ -566,7 +566,7 @@ $lang = array_merge($lang, array(
     'CONVERT_COMPLETE'			=> '转换完成',
     'CONVERT_COMPLETE_EXPLAIN'	=> '您已经将您的论坛成功转换为 phpBB 3.2，您现在可以 <a href="../">访问您的论坛</a>。请在启用新论坛前确认参数都已经正确设置. phpBB 的线上使用帮助位于 <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">用户指南</a> 和 <a href="https://www.phpbb.com/community/viewforum.php?f=466">技术支持版面</a>',
 
-    'CONV_ERROR_ATTACH_FTP_DIR'			=> '原论坛允许附件使用FTP上载，请禁用FTP上载并确认设定了有效的上载目录，所有附件将被拷贝到这个新的web可访问的目录。这些完成后，请重新开始转换程序。',
+    'CONV_ERROR_ATTACH_FTP_DIR'			=> '原论坛允许附件使用FTP上载，请禁用FTP上载并确认设置了有效的上载目录，所有附件将被拷贝到这个新的web可访问的目录。这些完成后，请重新开始转换程序。',
     'CONV_ERROR_CONFIG_EMPTY'			=> '转换程序没有可用的配置信息。',
     'CONV_ERROR_FORUM_ACCESS'			=> '无法得到版面的访问信息.',
     'CONV_ERROR_GET_CATEGORIES'			=> '无法得到分区信息.',

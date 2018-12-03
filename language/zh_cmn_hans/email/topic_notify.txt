@@ -14,7 +14,7 @@ List-Unsubscribe: <{U_STOP_WATCHING_TOPIC}>
 如果您希望查看版面，请点击：
 {U_FORUM}
 
-如果您不希望再关注这个主题，您可以在主题查看页点击“取消订阅”，或点击下面的链接：
+如果您不希望再关注这个主题，您可以在主题查看页点击“取消关注”，或点击下面的链接：
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

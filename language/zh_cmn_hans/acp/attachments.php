@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> '这里您可以配置附件和相关的附件分类.',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> '这里您可以添加, 删除, 修改或禁用扩展名组. 选项包括设定附件类别, 更改下载机制和定义附件组的简明图标.',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> '这里您可以添加, 删除, 修改或禁用扩展名组. 选项包括设置附件类别, 更改下载机制和定义附件组的简明图标.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> '这里您可以管理您允许的附件扩展名. 要激活某个扩展名, 请到扩展名类别管理面板. 请注意不要允许脚本文件 (例如 <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, <code>aspx</code>等类型…)',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> '这里您可以看见附件上传目录中存在但是没有发表在帖子中的文件. 这很可能因为用户添加了附件但是最后没提交帖子. 您可以删除这些附件或者将其添加到存在的帖子中. 添加附件到帖子中需要一个有效的帖子ID, 您需要自己添加这个ID, 这个功能主要是帮助那些希望通过其他方式上传文件的人们, 可以把附件(通常会很大)添加到已经发表的帖子中.',
 	'ADD_EXTENSION'						=> '添加扩展名',
@@ -144,7 +144,7 @@ $lang = array_merge($lang, array(
 	'SECURE_ALLOW_DENY'				=> '允许/封禁 列表',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> '当防盗链启用后, <strong>允许列表</strong> 和 <strong>封禁列表</strong> 规定了特例的情况',
 	'SECURE_DOWNLOADS'				=> '启用防盗链功能',
-	'SECURE_DOWNLOADS_EXPLAIN'		=> '当开启选项后, 下载将仅对您自己的域名内的链接和下面设定的IP地址/主机名有效.',
+	'SECURE_DOWNLOADS_EXPLAIN'		=> '当开启选项后, 下载将仅对您自己的域名内的链接和下面设置的IP地址/主机名有效.',
 	'SECURE_DOWNLOAD_NOTICE'		=> '防盗链功能没有启用. 下面的设置将在启用后生效.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'=> 'IP 列表更新完成.',
 	'SECURE_EMPTY_REFERRER'			=> '允许空转向',
