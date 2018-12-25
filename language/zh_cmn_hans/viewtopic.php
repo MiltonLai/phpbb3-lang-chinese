@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-    'APPROVE'								=> '审核',
+    'APPROVE'							=> '通过',
 	'ATTACHMENT'						=> '附件',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> '附件功能已经停用',
 

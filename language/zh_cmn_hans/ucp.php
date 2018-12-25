@@ -494,7 +494,7 @@ $lang = array_merge($lang, array(
     'TO'						=> '收件人',
     'TO_MASS'					=> '收件人',
     'TO_ADD'					=> '添加收件人',
-    'TO_ADD_MASS'				=> '添加收件人',
+    'TO_ADD_MASS'				=> '批量添加收件人(每行一个用户名)',
     'TO_ADD_GROUPS'				=> '添加群组',
 	'TOO_MANY_RECIPIENTS'		=> '收件人过多',
 	'TOO_MANY_REGISTERS'		=> '在这次对话中您已经超过注册的最大尝试次数。请稍后再尝试。',
@@ -536,7 +536,7 @@ $lang = array_merge($lang, array(
 	'UCP_PREFS_POST'			=> '编辑发帖设置',
 	'UCP_PREFS_VIEW'			=> '编辑显示设置',
 	
-	'UCP_PM'					=> '管理站内消息',
+	'UCP_PM'					=> '站内消息',
 	'UCP_PM_COMPOSE'			=> '编写消息',
 	'UCP_PM_DRAFTS'				=> '管理草稿',
 	'UCP_PM_OPTIONS'			=> '编辑选项',
