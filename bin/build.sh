@@ -4,7 +4,7 @@
 # in phpbb/ folder, switch to release-3.x.x tag before run this script
 # e.g. git checkout -b release-3.2.4
 #
-TAG=release-3.2.4
+TAG=release-3.2.5
 BASE_DIR=$(cd $(dirname $0); cd ../; pwd)
 TARGET=${BASE_DIR}/phpbb/phpBB
 echo 'BASE_DIR: '${BASE_DIR}
